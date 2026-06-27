@@ -1,19 +1,22 @@
 
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
-from llama_index.llms.ollama import Ollama
+from llama_index.llms.openai_like import OpenAILike
 
 from app.config.settings import settings
 
-_llm: Ollama | None = None
+_llm: OpenAILike | None = None
 
-def get_llm() -> Ollama:
+def get_llm() -> OpenAILike:
     global _llm
     if _llm is None:
-        _llm = Ollama(
-            model=settings.ollama_model,
-            base_url=settings.ollama_base_url,
+        _llm = OpenAILike(
+            model=settings.llm_model,
+            api_base=settings.llm_base_url,
+            api_key=settings.llm_api_key,
+            is_chat_model=True,
             request_timeout=600.0,
-            additional_kwargs={"num_ctx": 4096}
+            max_tokens=2048,
+            temperature=0.7
         )
     return _llm
 

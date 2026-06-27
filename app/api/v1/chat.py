@@ -24,7 +24,7 @@ async def chat(request: ChatRequest):
     # Condense follow-up questions using conversation history (skip on first message)
     if request.history:
         history_dicts = [{"role": m.role, "content": m.content} for m in request.history]
-        query = await asyncio.to_thread(condense_query, request.query, history_dicts)
+        query = await condense_query(request.query, history_dicts)
     else:
         query = request.query
 

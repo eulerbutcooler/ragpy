@@ -7,7 +7,7 @@ When there is no history, the original query is returned unchanged.
 
 import logging
 
-from llama_index.llms.ollama import Ollama
+from llama_index.llms.openai_like import OpenAILike
 
 from app.config.settings import settings
 from app.llm.prompts import CONDENSE_PROMPT
@@ -15,22 +15,25 @@ from app.llm.prompts import CONDENSE_PROMPT
 logger = logging.getLogger(__name__)
 
 # Dedicated lightweight LLM for condensing — smaller context = faster inference
-_condenser_llm: Ollama | None = None
+_condenser_llm: OpenAILike | None = None
 
 
-def _get_condenser_llm() -> Ollama:
+def _get_condenser_llm() -> OpenAILike:
     global _condenser_llm
     if _condenser_llm is None:
-        _condenser_llm = Ollama(
-            model=settings.ollama_model,
-            base_url=settings.ollama_base_url,
-            request_timeout=120,
-            additional_kwargs={"num_ctx": 2048},
+        _condenser_llm = OpenAILike(
+            model=settings.llm_condense_model,
+            api_base=settings.llm_base_url,
+            api_key=settings.llm_api_key,
+            is_chat_model=True,
+            max_tokens=50,
+            temperature=0.0,
+            request_timeout=10,
         )
     return _condenser_llm
 
 
-def condense_query(
+async def condense_query(
     query: str,
     history: list[dict[str, str]],
 ) -> str:
@@ -61,7 +64,7 @@ def condense_query(
 
     llm = _get_condenser_llm()
     try:
-        response = llm.complete(prompt)
+        response = await llm.acomplete(prompt)
         condensed = str(response).strip()
         if condensed:
             logger.info(

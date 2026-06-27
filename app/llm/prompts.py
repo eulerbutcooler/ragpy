@@ -23,19 +23,18 @@ QA_PROMPT = PromptTemplate(
 
 CONDENSE_PROMPT = PromptTemplate(
     template=(
-        "Given the following conversation history and a follow-up question, "
-        "rewrite the follow-up question to be a standalone, self-contained question "
-        "that can be understood without the conversation history.\n"
-        "Do NOT answer the question. Only rewrite it.\n"
-        "If the question is a greeting, irrelevant, or not a follow-up, return it exactly unchanged.\n"
-        "NEVER add commentary like 'I cannot' or 'You don't have'. ONLY output the query string.\n"
-        "\n"
+        "You are an expert query rewriter for a search engine.\n"
+        "Your task is to analyze the conversation history and the latest user message, "
+        "and rewrite the user's message into a single, highly specific, standalone search query.\n\n"
+        "RULES:\n"
+        "1. Resolve all pronouns (it, they, he, she, this, that) using the conversation history.\n"
+        "2. If the user's message is a greeting (e.g., 'hi', 'hello'), a simple acknowledgment ('ok', 'thanks'), or off-topic, just return the user's message exactly as is.\n"
+        "3. DO NOT answer the question. Your only job is to rewrite it.\n"
+        "4. DO NOT add any conversational filler (e.g., NEVER start with 'Here is the query:' or 'The rewritten question is:'). Output ONLY the rewritten string.\n\n"
         "Conversation History:\n"
-        "{chat_history}\n"
-        "\n"
-        "Follow-up Question: {question}\n"
-        "\n"
-        "Standalone Question:"
+        "{chat_history}\n\n"
+        "Latest User Message: {question}\n\n"
+        "Standalone Search Query: "
     )
 )
 

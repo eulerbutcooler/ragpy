@@ -16,6 +16,13 @@ class Settings(BaseSettings):
     ollama_base_url: str = Field(default="http://localhost:11434", validation_alias="OLLAMA_BASE_URL")
     ollama_model: str = Field(default="llama3.2:3b", validation_alias="OLLAMA_MODEL")
 
+    llm_base_url: str = Field(default="http://localhost:8000/v1", validation_alias="LLM_BASE_URL")
+    llm_condense_base_url: str = Field(default="http://localhost:8000/v1", validation_alias="LLM_CONDENSE_BASE_URL")
+    llm_model: str = Field(default="hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4", validation_alias="LLM_MODEL")
+    llm_condense_model: str = Field(default="hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4", validation_alias="LLM_CONDENSE_MODEL")
+    llm_api_key: str = Field(default="fake-key", validation_alias="LLM_API_KEY")
+
+
     embed_model_name: str = Field(default="nomic-embed-text-v1.5", validation_alias="EMBED_MODEL_NAME")
     reranker_model_name: str = Field(default="BAAI/bge-reranker-base", validation_alias="RERANKER_MODEL_NAME")
 
