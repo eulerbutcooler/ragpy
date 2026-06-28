@@ -19,9 +19,11 @@ async def run_ingest(
     bucket: str,
     key: str,
     course_id: str,
+    course_name: str,
     file_id: str,
     file_name: str,
     teacher_id: str,
+    teacher_name: str,
 ) -> dict:
     file_path = await load_file(bucket=bucket, key=key, filename=file_name)
     try:
@@ -31,9 +33,11 @@ async def run_ingest(
         docs = enrich_metadata(
             documents=docs,
             course_id=course_id,
+            course_name=course_name,
             file_id=file_id,
             file_name=file_name,
             teacher_id=teacher_id,
+            teacher_name=teacher_name,
         )
 
         nodes = await asyncio.to_thread(chunk_documents, docs)

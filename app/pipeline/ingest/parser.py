@@ -184,9 +184,9 @@ def parse_pptx(file_path: Path) -> list[Document]:
     return documents
 
 def parse_pdf(file_path: Path) -> list[Document]:
-    from llama_index.readers.file import PDFReader
+    from llama_index.readers.file import PyMuPDFReader
 
-    documents = PDFReader().load_data(file=file_path)
+    documents = PyMuPDFReader().load_data(file_path=file_path)
     sanitized = [_sanitize_document(doc) for doc in documents]
     logger.info(
         "pdf_parsed file=%s pages=%d", file_path.name, len(sanitized)

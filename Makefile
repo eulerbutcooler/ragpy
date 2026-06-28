@@ -6,7 +6,7 @@ install:
 	uv sync
 
 dev:
-	uv run uvicorn app.main:app --host $${HOST:-0.0.0.0} --port $${PORT:-8081} --reload
+	uv run uvicorn app.main:app --host $${HOST:-0.0.0.0} --port $${PORT:-8000} --reload
 
 test:
 	uv run pytest

@@ -68,12 +68,13 @@ async def condense_query(
         condensed = str(response).strip()
         if condensed:
             logger.info(
-                "query_condensed original=%s condensed=%s",
-                query[:80],
-                condensed[:80],
+                "query_condensed original=%r condensed=%r",
+                query,
+                condensed,
             )
             return condensed
     except Exception:
         logger.exception("condense_failed, falling back to original query")
 
     return query
+

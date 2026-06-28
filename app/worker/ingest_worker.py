@@ -20,7 +20,7 @@ from app.pipeline.ingest.pipeline import run_ingest
 
 logger = logging.getLogger(__name__)
 
-_REQUIRED_KEYS = {"bucket", "key", "course_id", "file_id", "file_name", "teacher_id"}
+_REQUIRED_KEYS = {"bucket", "key", "course_id", "course_name", "file_id", "file_name", "teacher_id", "teacher_name"}
 
 
 async def process_ingest_message(msg: Msg) -> None:
@@ -43,9 +43,11 @@ async def process_ingest_message(msg: Msg) -> None:
             bucket=payload["bucket"],
             key=payload["key"],
             course_id=payload["course_id"],
+            course_name=payload["course_name"],
             file_id=payload["file_id"],
             file_name=payload["file_name"],
             teacher_id=payload["teacher_id"],
+            teacher_name=payload["teacher_name"],
         )
         # Invalidate BM25 cache so new chunks are immediately searchable
         from app.pipeline.query.sparse_retriever import _build_bm25_index
