@@ -21,6 +21,7 @@ class Settings(BaseSettings):
     llm_model: str = Field(default="hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4", validation_alias="LLM_MODEL")
     llm_condense_model: str = Field(default="hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4", validation_alias="LLM_CONDENSE_MODEL")
     llm_api_key: str = Field(default="fake-key", validation_alias="LLM_API_KEY")
+    llm_use_json_mode: bool = Field(default=False, validation_alias="LLM_USE_JSON_MODE")
 
 
     embed_model_name: str = Field(default="nomic-embed-text-v1.5", validation_alias="EMBED_MODEL_NAME")

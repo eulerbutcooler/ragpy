@@ -60,9 +60,8 @@ async def format_quiz(nodes: list[BaseNode], course_id: str, difficulty: str = "
     context_str = "\n\n---\n\n".join(context_parts)
 
     llm = get_llm()
-    # sglang doesn't return OpenAI tool_calls, so we use JSON-constrained
-    # decoding (response_format json_object) + Pydantic validation instead of
-    # astructured_predict (which uses function calling and fails here).
+    # SGLang does not return OpenAI tool_calls, so use prompt-enforced JSON and
+    # Pydantic validation instead of function-calling structured prediction.
     result: QuizOutput = await astructured_predict_json(
         llm,
         QuizOutput,

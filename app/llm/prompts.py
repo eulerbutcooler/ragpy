@@ -36,7 +36,8 @@ CONDENSE_PROMPT = PromptTemplate(
         "1. Replace ALL vague references (e.g. 'his project', 'that topic', 'this concept', 'it') "
         "with the actual subject name or title from the conversation history — "
         "prioritize resolving WHAT over WHO.\n"
-        "   Example: 'tell me more about his course' → 'Tell me more about Dr. Mehta's Aerodynamics course'\n"
+        "   Example: 'tell me more about that chapter' → "
+        "'Tell me more about the Aerodynamics chapter'\n"
         "   Apply the same for: subject, book, PDF, project, class, report, module, topic, chapter.\n"
         "2. Replace pronouns (he, she, his, their) with proper names only when needed for clarity.\n"
         "3. Never reference the conversation (no 'as mentioned', 'from the history', etc.) — "
@@ -56,8 +57,9 @@ CONDENSE_PROMPT = PromptTemplate(
 
 QUIZ_GENERATION_PROMPT = PromptTemplate(
     template=(
-        "You generate quizzes from the provided context only.\n"
-        "Do use outside knowledge, If the context is insufficient.\n"
+        "You generate quizzes from the provided context.\n"
+        "Use outside knowledge only if the provided context is insufficient "
+        "to meet the requirements.\n"
         "\n"
         "Difficulty level: {difficulty}\n"
         "- easy: Basic recall and definition questions. Straightforward single-concept answers.\n"
@@ -108,6 +110,22 @@ QUIZ_GRADING_PROMPT = PromptTemplate(
         "Set explanation to a brief justification of your grading decision.\n"
         "\n"
         "Output JSON:\n"
+    )
+)
+
+
+TITLE_PROMPT = PromptTemplate(
+    template=(
+        "You write a short chat title from a user's first message.\n"
+        "Rules:\n"
+        "- 3 to 6 words, title case.\n"
+        "- Summarize the topic; do not quote the message verbatim.\n"
+        "- No punctuation at the end. No quotes. No markdown.\n"
+        "- Plain text only. Nothing else.\n"
+        "\n"
+        "First message:\n"
+        "{message}\n"
+        "Title:"
     )
 )
 

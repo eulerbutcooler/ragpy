@@ -8,7 +8,9 @@ import logging
 from fastapi import APIRouter, HTTPException, status
 from fastapi.responses import StreamingResponse
 
-from app.api.schemas.chat import ChatRequest, ChatResponse, CitationItem
+from app.api.schemas.chat import ChatRequest, ChatResponse, CitationItem, TitleRequest, TitleResponse
+from app.llm.factory import get_llm
+from app.llm.prompts import TITLE_PROMPT
 from app.pipeline.query.condenser import condense_query
 from app.pipeline.query.engine import get_query_engine
 from app.pipeline.query.synthesizer import format_citations
@@ -60,6 +62,19 @@ async def chat(request: ChatRequest):
         answer=str(response),
         citations=[CitationItem(**c) for c in citations],
     )
+
+
+@router.post("/title", tags=["chat"])
+async def title(request: TitleRequest) -> TitleResponse:
+    """Summarize the first user message into a short chat title."""
+    llm = get_llm()
+    prompt = TITLE_PROMPT.format(message=request.message)
+    resp = await llm.acomplete(prompt)
+    title_text = str(resp).strip().splitlines()[0].strip()
+    # Hard cap to keep the list readable even if the model rambles.
+    if len(title_text) > 80:
+        title_text = title_text[:77].rstrip() + "..."
+    return TitleResponse(title=title_text or "New Chat")
 
 
 async def _sse_generator(engine, query: str, nodes: list):

@@ -31,3 +31,14 @@ class ChatResponse(BaseModel):
 
     answer: str
     citations: list[CitationItem]
+
+
+class TitleRequest(BaseModel):
+    """First user message; RAG summarizes it into a short chat title."""
+
+    message: str = Field(min_length=1, max_length=2000)
+
+
+class TitleResponse(BaseModel):
+
+    title: str
