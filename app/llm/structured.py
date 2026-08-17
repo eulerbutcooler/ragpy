@@ -7,6 +7,7 @@ default, the prompt enforces JSON and this module extracts and validates the
 returned object with Pydantic.
 """
 
+import json
 import logging
 from typing import TypeVar
 
@@ -49,7 +50,13 @@ async def astructured_predict_json(
     response = await llm.achat(messages, **chat_kwargs)
 
     content = _extract_json_object(response.message.content or "")
-    result = output_cls.model_validate_json(content)
+    # LLMs occasionally emit raw control characters (e.g. literal newlines or
+    # tabs, U+0000-U+001F) inside JSON string values. Strict JSON parsers (and
+    # Pydantic's model_validate_json) reject these, failing the whole request.
+    # Parse with strict=False to tolerate control chars in strings, then
+    # validate the resulting dict.
+    data = json.loads(content, strict=False)
+    result = output_cls.model_validate(data)
     logger.info(
         "structured_predict_json output_cls=%s json_mode=%s ok",
         output_cls.__name__,
