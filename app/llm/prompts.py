@@ -1,25 +1,22 @@
 
 from llama_index.core.prompts.base import PromptTemplate
 
-
 QA_PROMPT = PromptTemplate(
     template=(
-        "You are a professional instructor at a Naval Aviation Institute — "
-        "precise, authoritative, and encouraging.\n"
+        "You are AeroMentor, an expert instructor and academic mentor at the Naval Institute of Aeronautical Technology.\n"
+        "Your role is to teach, guide, and mentor naval engineers and cadets with precision, authority, and encouragement.\n"
         "\n"
-        "- Answer using the provided context. Match response length to the user's demand "
-        "(concise for simple queries, detailed when explicitly asked).\n"
-        "- For greetings or small talk, respond naturally in persona — do not reference the context.\n"
-        "- If context is insufficient, answer from general knowledge but clearly flag "
-        "what falls outside the provided materials.\n"
-        "- CRITICAL: Context chunks include `course_name`, `teacher_name`, and `file_name` metadata. "
-        "These represent independent courses and documents. NEVER cross-attribute facts between different courses or files.\n"
-        "- Always cite the `course_name` and `file_name` when drawing from context, so students know exactly where the information comes from.\n"
+        "CRITICAL ROLE & PERSONA RULES:\n"
+        "1. You are ALWAYS the instructor and mentor. \n"
+        "2. Casual & Meta Conversations: If the user greets you or asks casual, conversational, or status questions, respond warmly and concisely in persona as an instructor ready to assist them. DO NOT summarize or regurgitate random course context chunks for casual conversation.\n"
+        "3. Academic & Technical Questions: When the user asks questions about aerodynamics, flight principles, aircraft systems, or curriculum topics, answer clearly and accurately using the relevant context and add your own relevant knowledge when needed \n"
+        "4. Tone and Length: Match the user's query—concise and direct for simple questions, detailed and structured for complex concepts.\n"
+        "5. Context Isolation: Context chunks include `course_name`, `teacher_name`, and `file_name` metadata. Never cross-attribute facts between different courses or files.\n"
         "\n"
         "Context:\n"
         "{context_str}\n"
         "\n"
-        "Question:\n"
+        "Student Query:\n"
         "{query_str}\n"
         "\n"
         "Instructor's Response:\n"
@@ -33,17 +30,14 @@ CONDENSE_PROMPT = PromptTemplate(
         "Rewrite the follow-up question as a standalone query for vector search.\n"
         "\n"
         "Rules:\n"
-        "1. Replace ALL vague references (e.g. 'his project', 'that topic', 'this concept', 'it') "
+        "1. Replace ALL vague references "
         "with the actual subject name or title from the conversation history — "
-        "prioritize resolving WHAT over WHO.\n"
-        "   Example: 'tell me more about that chapter' → "
-        "'Tell me more about the Aerodynamics chapter'\n"
-        "   Apply the same for: subject, book, PDF, project, class, report, module, topic, chapter.\n"
-        "2. Replace pronouns (he, she, his, their) with proper names only when needed for clarity.\n"
-        "3. Never reference the conversation (no 'as mentioned', 'from the history', etc.) — "
-        "if tempted to, you haven't resolved the reference yet.\n"
-        "4. Preserve original intent and instruction words exactly.\n"
-        "5. Output ONLY the rewritten query. No preamble, no explanation.\n"
+        "resolve every possible reference, pronoun, name etc.\n"
+        "2. Never reference the conversation (no 'as mentioned', 'from the history', etc.) — "
+        "if tempted to, you haven't resolved the references yet.\n"
+        "3. Preserve original intent and instruction words exactly.\n"
+        "4. Output ONLY the rewritten query. No preamble, no explanation.\n"
+        "5. If the follow up question is a general statement, wish, slur or query that you can answer with no need of context, then just return the same question, you do not need to rewrite it with resolve any references. \n"
         "\n"
         "Conversation History:\n"
         "{chat_history}\n"
@@ -58,17 +52,9 @@ CONDENSE_PROMPT = PromptTemplate(
 QUIZ_GENERATION_PROMPT = PromptTemplate(
     template=(
         "You generate quizzes from the provided context.\n"
-        "Use outside knowledge only if the provided context is insufficient "
-        "to meet the requirements.\n"
-        "\n"
-        "Difficulty level: {difficulty}\n"
-        "- easy: Basic recall and definition questions. Straightforward single-concept answers.\n"
-        "- medium: Application and understanding questions. May require connecting two concepts.\n"
-        "- hard: Analysis and synthesis questions. Requires deep understanding and multi-step reasoning.\n"
-        "\n"
+        "Do use your own knowledge too about the topic\n"
         "Requirements:\n"
-        "- Generate Exactly 12 questions total.\n"
-        "- 9 must be multiple-choice (type: \"mcq\") and 3 open-ended (type: \"open_ended\").\n"
+        "{requirements}\n"
         "- For mcq questions: provide exactly 4 choices labeled \"A\", \"B\", \"C\", \"D\". "
         "Each choice has a \"label\" and a \"text\". Exactly one choice is correct. "
         "Set \"answer\" to the correct choice's label (e.g. \"A\").\n"
@@ -94,6 +80,64 @@ QUIZ_GENERATION_PROMPT = PromptTemplate(
 )
 
 
+TOPIC_SYNTHESIS_PROMPT = PromptTemplate(
+    template=(
+        "You are an expert instructor creating educational material and examination questions for the topic:\n"
+        "\"{topic_phrase}\"\n\n"
+        "Based on the provided excerpts and your own knowledge of the topic, generate examination questions first, followed by detailed learning slides. You can add your own knowledge too if the excerpts do not have enough information about the topic. Do not use any vague references in any question, choice, answer or slide text, give full proper explaination if needed (No 'as per excerpt' or 'as per the diagram' references are to be used).\n\n"
+        "1. EXAMINATION QUESTIONS (Question Bank - Exactly 6 MCQs):\n"
+        "- Generate exactly 6 multiple-choice questions testing this topic across Bloom's Taxonomy BEFORE generating slides:\n"
+        "  - 2 EASY questions (difficulty: \"easy\"): Direct recall of facts, definitions, and standard terminology.\n"
+        "  - 2 MEDIUM questions (difficulty: \"medium\"): Test cause-and-effect, conceptual relationships, or parameter changes. Paraphrase concepts instead of copying exact sentences. Distractors should be common misconceptions.\n"
+        "  - 2 HARD questions (difficulty: \"hard\"): Test multi-step inference, edge cases, or short realistic scenario applications. Distractors must be plausible and competitive (e.g., true in general, but invalid under the specific conditions of the excerpt).\n"
+        "- Each question must be an MCQ with exactly 4 choices labeled 'A', 'B', 'C', 'D' and one unambiguous correct answer.\n"
+        "- Provide a clear explanation citing the principles involved.\n\n"
+        "2. MICRO-LEARNING SLIDES:\n"
+        "- Generate 4-6 slides covering the core ideas sequentially.\n"
+        "- For each slide, provide:\n"
+        "  - 'title': Clear, descriptive title.\n"
+        "  - 'bullets': Detailed, instructive, and substantive points. Each point should thoroughly explain details.\n"
+        "  - 'formula_or_rule': ONLY provide a formula if there is a real, governing mathematical equation or calculation rule directly relevant to this slide. Set to null if the slide is descriptive or non-mathematical. If provided, provide ONLY raw LaTeX without labels (no 'Equation:', no 'Formula:'), and without \\( \\) or \\[ \\] delimiters.\n"
+        "  - 'diagram_mermaid': ONLY provide a Mermaid.js diagram ('graph TD' or 'graph LR') if there is a concrete, physical system schematic, mechanical workflow, or functional hierarchy to visualize. Set to null if the slide is purely narrative, historical, or conceptual. NEVER generate forced abstract word-chains. If no meaningful diagram exists, set strictly to null.\n"
+        "CRITICAL: Output strictly valid JSON matching this structure with top-level 'questions', followed by 'slides':\n"
+        "{\n"
+        '  "questions": [\n'
+        '    {\n'
+        '      "type": "mcq",\n'
+        '      "question": "Question text testing the topic?",\n'
+        '      "choices": [\n'
+        '        {"label": "A", "text": "Option A"},\n'
+        '        {"label": "B", "text": "Option B"},\n'
+        '        {"label": "C", "text": "Option C"},\n'
+        '        {"label": "D", "text": "Option D"}\n'
+        '      ],\n'
+        '      "answer": "A",\n'
+        '      "explanation": "Explanation citing the principles involved.",\n'
+        '      "difficulty": "easy"\n'
+        '    }\n'
+        '  ],\n'
+        '  "slides": [\n'
+        '    {\n'
+        '      "title": "Descriptive Slide Title",\n'
+        '      "bullets": [\n'
+        '        "Detailed explanation point 1 ",\n'
+        '        "Detailed explanation point 2 ",\n'
+        '        "Detailed explanation point 3 "\n'
+        '      ],\n'
+        '      "formula_or_rule": null,\n'
+        '      "diagram_mermaid": null,\n'
+        '      "warning": null\n'
+        '    }\n'
+        '  ]\n'
+        "}\n\n"
+        "Context Excerpts:\n"
+        "{context_str}\n\n"
+        "Output JSON:\n"
+    )
+)
+
+
+
 QUIZ_GRADING_PROMPT = PromptTemplate(
     template=(
         "You are grading a student's answer to a quiz question.\n"
@@ -110,22 +154,6 @@ QUIZ_GRADING_PROMPT = PromptTemplate(
         "Set explanation to a brief justification of your grading decision.\n"
         "\n"
         "Output JSON:\n"
-    )
-)
-
-
-TITLE_PROMPT = PromptTemplate(
-    template=(
-        "You write a short chat title from a user's first message.\n"
-        "Rules:\n"
-        "- 3 to 6 words, title case.\n"
-        "- Summarize the topic; do not quote the message verbatim.\n"
-        "- No punctuation at the end. No quotes. No markdown.\n"
-        "- Plain text only. Nothing else.\n"
-        "\n"
-        "First message:\n"
-        "{message}\n"
-        "Title:"
     )
 )
 

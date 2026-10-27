@@ -12,8 +12,8 @@ from llama_index.core.retrievers import BaseRetriever
 from llama_index.core.schema import NodeWithScore, QueryBundle
 
 from app.config.settings import settings
-from app.pipeline.query.sparse_retriever import bm25_retrieve
 from app.pipeline.query.dense_retriever import get_retriever
+from app.pipeline.query.sparse_retriever import bm25_retrieve
 
 logger = logging.getLogger(__name__)
 

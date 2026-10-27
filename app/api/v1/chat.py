@@ -1,11 +1,10 @@
 """Chat endpoint — supports both streaming SSE and non-streaming JSON."""
 
 
-import asyncio
 import json
 import logging
 
-from fastapi import APIRouter, HTTPException, status
+from fastapi import APIRouter
 from fastapi.responses import StreamingResponse
 
 from app.api.schemas.chat import ChatRequest, ChatResponse, CitationItem, TitleRequest, TitleResponse
@@ -19,6 +18,7 @@ logger = logging.getLogger(__name__)
 router = APIRouter()
 
 
+@router.post("", tags=["chat"])
 @router.post("/", tags=["chat"])
 async def chat(request: ChatRequest):
     """Answer a student query; streaming or non-streaming based on request.stream."""

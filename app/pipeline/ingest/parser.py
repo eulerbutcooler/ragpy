@@ -1,5 +1,4 @@
 import logging
-from collections import defaultdict
 from pathlib import Path
 
 from llama_index.core import Document

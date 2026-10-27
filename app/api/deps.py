@@ -3,9 +3,8 @@
 
 from typing import Annotated
 
-from fastapi import Depends, Query, Header, HTTPException
+from fastapi import Depends, Header, HTTPException
 
-from app.api.schemas.chat import ChatRequest
 from app.config.settings import Settings, settings
 
 

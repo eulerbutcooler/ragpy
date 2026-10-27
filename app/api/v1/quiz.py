@@ -17,6 +17,7 @@ router = APIRouter()
 
 
 @router.post("/generate", status_code=status.HTTP_202_ACCEPTED, tags=["quiz"])
+@router.post("/generate/", status_code=status.HTTP_202_ACCEPTED, tags=["quiz"])
 async def generate_quiz(request: QuizRequest) -> JSONResponse:
     """Enqueue an async quiz generation request. Result delivered via NATS quiz.generate.done."""
     payload = {
@@ -34,6 +35,7 @@ async def generate_quiz(request: QuizRequest) -> JSONResponse:
 
 
 @router.post("/grade", status_code=status.HTTP_200_OK, tags=["quiz"])
+@router.post("/grade/", status_code=status.HTTP_200_OK, tags=["quiz"])
 async def grade_quiz_answer(request: GradeRequest) -> GradeResponse:
     """Grade an open-ended quiz answer semantically using the LLM judge."""
     result = await grade_answer(

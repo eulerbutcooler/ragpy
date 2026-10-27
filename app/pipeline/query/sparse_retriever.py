@@ -8,7 +8,7 @@ import logging
 import re
 from functools import lru_cache
 
-from llama_index.core.schema import NodeWithScore, QueryBundle, TextNode
+from llama_index.core.schema import NodeWithScore, TextNode
 from qdrant_client.http import models as qmodels
 from rank_bm25 import BM25Okapi
 

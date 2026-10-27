@@ -1,9 +1,9 @@
 
-from llama_index.core import Document
-from llama_index.core.node_parser import SentenceSplitter
 from typing import cast
 
-from llama_index.core.schema import BaseNode, TextNode
+from llama_index.core import Document
+from llama_index.core.node_parser import SentenceSplitter
+from llama_index.core.schema import TextNode
 
 
 def chunk_documents(documents: list[Document]) -> list[TextNode]:

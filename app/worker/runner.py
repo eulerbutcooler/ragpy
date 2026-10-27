@@ -11,6 +11,7 @@ logger = logging.getLogger(__name__)
 
 import asyncio
 
+
 async def start_workers() -> None:
     """Register all JetStream subscriptions concurrently."""
     asyncio.create_task(start_ingest_worker())

@@ -1,7 +1,8 @@
-import streamlit as st
+import uuid
+
 import boto3
 import requests
-import uuid
+import streamlit as st
 
 # Configuration
 API_URL = "http://localhost:8000/api/v1"

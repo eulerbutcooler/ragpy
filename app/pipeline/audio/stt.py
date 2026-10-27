@@ -1,4 +1,5 @@
 import io
+
 from faster_whisper import WhisperModel
 
 stt_model = None
