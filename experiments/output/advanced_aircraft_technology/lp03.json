@@ -1,0 +1,152 @@
+{
+  "subject_name": "Advanced Aircraft Technology",
+  "subject_code": "20",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "03",
+  "total_lesson_plans": "20",
+  "time_allotted": "80 min",
+  "topic": "Purpose of test signals used in control systems, Step function, Impulse function, RAMP functions, Parabolic functions",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Purpose of test signals used in control systems, Step function, Impulse function, RAMP functions, Parabolic functions.",
+  "specific_objectives": "20.1.1.1 Trainee will be able to classify control systems, feedback and its effect.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of signal generation on oscilloscope; Safety: High voltage precautions; Supervision: Instructor monitors equipment settings.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of a test signal in a control system?",
+    "How does feedback affect the stability of a control system?",
+    "Why are standard test signals necessary for system analysis?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Purpose of test signals in control systems",
+        "Definition and characteristics of Step function",
+        "Definition and characteristics of Impulse function",
+        "Definition and characteristics of RAMP functions",
+        "Definition and characteristics of Parabolic functions"
+      ],
+      "content": "Purpose of test signals in control systems\nDefinition and characteristics of Step function\nDefinition and characteristics of Impulse function\nDefinition and characteristics of RAMP functions\nDefinition and characteristics of Parabolic functions",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Comparison of signal magnitudes and durations",
+        "Application of Step function in system testing",
+        "Application of Impulse function in transient analysis",
+        "Application of RAMP functions in rate control",
+        "Application of Parabolic functions in acceleration"
+      ],
+      "content": "Comparison of signal magnitudes and durations\nApplication of Step function in system testing\nApplication of Impulse function in transient analysis\nApplication of RAMP functions in rate control\nApplication of Parabolic functions in acceleration",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Selection criteria for specific test signals",
+        "Impact of signal type on system response",
+        "Summary of signal classifications",
+        "Review of feedback effects on signal interpretation",
+        "Preparation for next lesson on unit step response"
+      ],
+      "content": "Selection criteria for specific test signals\nImpact of signal type on system response\nSummary of signal classifications\nReview of feedback effects on signal interpretation\nPreparation for next lesson on unit step response",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between a Step function and an Impulse function.",
+    "Why is the RAMP function used for testing rate control systems?",
+    "How does the Parabolic function relate to acceleration inputs?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Review the classification of control systems and prepare a brief note on how feedback modifies the response to a Step function, linking concepts from the previous lesson plan.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Unit step response of a control system, Transient response, Steady state response, Max overshoot, Rise time, Delay time and settling time.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 04"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Instructor, Flight Lieutenant, P No. 12345",
+  "approved_by": "Senior Instructor, Captain, P No. 67890",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

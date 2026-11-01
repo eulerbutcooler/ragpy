@@ -1,0 +1,146 @@
+{
+  "subject_name": "LSF, Stability, A/C Performance",
+  "subject_code": "6",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "30",
+  "total_lesson_plans": "33",
+  "time_allotted": "80 min",
+  "topic": "Dynamic stability: longitudinal and lateral, Phugoid, Dutch roll, Fixed wing autorotation",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Dynamic stability: longitudinal and lateral, Phugoid, Dutch roll, Fixed wing autorotation. Short period oscillation, spiral divergence and Directional divergence.",
+  "specific_objectives": "6.1.4.1 Trainee will be able to describe aircraft stability in all the three axis.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of stability axes diagrams; Instructor supervision required for diagram interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the three axes of aircraft stability?",
+    "Define static stability in the context of longitudinal motion.",
+    "How does dynamic stability differ from static stability?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Longitudinal dynamic stability definition",
+        "Phugoid oscillation characteristics",
+        "Short period oscillation characteristics"
+      ],
+      "content": "Longitudinal dynamic stability definition\nPhugoid oscillation characteristics\nShort period oscillation characteristics",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Lateral dynamic stability definition",
+        "Dutch roll oscillation characteristics",
+        "Spiral divergence and directional divergence"
+      ],
+      "content": "Lateral dynamic stability definition\nDutch roll oscillation characteristics\nSpiral divergence and directional divergence",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Fixed wing autorotation concept",
+        "Stability implications of autorotation",
+        "Comparison of oscillatory modes"
+      ],
+      "content": "Fixed wing autorotation concept\nStability implications of autorotation\nComparison of oscillatory modes",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between Phugoid and Short period oscillations.",
+    "Describe the nature of Dutch roll motion in lateral stability.",
+    "How does spiral divergence relate to directional stability?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the concepts of dynamic stability covered in this lesson will be applied in the upcoming video session on aircraft stability (LP 31).",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Video on aircraft stability",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 31"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

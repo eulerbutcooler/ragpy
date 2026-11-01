@@ -1,0 +1,152 @@
+{
+  "subject_name": "INAP-2",
+  "subject_code": "4",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "07",
+  "total_lesson_plans": "19",
+  "time_allotted": "80 min",
+  "topic": "Repair and disposal of damaged aircraft, aircraft, damage and repair categories.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Repair and disposal of damaged aircraft, aircraft, damage and repair categories. IAFZ 498, raising of loss statement",
+  "specific_objectives": "4.1.3.1 Trainee will be able to explain aircrafts accident, reporting procedure, crash and salvage duties board of enquiry proceedings, salvage of damaged aircraft and its disposal",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of IAFZ 498 forms and damage category classification charts",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary responsibility of the crash and salvage duties board?",
+    "Define the term 'loss statement' in the context of aircraft damage.",
+    "List three immediate actions taken after an aircraft accident."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Aircraft accident reporting procedure",
+        "Crash and salvage duties board formation",
+        "Board of enquiry proceedings and scope",
+        "Documentation requirements for accidents",
+        "Initial assessment and site security"
+      ],
+      "content": "Aircraft accident reporting procedure\nCrash and salvage duties board formation\nBoard of enquiry proceedings and scope\nDocumentation requirements for accidents\nInitial assessment and site security",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Damage and repair categories definitions",
+        "Criteria for total loss determination",
+        "Salvage procedures for damaged aircraft",
+        "Disposal methods for unrecoverable aircraft",
+        "Economic factors in repair vs disposal"
+      ],
+      "content": "Damage and repair categories definitions\nCriteria for total loss determination\nSalvage procedures for damaged aircraft\nDisposal methods for unrecoverable aircraft\nEconomic factors in repair vs disposal",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Raising of loss statement process",
+        "Final reporting and record keeping",
+        "Coordination with insurance and authorities",
+        "Archiving of accident investigation reports",
+        "Lessons learned dissemination"
+      ],
+      "content": "Raising of loss statement process\nFinal reporting and record keeping\nCoordination with insurance and authorities\nArchiving of accident investigation reports\nLessons learned dissemination",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between a repairable and a total loss aircraft.",
+    "Describe the role of the Board of Enquiry in accident investigation.",
+    "Outline the steps involved in raising a loss statement."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief summary of the flight safety organization structure at NAS/Carrier/Flights as covered in LP 08, highlighting how it interfaces with accident reporting procedures.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Introduction to flight safety its importance Flight safety organization at NAS/ carrier/ flights.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 08"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

@@ -1,0 +1,152 @@
+{
+  "subject_name": "Fuel, Oil, Lubricant and Greases",
+  "subject_code": "28",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "06",
+  "total_lesson_plans": "13",
+  "time_allotted": "80 min",
+  "topic": "various types of explosives stored in a store house, firefighting methods and symbols used",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "various types of explosives stored in a store house, firefighting methods and symbols used",
+  "specific_objectives": "28.1.1.1 Trainee will be able to explain the need for explosive regulation",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of explosive storage classifications and identification of firefighting symbols on wall charts under instructor supervision",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of explosive regulation?",
+    "Why is strict storage control necessary for explosives?",
+    "Can you name one type of explosive commonly stored in a store house?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Need for explosive regulation",
+        "Classification of explosives",
+        "Storage requirements for different types",
+        "Hazards associated with improper storage",
+        "Consequences of regulatory violations"
+      ],
+      "content": "Need for explosive regulation\nClassification of explosives\nStorage requirements for different types\nHazards associated with improper storage\nConsequences of regulatory violations",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Firefighting methods for explosives",
+        "Extinguishing agents and techniques",
+        "Evacuation and isolation procedures",
+        "Use of water and foam in specific scenarios",
+        "Handling of thermal runaway incidents"
+      ],
+      "content": "Firefighting methods for explosives\nExtinguishing agents and techniques\nEvacuation and isolation procedures\nUse of water and foam in specific scenarios\nHandling of thermal runaway incidents",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Firefighting symbols used in stores",
+        "Meaning of hazard warning signs",
+        "Location of emergency equipment",
+        "Interpretation of storage zone markings",
+        "Response protocols indicated by symbols"
+      ],
+      "content": "Firefighting symbols used in stores\nMeaning of hazard warning signs\nLocation of emergency equipment\nInterpretation of storage zone markings\nResponse protocols indicated by symbols",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the need for explosive regulation in a store house.",
+    "Describe the appropriate firefighting method for a Class A explosive fire.",
+    "Identify the meaning of the 'Explosive' hazard symbol."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the temperature limits and logbook requirements for magazines as covered in the next lesson plan (LP 07).",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Safety precautions to be observed in Magazines, Ready use lockers temperature limits and magazine log.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 07"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

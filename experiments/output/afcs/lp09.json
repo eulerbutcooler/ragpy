@@ -1,0 +1,152 @@
+{
+  "subject_name": "AFCS",
+  "subject_code": "22",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "09",
+  "total_lesson_plans": "10",
+  "time_allotted": "80 min",
+  "topic": "Sensor units for guidance systems computer units of guidance system, reference units of guidance system.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Sensor units for guidance systems computer units of guidance system, reference units of guidance system.",
+  "specific_objectives": "22.1.1.1Trainee will be able to understand the basic of guided weapon systems and types of targets.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of sensor block diagrams, safety: Do not touch live electronics, instructor supervision: Monitor student engagement.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of a guidance system?",
+    "Name two common types of guided weapon targets.",
+    "How does a sensor unit differ from a reference unit?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Basic principles of guided weapon systems",
+        "Classification of target types for guidance",
+        "Role of sensor units in target acquisition",
+        "Function of guidance system computer units",
+        "Integration of sensor and computer data"
+      ],
+      "content": "Basic principles of guided weapon systems\nClassification of target types for guidance\nRole of sensor units in target acquisition\nFunction of guidance system computer units\nIntegration of sensor and computer data",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Reference units for inertial navigation",
+        "Reference units for celestial navigation",
+        "Reference units for terrain following",
+        "Accuracy requirements for reference data",
+        "Error sources in reference unit systems"
+      ],
+      "content": "Reference units for inertial navigation\nReference units for celestial navigation\nReference units for terrain following\nAccuracy requirements for reference data\nError sources in reference unit systems",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Signal processing in sensor units",
+        "Data transmission to computer units",
+        "Feedback loops in guidance systems",
+        "Maintenance checks for sensor units",
+        "Troubleshooting common sensor failures"
+      ],
+      "content": "Signal processing in sensor units\nData transmission to computer units\nFeedback loops in guidance systems\nMaintenance checks for sensor units\nTroubleshooting common sensor failures",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how a sensor unit initiates the guidance process.",
+    "Describe the role of reference units in maintaining system accuracy.",
+    "Identify one potential failure mode in a guidance system computer unit."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the concepts learned in this lesson will be applied in the study of amplifier, controller, actuator and feedback unit of guidance system in the next lesson plan.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Amplifier, controller, actuator and feedback unit of guidance system.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 10"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

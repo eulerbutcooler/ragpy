@@ -1,0 +1,152 @@
+{
+  "subject_name": "Aircraft Electrical equipment, Power generation and Distribution",
+  "subject_code": "15",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "15",
+  "total_lesson_plans": "35",
+  "time_allotted": "80 min",
+  "topic": "Introduction to Electrical tachometer system",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Introduction to Electrical tachometer system",
+  "specific_objectives": "15.1.6.2 Trainee will be able to explain Electrical tachometer system.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of tachometer schematic diagrams; Safety: Ensure no live electrical connections are touched during diagram review; Instructor supervision: Monitor trainee understanding of signal flow.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of a tachometer in an aircraft?",
+    "How does an engine's rotational speed affect electrical generation?",
+    "Name one common location where a tachometer is installed in the cockpit."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of Electrical Tachometer System",
+        "Role in Engine RPM Monitoring",
+        "Basic Components: Generator and Sensor",
+        "Signal Transmission to Cockpit Display",
+        "Importance for Flight Safety"
+      ],
+      "content": "Definition of Electrical Tachometer System\nRole in Engine RPM Monitoring\nBasic Components: Generator and Sensor\nSignal Transmission to Cockpit Display\nImportance for Flight Safety",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Working Principle of AC Tachometer Generator",
+        "Frequency Variation with Rotor Speed",
+        "Rectification and Signal Conditioning",
+        "Display Mechanism: Analog vs Digital",
+        "System Integration with Power Generation"
+      ],
+      "content": "Working Principle of AC Tachometer Generator\nFrequency Variation with Rotor Speed\nRectification and Signal Conditioning\nDisplay Mechanism: Analog vs Digital\nSystem Integration with Power Generation",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Common Failure Modes in Tachometer Systems",
+        "Troubleshooting Steps for RPM Discrepancies",
+        "Impact of Tachometer Failure on Flight Operations",
+        "Maintenance Checks for Tachometer Units",
+        "Comparison with Mechanical Tachometer Systems"
+      ],
+      "content": "Common Failure Modes in Tachometer Systems\nTroubleshooting Steps for RPM Discrepancies\nImpact of Tachometer Failure on Flight Operations\nMaintenance Checks for Tachometer Units\nComparison with Mechanical Tachometer Systems",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how the frequency of the AC signal relates to engine RPM.",
+    "Describe the consequences of a failed tachometer signal on flight safety.",
+    "Differentiate between the input and output components of an electrical tachometer system."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the principles of electrical tachometer systems apply to the fuel quantity measurement system discussed in LP 16.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Principles of fuel quantity measurement. Practical & Demonstration",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 16"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

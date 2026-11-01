@@ -1,0 +1,152 @@
+{
+  "subject_name": "QA/QC",
+  "subject_code": "30",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "06",
+  "total_lesson_plans": "7",
+  "time_allotted": "80 min",
+  "topic": "Quality assurance in Indian Navy, station / Carrier / yard QA cell – organisation, manpower, duties and responsibilities.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Quality assurance in Indian Navy, station / Carrier / yard QA cell – organisation, manpower, duties and responsibilities.",
+  "specific_objectives": "30.1.1.1 Trainee will be able to understand the concept of quality assurance, control and indigenization.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of QA Cell organizational chart and duty roster; Instructor supervision required for verification of roles.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary difference between quality assurance and quality control?",
+    "Define the term 'indigenization' in the context of naval stores.",
+    "Why is QA essential for maintaining airworthiness in the Indian Navy?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Concept of Quality Assurance",
+        "Quality Control vs Quality Assurance",
+        "Role of QA in Indian Navy",
+        "Station and Carrier QA Cell Structure",
+        "Manpower composition of QA Cell"
+      ],
+      "content": "Concept of Quality Assurance\nQuality Control vs Quality Assurance\nRole of QA in Indian Navy\nStation and Carrier QA Cell Structure\nManpower composition of QA Cell",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Duties of QA Officer",
+        "Responsibilities of QA Inspectors",
+        "QA Cell functions in Yard",
+        "Reporting mechanisms",
+        "Interface with Maintenance Dept"
+      ],
+      "content": "Duties of QA Officer\nResponsibilities of QA Inspectors\nQA Cell functions in Yard\nReporting mechanisms\nInterface with Maintenance Dept",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "QA Cell functions in Carrier",
+        "Indigenization link with QA",
+        "Airworthiness certification process",
+        "Non-conformance reporting",
+        "Record keeping and audits"
+      ],
+      "content": "QA Cell functions in Carrier\nIndigenization link with QA\nAirworthiness certification process\nNon-conformance reporting\nRecord keeping and audits",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "List three key duties of a QA Officer in a naval station.",
+    "Explain how the QA Cell ensures the airworthiness of indigenized stores.",
+    "Describe the reporting chain for a non-conformance found during inspection."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the role of QA in the indigenization of flight-critical stores, referencing the agencies associated with the process (to be covered in LP 07).",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Indigenisation of air stores, flight critical and non-flight critical stores, airworthiness of indigenized stores, agencies associated with Indigenisation, Indigenisation process",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 07"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

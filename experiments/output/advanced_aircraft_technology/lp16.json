@@ -1,0 +1,152 @@
+{
+  "subject_name": "Advanced Aircraft Technology",
+  "subject_code": "20",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "16",
+  "total_lesson_plans": "20",
+  "time_allotted": "80 min",
+  "topic": "Introduction to EFIS, display units, Symbol Generators and display presentations",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Introduction to EFIS, display units, Symbol Generators and display presentations. Visit to P8i Lab for familiarization on EFIS.",
+  "specific_objectives": "20.6.1.1 Trainee Will Be able to explain EFIS units and display presentations.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Visit to P8i Lab for familiarization on EFIS units and display presentations. Safety: Ensure lab is cleared and instructor supervision is maintained during system interaction.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of the EFIS?",
+    "Name two types of display units found in modern cockpits.",
+    "How does a Symbol Generator differ from a display unit?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition and purpose of EFIS",
+        "Components: CDU, PFD, ND",
+        "Symbol Generator architecture",
+        "Data sources for EFIS",
+        "Display presentation formats"
+      ],
+      "content": "Definition and purpose of EFIS\nComponents: CDU, PFD, ND\nSymbol Generator architecture\nData sources for EFIS\nDisplay presentation formats",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "P8i Lab EFIS configuration",
+        "Navigation Display symbology",
+        "Primary Flight Display symbology",
+        "Control Display Unit functions",
+        "System integration overview"
+      ],
+      "content": "P8i Lab EFIS configuration\nNavigation Display symbology\nPrimary Flight Display symbology\nControl Display Unit functions\nSystem integration overview",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Troubleshooting EFIS failures",
+        "Reversionary modes operation",
+        "Display format selection",
+        "Symbol generator redundancy",
+        "Data link integration"
+      ],
+      "content": "Troubleshooting EFIS failures\nReversionary modes operation\nDisplay format selection\nSymbol generator redundancy\nData link integration",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the role of the Symbol Generator in EFIS operation.",
+    "Describe the difference between PFD and ND display presentations.",
+    "How does the CDU interact with the EFIS display units?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report comparing EFIS and EICAS/ECAM display architectures for the next lesson (LP 17).",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Introduction to Engine indicating and crew alerting system (EICAS) & Electronic centralized Aircraft Monitoring (ECAM). Practical on EICAS & ECAM.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 17"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

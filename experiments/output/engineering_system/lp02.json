@@ -1,0 +1,152 @@
+{
+  "subject_name": "Engineering System",
+  "subject_code": "21",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "02",
+  "total_lesson_plans": "2",
+  "time_allotted": "80 min",
+  "topic": "Introduction to liquid rocket engines its advantages and disadvantages",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Introduction to liquid rocket engines its advantages and disadvantages. Introduction",
+  "specific_objectives": "21.1.1.1 Trainee will be able to understand Rockets, types of its functional details.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of PPT slides on Liquid Rocket Engine components; Safety: Maintain distance from projector; Supervision: Instructor monitors trainee engagement.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of a rocket engine?",
+    "Name two types of rocket engines based on propellant state.",
+    "Why are liquid rocket engines preferred for upper stages?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of Liquid Rocket Engine",
+        "Propellant Storage Systems",
+        "Fuel and Oxidizer Mixing",
+        "Combustion Chamber Function",
+        "Thrust Vector Control"
+      ],
+      "content": "Definition of Liquid Rocket Engine\nPropellant Storage Systems\nFuel and Oxidizer Mixing\nCombustion Chamber Function\nThrust Vector Control",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Advantages of Liquid Propulsion",
+        "Disadvantages of Liquid Propulsion",
+        "Comparison with Solid Rockets",
+        "Throttleability Features",
+        "Complexity and Maintenance Issues"
+      ],
+      "content": "Advantages of Liquid Propulsion\nDisadvantages of Liquid Propulsion\nComparison with Solid Rockets\nThrottleability Features\nComplexity and Maintenance Issues",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Fuel Types Used in Liquid Engines",
+        "Oxidizer Types Used in Liquid Engines",
+        "Engine Start and Shutdown Procedures",
+        "Specific Impulse Concepts",
+        "Application in Launch Vehicles"
+      ],
+      "content": "Fuel Types Used in Liquid Engines\nOxidizer Types Used in Liquid Engines\nEngine Start and Shutdown Procedures\nSpecific Impulse Concepts\nApplication in Launch Vehicles",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "List three advantages of liquid rocket engines over solid rocket motors.",
+    "Explain why liquid engines are more complex to operate than solid engines.",
+    "Describe the role of the turbopump in a liquid rocket engine."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note comparing the operational flexibility of liquid rocket engines with solid rocket motors for future mission planning.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "End of subject",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "-"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

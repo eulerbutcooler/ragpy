@@ -1,0 +1,152 @@
+{
+  "subject_name": "EMI/EMC",
+  "subject_code": "14",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "46",
+  "total_lesson_plans": "46",
+  "time_allotted": "80 min",
+  "topic": "Explanation of pitch and roll control interceptors",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Explanation of pitch and roll control interceptors.",
+  "specific_objectives": "14.2.1.1 Trainee will be able to explain the functions of AFCS.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of AFCS block diagram and signal flow; Instructor supervision required for diagram interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of the AFCS?",
+    "Define pitch and roll control interceptors.",
+    "How does the AFCS assist the pilot in maintaining aircraft attitude?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "AFCS General Functionality",
+        "Pitch Control Interceptor Logic",
+        "Roll Control Interceptor Logic",
+        "Sensor Inputs to Interceptors",
+        "Actuator Response Mechanisms"
+      ],
+      "content": "AFCS General Functionality\nPitch Control Interceptor Logic\nRoll Control Interceptor Logic\nSensor Inputs to Interceptors\nActuator Response Mechanisms",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Error Signal Generation Process",
+        "Gain Adjustment Parameters",
+        "Stability and Damping Effects",
+        "Manual Override Procedures",
+        "Interception Time Constants"
+      ],
+      "content": "Error Signal Generation Process\nGain Adjustment Parameters\nStability and Damping Effects\nManual Override Procedures\nInterception Time Constants",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "System Failure Modes",
+        "Redundancy in Pitch/Roll Loops",
+        "Troubleshooting Interceptor Signals",
+        "Impact of External Disturbances",
+        "Maintenance Checks for AFCS"
+      ],
+      "content": "System Failure Modes\nRedundancy in Pitch/Roll Loops\nTroubleshooting Interceptor Signals\nImpact of External Disturbances\nMaintenance Checks for AFCS",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how the pitch interceptor corrects attitude errors.",
+    "Describe the role of the roll interceptor in lateral stability.",
+    "Identify two factors affecting interceptor response time."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the transition from LP 02 to this topic, highlighting how AFCS principles apply to the next lesson.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "End of subject",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "-"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

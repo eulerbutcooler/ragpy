@@ -1,0 +1,152 @@
+{
+  "subject_name": "Basic Electrical",
+  "subject_code": "23",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "26",
+  "total_lesson_plans": "29",
+  "time_allotted": "80 min",
+  "topic": "Liquid O2 system, O2 charging procedure",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Liquid O2 system, O2 charging procedure",
+  "specific_objectives": "23.2.1.1 Trainee will be able to understand the need of oxygen systems, types of systems, working principles of components.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of O2 charging procedure diagrams and safety checklists; Instructor supervision of theoretical walkthrough only.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of the aircraft oxygen system?",
+    "Name two types of oxygen systems used in aviation.",
+    "Why is liquid oxygen preferred over compressed gas for certain aircraft?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Need for oxygen systems in aircraft",
+        "Types of oxygen systems available",
+        "Working principle of liquid oxygen storage",
+        "Components of the liquid oxygen system",
+        "Safety considerations for liquid oxygen"
+      ],
+      "content": "Need for oxygen systems in aircraft\nTypes of oxygen systems available\nWorking principle of liquid oxygen storage\nComponents of the liquid oxygen system\nSafety considerations for liquid oxygen",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "O2 charging procedure steps",
+        "Pre-charging safety checks",
+        "Monitoring pressure and temperature",
+        "Post-charging verification",
+        "Common errors during charging"
+      ],
+      "content": "O2 charging procedure steps\nPre-charging safety checks\nMonitoring pressure and temperature\nPost-charging verification\nCommon errors during charging",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Emergency response to O2 leaks",
+        "Maintenance requirements for O2 systems",
+        "Documentation and record keeping",
+        "Role of crew during charging",
+        "Final safety briefing"
+      ],
+      "content": "Emergency response to O2 leaks\nMaintenance requirements for O2 systems\nDocumentation and record keeping\nRole of crew during charging\nFinal safety briefing",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the working principle of the liquid oxygen system.",
+    "List the key safety precautions during the O2 charging procedure.",
+    "Describe the steps involved in post-charging verification."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the maintenance and servicing requirements of the O2 system, referencing the safety precautions discussed in the next lesson plan (LP 27).",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Maintenance of O2 system, servicing and safety precautions. Safety measures while handling /upkeep of gaseous oxygen system. Quality checks on pressurized gas cylinders.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 27"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

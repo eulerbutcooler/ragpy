@@ -286,7 +286,7 @@ async def format_quiz(nodes: list[BaseNode], course_id: str, difficulty: str = "
         )
 
     llm = get_llm()
-    # SGLang does not return OpenAI tool_calls, so use prompt-enforced JSON and
+    # llama.cpp does not return OpenAI tool_calls, so use prompt-enforced JSON and
     # Pydantic validation instead of function-calling structured prediction.
     result: QuizOutput = await astructured_predict_json(
         llm,

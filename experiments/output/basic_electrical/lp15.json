@@ -1,0 +1,152 @@
+{
+  "subject_name": "Basic Electrical",
+  "subject_code": "23",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "15",
+  "total_lesson_plans": "29",
+  "time_allotted": "80 min",
+  "topic": "Tracing and identification of various under carriage components, Shock observers, types, brief description and operation",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Tracing and identification of various under carriage components, Shock observers, types, brief description and operation",
+  "specific_objectives": "23.1.3.1 Trainee will be able to describe typical alighting gears of an aircraft and its construction.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Identification of under carriage components and shock absorber types on aircraft training equipment; Safety: Ensure training equipment stability and no loose parts; Supervision: Instructor monitors trainee handling of components.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the primary functions of the aircraft landing gear?",
+    "Name the three main types of landing gear configurations.",
+    "Define the term 'shock absorber' in the context of landing gear."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Landing gear assembly overview",
+        "Main and nose gear identification",
+        "Wheel well and strut components",
+        "Hydraulic lines and actuators",
+        "Brake assembly location"
+      ],
+      "content": "Landing gear assembly overview\nMain and nose gear identification\nWheel well and strut components\nHydraulic lines and actuators\nBrake assembly location",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Shock absorber types overview",
+        "Oil-air shock absorber operation",
+        "Nylon cord shock absorber operation",
+        "Mechanical spring shock absorber",
+        "Telescopic strut construction"
+      ],
+      "content": "Shock absorber types overview\nOil-air shock absorber operation\nNylon cord shock absorber operation\nMechanical spring shock absorber\nTelescopic strut construction",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Shock absorber maintenance basics",
+        "Common failure modes identification",
+        "Operational checks and testing",
+        "Component replacement procedures",
+        "Safety precautions during inspection"
+      ],
+      "content": "Shock absorber maintenance basics\nCommon failure modes identification\nOperational checks and testing\nComponent replacement procedures\nSafety precautions during inspection",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between oil-air and nylon cord shock absorbers.",
+    "Describe the construction of a typical telescopic strut.",
+    "List the key components found in the main landing gear assembly."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the differences between main wheel and nose wheel configurations for the next lesson (LP 16).",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Wheels, types of wheels and description of typical main wheel",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 16"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

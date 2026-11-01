@@ -1,0 +1,151 @@
+{
+  "subject_name": "Guided Weapon",
+  "subject_code": "37",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "04",
+  "total_lesson_plans": "6",
+  "time_allotted": "80 min",
+  "topic": "Terminal ballistics, type of damage, perforation effect, critical velocity",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Terminal ballistics, type of damage, perforation effect, critical velocity. Experimental ballistics – measurement of pressure and velocity",
+  "specific_objectives": "37.1.1.1 Trainee will be able to explain about various branches of ballistics",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of experimental ballistics data; Safety: Handle charts carefully; Supervision: Instructor monitors data interpretation",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the four main branches of ballistics?",
+    "Define terminal ballistics in one sentence.",
+    "List two factors affecting projectile penetration."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of terminal ballistics",
+        "Types of damage caused by projectiles",
+        "Mechanism of perforation effect",
+        "Concept of critical velocity",
+        "Experimental measurement methods"
+      ],
+      "content": "Definition of terminal ballistics\nTypes of damage caused by projectiles\nMechanism of perforation effect\nConcept of critical velocity\nExperimental measurement methods",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Analysis of pressure and velocity data",
+        "Factors influencing perforation depth",
+        "Role of material strength in damage",
+        "Calculation of critical velocity thresholds",
+        "Interpretation of experimental results"
+      ],
+      "content": "Analysis of pressure and velocity data\nFactors influencing perforation depth\nRole of material strength in damage\nCalculation of critical velocity thresholds\nInterpretation of experimental results",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Summary of terminal ballistics concepts",
+        "Application of critical velocity in design",
+        "Review of experimental measurement techniques",
+        "Link between damage types and velocity",
+        "Preparation for next lesson on rocket ballistics"
+      ],
+      "content": "Summary of terminal ballistics concepts\nApplication of critical velocity in design\nReview of experimental measurement techniques\nLink between damage types and velocity\nPreparation for next lesson on rocket ballistics",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how critical velocity determines perforation success.",
+    "Describe the relationship between projectile velocity and damage type."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the principles of terminal ballistics discussed in this lesson apply to the stability forces covered in LP 05.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Rocket ballistics introduction, forces acting on rocket in flight and stability",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 05"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

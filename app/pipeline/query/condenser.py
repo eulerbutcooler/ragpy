@@ -10,6 +10,7 @@ import logging
 from llama_index.llms.openai_like import OpenAILike
 
 from app.config.settings import settings
+from app.llm.factory import normalize_openai_base_url
 from app.llm.prompts import CONDENSE_PROMPT
 
 logger = logging.getLogger(__name__)
@@ -21,14 +22,20 @@ _condenser_llm: OpenAILike | None = None
 def _get_condenser_llm() -> OpenAILike:
     global _condenser_llm
     if _condenser_llm is None:
+        base_url = settings.llm_condense_base_url or settings.llm_base_url
+        additional_kwargs = {}
+        if not settings.llm_enable_thinking:
+            additional_kwargs["extra_body"] = {"chat_template_kwargs": {"enable_thinking": False}}
         _condenser_llm = OpenAILike(
-            model=settings.llm_condense_model,
-            api_base=settings.llm_base_url,
+            model=settings.llm_condense_model or settings.llm_model,
+            api_base=normalize_openai_base_url(base_url),
             api_key=settings.llm_api_key,
             is_chat_model=True,
-            max_tokens=50,
+            is_function_calling_model=False,
+            max_tokens=settings.llm_condense_max_tokens,
             temperature=0.0,
-            request_timeout=10,
+            timeout=settings.llm_condense_timeout,
+            additional_kwargs=additional_kwargs,
         )
     return _condenser_llm
 
@@ -77,4 +84,3 @@ async def condense_query(
         logger.exception("condense_failed, falling back to original query")
 
     return query
-

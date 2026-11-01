@@ -1,0 +1,152 @@
+{
+  "subject_name": "Avionics and Electronic Warfare",
+  "subject_code": "13",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "04",
+  "total_lesson_plans": "25",
+  "time_allotted": "80 min",
+  "topic": "Batteries- functions, different types of batteries used in A/C, Location of batteries in A/C battery connection, typical battery systems, on",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Batteries- functions, different types of batteries used in A/C, Location of batteries in A/C battery connection, typical battery systems, on board battery charging and warning system and memory effect on NI- Cd batteries. Practical in battery shop. Safety precautions to be observed in battery shop.",
+  "specific_objectives": "13.1.1.1 Trainee will be able to explain the A/C power systems.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Practical in battery shop. Safety precautions to be observed in battery shop. Instructor supervision during handling and inspection.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of a battery in an aircraft?",
+    "Name two common types of batteries used in aviation.",
+    "Why is it critical to locate batteries correctly in an aircraft?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Functions of aircraft batteries",
+        "Types of batteries used in A/C",
+        "Location of batteries in A/C",
+        "Battery connection points",
+        "Typical battery systems"
+      ],
+      "content": "Functions of aircraft batteries\nTypes of batteries used in A/C\nLocation of batteries in A/C\nBattery connection points\nTypical battery systems",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "On board battery charging systems",
+        "Warning system indicators",
+        "Memory effect in Ni-Cd batteries",
+        "Maintenance of Ni-Cd batteries",
+        "Troubleshooting battery faults"
+      ],
+      "content": "On board battery charging systems\nWarning system indicators\nMemory effect in Ni-Cd batteries\nMaintenance of Ni-Cd batteries\nTroubleshooting battery faults",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Practical in battery shop",
+        "Safety precautions in battery shop",
+        "Instructor supervision protocols",
+        "Inspection of battery terminals",
+        "Verification of charging systems"
+      ],
+      "content": "Practical in battery shop\nSafety precautions in battery shop\nInstructor supervision protocols\nInspection of battery terminals\nVerification of charging systems",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the memory effect observed in Ni-Cd batteries.",
+    "Describe the safety precautions required when handling batteries in the shop.",
+    "Identify the typical location of batteries in an aircraft and their connection points."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the differences between lead-acid and Ni-Cd batteries used in aircraft, referencing the next lesson on constant frequency systems.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "A/C power supply systems-Constant frequency systems, operation of CSDU, integrated drive generators, field excitation of frequency wild generators.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 05"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

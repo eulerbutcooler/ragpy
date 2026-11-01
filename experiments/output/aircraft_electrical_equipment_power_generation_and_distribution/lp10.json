@@ -1,0 +1,151 @@
+{
+  "subject_name": "Aircraft Electrical equipment, Power generation and Distribution",
+  "subject_code": "15",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "10",
+  "total_lesson_plans": "35",
+  "time_allotted": "80 min",
+  "topic": "Dismantling and assembling procedure of typical capsule instruments",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Dismantling and assembling procedure of typical capsule instruments.",
+  "specific_objectives": "15.1.4.2 Trainee will be able to explain capsule instruments.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of dismantling and reassembly of typical capsule instrument; Safety precautions include static discharge protection and torque limit adherence; Instructor supervision required for all steps.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of a capsule instrument?",
+    "Name two common types of capsule instruments used in aircraft.",
+    "Why must static electricity be avoided during instrument handling?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Introduction to capsule instrument construction",
+        "Identification of internal components",
+        "Standard dismantling sequence",
+        "Handling of sensitive sensing elements",
+        "Reassembly torque specifications"
+      ],
+      "content": "Introduction to capsule instrument construction\nIdentification of internal components\nStandard dismantling sequence\nHandling of sensitive sensing elements\nReassembly torque specifications",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Step-by-step dismantling procedure",
+        "Inspection criteria for internal parts",
+        "Correct reassembly sequence",
+        "Verification of calibration marks",
+        "Final assembly checks"
+      ],
+      "content": "Step-by-step dismantling procedure\nInspection criteria for internal parts\nCorrect reassembly sequence\nVerification of calibration marks\nFinal assembly checks",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Common errors in reassembly",
+        "Troubleshooting assembly issues",
+        "Documentation of maintenance actions",
+        "Storage and handling guidelines",
+        "Quality assurance checklist"
+      ],
+      "content": "Common errors in reassembly\nTroubleshooting assembly issues\nDocumentation of maintenance actions\nStorage and handling guidelines\nQuality assurance checklist",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the critical steps in the dismantling procedure of a capsule instrument.",
+    "Describe the safety precautions required during the reassembly of capsule instruments."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the methods and applications of electrical temperature indicating systems as covered in the next lesson plan.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Methods and applications of electrical temperature indicating systems",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 11"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

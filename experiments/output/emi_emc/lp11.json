@@ -1,0 +1,152 @@
+{
+  "subject_name": "EMI/EMC",
+  "subject_code": "14",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "11",
+  "total_lesson_plans": "46",
+  "time_allotted": "80 min",
+  "topic": "Different errors in INS., initial leveling error, initial tilt error, accelerometer error, integrator error, initial azimuth misalignment, azimuth gyro drift, and leveling gyro drift.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Different errors in INS., initial leveling error, initial tilt error, accelerometer error, integrator error, initial azimuth misalignment, azimuth gyro drift, and leveling gyro drift.",
+  "specific_objectives": "14.1.1.1 Trainee will be able to explain and define a position on the earth.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of INS error diagrams and drift vectors; Instructor supervision required for diagram interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of an Inertial Navigation System?",
+    "Define the term 'drift' in the context of gyroscopes.",
+    "List three sources of error in an INS system."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Initial leveling error definition",
+        "Initial tilt error causes",
+        "Accelerometer bias errors",
+        "Integrator error accumulation",
+        "Initial azimuth misalignment"
+      ],
+      "content": "Initial leveling error definition\nInitial tilt error causes\nAccelerometer bias errors\nIntegrator error accumulation\nInitial azimuth misalignment",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Azimuth gyro drift characteristics",
+        "Leveling gyro drift mechanisms",
+        "Error correction techniques",
+        "Impact on navigation accuracy",
+        "Mitigation strategies"
+      ],
+      "content": "Azimuth gyro drift characteristics\nLeveling gyro drift mechanisms\nError correction techniques\nImpact on navigation accuracy\nMitigation strategies",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Systematic vs random errors",
+        "Environmental error factors",
+        "Calibration procedures",
+        "Maintenance impact on errors",
+        "Operational limitations"
+      ],
+      "content": "Systematic vs random errors\nEnvironmental error factors\nCalibration procedures\nMaintenance impact on errors\nOperational limitations",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how initial tilt error affects the calculated position.",
+    "Describe the relationship between azimuth gyro drift and heading accuracy.",
+    "Identify two methods to minimize integrator error in INS systems."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how Mixed inertial systems and velocity damping address the errors discussed in this lesson, linking to the next lesson on Mixed inertial systems.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Mixed inertial system, velocity damped inertial system, damping by Doppler velocity. Fix monitored inertial systems, stellar monitored inertial system.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 12"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

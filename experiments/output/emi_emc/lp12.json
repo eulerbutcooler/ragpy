@@ -1,0 +1,152 @@
+{
+  "subject_name": "EMI/EMC",
+  "subject_code": "14",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "12",
+  "total_lesson_plans": "46",
+  "time_allotted": "80 min",
+  "topic": "Mixed inertial system, velocity damped inertial system, damping by Doppler velocity",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Mixed inertial system, velocity damped inertial system, damping by Doppler velocity. Fix monitored inertial systems, stellar monitored inertial system.",
+  "specific_objectives": "14.1.1.1 Trainee will be able to explain and define a position on the earth.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of INS block diagrams and signal flow charts; Instructor supervision required for diagram interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of an Inertial Navigation System?",
+    "Define the term 'damping' in the context of INS velocity errors.",
+    "List two methods used to monitor inertial system accuracy."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Mixed inertial system definition",
+        "Velocity damped inertial system operation",
+        "Damping by Doppler velocity principles",
+        "Integration of Doppler radar data",
+        "Error correction mechanisms"
+      ],
+      "content": "Mixed inertial system definition\nVelocity damped inertial system operation\nDamping by Doppler velocity principles\nIntegration of Doppler radar data\nError correction mechanisms",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Fix monitored inertial systems overview",
+        "Stellar monitored inertial system operation",
+        "Comparison of fix and stellar monitoring",
+        "Advantages of external monitoring",
+        "Limitations of monitoring techniques"
+      ],
+      "content": "Fix monitored inertial systems overview\nStellar monitored inertial system operation\nComparison of fix and stellar monitoring\nAdvantages of external monitoring\nLimitations of monitoring techniques",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Summary of INS damping methods",
+        "Role of Doppler in velocity damping",
+        "Integration of fix and stellar data",
+        "Future trends in INS monitoring",
+        "Operational implications for aircrew"
+      ],
+      "content": "Summary of INS damping methods\nRole of Doppler in velocity damping\nIntegration of fix and stellar data\nFuture trends in INS monitoring\nOperational implications for aircrew",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how Doppler velocity damping reduces inertial navigation errors.",
+    "Differentiate between a fix monitored system and a stellar monitored system.",
+    "Describe the operational benefit of using a mixed inertial system."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the concepts of mixed inertial systems and velocity damping will be applied in the upcoming lesson on aircraft stability (LP 02).",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Brief introduction to aircraft stability. (Static and dynamic) explanation of longitudinal stability, lateral stability, directional stability",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 13"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

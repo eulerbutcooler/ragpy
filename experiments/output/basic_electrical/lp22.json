@@ -1,0 +1,149 @@
+{
+  "subject_name": "Basic Electrical",
+  "subject_code": "23",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "22",
+  "total_lesson_plans": "29",
+  "time_allotted": "80 min",
+  "topic": "Control system components",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Control system components",
+  "specific_objectives": "23.1.5.1 Trainee will be able to explain the construction and functioning of aircraft flight controls systems and its components.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Identification of control system components on aircraft model; Safety: Handle model parts gently; Supervision: Instructor monitors identification accuracy",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the primary flight controls of an aircraft?",
+    "How does a pilot initiate a turn using the control yoke?",
+    "Name the secondary flight controls found on modern aircraft."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Primary flight control surfaces",
+        "Control system linkage mechanisms",
+        "Hydraulic actuation systems",
+        "Electrical control components"
+      ],
+      "content": "Primary flight control surfaces\nControl system linkage mechanisms\nHydraulic actuation systems\nElectrical control components",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Functioning of ailerons and elevators",
+        "Rudder operation and yaw control",
+        "Flap and spoiler mechanisms",
+        "Trim system operation"
+      ],
+      "content": "Functioning of ailerons and elevators\nRudder operation and yaw control\nFlap and spoiler mechanisms\nTrim system operation",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Fail-safe mechanisms in controls",
+        "Redundancy in flight control systems",
+        "Maintenance checks for control links",
+        "Troubleshooting common control issues"
+      ],
+      "content": "Fail-safe mechanisms in controls\nRedundancy in flight control systems\nMaintenance checks for control links\nTroubleshooting common control issues",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how hydraulic pressure assists in moving control surfaces.",
+    "Describe the role of trim tabs in reducing pilot workload.",
+    "Identify two fail-safe features in a typical flight control system."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the need for simple oxygen systems and the effects of lack of oxygen, as covered in LP 23.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Need for simple oxygen system and pressurized cabin effect of lack of o2, Types of 02 regulators. Fire detection and protection system:",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 23"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

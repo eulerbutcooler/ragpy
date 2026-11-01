@@ -1,0 +1,152 @@
+{
+  "subject_name": "Aircraft Maintenance Order",
+  "subject_code": "1",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "01",
+  "total_lesson_plans": "16",
+  "time_allotted": "80 min",
+  "topic": "Introduction to NAMM",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Introduction to NAMM",
+  "specific_objectives": "1.1.1.1 Trainee will be able to explain the policy for maintenance of naval aircraft and associated equipment, orders, instruction and procedures.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of NAMM structure and hierarchy; Safety precautions: Do not handle classified documents; Instructor supervision: Monitor trainee understanding of document flow.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the full form of NAMM?",
+    "Why is maintenance policy important for naval aircraft?",
+    "Can you name one order related to aircraft maintenance?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition and purpose of NAMM",
+        "Scope of maintenance policy",
+        "Hierarchy of technical documents",
+        "Role of NAMM in operational readiness",
+        "Distinction between orders and instructions"
+      ],
+      "content": "Definition and purpose of NAMM\nScope of maintenance policy\nHierarchy of technical documents\nRole of NAMM in operational readiness\nDistinction between orders and instructions",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Key components of maintenance policy",
+        "Responsibilities of engineering personnel",
+        "Impact of non-compliance on safety",
+        "Standard operating procedures overview",
+        "Reporting mechanisms for defects"
+      ],
+      "content": "Key components of maintenance policy\nResponsibilities of engineering personnel\nImpact of non-compliance on safety\nStandard operating procedures overview\nReporting mechanisms for defects",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Integration of NAMM with other directives",
+        "Updates and revisions to policies",
+        "Accessing current maintenance orders",
+        "Application of policy in daily tasks",
+        "Common pitfalls in policy interpretation"
+      ],
+      "content": "Integration of NAMM with other directives\nUpdates and revisions to policies\nAccessing current maintenance orders\nApplication of policy in daily tasks\nCommon pitfalls in policy interpretation",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the primary function of NAMM in naval aviation.",
+    "How does the maintenance policy ensure aircraft safety?",
+    "What steps should be taken if a maintenance order is unclear?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the NAMM policy relates to the nature and scope of technical information covered in LP 02.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Introduction to nature and scope of technical information, orders and instructions relating to maintenance of naval aircraft such NAMM, NAMO, NTI, STI, SI, Navy Orders and Navy Instructions etc.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 02"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

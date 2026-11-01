@@ -1,0 +1,151 @@
+{
+  "subject_name": "Naval Aviation Management System (NAMS)",
+  "subject_code": "5",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "02",
+  "total_lesson_plans": "9",
+  "time_allotted": "80 min",
+  "topic": "Air store Establishment (ASE): Introduction, Definition, Purpose and Characteristics",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Air store Establishment (ASE): Introduction, Definition, Purpose and Characteristics",
+  "specific_objectives": "5.1.2.1 Trainee will be able to explain air stores terminologies, ASE, Demands and Survey of IN aviation.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of IN Aviation Air Store Survey Data; Safety: Handle documents carefully; Supervision: Instructor monitors data interpretation",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of an Air Store Establishment?",
+    "Can you list three key characteristics of an Air Store Establishment?",
+    "Why is the Survey of IN aviation important for ASE?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Introduction to Air Store Establishment",
+        "Definition of ASE",
+        "Purpose of ASE",
+        "Characteristics of ASE",
+        "Role in IN Aviation"
+      ],
+      "content": "Introduction to Air Store Establishment\nDefinition of ASE\nPurpose of ASE\nCharacteristics of ASE\nRole in IN Aviation",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Terminologies in Air Stores",
+        "Demands and Supply Mechanism",
+        "Survey of IN Aviation",
+        "Inventory Control Basics",
+        "Reporting Procedures"
+      ],
+      "content": "Terminologies in Air Stores\nDemands and Supply Mechanism\nSurvey of IN Aviation\nInventory Control Basics\nReporting Procedures",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Summary of ASE Functions",
+        "Importance of Accurate Records",
+        "Future Trends in ASE",
+        "Challenges in Management",
+        "Best Practices Overview"
+      ],
+      "content": "Summary of ASE Functions\nImportance of Accurate Records\nFuture Trends in ASE\nChallenges in Management\nBest Practices Overview",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between the purpose and characteristics of an Air Store Establishment.",
+    "How does the Survey of IN aviation support the ASE?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the terminologies covered in this lesson will be expanded in LP 03 regarding NIV, NAC, and NCC.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Introduction to Air store Terminology: NIV, NAC, NCC, BDR, BER, ABER, Dues In, Dues Out, Write Off Charge, Strike Off Charge, Main Store, Depot, Robbing, ARD, ACL, RPQ, Packaging, and LP",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 03"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

@@ -1,0 +1,149 @@
+{
+  "subject_name": "Fuel, Oil, Lubricant and Greases",
+  "subject_code": "28",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "03",
+  "total_lesson_plans": "13",
+  "time_allotted": "80 min",
+  "topic": "Categories of explosives, Various groups of explosives based on fire risk, explosion and hazard risk.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Categories of explosives, Various groups of explosives based on fire risk, explosion and hazard risk.",
+  "specific_objectives": "28.1.1.1 Trainee will be able to explain the need for explosive regulation",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of explosive classification charts; Instructor supervision required for handling of reference materials only.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of explosive regulation?",
+    "Can you name one category of explosives?",
+    "Why is understanding fire risk important for aircrew?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Need for explosive regulation",
+        "Categories of explosives",
+        "Groups based on fire risk",
+        "Explosion hazard risk factors"
+      ],
+      "content": "Need for explosive regulation\nCategories of explosives\nGroups based on fire risk\nExplosion hazard risk factors",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Primary vs Secondary explosives",
+        "High vs Low explosive groups",
+        "Hazard assessment criteria",
+        "Storage and handling risks"
+      ],
+      "content": "Primary vs Secondary explosives\nHigh vs Low explosive groups\nHazard assessment criteria\nStorage and handling risks",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Fire risk classification",
+        "Explosion sensitivity types",
+        "Regulatory compliance measures",
+        "Safety protocols overview"
+      ],
+      "content": "Fire risk classification\nExplosion sensitivity types\nRegulatory compliance measures\nSafety protocols overview",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between primary and secondary explosives.",
+    "How does fire risk classification impact storage procedures?",
+    "What are the key factors determining explosion hazard risk?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the need for explosive regulation influences the safety precautions discussed in LP 02.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Factors effecting serviceability of explosives, remedial measures and safety precautions.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 04"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

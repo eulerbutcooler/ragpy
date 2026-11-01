@@ -1,0 +1,151 @@
+{
+  "subject_name": "EWIS",
+  "subject_code": "21",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "08",
+  "total_lesson_plans": "10",
+  "time_allotted": "80 min",
+  "topic": "Purpose and technical details of ADF",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Purpose and technical details of ADF. Basic layout of intercom system in aircraft.",
+  "specific_objectives": "21.1.1.1 Trainee will be able to understand the basic theory of communication.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of ADF indicator operation and Intercom panel layout; Safety: Ensure no loose items near equipment; Supervision: Instructor monitors trainee interaction with panel.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of the ADF system?",
+    "Name two types of radio navigation aids.",
+    "Define the basic theory of communication."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Basic theory of communication",
+        "Purpose of ADF navigation",
+        "ADF technical details and components",
+        "ADF signal reception principles",
+        "ADF indicator operation"
+      ],
+      "content": "Basic theory of communication\nPurpose of ADF navigation\nADF technical details and components\nADF signal reception principles\nADF indicator operation",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Basic layout of intercom system",
+        "Intercom panel components",
+        "Audio signal routing paths",
+        "Microphone and speaker locations",
+        "Intercom switch functions"
+      ],
+      "content": "Basic layout of intercom system\nIntercom panel components\nAudio signal routing paths\nMicrophone and speaker locations\nIntercom switch functions",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "ADF and Intercom integration",
+        "Troubleshooting common faults",
+        "Safety checks for radio equipment",
+        "Operational procedures review",
+        "Maintenance requirements overview"
+      ],
+      "content": "ADF and Intercom integration\nTroubleshooting common faults\nSafety checks for radio equipment\nOperational procedures review\nMaintenance requirements overview",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how the ADF determines aircraft position relative to a station.",
+    "Describe the function of the intercom panel in the aircraft cabin."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the differences between ADF and VOR systems to be discussed in LP 09.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Purpose and function of Altimeter and their types. Global positioning system (GPS) introduction, purpose airborne and space components of the system. Safety precautions to be observed whilst working on avionics systems",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 09"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

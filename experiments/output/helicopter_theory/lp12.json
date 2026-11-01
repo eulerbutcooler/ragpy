@@ -1,0 +1,152 @@
+{
+  "subject_name": "Helicopter Theory",
+  "subject_code": "11",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "12",
+  "total_lesson_plans": "27",
+  "time_allotted": "80 min",
+  "topic": "Study of pressure distribution over an aerofoil at various angles of attack, determination of center of pressure and aerodynamic center.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Study of pressure distribution over an aerofoil at various angles of attack, determination of center of pressure and aerodynamic center. various forces e.g. lift, drag and moments",
+  "specific_objectives": "11.1.2.1 Trainee will be able to describe various types of aerofoil sections, conditions of performance, theories, and concept related with performance",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Analysis of pressure distribution graphs for different angles of attack; identification of CP and AC locations; safety: No physical handling of live instruments; supervision: Instructor monitors graph interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of an aerofoil section?",
+    "Define the angle of attack in simple terms.",
+    "List the three main aerodynamic forces acting on a wing."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Pressure distribution at zero angle of attack",
+        "Effect of increasing angle of attack on pressure",
+        "Identification of stagnation and separation points",
+        "Calculation of resultant lift and drag vectors",
+        "Concept of moment generation about leading edge"
+      ],
+      "content": "Pressure distribution at zero angle of attack\nEffect of increasing angle of attack on pressure\nIdentification of stagnation and separation points\nCalculation of resultant lift and drag vectors\nConcept of moment generation about leading edge",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Definition and movement of center of pressure",
+        "Definition and fixed nature of aerodynamic center",
+        "Comparison of CP and AC locations",
+        "Impact of angle of attack on CP position",
+        "Significance of AC in stability analysis"
+      ],
+      "content": "Definition and movement of center of pressure\nDefinition and fixed nature of aerodynamic center\nComparison of CP and AC locations\nImpact of angle of attack on CP position\nSignificance of AC in stability analysis",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Relationship between lift, drag, and moment",
+        "Graphical determination of resultant forces",
+        "Effect of stall on pressure distribution",
+        "Summary of CP and AC characteristics",
+        "Application to helicopter rotor performance"
+      ],
+      "content": "Relationship between lift, drag, and moment\nGraphical determination of resultant forces\nEffect of stall on pressure distribution\nSummary of CP and AC characteristics\nApplication to helicopter rotor performance",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain why the center of pressure moves with angle of attack.",
+    "Why is the aerodynamic center preferred for stability calculations?",
+    "Describe how pressure distribution changes near the stall angle."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note comparing the behavior of the center of pressure and aerodynamic center, referencing the concepts covered in LP 13 regarding vortex theory and lift generation.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "NACA series, Vortex theory, Magnus effect, Kutta Joukowski law, Span wise flow, down Wash wing tip and trailing edge vortices. Methods for preventing span-wise flow.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 13"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Instructor, Instructor, P No.",
+  "approved_by": "Senior Instructor, Senior Instructor, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

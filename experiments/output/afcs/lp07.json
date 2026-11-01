@@ -1,0 +1,152 @@
+{
+  "subject_name": "AFCS",
+  "subject_code": "22",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "07",
+  "total_lesson_plans": "10",
+  "time_allotted": "80 min",
+  "topic": "Radar homing and sources of error and low altitude limitations",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Radar homing and sources of error and low altitude limitations.",
+  "specific_objectives": "22.1.1.1Trainee will be able to understand the basic of guided weapon systems and types of targets.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of radar homing principles and error analysis using IB and L & Ds; Instructor supervision required for safety protocols regarding weapon system theory.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of a radar homing system?",
+    "List two common types of targets for guided weapons.",
+    "Define the term 'line of sight' in the context of radar guidance."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Basic principles of radar homing guidance",
+        "Types of guided weapon systems",
+        "Classification of target types",
+        "Radar signal transmission and reception",
+        "Lock-on mechanisms and engagement"
+      ],
+      "content": "Basic principles of radar homing guidance\nTypes of guided weapon systems\nClassification of target types\nRadar signal transmission and reception\nLock-on mechanisms and engagement",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Sources of error in radar homing",
+        "Atmospheric interference effects",
+        "Clutter and ground reflection issues",
+        "Electronic counter-measures impact",
+        "Calibration and alignment errors"
+      ],
+      "content": "Sources of error in radar homing\nAtmospheric interference effects\nClutter and ground reflection issues\nElectronic counter-measures impact\nCalibration and alignment errors",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Low altitude flight limitations",
+        "Terrain masking and shadowing",
+        "Ground clutter dominance",
+        "Signal attenuation near surface",
+        "Navigation constraints at low levels"
+      ],
+      "content": "Low altitude flight limitations\nTerrain masking and shadowing\nGround clutter dominance\nSignal attenuation near surface\nNavigation constraints at low levels",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how atmospheric conditions can introduce errors in radar homing.",
+    "Describe the specific challenges faced during low-altitude radar operations.",
+    "Identify three sources of error that affect radar homing accuracy."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report comparing inertial navigation and radar homing systems, focusing on their respective advantages and limitations for future study in LP 08.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Long range guidance: Inertial navigation, Hybrid inertial system and air flying missile guidance.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 08"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

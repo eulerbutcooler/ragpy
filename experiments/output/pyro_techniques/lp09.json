@@ -1,0 +1,152 @@
+{
+  "subject_name": "Pyro techniques",
+  "subject_code": "34",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "09",
+  "total_lesson_plans": "10",
+  "time_allotted": "80 min",
+  "topic": "Introduction, purpose & leading particulars of Dhanush missile.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Introduction, purpose & leading particulars of Dhanush missile.",
+  "specific_objectives": "34.1.1.1 Trainee will be able to explain various terms on guided weapon.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of Dhanush missile schematic diagrams and terminology glossary; Safety: Handle diagrams carefully; Instructor supervision: Monitor comprehension of guided weapon terms.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary definition of a guided weapon?",
+    "Can you list three common types of guided missiles?",
+    "What is the fundamental difference between a guided and an unguided weapon?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Introduction to Dhanush Missile System",
+        "Purpose and Strategic Role",
+        "Launch Platform Capabilities",
+        "Guidance and Control Mechanisms",
+        "Key Performance Parameters"
+      ],
+      "content": "Introduction to Dhanush Missile System\nPurpose and Strategic Role\nLaunch Platform Capabilities\nGuidance and Control Mechanisms\nKey Performance Parameters",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Detailed Analysis of Leading Particulars",
+        "Range and Velocity Specifications",
+        "Warhead Types and Effects",
+        "Operational Envelope Details",
+        "System Integration Features"
+      ],
+      "content": "Detailed Analysis of Leading Particulars\nRange and Velocity Specifications\nWarhead Types and Effects\nOperational Envelope Details\nSystem Integration Features",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Terminology Explanation Session",
+        "Clarification of Guided Weapon Terms",
+        "Review of Specific Dhanush Jargon",
+        "Concept Mapping Exercise",
+        "Final Concept Verification"
+      ],
+      "content": "Terminology Explanation Session\nClarification of Guided Weapon Terms\nReview of Specific Dhanush Jargon\nConcept Mapping Exercise\nFinal Concept Verification",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the primary purpose of the Dhanush missile in naval defense.",
+    "Describe how the guidance system functions in the Dhanush missile.",
+    "Identify the key leading particulars that define the Dhanush missile's operational capability."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief comparison of the Dhanush missile's guidance system with the Bramhos missile to be discussed in the next lesson.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Introduction, purpose & leading particulars of Bramhos missile.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 10"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

@@ -1,0 +1,152 @@
+{
+  "subject_name": "Engineering Metrology",
+  "subject_code": "13",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "07",
+  "total_lesson_plans": "9",
+  "time_allotted": "80 min",
+  "topic": "Power requirements, induced power, rotor, profile and parasite power and total power requirements.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Power requirements, induced power, rotor, profile and parasite power and total power requirements.",
+  "specific_objectives": "13.1.1.1 Trainee will be able to explain the helicopter control, main rotor movements, translation flight, power, auto rotation, vibration checks and various adjustments.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of power requirement charts and identification of induced, profile, and parasite power components from IB diagrams.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the three main components of total power required for helicopter flight?",
+    "How does induced power change as airspeed increases?",
+    "Define profile power in the context of rotor aerodynamics."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of Total Power Requirements",
+        "Induced Power and Airspeed Relationship",
+        "Rotor Profile Power Characteristics",
+        "Parasite Power Components",
+        "Total Power Curve Analysis"
+      ],
+      "content": "Definition of Total Power Requirements\nInduced Power and Airspeed Relationship\nRotor Profile Power Characteristics\nParasite Power Components\nTotal Power Curve Analysis",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Interaction of Power Components",
+        "Minimum Power Speed Analysis",
+        "Effect of Weight on Power",
+        "Effect of Density Altitude",
+        "Power Margins for Safety"
+      ],
+      "content": "Interaction of Power Components\nMinimum Power Speed Analysis\nEffect of Weight on Power\nEffect of Density Altitude\nPower Margins for Safety",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Power Requirements in Translation",
+        "Comparison with Fixed Wing",
+        "Impact on Flight Envelope",
+        "Operational Implications",
+        "Review of Power Definitions"
+      ],
+      "content": "Power Requirements in Translation\nComparison with Fixed Wing\nImpact on Flight Envelope\nOperational Implications\nReview of Power Definitions",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how induced power varies during the transition from hover to forward flight.",
+    "Describe the relationship between parasite power and airspeed.",
+    "Why is understanding total power requirements critical for flight safety?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note comparing the power requirements of a helicopter in hover versus translation flight, referencing the concepts covered in LP 02 regarding basic flight mechanics.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Auto rotation, ground resonance, vertex ring, blade sailing.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 08"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Instructor, Subedar Major, P No. 12345",
+  "approved_by": "Course Coordinator, Major, P No. 67890",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

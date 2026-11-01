@@ -1,0 +1,152 @@
+{
+  "subject_name": "Air Navigation",
+  "subject_code": "21",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "08",
+  "total_lesson_plans": "18",
+  "time_allotted": "80 min",
+  "topic": "Demonstration and explanation procedure of removal and fitment of various LRUs/ major assemblies i.a.w ASM.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Demonstration and explanation procedure of removal and fitment of various LRUs/ major assemblies i.a.w ASM.",
+  "specific_objectives": "21.1.5.1 Trainee will be able to explain the procedure of removal and fitment of various LRUs i.a.w ASM",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of LRU removal and fitment procedures using IB and L & Ds; Safety precautions regarding static discharge and torque limits; Instructor supervision of trainee queries during explanation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of an Assembly Manual (ASM)?",
+    "Why must removal and fitment procedures be followed strictly?",
+    "What are the potential consequences of incorrect LRU installation?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Pre-flight inspection requirements",
+        "ASM chapter identification",
+        "Required tools and equipment",
+        "Static discharge precautions",
+        "Workshop environment standards"
+      ],
+      "content": "Pre-flight inspection requirements\nASM chapter identification\nRequired tools and equipment\nStatic discharge precautions\nWorkshop environment standards",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Step-by-step removal procedure",
+        "Marking and tagging protocols",
+        "Torque specifications and limits",
+        "Seal installation guidelines",
+        "Post-fitment verification checks"
+      ],
+      "content": "Step-by-step removal procedure\nMarking and tagging protocols\nTorque specifications and limits\nSeal installation guidelines\nPost-fitment verification checks",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Documentation requirements",
+        "Discrepancy reporting",
+        "Tool return verification",
+        "Area cleanup standards",
+        "Sign-off procedures"
+      ],
+      "content": "Documentation requirements\nDiscrepancy reporting\nTool return verification\nArea cleanup standards\nSign-off procedures",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the critical safety step before removing an LRU.",
+    "How do you verify that a fitment meets torque specifications?",
+    "What information must be recorded in the maintenance log after fitment?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief summary of the removal and fitment procedure for a specific LRU covered in the ASM, referencing the relevant chapter number and key safety precautions, to be used in the next practical session on documentation.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Practical on documentation based on following maintenance evolutions:- Part 4 U/S log of MOD form 700C for an equipment removal / fitment, Progressing routine inspections, out of phase operations / servicing due as per Part 6 D, E, F and re-forecasting, A defect observed in any system during flying or on ground, Any limitation and husbandry defects as in Part 2A& 2B with their entries clearing procedure in Part 4, Any defect cleared by DI/DR, Any defect cleared by robbing action, Any defect cleared by replacement of component and forecasting its life, Entries made for grounding / CTF / MTF, Acceptance of A/C and clearing in Part 4 by pilot for Ground run, CTF & MTF, Documentation linked to independent checks, supervisory checks and checks on special occasions.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 09"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

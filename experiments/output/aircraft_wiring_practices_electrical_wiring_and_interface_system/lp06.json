@@ -1,0 +1,146 @@
+{
+  "subject_name": "Aircraft Wiring Practices (Electrical wiring and Interface system)",
+  "subject_code": "12",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "06",
+  "total_lesson_plans": "7",
+  "time_allotted": "80 min",
+  "topic": "Hovering and forward flight, take off and climb to free air hover, vertical decent ground effect ground cushion re circulation effects.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Hovering and forward flight, take off and climb to free air hover, vertical decent ground effect ground cushion re circulation effects.",
+  "specific_objectives": "12.1.6.1 Trainee will be able to understand hovering and forward flight, take off and climb to free air hover, vertical decent ground effect ground cushion re-circulation effects.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of flight dynamics diagrams; Instructor supervision of diagram interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the primary flight phases covered in this lesson?",
+    "Define the term 'free air hover'.",
+    "List the aerodynamic effects occurring during vertical descent."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Hovering and forward flight principles",
+        "Take off and climb to free air hover",
+        "Vertical descent dynamics"
+      ],
+      "content": "Hovering and forward flight principles\nTake off and climb to free air hover\nVertical descent dynamics",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Ground effect aerodynamics",
+        "Ground cushion effects",
+        "Re-circulation effects analysis"
+      ],
+      "content": "Ground effect aerodynamics\nGround cushion effects\nRe-circulation effects analysis",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Transition from hover to forward flight",
+        "Climb performance characteristics",
+        "Descent rate variations"
+      ],
+      "content": "Transition from hover to forward flight\nClimb performance characteristics\nDescent rate variations",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between ground effect and ground cushion.",
+    "Describe the re-circulation effects during vertical descent.",
+    "How does forward flight differ from hovering in terms of lift generation?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the transition from LP 02 to this lesson regarding flight envelope limitations.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Auto rotation, ground resonance, vortex ring, blade sailing.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 07"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

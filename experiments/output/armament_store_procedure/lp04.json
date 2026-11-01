@@ -1,0 +1,152 @@
+{
+  "subject_name": "Armament Store Procedure",
+  "subject_code": "33",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "04",
+  "total_lesson_plans": "8",
+  "time_allotted": "80 min",
+  "topic": "Canopy jettison system, type of various checks on canopy",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Canopy jettison system, type of various checks on canopy",
+  "specific_objectives": "33.1.1.1 Trainee will be able to explain historical development of ejection seat",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of canopy jettison system diagrams and checklists; Instructor supervision of theoretical Q&A",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of the canopy jettison system?",
+    "List two conditions requiring canopy jettison before ejection.",
+    "Why is canopy jettison critical for pilot survival?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Historical development of ejection seats",
+        "Evolution of canopy jettison mechanisms",
+        "Key milestones in seat safety",
+        "Early vs modern canopy systems",
+        "Impact of canopy design on ejection"
+      ],
+      "content": "Historical development of ejection seats\nEvolution of canopy jettison mechanisms\nKey milestones in seat safety\nEarly vs modern canopy systems\nImpact of canopy design on ejection",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Types of canopy jettison checks",
+        "Pre-ejection canopy inspection",
+        "Post-ejection canopy status verification",
+        "Emergency canopy release procedures",
+        "Routine maintenance checks on canopy"
+      ],
+      "content": "Types of canopy jettison checks\nPre-ejection canopy inspection\nPost-ejection canopy status verification\nEmergency canopy release procedures\nRoutine maintenance checks on canopy",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Common canopy system failures",
+        "Troubleshooting jettison issues",
+        "Safety protocols during checks",
+        "Documentation of canopy inspections",
+        "Reporting anomalies in canopy systems"
+      ],
+      "content": "Common canopy system failures\nTroubleshooting jettison issues\nSafety protocols during checks\nDocumentation of canopy inspections\nReporting anomalies in canopy systems",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the relationship between canopy jettison and ejection seat deployment.",
+    "Describe the steps involved in a pre-ejection canopy check.",
+    "How does historical development influence current canopy safety standards?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief summary of the canopy jettison system checks to be discussed in LP 02 regarding different ejection seat conditions.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Different conditions of ejection seat i.e. safe for parking, servicing and flight conditions",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 05"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

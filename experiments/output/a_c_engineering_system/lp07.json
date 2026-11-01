@@ -1,0 +1,152 @@
+{
+  "subject_name": "A/C Engineering System",
+  "subject_code": "17",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "07",
+  "total_lesson_plans": "30",
+  "time_allotted": "80 min",
+  "topic": "Hydraulic system, general design requirements, Typical layout of a basic hydraulic system and its brief description",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Hydraulic system, general design requirements, Typical layout of a basic hydraulic system and its brief description",
+  "specific_objectives": "17.1.2.1 Trainee will be able to describe typical hydraulic system and construction of its components.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of hydraulic schematic diagrams; Instructor supervision required for diagram interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of a hydraulic system in aircraft?",
+    "Name two advantages of hydraulic systems over mechanical linkages.",
+    "What is the standard pressure range for typical aircraft hydraulic systems?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "General design requirements for hydraulic systems",
+        "Selection of working fluid and pressure limits",
+        "Safety factors and redundancy requirements",
+        "Material compatibility and corrosion resistance",
+        "System efficiency and heat dissipation needs"
+      ],
+      "content": "General design requirements for hydraulic systems\nSelection of working fluid and pressure limits\nSafety factors and redundancy requirements\nMaterial compatibility and corrosion resistance\nSystem efficiency and heat dissipation needs",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Typical layout of a basic hydraulic system",
+        "Function of reservoirs and fluid conditioning units",
+        "Operation of pumps and pressure control valves",
+        "Distribution networks and actuator components",
+        "Return lines and filtration systems"
+      ],
+      "content": "Typical layout of a basic hydraulic system\nFunction of reservoirs and fluid conditioning units\nOperation of pumps and pressure control valves\nDistribution networks and actuator components\nReturn lines and filtration systems",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Brief description of major system components",
+        "Construction details of pumps and motors",
+        "Valve types and their operational mechanisms",
+        "Actuator construction and force generation",
+        "System integration and interconnection logic"
+      ],
+      "content": "Brief description of major system components\nConstruction details of pumps and motors\nValve types and their operational mechanisms\nActuator construction and force generation\nSystem integration and interconnection logic",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the role of the reservoir in maintaining system pressure stability.",
+    "Describe how a pressure relief valve protects the hydraulic system from over-pressurization.",
+    "Identify the path of hydraulic fluid from the pump to the actuator and back."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the importance of clean pipelines and protective ointment when handling hydraulic oils, linking this to the next lesson on oil specifications.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Specification of hydraulic oil, need for clean pipelines and use of protective ointment while handling oils.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 08"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

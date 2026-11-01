@@ -1,0 +1,148 @@
+{
+  "subject_name": "EMI/EMC",
+  "subject_code": "14",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "33",
+  "total_lesson_plans": "46",
+  "time_allotted": "80 min",
+  "topic": "Purpose and explanation of electro pneumatic servo actuators and electro mechanical servo actuators",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Purpose and explanation of electro pneumatic servo actuators and electro mechanical servo actuators.",
+  "specific_objectives": "14.2.1.1 Trainee will be able to explain the functions of AFCS.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of AFCS block diagrams and signal flow charts from IB; Instructor supervision required for diagram interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of the AFCS?",
+    "Define a servo actuator in the context of flight controls.",
+    "List two types of servo actuators covered in this lesson."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition and purpose of electro pneumatic servo actuators",
+        "Operating principle of electro pneumatic servo actuators",
+        "Key components of electro pneumatic servo actuators",
+        "Advantages and limitations of electro pneumatic systems"
+      ],
+      "content": "Definition and purpose of electro pneumatic servo actuators\nOperating principle of electro pneumatic servo actuators\nKey components of electro pneumatic servo actuators\nAdvantages and limitations of electro pneumatic systems",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Definition and purpose of electro mechanical servo actuators",
+        "Operating principle of electro mechanical servo actuators",
+        "Key components of electro mechanical servo actuators",
+        "Comparison between electro pneumatic and electro mechanical types"
+      ],
+      "content": "Definition and purpose of electro mechanical servo actuators\nOperating principle of electro mechanical servo actuators\nKey components of electro mechanical servo actuators\nComparison between electro pneumatic and electro mechanical types",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Role of servo actuators in AFCS control loops",
+        "Signal conversion processes in electro pneumatic and electro mechanical systems",
+        "Maintenance considerations for servo actuators",
+        "Troubleshooting common servo actuator failures"
+      ],
+      "content": "Role of servo actuators in AFCS control loops\nSignal conversion processes in electro pneumatic and electro mechanical systems\nMaintenance considerations for servo actuators\nTroubleshooting common servo actuator failures",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how an electro pneumatic servo actuator converts electrical signals to pneumatic motion.",
+    "Differentiate between the power sources used in electro pneumatic and electro mechanical servo actuators."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the role of electro mechanical servo actuators in the next lesson on powered control (electro hydraulic servo motors) to establish a bridge between hydraulic and mechanical/electrical actuation systems.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Principle of operation of powered control (electro hydraulic servo motors).",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 34"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

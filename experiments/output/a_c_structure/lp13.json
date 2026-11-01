@@ -1,0 +1,151 @@
+{
+  "subject_name": "A/C Structure",
+  "subject_code": "11",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "13",
+  "total_lesson_plans": "17",
+  "time_allotted": "80 min",
+  "topic": "Empennage structure, configuration of longitudinal stabilizer and concord and fore plane, layout of configuration of lateral stabilizer and control",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Empennage structure, configuration of longitudinal stabilizer and concord and fore plane, layout of configuration of lateral stabilizer and control",
+  "specific_objectives": "11.1.1.1 Trainee will be able to explain aircraft structure, various structural elements and their details.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of IB diagrams and L & Ds; Instructor supervision on structural element identification",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the primary functions of the empennage?",
+    "Name the two main components of the empennage.",
+    "How does the empennage differ from the fuselage structure?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Empennage structure and elements",
+        "Longitudinal stabilizer configuration",
+        "Concord and fore plane layout",
+        "Lateral stabilizer configuration",
+        "Control surface layout"
+      ],
+      "content": "Empennage structure and elements\nLongitudinal stabilizer configuration\nConcord and fore plane layout\nLateral stabilizer configuration\nControl surface layout",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Structural elements of longitudinal stabilizer",
+        "Configuration of concord and fore plane",
+        "Layout of lateral stabilizer structure",
+        "Control mechanisms in empennage",
+        "Integration of stabilizer and control"
+      ],
+      "content": "Structural elements of longitudinal stabilizer\nConfiguration of concord and fore plane\nLayout of lateral stabilizer structure\nControl mechanisms in empennage\nIntegration of stabilizer and control",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Detailed review of empennage structure",
+        "Analysis of longitudinal and lateral layouts",
+        "Identification of structural elements",
+        "Review of control surface configurations",
+        "Summary of empennage functions"
+      ],
+      "content": "Detailed review of empennage structure\nAnalysis of longitudinal and lateral layouts\nIdentification of structural elements\nReview of control surface configurations\nSummary of empennage functions",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the structural elements of the longitudinal stabilizer.",
+    "Describe the layout of the lateral stabilizer and its control."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the structural elements of the empennage to be discussed in LP 14 regarding control surfaces and tabs.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Control surface and tabs, aerodynamics characteristics of trailing edge controls, types of tabs, all moving surface, mechanical and structural aspects of control surface design",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 14"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

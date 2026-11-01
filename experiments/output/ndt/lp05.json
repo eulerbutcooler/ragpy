@@ -1,0 +1,147 @@
+{
+  "subject_name": "NDT",
+  "subject_code": "19",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "05",
+  "total_lesson_plans": "9",
+  "time_allotted": "80 min",
+  "topic": "Radiographic inspection, use, applicability inspection principle of radiography, X-ray gamma ray, shadow for motion, types of recording, types of test specimen safety precaution while using x-ray",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Radiographic inspection, use, applicability inspection principle of radiography, X-ray gamma ray, shadow for motion, types of recording, types of test specimen safety precaution while using x-ray",
+  "specific_objectives": "19.1.2.1 Trainee will be able to explain principle of radiographic inspection.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of sample radiographs to identify defects and discuss safety protocols",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of radiographic inspection?",
+    "Name two sources used for generating radiation in NDT.",
+    "Why is safety precaution critical when handling X-ray equipment?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Principle of radiographic inspection",
+        "Interaction of radiation with matter",
+        "Shadow formation and motion blur",
+        "Types of recording media"
+      ],
+      "content": "Principle of radiographic inspection\nInteraction of radiation with matter\nShadow formation and motion blur\nTypes of recording media",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "X-ray and Gamma ray sources",
+        "Applicability of radiography",
+        "Types of test specimens"
+      ],
+      "content": "X-ray and Gamma ray sources\nApplicability of radiography\nTypes of test specimens",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Safety precautions during X-ray use",
+        "Regulatory limits for exposure",
+        "Emergency procedures for radiation leaks"
+      ],
+      "content": "Safety precautions during X-ray use\nRegulatory limits for exposure\nEmergency procedures for radiation leaks",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how a radiographic shadow indicates a defect in a specimen.",
+    "Differentiate between X-ray and Gamma ray sources in terms of applicability.",
+    "List three essential safety precautions when operating X-ray equipment."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report comparing the principle and applications of neutron radiography discussed in the next lesson (LP 06) with the X-ray radiography covered in this session.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Inspection of neutron radiography introduction, different methods principle and various applications",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 06"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

@@ -1,0 +1,152 @@
+{
+  "subject_name": "Aircraft Airframe",
+  "subject_code": "33",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "01",
+  "total_lesson_plans": "11",
+  "time_allotted": "80 min",
+  "topic": "Basic revision of Q syllabus",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Basic revision of Q syllabus",
+  "specific_objectives": "33.1.1.1 Trainee will be able to state various terminology used and differentiate between Error, Mistake, Negligence and Violation, flight safety, near miss box and accident reporting procedure.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Classroom discussion on terminology definitions; Safety precautions: Maintain discipline; Instructor supervision: Monitor participation",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary difference between an error and a mistake?",
+    "Define the term 'flight safety' in your own words.",
+    "Why is reporting a near miss important for aviation safety?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of Error",
+        "Definition of Mistake",
+        "Definition of Negligence",
+        "Definition of Violation",
+        "Key differences between terms"
+      ],
+      "content": "Definition of Error\nDefinition of Mistake\nDefinition of Negligence\nDefinition of Violation\nKey differences between terms",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Flight safety concepts",
+        "Near miss box criteria",
+        "Accident reporting procedure",
+        "Reporting timelines",
+        "Documentation requirements"
+      ],
+      "content": "Flight safety concepts\nNear miss box criteria\nAccident reporting procedure\nReporting timelines\nDocumentation requirements",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Review of terminology",
+        "Distinction between negligence and violation",
+        "Importance of accurate reporting",
+        "Consequences of non-reporting",
+        "Summary of Q syllabus basics"
+      ],
+      "content": "Review of terminology\nDistinction between negligence and violation\nImportance of accurate reporting\nConsequences of non-reporting\nSummary of Q syllabus basics",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "How would you classify a deliberate act against regulations?",
+    "What specific information must be included in an accident report?",
+    "Explain the difference between a near miss and an accident."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note distinguishing between Error, Mistake, Negligence, and Violation to be discussed in LP 02.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Difference between Error, Mistake, Negligence and Violation.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 02"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

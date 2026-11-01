@@ -1,0 +1,152 @@
+{
+  "subject_name": "Armament Store Procedure",
+  "subject_code": "33",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "08",
+  "total_lesson_plans": "8",
+  "time_allotted": "80 min",
+  "topic": "Safety precautions while working on / around ejection seat",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Safety precautions while working on / around ejection seat.",
+  "specific_objectives": "33.1.1.1 Trainee will be able to explain historical development of ejection seat",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of historical timeline of ejection seat evolution; Instructor supervision required for safety protocol verification",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of an ejection seat?",
+    "Can you name one early ejection seat system used in WWII?",
+    "Why is safety critical when handling ejection seat components?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Early ejection seat concepts",
+        "Development of zero-zero capability",
+        "Introduction of rocket motors",
+        "Modern safety features",
+        "Historical timeline overview"
+      ],
+      "content": "Early ejection seat concepts\nDevelopment of zero-zero capability\nIntroduction of rocket motors\nModern safety features\nHistorical timeline overview",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Evolution of restraint systems",
+        "Parachute deployment mechanisms",
+        "G-force management history",
+        "Material advancements over time",
+        "Key milestones in design"
+      ],
+      "content": "Evolution of restraint systems\nParachute deployment mechanisms\nG-force management history\nMaterial advancements over time\nKey milestones in design",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Impact of historical designs on current safety",
+        "Lessons learned from past incidents",
+        "Future trends in ejection seat tech",
+        "Comparison of legacy vs modern systems",
+        "Summary of historical progression"
+      ],
+      "content": "Impact of historical designs on current safety\nLessons learned from past incidents\nFuture trends in ejection seat tech\nComparison of legacy vs modern systems\nSummary of historical progression",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "How did the introduction of rocket motors change ejection seat safety?",
+    "What historical lesson is most relevant to current maintenance procedures?",
+    "Can you explain the evolution of G-force management in ejection seats?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the historical development of ejection seats informs the safety precautions required in the next lesson plan (LP 02).",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "End of subject",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "-"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

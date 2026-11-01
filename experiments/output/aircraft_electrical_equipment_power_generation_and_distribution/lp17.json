@@ -1,0 +1,152 @@
+{
+  "subject_name": "Aircraft Electrical equipment, Power generation and Distribution",
+  "subject_code": "15",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "17",
+  "total_lesson_plans": "35",
+  "time_allotted": "80 min",
+  "topic": "Principle of operation and constructional details of float type gauge",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Principle of operation and constructional details of float type gauge. Practical & Demonstration",
+  "specific_objectives": "15.1.7.2 Trainee will be able to explain float type fuel quantity measurement indicator.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of float type gauge mechanism using model; Safety: Handle float arm gently to avoid damage; Supervision: Instructor monitors trainee interaction with model components",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of a fuel quantity indicator?",
+    "Name two types of fuel gauges used in aircraft.",
+    "How does the float type gauge differ from the capacitance type gauge?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Constructional details of float type gauge",
+        "Float arm and lever mechanism",
+        "Magnetic reed switch operation",
+        "Fuel tank installation requirements",
+        "Electrical circuit connections"
+      ],
+      "content": "Constructional details of float type gauge\nFloat arm and lever mechanism\nMagnetic reed switch operation\nFuel tank installation requirements\nElectrical circuit connections",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Principle of operation explanation",
+        "Float movement and switch actuation",
+        "Signal transmission to cockpit indicator",
+        "Calibration and zeroing procedures",
+        "Common failure modes and causes"
+      ],
+      "content": "Principle of operation explanation\nFloat movement and switch actuation\nSignal transmission to cockpit indicator\nCalibration and zeroing procedures\nCommon failure modes and causes",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Practical demonstration of gauge operation",
+        "Verification of switch actuation points",
+        "Troubleshooting simulated faults",
+        "Documentation of observations",
+        "Safety checks during practical session"
+      ],
+      "content": "Practical demonstration of gauge operation\nVerification of switch actuation points\nTroubleshooting simulated faults\nDocumentation of observations\nSafety checks during practical session",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how the float movement translates into an electrical signal.",
+    "Describe the role of the magnetic reed switch in the gauge operation.",
+    "List three potential causes for inaccurate fuel readings in a float type gauge."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note comparing the float type gauge with the capacitance type gauge, focusing on their operating principles and applications, to be discussed in Lesson Plan 18.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Capacitance type fuel gauge.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 18"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

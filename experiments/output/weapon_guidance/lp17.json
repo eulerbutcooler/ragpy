@@ -1,0 +1,149 @@
+{
+  "subject_name": "Weapon Guidance",
+  "subject_code": "19",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "17",
+  "total_lesson_plans": "22",
+  "time_allotted": "80 min",
+  "topic": "Definition of grounding, various types of grounding, grounding methods",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Definition of grounding, various types of grounding, grounding methods.",
+  "specific_objectives": "19.1.1.1Trainee will be able to explain aircraft wiring and Causes of wiring degradation.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstrate proper grounding clamp attachment and verify continuity with multimeter; Safety: Ensure power off and PPE worn; Supervision: Instructor monitors tool usage and safety compliance.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of grounding in an aircraft electrical system?",
+    "List two common causes of aircraft wiring degradation.",
+    "Why is a single-point ground preferred over multiple grounds in certain systems?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of electrical grounding",
+        "Path of least resistance to earth",
+        "Safety function of grounding systems",
+        "Reference to IB Chapter 19"
+      ],
+      "content": "Definition of electrical grounding\nPath of least resistance to earth\nSafety function of grounding systems\nReference to IB Chapter 19",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Single-point grounding method",
+        "Multi-point grounding method",
+        "Distributed grounding method",
+        "Comparison of grounding types"
+      ],
+      "content": "Single-point grounding method\nMulti-point grounding method\nDistributed grounding method\nComparison of grounding types",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Grounding clamp installation procedure",
+        "Verification of ground continuity",
+        "Common grounding faults identification",
+        "Precautions during grounding work"
+      ],
+      "content": "Grounding clamp installation procedure\nVerification of ground continuity\nCommon grounding faults identification\nPrecautions during grounding work",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between single-point and multi-point grounding in aircraft systems.",
+    "Describe the steps to verify proper grounding continuity on a live aircraft panel.",
+    "Identify three causes of wiring degradation related to improper grounding."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report comparing grounding and bonding methods as covered in LP 17 and LP 18, highlighting key differences in application and safety implications.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Definition of bonding, various types of bonding, bonding methods.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 18"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Instructor, Flight Lieutenant, P No. 12345",
+  "approved_by": "Senior Instructor, Wing Commander, P No. 67890",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

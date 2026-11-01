@@ -1,0 +1,152 @@
+{
+  "subject_name": "Air Navigation",
+  "subject_code": "21",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "16",
+  "total_lesson_plans": "18",
+  "time_allotted": "80 min",
+  "topic": "Identification / removal and installation of various system components.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Identification / removal and installation of various system components.",
+  "specific_objectives": "21.1.10.1 Trainee will be able to explain how to carry out DI / DR on aircraft system.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Identification and removal/installation of system components; Safety: PPE, ESD protection, Torque limits; Supervision: Instructor monitors torque and alignment.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What does DI stand for in aircraft maintenance?",
+    "What does DR stand for in aircraft maintenance?",
+    "Why is component identification critical before removal?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of DI and DR procedures",
+        "Pre-requisites for component removal",
+        "Tools required for identification",
+        "Marking and tagging protocols",
+        "Documentation requirements"
+      ],
+      "content": "Definition of DI and DR procedures\nPre-requisites for component removal\nTools required for identification\nMarking and tagging protocols\nDocumentation requirements",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Step-by-step removal procedure",
+        "Installation alignment techniques",
+        "Torque application standards",
+        "Verification of installation",
+        "Post-installation inspection"
+      ],
+      "content": "Step-by-step removal procedure\nInstallation alignment techniques\nTorque application standards\nVerification of installation\nPost-installation inspection",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Common errors in DI/DR",
+        "Troubleshooting installation issues",
+        "Safety checks during removal",
+        "Handling damaged components",
+        "Record keeping best practices"
+      ],
+      "content": "Common errors in DI/DR\nTroubleshooting installation issues\nSafety checks during removal\nHandling damaged components\nRecord keeping best practices",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between DI and DR in your own words.",
+    "List three safety precautions required during component removal.",
+    "Describe the correct sequence for installing a system component."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the wire locking techniques discussed in LP 17 and how they relate to securing system components after installation.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Practical on different wire locking techniques used during maintenance.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 17"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

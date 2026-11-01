@@ -1,0 +1,152 @@
+{
+  "subject_name": "EMI/EMC",
+  "subject_code": "14",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "42",
+  "total_lesson_plans": "46",
+  "time_allotted": "80 min",
+  "topic": "Explanation of helicopter autopilot system and various facilities available through it.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Explanation of helicopter autopilot system and various facilities available through it.",
+  "specific_objectives": "14.2.1.1 Trainee will be able to explain the functions of AFCS.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of AFCS block diagram and facility list from IB; Instructor supervision during Q&A.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of an autopilot system?",
+    "Name two manual flight controls used in a helicopter.",
+    "Why is an autopilot necessary for helicopter operations?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition and basic principle of AFCS",
+        "Sensors and data acquisition units",
+        "Control laws and stability augmentation",
+        "Actuator types and power sources",
+        "System integration with flight instruments"
+      ],
+      "content": "Definition and basic principle of AFCS\nSensors and data acquisition units\nControl laws and stability augmentation\nActuator types and power sources\nSystem integration with flight instruments",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Attitude hold and heading hold functions",
+        "Altitude hold and vertical speed control",
+        "Yaw damping and turn coordination",
+        "Auto-hover and auto-landing facilities",
+        "Manual override and disengagement procedures"
+      ],
+      "content": "Attitude hold and heading hold functions\nAltitude hold and vertical speed control\nYaw damping and turn coordination\nAuto-hover and auto-landing facilities\nManual override and disengagement procedures",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "System limitations and failure modes",
+        "Maintenance requirements and checks",
+        "Operational restrictions during flight",
+        "Troubleshooting common AFCS faults",
+        "Future trends in helicopter automation"
+      ],
+      "content": "System limitations and failure modes\nMaintenance requirements and checks\nOperational restrictions during flight\nTroubleshooting common AFCS faults\nFuture trends in helicopter automation",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how the AFCS maintains altitude during flight.",
+    "Describe the procedure for manually overriding the autopilot.",
+    "List three limitations of the current helicopter autopilot system."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the need for Flight Director Systems (FDS) as covered in the next lesson plan (LP 43), highlighting how it complements the AFCS.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Need and components of FDS.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 43"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Instructor, Flight Lieutenant, P No. 12345",
+  "approved_by": "Senior Instructor, Captain, P No. 67890",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

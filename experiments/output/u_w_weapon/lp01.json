@@ -1,0 +1,149 @@
+{
+  "subject_name": "U/W Weapon",
+  "subject_code": "38",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "01",
+  "total_lesson_plans": "9",
+  "time_allotted": "80 min",
+  "topic": "Aircraft Documentation: Up-keeping various a/c servicing forms & Component Log cards (Passports), Calculation of Flying hrs & Component hour",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Aircraft Documentation: Up-keeping various a/c servicing forms & Component Log cards (Passports), Calculation of Flying hrs & Component hours, Recording & Certification of relevant servicing work entries in respective columns of servicing forms, Forecasting of Inspection/ Servicing, Disposal / Destruction of a/c documents, Common errors in documentation, Do’s and Don’ts.",
+  "specific_objectives": "38.1.1.1 Trainee will be able to explain principles of Correct Aircraft Maintenance Practices, tools and their usage",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of sample Servicing Forms and Component Log Cards; Verification of Flying Hour calculations; Instructor supervision on correct entry formatting and certification signatures.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of Aircraft Documentation?",
+    "Name one type of Component Log card used in aviation.",
+    "Why is accurate recording of servicing entries critical?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Aircraft Servicing Forms Maintenance",
+        "Component Log Cards and Passports",
+        "Calculation of Flying and Component Hours",
+        "Recording and Certification of Entries"
+      ],
+      "content": "Aircraft Servicing Forms Maintenance\nComponent Log Cards and Passports\nCalculation of Flying and Component Hours\nRecording and Certification of Entries",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Forecasting of Inspection and Servicing",
+        "Disposal and Destruction of Documents",
+        "Common Errors in Documentation",
+        "Do's and Don'ts in Record Keeping"
+      ],
+      "content": "Forecasting of Inspection and Servicing\nDisposal and Destruction of Documents\nCommon Errors in Documentation\nDo's and Don'ts in Record Keeping",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Practical Exercise on Form Completion",
+        "Error Identification in Sample Logs",
+        "Corrective Action for Documentation",
+        "Instructor Supervision and Feedback"
+      ],
+      "content": "Practical Exercise on Form Completion\nError Identification in Sample Logs\nCorrective Action for Documentation\nInstructor Supervision and Feedback",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the procedure for forecasting the next scheduled inspection.",
+    "Identify two common errors found in aircraft documentation and their consequences.",
+    "Describe the correct steps for the disposal of obsolete aircraft documents."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief summary of the key differences between OLGs and Component Log Cards to be discussed in the next lesson plan regarding OLG identification and upkeep.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "OLGs – Identification of OLGs, Up-keeping OLGs Issue Centre, Life Extension of OLGs, Common Errors, Storage and Handling of OLGs and Ready Use OLGs.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 02"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

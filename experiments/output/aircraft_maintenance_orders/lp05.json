@@ -1,0 +1,151 @@
+{
+  "subject_name": "Aircraft Maintenance Orders",
+  "subject_code": "1",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "05",
+  "total_lesson_plans": "16",
+  "time_allotted": "80 min",
+  "topic": "Branch structure and promotion regulations of air technical sailors' terms conditions and time frame as per current order and instruction.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Branch structure and promotion regulations of air technical sailors’ terms conditions and time frame as per current order and instruction.",
+  "specific_objectives": "1.1.1.2 Trainee will be able to understand the qualification of responsibilities and promotion regulations.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of current promotion orders and discussion on qualification requirements for various branches.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of the Air Force Branch structure?",
+    "Can you name two key factors influencing promotion regulations?",
+    "How does the current order define the time frame for technical sailors?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Overview of Air Force Branch structure",
+        "Qualification requirements for entry branches",
+        "Responsibilities of technical sailors in branches",
+        "Current promotion regulations framework",
+        "Time frame for promotion eligibility"
+      ],
+      "content": "Overview of Air Force Branch structure\nQualification requirements for entry branches\nResponsibilities of technical sailors in branches\nCurrent promotion regulations framework\nTime frame for promotion eligibility",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Detailed analysis of promotion timelines",
+        "Impact of performance on promotion eligibility",
+        "Review of specific branch promotion rules",
+        "Understanding terms and conditions of service",
+        "Case studies on promotion pathways"
+      ],
+      "content": "Detailed analysis of promotion timelines\nImpact of performance on promotion eligibility\nReview of specific branch promotion rules\nUnderstanding terms and conditions of service\nCase studies on promotion pathways",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Summary of key promotion regulations",
+        "Clarification of common misconceptions",
+        "Q&A session on branch structures",
+        "Review of current order instructions",
+        "Finalizing understanding of time frames"
+      ],
+      "content": "Summary of key promotion regulations\nClarification of common misconceptions\nQ&A session on branch structures\nReview of current order instructions\nFinalizing understanding of time frames",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the relationship between qualification and promotion eligibility.",
+    "How do current orders impact the time frame for promotion?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the promotion regulations in this lesson relate to the Aircraft servicing forms discussed in LP 02.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Aircraft servicing form MOD form 700C and explanation of parts, various sections & use of TA-700, Monitoring of differed defects.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 06"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

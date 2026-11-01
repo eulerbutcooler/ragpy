@@ -1,0 +1,151 @@
+{
+  "subject_name": "Advanced Aircraft Technology (AAT)",
+  "subject_code": "31",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "07",
+  "total_lesson_plans": "12",
+  "time_allotted": "80 min",
+  "topic": "Removal of loose rivets structural repair on aircraft structure",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Removal of loose rivets structural repair on aircraft structure",
+  "specific_objectives": "31.1.3.1 Trainee will be able to perform various repair works on aircraft structure",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of loose rivet removal using drill and hammer; Safety precautions include PPE and fire watch; Instructor supervision required during drilling.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the common causes of loose rivets in aircraft structures?",
+    "Why is it critical to remove loose rivets before applying new repair?",
+    "List three safety precautions required before starting rivet removal."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Identification of loose rivets",
+        "Preparation of work area",
+        "Selection of removal tools",
+        "Drilling technique for removal",
+        "Cleaning of rivet holes"
+      ],
+      "content": "Identification of loose rivets\nPreparation of work area\nSelection of removal tools\nDrilling technique for removal\nCleaning of rivet holes",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Inspection of surrounding structure",
+        "Removal of damaged skin",
+        "Preparation of new rivets",
+        "Installation of new rivets",
+        "Final inspection and torque check"
+      ],
+      "content": "Inspection of surrounding structure\nRemoval of damaged skin\nPreparation of new rivets\nInstallation of new rivets\nFinal inspection and torque check",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Documentation of repair",
+        "Marking of repaired area",
+        "Reporting of defects",
+        "Storage of removed parts",
+        "Tool cleanup and return"
+      ],
+      "content": "Documentation of repair\nMarking of repaired area\nReporting of defects\nStorage of removed parts\nTool cleanup and return",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the correct sequence for removing a loose rivet without damaging the surrounding skin.",
+    "Describe the steps required to prepare a new rivet for installation after removing a loose one."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the tools and materials required for structural repair, referencing LP 02.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Introduction to Welding and types of welding technologies",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 08"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

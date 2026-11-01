@@ -1,0 +1,152 @@
+{
+  "subject_name": "NBCD",
+  "subject_code": "30",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "02",
+  "total_lesson_plans": "6",
+  "time_allotted": "80 min",
+  "topic": "By using antenna trainer, observe, measure output and radiation pattern on following antenna: - Half wave simple dipole antenna, Quarter wave",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "By using antenna trainer, observe, measure output and radiation pattern on following antenna: - Half wave simple dipole antenna, Quarter wave simple dipole antenna & Half wave folded dipole with reflector antenna.",
+  "specific_objectives": "30.1.1.1 Trainee should be able to practical on various lab FTL, RF & Embedded lab.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Operation of Antenna Trainer to measure output and observe radiation patterns for Half Wave Simple Dipole, Quarter Wave Simple Dipole, and Half Wave Folded Dipole with Reflector. Safety: Ensure RF power is off before connecting cables. Instructor supervision required during measurement.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the fundamental difference between a half-wave and a quarter-wave antenna?",
+    "Define the term 'radiation pattern' in the context of antenna theory.",
+    "List the three specific antenna types to be practiced in this session."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Setup of Antenna Trainer and Signal Generator",
+        "Connection of Half Wave Simple Dipole Antenna",
+        "Measurement of Output Voltage and Current",
+        "Observation of Radiation Pattern for Half Wave Dipole",
+        "Recording of Data for Half Wave Simple Dipole"
+      ],
+      "content": "Setup of Antenna Trainer and Signal Generator\nConnection of Half Wave Simple Dipole Antenna\nMeasurement of Output Voltage and Current\nObservation of Radiation Pattern for Half Wave Dipole\nRecording of Data for Half Wave Simple Dipole",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Installation of Quarter Wave Simple Dipole Antenna",
+        "Measurement of Output Voltage and Current",
+        "Observation of Radiation Pattern for Quarter Wave Dipole",
+        "Comparison of Patterns between Half and Quarter Wave",
+        "Recording of Data for Quarter Wave Simple Dipole"
+      ],
+      "content": "Installation of Quarter Wave Simple Dipole Antenna\nMeasurement of Output Voltage and Current\nObservation of Radiation Pattern for Quarter Wave Dipole\nComparison of Patterns between Half and Quarter Wave\nRecording of Data for Quarter Wave Simple Dipole",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Assembly of Half Wave Folded Dipole with Reflector",
+        "Measurement of Output Voltage and Current",
+        "Observation of Radiation Pattern for Folded Dipole",
+        "Analysis of Reflector Effect on Pattern",
+        "Recording of Data for Folded Dipole with Reflector"
+      ],
+      "content": "Assembly of Half Wave Folded Dipole with Reflector\nMeasurement of Output Voltage and Current\nObservation of Radiation Pattern for Folded Dipole\nAnalysis of Reflector Effect on Pattern\nRecording of Data for Folded Dipole with Reflector",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how the radiation pattern of a quarter-wave dipole differs from a half-wave dipole.",
+    "Describe the role of the reflector in a folded dipole antenna system.",
+    "Summarize the key measurements taken for each of the three antenna types."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report comparing the theoretical radiation patterns of the Half Wave Simple Dipole and the Half Wave Folded Dipole with Reflector based on the session observations.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Demonstration of real time data acquisition system.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 03"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

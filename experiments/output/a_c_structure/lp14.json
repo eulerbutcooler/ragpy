@@ -1,0 +1,152 @@
+{
+  "subject_name": "A/C Structure",
+  "subject_code": "11",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "14",
+  "total_lesson_plans": "17",
+  "time_allotted": "80 min",
+  "topic": "Control surface and tabs, aerodynamics characteristics of trailing edge controls, types of tabs, all moving surface, mechanical and structural aspects of control surface design",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Control surface and tabs, aerodynamics characteristics of trailing edge controls, types of tabs, all moving surface, mechanical and structural aspects of control surface design",
+  "specific_objectives": "11.1.1.1 Trainee will be able to explain aircraft structure, various structural elements and their details.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Examination of control surface cutaway models; verification of hinge line alignment and tab actuation linkage; safety: Handle sharp edges with care; Instructor supervision required during model handling.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the primary structural elements of an aircraft wing?",
+    "Define the function of a trailing edge control surface.",
+    "List the three main types of trailing edge controls."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition and function of control surfaces",
+        "Aerodynamic characteristics of trailing edge controls",
+        "Types of tabs: Anti-servo, Balance, Friction",
+        "All-moving surface design and hinge moment",
+        "Mechanical linkage systems for control surfaces"
+      ],
+      "content": "Definition and function of control surfaces\nAerodynamic characteristics of trailing edge controls\nTypes of tabs: Anti-servo, Balance, Friction\nAll-moving surface design and hinge moment\nMechanical linkage systems for control surfaces",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Structural elements of control surface design",
+        "Material selection and skin thickness requirements",
+        "Rib and spar integration in control surfaces",
+        "Hinge mechanisms and pivot points",
+        "Load paths and stress distribution analysis"
+      ],
+      "content": "Structural elements of control surface design\nMaterial selection and skin thickness requirements\nRib and spar integration in control surfaces\nHinge mechanisms and pivot points\nLoad paths and stress distribution analysis",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Failure modes of control surface structures",
+        "Inspection criteria for hinges and linkages",
+        "Maintenance procedures for control surface systems",
+        "Troubleshooting common structural defects",
+        "Integration with primary wing structure"
+      ],
+      "content": "Failure modes of control surface structures\nInspection criteria for hinges and linkages\nMaintenance procedures for control surface systems\nTroubleshooting common structural defects\nIntegration with primary wing structure",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the aerodynamic purpose of an anti-servo tab.",
+    "Describe the structural load path from the control surface to the wing spar.",
+    "Identify two critical inspection points for control surface hinges."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note comparing the structural design requirements of ailerons versus elevators, referencing the next lesson on aero-elasticity.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Introduction to aero-elasticity, classification, effects of structural distortion, wing torsional divergence, control effective and reversal. introduction to flutter, control surface flutter, wing bending torsional flutter, factor effecting flutter characteristics, aileron buzz, buffeting, dynamic response, effect of sweep on various critical speeds",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 15"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

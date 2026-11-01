@@ -1,0 +1,152 @@
+{
+  "subject_name": "A/C Material",
+  "subject_code": "15",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "06",
+  "total_lesson_plans": "16",
+  "time_allotted": "80 min",
+  "topic": "Aerodynamic loading distribution, span wise and chord wise distribution, effects of sweep and distribution.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Aerodynamic loading distribution, span wise and chord wise distribution, effects of sweep and distribution.",
+  "specific_objectives": "15.1.1.1 Trainee will be able to explain aircraft structure, various structural elements and their details.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of wing structural elements and load paths; Safety: Ensure no loose items on desk; Instructor: Monitor trainee focus.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the primary structural elements of a wing?",
+    "Define aerodynamic loading in the context of flight.",
+    "Why is understanding load distribution critical for structural design?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of aerodynamic loading distribution",
+        "Span wise load distribution characteristics",
+        "Chord wise load distribution characteristics",
+        "Impact of wing sweep on load path",
+        "Effect of distribution on structural sizing"
+      ],
+      "content": "Definition of aerodynamic loading distribution\nSpan wise load distribution characteristics\nChord wise load distribution characteristics\nImpact of wing sweep on load path\nEffect of distribution on structural sizing",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Analysis of span wise bending moments",
+        "Analysis of chord wise shear forces",
+        "Structural response to sweep variations",
+        "Load concentration at wing root",
+        "Optimization of spar placement"
+      ],
+      "content": "Analysis of span wise bending moments\nAnalysis of chord wise shear forces\nStructural response to sweep variations\nLoad concentration at wing root\nOptimization of spar placement",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Summary of sweep effects on loads",
+        "Comparison of straight vs swept wings",
+        "Implications for structural element design",
+        "Review of load distribution principles",
+        "Preparation for miscellaneous loading cases"
+      ],
+      "content": "Summary of sweep effects on loads\nComparison of straight vs swept wings\nImplications for structural element design\nReview of load distribution principles\nPreparation for miscellaneous loading cases",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how wing sweep alters the span wise load distribution.",
+    "Describe the relationship between chord wise distribution and spar design.",
+    "Identify two key structural elements affected by aerodynamic loading."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the principles of aerodynamic loading distribution discussed in this lesson apply to the miscellaneous loading cases covered in LP 07.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Miscellaneous loading cases, longitudinal cases, fuselage pressurization loads, flap and airbrake loads, spinning and power plants loads, fuel systems, freight loads, ground handling guided missile launcher cases.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 07"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

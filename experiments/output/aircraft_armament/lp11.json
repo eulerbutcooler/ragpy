@@ -1,0 +1,152 @@
+{
+  "subject_name": "Aircraft Armament",
+  "subject_code": "18",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "11",
+  "total_lesson_plans": "12",
+  "time_allotted": "80 min",
+  "topic": "Basic concept of ECM",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Basic concept of ECM. Principle of Jamming used as ECM aid.",
+  "specific_objectives": "18.1.4.1 Trainee will be able to appraise the function of secondary radars in ASW operation.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of secondary radar ASW function diagrams; Safety: No live equipment; Supervision: Instructor monitors diagram interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of a radar system?",
+    "Define the term Electronic Counter Measures (ECM).",
+    "How does a secondary radar assist in Anti-Submarine Warfare?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of Electronic Counter Measures",
+        "Distinction between ECCM and ECM",
+        "Role of secondary radars in ASW",
+        "Basic jamming principles",
+        "Impact of jamming on detection range"
+      ],
+      "content": "Definition of Electronic Counter Measures\nDistinction between ECCM and ECM\nRole of secondary radars in ASW\nBasic jamming principles\nImpact of jamming on detection range",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Types of jamming signals",
+        "Mechanism of noise jamming",
+        "Mechanism of deception jamming",
+        "Secondary radar pulse compression",
+        "Analysis of ASW radar vulnerability"
+      ],
+      "content": "Types of jamming signals\nMechanism of noise jamming\nMechanism of deception jamming\nSecondary radar pulse compression\nAnalysis of ASW radar vulnerability",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Evaluation of jamming effectiveness",
+        "Counter-measures against jamming",
+        "Integration of secondary radar data",
+        "Operational scenarios for ECM",
+        "Summary of ECM concepts"
+      ],
+      "content": "Evaluation of jamming effectiveness\nCounter-measures against jamming\nIntegration of secondary radar data\nOperational scenarios for ECM\nSummary of ECM concepts",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how jamming affects the secondary radar's ability to detect submarines.",
+    "Describe one method used to counteract jamming in ASW operations.",
+    "Differentiate between the function of primary and secondary radars in ECM contexts."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the principles of jamming discussed in this lesson will be expanded upon in the Basic concept of ECCM lesson (LP 12).",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Basic concept of ECCM. Various methods of ECCM employed by Indian Naval aircraft viz. frequency agility PRF jittering etc",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 12"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

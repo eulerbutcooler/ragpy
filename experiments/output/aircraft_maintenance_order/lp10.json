@@ -1,0 +1,150 @@
+{
+  "subject_name": "Aircraft Maintenance Order",
+  "subject_code": "1",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "10",
+  "total_lesson_plans": "16",
+  "time_allotted": "80 min",
+  "topic": "Life categories, life latitude, review of life, log card updation and (I) NAMO/G/40, (I) NAMO/G/5",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Life categories, life latitude, review of life, log card updation and (I) NAMO/G/40, (I) NAMO/G/5",
+  "specific_objectives": "1.1.5.1 Trainee will be able to understand modification, life categories and flight-testing effect of CG variation and wartime maintenance procedure",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of Log Card entries and verification of Life Latitude calculations against NAMO/G/40 and NAMO/G/5 guidelines",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the three primary life categories defined in the syllabus?",
+    "How does CG variation affect flight testing procedures?",
+    "What is the significance of wartime maintenance procedures?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Modification impact on aircraft life",
+        "Definition of life categories",
+        "Flight-testing effect of CG variation",
+        "Wartime maintenance procedure overview"
+      ],
+      "content": "Modification impact on aircraft life\nDefinition of life categories\nFlight-testing effect of CG variation\nWartime maintenance procedure overview",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Life latitude calculation methods",
+        "Review of life procedures",
+        "Log card updation requirements",
+        "Interpretation of NAMO/G/40 guidelines",
+        "Interpretation of NAMO/G/5 guidelines"
+      ],
+      "content": "Life latitude calculation methods\nReview of life procedures\nLog card updation requirements\nInterpretation of NAMO/G/40 guidelines\nInterpretation of NAMO/G/5 guidelines",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Integration of life categories with maintenance",
+        "Safety checks during log card updates",
+        "Documentation standards for NAMO compliance",
+        "Common errors in life latitude calculation",
+        "Corrective actions for maintenance discrepancies"
+      ],
+      "content": "Integration of life categories with maintenance\nSafety checks during log card updates\nDocumentation standards for NAMO compliance\nCommon errors in life latitude calculation\nCorrective actions for maintenance discrepancies",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the relationship between life categories and modification effects.",
+    "Describe the steps required for accurate log card updation under NAMO/G/40."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief summary of the flight-testing effect of CG variation and its implications for the next lesson on Flight testing of naval aircraft.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Flight testing of naval aircraft, Maintenance Test Flight, Check Test Flight and documentation",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 11"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

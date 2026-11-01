@@ -1,0 +1,152 @@
+{
+  "subject_name": "Aircraft Maintenance Orders",
+  "subject_code": "1",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "06",
+  "total_lesson_plans": "16",
+  "time_allotted": "80 min",
+  "topic": "Aircraft servicing form MOD form 700C and explanation of parts, various sections & use of TA-700, Monitoring of differed defects.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Aircraft servicing form MOD form 700C and explanation of parts, various sections & use of TA-700, Monitoring of differed defects.",
+  "specific_objectives": "1.1.2.1 Trainee will be able to explain the documentation and various other forms used in naval aircraft.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of sample MOD Form 700C and TA-700 entries; Instructor supervision on form identification and defect monitoring logic.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of MOD Form 700C?",
+    "Name one other form used for naval aircraft documentation.",
+    "Why is monitoring differed defects important for flight safety?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Introduction to MOD Form 700C structure",
+        "Explanation of form parts and sections",
+        "Identification of key data fields",
+        "Overview of TA-700 utility",
+        "Role of TA-700 in defect tracking"
+      ],
+      "content": "Introduction to MOD Form 700C structure\nExplanation of form parts and sections\nIdentification of key data fields\nOverview of TA-700 utility\nRole of TA-700 in defect tracking",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Detailed analysis of TA-700 sections",
+        "Process for logging differed defects",
+        "Interpretation of defect monitoring data",
+        "Link between TA-700 and 700C entries",
+        "Standard procedures for defect resolution"
+      ],
+      "content": "Detailed analysis of TA-700 sections\nProcess for logging differed defects\nInterpretation of defect monitoring data\nLink between TA-700 and 700C entries\nStandard procedures for defect resolution",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Review of various sections in 700C",
+        "Use of TA-700 for maintenance tracking",
+        "Monitoring techniques for differed defects",
+        "Common errors in form completion",
+        "Best practices for documentation accuracy"
+      ],
+      "content": "Review of various sections in 700C\nUse of TA-700 for maintenance tracking\nMonitoring techniques for differed defects\nCommon errors in form completion\nBest practices for documentation accuracy",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the relationship between MOD Form 700C and TA-700.",
+    "Describe the procedure for monitoring differed defects using TA-700.",
+    "Identify three critical sections of MOD Form 700C and their uses."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief summary of the procedures for filling up concerned parts of MOD Form 700C to be discussed in the next lesson plan.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Procedures for filling up concerned parts of MOD form 700C. scheduled maintenance. use of job cards, ground run/ test flight, placing aircraft in limitation/ deferment, defect rectification, independent checks, latitude for routine servicing.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 07"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

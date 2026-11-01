@@ -1,0 +1,153 @@
+{
+  "subject_name": "Aircraft Propulsion & Engineering System",
+  "subject_code": "6",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "10",
+  "total_lesson_plans": "14",
+  "time_allotted": "80 min",
+  "topic": "Introduction to AHCP kit, contents of kit and their applicability on aircraft.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Introduction to AHCP kit, contents of kit and their applicability on aircraft.",
+  "specific_objectives": "6.1.3.1 Trainee will be able to perform rectification of corrosion.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of AHCP kit contents, identification of corrosion types, and application of rectification materials on test panels.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of the AHCP kit?",
+    "List three common types of corrosion found on aircraft structures.",
+    "Why is the AHCP kit essential for engineering apprentices?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Overview of AHCP kit purpose",
+        "Detailed contents of AHCP kit",
+        "Applicability on aircraft structures",
+        "Storage and handling requirements",
+        "Safety precautions during use"
+      ],
+      "content": "Overview of AHCP kit purpose\nDetailed contents of AHCP kit\nApplicability on aircraft structures\nStorage and handling requirements\nSafety precautions during use",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Identification of corrosion types",
+        "Preparation of surface for rectification",
+        "Application of AHCP materials",
+        "Inspection criteria for rectification",
+        "Documentation of maintenance actions"
+      ],
+      "content": "Identification of corrosion types\nPreparation of surface for rectification\nApplication of AHCP materials\nInspection criteria for rectification\nDocumentation of maintenance actions",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Troubleshooting common rectification issues",
+        "Review of kit applicability scenarios",
+        "Q&A session on kit usage",
+        "Summary of key rectification steps",
+        "Preparation for next lesson on paint restoration"
+      ],
+      "content": "Troubleshooting common rectification issues\nReview of kit applicability scenarios\nQ&A session on kit usage\nSummary of key rectification steps\nPreparation for next lesson on paint restoration",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between surface and subsurface corrosion.",
+    "Describe the correct sequence for applying AHCP materials.",
+    "How does the AHCP kit contribute to aircraft safety?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the specific AHCP kit components required for corrosion rectification on the assigned aircraft type, referencing the master syllabus.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Identification of types of paint & Restoration of paint i.e. nitro cellulose lacquer epoxy, fluorescent and enamel surface protection.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 11"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT.",
+    "Verify specific AHCP kit model numbers for the assigned aircraft type."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

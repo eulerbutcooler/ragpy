@@ -1,0 +1,149 @@
+{
+  "subject_name": "Avionics and Electronic Warfare",
+  "subject_code": "13",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "06",
+  "total_lesson_plans": "25",
+  "time_allotted": "80 min",
+  "topic": "Introduction to DC systems: - power supply systems, three pin receptacle systems, schematic of an external power supply and over voltage pro",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Introduction to DC systems: - power supply systems, three pin receptacle systems, schematic of an external power supply and over voltage protection. (Multiple DC bus bar systems). Practical on 3-Pin Receptacle system.",
+  "specific_objectives": "13.1.1.1 Trainee will be able to explain the A/C power systems.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Practical on 3-Pin Receptacle system; Safety precautions: Verify power off before handling; Instructor supervision: Monitor connection integrity and voltage checks.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of a DC power supply system?",
+    "Identify the three pins in a standard three-pin receptacle system.",
+    "Why is over-voltage protection necessary in avionics systems?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Introduction to DC power supply systems",
+        "Multiple DC bus bar configurations",
+        "Schematic of external power supply unit",
+        "Over voltage protection mechanisms"
+      ],
+      "content": "Introduction to DC power supply systems\nMultiple DC bus bar configurations\nSchematic of external power supply unit\nOver voltage protection mechanisms",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Detailed analysis of three pin receptacle systems",
+        "Pin identification and voltage ratings",
+        "Interconnection logic in DC distribution",
+        "Troubleshooting common receptacle faults"
+      ],
+      "content": "Detailed analysis of three pin receptacle systems\nPin identification and voltage ratings\nInterconnection logic in DC distribution\nTroubleshooting common receptacle faults",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Review of external power supply schematics",
+        "Integration of over voltage protection circuits",
+        "Bus bar system redundancy analysis",
+        "Summary of DC power distribution principles"
+      ],
+      "content": "Review of external power supply schematics\nIntegration of over voltage protection circuits\nBus bar system redundancy analysis\nSummary of DC power distribution principles",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how the external power supply schematic ensures safe voltage delivery.",
+    "Describe the role of over voltage protection in preventing avionics damage.",
+    "Differentiate between the functions of the three pins in the receptacle system."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the differences between DC and AC power systems to be discussed in LP 07.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "AC systems - schematic of external power supply, auxiliary power units. Practical on 6-Pin Receptacle system. Introduction to Power Quality analysis (PQA)",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 07"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

@@ -1,0 +1,151 @@
+{
+  "subject_name": "Guided Weapon",
+  "subject_code": "37",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "03",
+  "total_lesson_plans": "6",
+  "time_allotted": "80 min",
+  "topic": "External ballistics –motion in vacuum, motion in air, formula for air resistance, ballistic coefficient and limiting velocity",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "External ballistics –motion in vacuum, motion in air, formula for air resistance, ballistic coefficient and limiting velocity",
+  "specific_objectives": "37.1.1.1 Trainee will be able to explain about various branches of ballistics",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of trajectory charts; Safety: No live ammunition; Supervision: Instructor monitors chart interpretation",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the four main branches of ballistics?",
+    "Define external ballistics in one sentence.",
+    "List two factors that affect projectile motion in air."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of external ballistics",
+        "Motion in vacuum vs motion in air",
+        "Factors affecting air resistance",
+        "Formula for air resistance",
+        "Ballistic coefficient definition"
+      ],
+      "content": "Definition of external ballistics\nMotion in vacuum vs motion in air\nFactors affecting air resistance\nFormula for air resistance\nBallistic coefficient definition",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Concept of limiting velocity",
+        "Derivation of limiting velocity formula",
+        "Relationship between drag and velocity",
+        "Effect of shape on ballistic coefficient",
+        "Comparison of vacuum and air trajectories"
+      ],
+      "content": "Concept of limiting velocity\nDerivation of limiting velocity formula\nRelationship between drag and velocity\nEffect of shape on ballistic coefficient\nComparison of vacuum and air trajectories",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Application of ballistic coefficient",
+        "Calculation of limiting velocity",
+        "Trajectory deviation in air",
+        "Importance of air density",
+        "Summary of external ballistics concepts"
+      ],
+      "content": "Application of ballistic coefficient\nCalculation of limiting velocity\nTrajectory deviation in air\nImportance of air density\nSummary of external ballistics concepts",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how air resistance differs from vacuum motion.",
+    "Describe the significance of the ballistic coefficient in weapon performance."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the concepts of external ballistics learned in this lesson will assist in understanding terminal ballistics and damage effects covered in LP 04.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Terminal ballistics, type of damage, perforation effect, critical velocity. Experimental ballistics – measurement of pressure and velocity",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 04"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

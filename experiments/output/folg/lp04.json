@@ -1,0 +1,152 @@
+{
+  "subject_name": "FOLG",
+  "subject_code": "26",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "04",
+  "total_lesson_plans": "9",
+  "time_allotted": "80 min",
+  "topic": "Engine Health monitoring by using SOAP Analysis",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Engine Health monitoring by using SOAP Analysis",
+  "specific_objectives": "26.1.1.3 Trainee will be able to explain the SOAP Analysis EHM Technique",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of SOAP logbook entries; Safety: Handle logbooks carefully; Supervision: Instructor monitors logbook analysis",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What does EHM stand for?",
+    "List the four components of SOAP analysis.",
+    "Why is engine health monitoring critical for aircrew?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of Engine Health Monitoring",
+        "Purpose of SOAP Analysis technique",
+        "Overview of S-O-A-P acronym",
+        "Role of EHM in maintenance planning",
+        "Importance of accurate data recording"
+      ],
+      "content": "Definition of Engine Health Monitoring\nPurpose of SOAP Analysis technique\nOverview of S-O-A-P acronym\nRole of EHM in maintenance planning\nImportance of accurate data recording",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Detailed explanation of 'S' in SOAP",
+        "Detailed explanation of 'O' in SOAP",
+        "Detailed explanation of 'A' in SOAP",
+        "Detailed explanation of 'P' in SOAP",
+        "Interpreting trends in engine parameters"
+      ],
+      "content": "Detailed explanation of 'S' in SOAP\nDetailed explanation of 'O' in SOAP\nDetailed explanation of 'A' in SOAP\nDetailed explanation of 'P' in SOAP\nInterpreting trends in engine parameters",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Case study of SOAP analysis application",
+        "Common errors in SOAP data entry",
+        "Impact of SOAP on flight safety",
+        "Integration with other monitoring systems",
+        "Best practices for logbook maintenance"
+      ],
+      "content": "Case study of SOAP analysis application\nCommon errors in SOAP data entry\nImpact of SOAP on flight safety\nIntegration with other monitoring systems\nBest practices for logbook maintenance",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the significance of the 'S' component in SOAP analysis.",
+    "How does SOAP analysis contribute to predictive maintenance?",
+    "Identify one common error in recording SOAP data."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief summary of how SOAP analysis bridges the gap between current monitoring and the debris analysis techniques covered in LP 05.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Engine Health monitoring by using Debris analysis.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 05"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

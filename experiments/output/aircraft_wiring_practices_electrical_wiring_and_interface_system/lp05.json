@@ -1,0 +1,152 @@
+{
+  "subject_name": "Aircraft Wiring Practices (Electrical wiring and Interface system)",
+  "subject_code": "12",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "05",
+  "total_lesson_plans": "7",
+  "time_allotted": "80 min",
+  "topic": "Main rotor movements, symmetry of lift feathering, flapping, dragging, hook's joint effect, flapping to equality, phase lag and advance angle",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Main rotor movements, symmetry of lift feathering, flapping, dragging, hook’s joint effect, flapping to equality, phase lag and advance angle concepts.",
+  "specific_objectives": "12.1.5.1 Trainee will be able to understand Main rotor movements, symmetry of lift feathering, flapping, dragging, hook’s joint effect, flapping to equality, phase lag and advance angle concepts.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of rotor dynamics diagrams; Instructor supervision required for diagram interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the primary movements of a main rotor?",
+    "Define symmetry of lift in rotor systems.",
+    "List the factors causing flapping and dragging."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Main rotor movements overview",
+        "Symmetry of lift feathering",
+        "Flapping and dragging dynamics",
+        "Hook's joint effect analysis",
+        "Flapping to equality principle"
+      ],
+      "content": "Main rotor movements overview\nSymmetry of lift feathering\nFlapping and dragging dynamics\nHook's joint effect analysis\nFlapping to equality principle",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Phase lag concept explanation",
+        "Advance angle mechanics",
+        "Rotor system equilibrium",
+        "Lift distribution analysis",
+        "Dynamic stability factors"
+      ],
+      "content": "Phase lag concept explanation\nAdvance angle mechanics\nRotor system equilibrium\nLift distribution analysis\nDynamic stability factors",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Integration of rotor movements",
+        "Application of phase lag theory",
+        "Summary of flapping dynamics",
+        "Review of hook's joint effect",
+        "Final concept reinforcement"
+      ],
+      "content": "Integration of rotor movements\nApplication of phase lag theory\nSummary of flapping dynamics\nReview of hook's joint effect\nFinal concept reinforcement",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the relationship between phase lag and advance angle.",
+    "Describe how flapping contributes to rotor symmetry.",
+    "Identify the role of the hook's joint in rotor dynamics."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how rotor movements affect hovering and forward flight, linking concepts to LP 06 syllabus.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Hovering and forward flight, take off and climb to free air hover, vertical decent ground effect ground cushion re circulation effects.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 06"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

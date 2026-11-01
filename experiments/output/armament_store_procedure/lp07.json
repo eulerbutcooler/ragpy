@@ -1,0 +1,152 @@
+{
+  "subject_name": "Armament Store Procedure",
+  "subject_code": "33",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "07",
+  "total_lesson_plans": "8",
+  "time_allotted": "80 min",
+  "topic": "Comparison of KD 36-3.5M and IN10LH ejection seat",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Comparison of KD 36-3.5M and IN10LH ejection seat.",
+  "specific_objectives": "33.1.1.1 Trainee will be able to explain historical development of ejection seat",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of IB diagrams and L & Ds; Instructor supervision during Q&A session",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of an ejection seat?",
+    "Name one historical ejection seat used in early aviation.",
+    "Why is the historical development of ejection seats significant for aircrew safety?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Early ejection seat designs",
+        "KD 36-3.5M operational history",
+        "IN10LH seat introduction",
+        "Key differences in deployment mechanisms",
+        "Evolution of safety features"
+      ],
+      "content": "Early ejection seat designs\nKD 36-3.5M operational history\nIN10LH seat introduction\nKey differences in deployment mechanisms\nEvolution of safety features",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Comparison of weight and dimensions",
+        "Analysis of canopy jettison systems",
+        "Review of restraint mechanisms",
+        "Differences in emergency release procedures",
+        "Assessment of crew survival rates"
+      ],
+      "content": "Comparison of weight and dimensions\nAnalysis of canopy jettison systems\nReview of restraint mechanisms\nDifferences in emergency release procedures\nAssessment of crew survival rates",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Maintenance requirements for KD 36-3.5M",
+        "Maintenance requirements for IN10LH",
+        "Impact of historical context on current specs",
+        "Future trends in ejection seat technology",
+        "Summary of key comparative points"
+      ],
+      "content": "Maintenance requirements for KD 36-3.5M\nMaintenance requirements for IN10LH\nImpact of historical context on current specs\nFuture trends in ejection seat technology\nSummary of key comparative points",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how the historical development influenced the KD 36-3.5M design.",
+    "Compare the canopy jettison systems of KD 36-3.5M and IN10LH.",
+    "Identify two key safety improvements in the IN10LH seat compared to earlier models."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the safety precautions required when working around ejection seats, referencing LP 08.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Safety precautions while working on / around ejection seat.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 08"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

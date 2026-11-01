@@ -1,0 +1,152 @@
+{
+  "subject_name": "Guided Weapon",
+  "subject_code": "37",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "02",
+  "total_lesson_plans": "6",
+  "time_allotted": "80 min",
+  "topic": "Internal ballistics, grain configuration and form function",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Internal ballistics, grain configuration and form function. D Resells energy equation and secondary energy losses, muzzle velocity and peak pressure analysis",
+  "specific_objectives": "37.1.1.1 Trainee will be able to explain about various branches of ballistics",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of PPT slides on grain configuration; Instructor supervision required for Q&A",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the four main branches of ballistics?",
+    "Define internal ballistics in the context of gunnery.",
+    "List the primary factors affecting projectile motion inside the barrel."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Branches of ballistics overview",
+        "Internal ballistics definition",
+        "Propellant energy equation",
+        "Secondary energy losses",
+        "Muzzle velocity analysis"
+      ],
+      "content": "Branches of ballistics overview\nInternal ballistics definition\nPropellant energy equation\nSecondary energy losses\nMuzzle velocity analysis",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Grain configuration types",
+        "Form function concept",
+        "Peak pressure analysis",
+        "Burn rate characteristics",
+        "Pressure curve interpretation"
+      ],
+      "content": "Grain configuration types\nForm function concept\nPeak pressure analysis\nBurn rate characteristics\nPressure curve interpretation",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Energy loss mechanisms",
+        "Gas dynamics in barrel",
+        "Muzzle velocity calculation",
+        "Pressure peak determination",
+        "Efficiency of propellant"
+      ],
+      "content": "Energy loss mechanisms\nGas dynamics in barrel\nMuzzle velocity calculation\nPressure peak determination\nEfficiency of propellant",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how grain configuration influences the pressure curve.",
+    "Describe the relationship between form function and muzzle velocity.",
+    "Identify two sources of secondary energy losses in internal ballistics."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how changing the grain shape affects the peak pressure and muzzle velocity, referencing the next lesson on external ballistics.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "External ballistics –motion in vacuum, motion in air, formula for air resistance, ballistic coefficient and limiting velocity",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 03"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

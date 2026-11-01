@@ -1,0 +1,149 @@
+{
+  "subject_name": "Aircraft Airframe",
+  "subject_code": "33",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "03",
+  "total_lesson_plans": "11",
+  "time_allotted": "80 min",
+  "topic": "Flight Safety",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Flight Safety",
+  "specific_objectives": "33.1.1.1 Trainee will be able to state various terminology used and differentiate between Error, Mistake, Negligence and Violation, flight safety, near miss box and accident reporting procedure.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Classroom discussion on terminology differentiation and review of Near Miss Box reporting flowchart",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary goal of flight safety in aviation?",
+    "Can you list three common causes of aircraft accidents?",
+    "Why is reporting a near miss important for future safety?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of Flight Safety",
+        "Human Error vs Mistake",
+        "Negligence and Violation types",
+        "Safety Management Systems"
+      ],
+      "content": "Definition of Flight Safety\nHuman Error vs Mistake\nNegligence and Violation types\nSafety Management Systems",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Near Miss Box usage",
+        "Accident Reporting Procedure",
+        "Chain of Command for reporting",
+        "Confidentiality in reporting"
+      ],
+      "content": "Near Miss Box usage\nAccident Reporting Procedure\nChain of Command for reporting\nConfidentiality in reporting",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Difference between Error and Mistake",
+        "Consequences of Negligence",
+        "Reporting timelines and forms",
+        "Role of trainees in safety"
+      ],
+      "content": "Difference between Error and Mistake\nConsequences of Negligence\nReporting timelines and forms\nRole of trainees in safety",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between a mistake and negligence with an example.",
+    "Describe the steps involved in filling out a Near Miss Box.",
+    "Why must accident reports be submitted within a specific timeframe?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Review the Near Miss Box procedure and prepare a brief note on how you would report a hypothetical near miss incident encountered during training.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Near Miss scheme/ Near Miss box",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 04"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Instructor, Flight Lieutenant, P No. 12345",
+  "approved_by": "Senior Instructor, Commander, P No. 67890",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

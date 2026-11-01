@@ -1,0 +1,152 @@
+{
+  "subject_name": "AFCS",
+  "subject_code": "22",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "03",
+  "total_lesson_plans": "10",
+  "time_allotted": "80 min",
+  "topic": "Agencies for achieving missile guidance and classifications of missile guidance system",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Agencies for achieving missile guidance and classifications of missile guidance system.",
+  "specific_objectives": "22.1.1.1Trainee will be able to understand the basic of guided weapon systems and types of targets.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of guided weapon diagrams; Safety: No live equipment; Supervision: Instructor monitors diagram interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of a guided weapon system?",
+    "Name one type of target for missile engagement.",
+    "How does an unguided weapon differ from a guided weapon?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Basic principles of guided weapon systems",
+        "Agency for achieving missile guidance",
+        "Active radar homing mechanism",
+        "Semi-active radar homing mechanism",
+        "Infrared homing mechanism"
+      ],
+      "content": "Basic principles of guided weapon systems\nAgency for achieving missile guidance\nActive radar homing mechanism\nSemi-active radar homing mechanism\nInfrared homing mechanism",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Classification of missile guidance systems",
+        "Command guidance system types",
+        "Beam riding guidance system types",
+        "Inertial navigation guidance system",
+        "Terminal guidance system integration"
+      ],
+      "content": "Classification of missile guidance systems\nCommand guidance system types\nBeam riding guidance system types\nInertial navigation guidance system\nTerminal guidance system integration",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Comparison of guidance agencies",
+        "Advantages and limitations of each system",
+        "Target acquisition and tracking basics",
+        "Missile launch and flight phases",
+        "Role of seeker head in guidance"
+      ],
+      "content": "Comparison of guidance agencies\nAdvantages and limitations of each system\nTarget acquisition and tracking basics\nMissile launch and flight phases\nRole of seeker head in guidance",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between active and semi-active radar homing.",
+    "Describe the role of the command link in a command guidance system.",
+    "Identify the primary advantage of beam riding guidance over command guidance."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the advantages and disadvantages of beam riding guidance to be discussed in LP 04.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Command link, beam riding advantages/disadvantages of beam riding.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 04"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

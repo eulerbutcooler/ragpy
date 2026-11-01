@@ -1,0 +1,152 @@
+{
+  "subject_name": "Naval Aviation Management System (NAMS)",
+  "subject_code": "5",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "01",
+  "total_lesson_plans": "9",
+  "time_allotted": "80 min",
+  "topic": "Introduction to Various Stores and its need in IN.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Introduction to Various Stores and its need in IN. Air stores: Definition, Types, Classification on the basis of nature & flight criticality, Categories and Characteristics",
+  "specific_objectives": "5.1.1.1 Trainee will be able to enumerate various stores in IN.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of store categories and characteristics using L & Ds; Instructor supervision required for safety protocols regarding hazardous materials.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary definition of an air store?",
+    "Why are stores essential for naval aviation operations?",
+    "Can you list three types of stores carried by aircraft?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of Air Stores",
+        "Types of Stores in Indian Navy",
+        "Classification by Nature",
+        "Classification by Flight Criticality",
+        "Categories and Characteristics"
+      ],
+      "content": "Definition of Air Stores\nTypes of Stores in Indian Navy\nClassification by Nature\nClassification by Flight Criticality\nCategories and Characteristics",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Internal vs External Stores",
+        "Fuel Tanks and Drop Tanks",
+        "Weapon Systems Overview",
+        "Countermeasures and Chaff",
+        "Safety and Handling Protocols"
+      ],
+      "content": "Internal vs External Stores\nFuel Tanks and Drop Tanks\nWeapon Systems Overview\nCountermeasures and Chaff\nSafety and Handling Protocols",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Impact on Aircraft Performance",
+        "Storage Locations on Aircraft",
+        "Release Mechanisms",
+        "Maintenance Requirements",
+        "Future Trends in Stores"
+      ],
+      "content": "Impact on Aircraft Performance\nStorage Locations on Aircraft\nRelease Mechanisms\nMaintenance Requirements\nFuture Trends in Stores",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between flight-critical and non-flight-critical stores.",
+    "How does the nature of a store affect its classification?",
+    "Describe the importance of proper storage locations for various stores."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the purpose and characteristics of Air Store Establishment (ASE) to be discussed in the next lesson plan.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Air store Establishment (ASE): Introduction, Definition, Purpose and Characteristics",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 02"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

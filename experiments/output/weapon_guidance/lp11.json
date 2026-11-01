@@ -1,0 +1,152 @@
+{
+  "subject_name": "Weapon Guidance",
+  "subject_code": "19",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "11",
+  "total_lesson_plans": "22",
+  "time_allotted": "80 min",
+  "topic": "Explanation on clamping and bend radius of wire and cables",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Explanation on clamping and bend radius of wire and cables.",
+  "specific_objectives": "19.1.1.1Trainee will be able to explain aircraft wiring and Causes of wiring degradation.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of proper clamping techniques and measurement of minimum bend radius using sample wire bundles; Safety: Ensure no loose wires cause short circuits; Supervision: Instructor monitors tool usage and measurement accuracy.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the primary causes of aircraft wiring degradation?",
+    "Why is maintaining the correct bend radius critical for wire integrity?",
+    "How does improper clamping affect the electrical performance of a wire bundle?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of minimum bend radius",
+        "Consequences of exceeding bend radius",
+        "Standard bend radius ratios for different wire types",
+        "Impact of sharp bends on insulation and conductors",
+        "Visual identification of damaged wires due to bending"
+      ],
+      "content": "Definition of minimum bend radius\nConsequences of exceeding bend radius\nStandard bend radius ratios for different wire types\nImpact of sharp bends on insulation and conductors\nVisual identification of damaged wires due to bending",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Types of clamps used in aircraft wiring",
+        "Proper installation techniques for wire clamps",
+        "Common errors in clamp installation",
+        "Effect of loose clamps on wire bundle stability",
+        "Inspection criteria for clamp security and alignment"
+      ],
+      "content": "Types of clamps used in aircraft wiring\nProper installation techniques for wire clamps\nCommon errors in clamp installation\nEffect of loose clamps on wire bundle stability\nInspection criteria for clamp security and alignment",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Relationship between clamping and bend radius",
+        "Preventing stress points at clamp locations",
+        "Best practices for routing wires near clamps",
+        "Maintenance checks for clamp-induced degradation",
+        "Case studies of wiring failures due to poor clamping"
+      ],
+      "content": "Relationship between clamping and bend radius\nPreventing stress points at clamp locations\nBest practices for routing wires near clamps\nMaintenance checks for clamp-induced degradation\nCase studies of wiring failures due to poor clamping",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how improper clamping can lead to wire degradation.",
+    "Describe the minimum bend radius requirement for a standard aircraft wire.",
+    "Identify three signs of wiring damage caused by incorrect bending or clamping."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report outlining the steps to inspect a wire bundle for clamp-related degradation, referencing the guidelines in LP 12 regarding wire bundle breaks.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Explanation on various types of wire bundle breaks and their uses.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 12"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

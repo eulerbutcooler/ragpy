@@ -1,0 +1,130 @@
+{
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "01",
+  "total_lesson_plans": "Not specified",
+  "time_allotted": "80 min",
+  "topic": "Aircraft Pressure Gauges, Pitot-Static System, Altimeter, ASI and VSI",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Purpose and principle operation of aircraft pressure gauges, pilot static system, altimeter, ASI, and VSI. Practical on Pitot & Static instruments. Safety precautions while working on system.",
+  "specific_objectives": "20.1.1.1 Trainee will be able to understand instrument gauges, instrument type auto pilot and maintenance.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Aircraft Instruments and Integrated Systems - E.H.J. Pallett (suggested; confirm)"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: understand pressure gauges and pitot-static instruments"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration and inspection of Pitot-Static system components on the available training equipment. Trainees will identify the Pitot tube, static ports, and associated lines. Instructor will demonstrate the correct procedure for disconnecting and reconnecting lines, emphasizing the use of thread sealant and proper torque. Safety precautions include wearing eye protection, ensuring the aircraft is grounded, and verifying system isolation before handling lines. Instructor will supervise the handling of sensitive instruments and lines to prevent damage or contamination.",
+  "existing_knowledge": "Basic electrical principles, fundamentals of flight, and general aircraft systems familiarization.",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the three primary sources of pressure used in aircraft flight instruments?",
+    "Can you list the four main instruments that rely on the Pitot-Static system?",
+    "Why is it critical to keep the static ports free of ice or debris?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "content": "The Pitot-Static system provides the pressure data required for flight instruments. It consists of the Pitot tube, which measures total (ram) pressure, and static ports, which measure ambient atmospheric pressure. The system relies on the difference between these pressures to function correctly. Any blockage or leak in the static system can lead to erroneous readings, potentially causing spatial disorientation. The Pitot tube must be free of ice and debris to ensure accurate total pressure measurement, while static ports must be unobstructed to reflect true ambient pressure.",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "content": "The Airspeed Indicator (ASI) operates on the principle of the difference between total pressure and static pressure. When the aircraft is stationary, the ASI reads zero. As the aircraft moves, ram pressure increases, causing the diaphragm to expand and move the needle. The Vertical Speed Indicator (VSI) measures the rate of change of static pressure; during a climb or descent, the static pressure changes, causing the diaphragm to expand or contract at a rate proportional to the vertical speed. The Altimeter measures altitude based on static pressure alone; as the aircraft climbs, static pressure decreases, causing the aneroid capsule to expand and move the needle to a higher altitude reading.",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "content": "Maintenance and safety precautions for the Pitot-Static system are critical. Before working on the system, the aircraft must be grounded, and the system should be isolated to prevent accidental pressurization. When disconnecting lines, thread sealant must be applied to prevent leaks, and lines must be protected from kinking. Static ports should be inspected for ice, bugs, or paint accumulation, which can be cleared using a static port cleaning kit. Pitot tubes should be heated or de-iced during operation in cold weather to prevent ice blockage. Regular checks for leaks and proper installation of covers are essential for system integrity.",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how a blockage in the static port would affect the reading of the Altimeter and the Vertical Speed Indicator.",
+    "Describe the specific safety steps an engineer must take before disconnecting a Pitot tube line.",
+    "How does the ASI differ in its pressure source requirement compared to the Altimeter?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report comparing the operation of the Altimeter and the ASI, highlighting how a failure in the static system affects both instruments differently, and outline the maintenance checks required for static ports as a bridge to the next lesson on Gyroscopic instruments.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Capacitor type fuel quantity indicator, angle of attack indicator, gyroscopic instruments attitude indicator, turn and slip indicator, direction indicator. Practical on various instruments.",
+      "references": "Aircraft Instruments and Integrated Systems - E.H.J. Pallett",
+      "related_lps": "LP 02"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Total number of lesson plans in the subject and the exact lesson-plan number were not in the source.",
+    "The image says 'pilot static system'; confirm whether this is a typo for 'pitot-static system'.",
+    "Reference book/BR was not specified; the suggested Pallett reference should be confirmed.",
+    "The source objective (20.1.1.1) is broader than the selected syllabus row; confirm the lesson-specific objective.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm the specific edition of E.H.J. Pallett's 'Aircraft Instruments and Integrated Systems' required for this course."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

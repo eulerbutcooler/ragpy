@@ -1,0 +1,152 @@
+{
+  "subject_name": "Rocket Engine",
+  "subject_code": "14",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "02",
+  "total_lesson_plans": "2",
+  "time_allotted": "80 min",
+  "topic": "Introduction to liquid rocket engines its advantages and disadvantages.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Introduction to liquid rocket engines its advantages and disadvantages.",
+  "specific_objectives": "14.1.1.1 Trainee will be able to explain types of rocket engine and their working principle.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of liquid propellant storage diagrams; Safety: No handling of propellants; Supervision: Instructor monitors diagram interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary difference between solid and liquid propellants?",
+    "Can you name one advantage of liquid propulsion over solid propulsion?",
+    "What are the two main components of a liquid rocket engine?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of liquid rocket engine",
+        "Working principle of combustion chamber",
+        "Feed system types: Pressure and Pump",
+        "Propellant storage tanks",
+        "Thrust vector control mechanisms"
+      ],
+      "content": "Definition of liquid rocket engine\nWorking principle of combustion chamber\nFeed system types: Pressure and Pump\nPropellant storage tanks\nThrust vector control mechanisms",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Advantages: High specific impulse",
+        "Advantages: Throttleability and restart capability",
+        "Advantages: Precise thrust control",
+        "Disadvantages: Complex mechanical systems",
+        "Disadvantages: High maintenance requirements"
+      ],
+      "content": "Advantages: High specific impulse\nAdvantages: Throttleability and restart capability\nAdvantages: Precise thrust control\nDisadvantages: Complex mechanical systems\nDisadvantages: High maintenance requirements",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Comparison of LOX/Kerosene vs LOX/Liquid Hydrogen",
+        "Impact of propellant choice on engine performance",
+        "Safety considerations for liquid propellants",
+        "Future trends in liquid engine technology",
+        "Summary of key operational differences"
+      ],
+      "content": "Comparison of LOX/Kerosene vs LOX/Liquid Hydrogen\nImpact of propellant choice on engine performance\nSafety considerations for liquid propellants\nFuture trends in liquid engine technology\nSummary of key operational differences",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how the pump-fed system differs from the pressure-fed system in a liquid rocket engine.",
+    "List three distinct advantages and three distinct disadvantages of using liquid rocket engines compared to solid motors.",
+    "Why is throttleability considered a critical advantage for launch vehicle guidance?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note comparing the specific impulse values of LOX/Kerosene and LOX/Liquid Hydrogen engines and explain how this affects mission design.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "End of subject",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "-"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Instructor, Instructor, P No.",
+  "approved_by": "Senior Instructor, Senior Instructor, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

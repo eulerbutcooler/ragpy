@@ -1,0 +1,151 @@
+{
+  "subject_name": "Fuel, Oil, Lubricant and Greases",
+  "subject_code": "28",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "05",
+  "total_lesson_plans": "13",
+  "time_allotted": "80 min",
+  "topic": "Safety precautions while handling, embarkation, transportation, and storage Radio hazard safety precautions",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Safety precautions while handling, embarkation, transportation, and storage Radio hazard safety precautions",
+  "specific_objectives": "28.1.1.1 Trainee will be able to explain the need for explosive regulation",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of safety labels and storage protocols; Instructor supervision during Q&A",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary risk associated with improper explosive storage?",
+    "Why are specific regulations necessary for handling radio hazard materials?",
+    "Can you list three general safety rules for transporting hazardous goods?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Need for explosive regulation",
+        "Handling safety precautions",
+        "Embarkation and transportation rules",
+        "Storage safety requirements",
+        "Radio hazard safety precautions"
+      ],
+      "content": "Need for explosive regulation\nHandling safety precautions\nEmbarkation and transportation rules\nStorage safety requirements\nRadio hazard safety precautions",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Regulatory framework for explosives",
+        "Procedures for safe embarkation",
+        "Transportation labeling and segregation",
+        "Storage conditions and ventilation",
+        "Radio interference mitigation techniques"
+      ],
+      "content": "Regulatory framework for explosives\nProcedures for safe embarkation\nTransportation labeling and segregation\nStorage conditions and ventilation\nRadio interference mitigation techniques",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Emergency response to leaks",
+        "Inspection of storage containers",
+        "Documentation and record keeping",
+        "Personnel protective equipment usage",
+        "Reporting incidents and near misses"
+      ],
+      "content": "Emergency response to leaks\nInspection of storage containers\nDocumentation and record keeping\nPersonnel protective equipment usage\nReporting incidents and near misses",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the specific regulations required for the storage of explosive materials.",
+    "Describe the necessary safety precautions when transporting radio hazard materials."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the storage requirements for explosives as outlined in LP 02, highlighting key differences in handling procedures.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "various types of explosives stored in a store house, firefighting methods and symbols used",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 06"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

@@ -1,0 +1,151 @@
+{
+  "subject_name": "Advanced Aircraft Technology",
+  "subject_code": "20",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "15",
+  "total_lesson_plans": "20",
+  "time_allotted": "80 min",
+  "topic": "Purpose of Engine Vibration monitoring systems and Operation of Engine Vibration monitoring systems",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Purpose of Engine Vibration monitoring systems and Operation of Engine Vibration monitoring systems.",
+  "specific_objectives": "20.5.1.1 Trainee Will Be able to explain principle of on engine Vibration monitoring systems.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of Engine Vibration Monitoring System (EVMS) schematic diagrams and identification of sensor locations on engine cutaway models.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary cause of vibration in a rotating aircraft engine?",
+    "Why is monitoring engine vibration critical for flight safety?",
+    "Can you identify the main components of a typical vibration monitoring system?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Principles of engine vibration generation",
+        "Types of vibration sensors used in engines",
+        "Signal processing and data transmission",
+        "Purpose of vibration monitoring systems",
+        "Interpretation of vibration data trends"
+      ],
+      "content": "Principles of engine vibration generation\nTypes of vibration sensors used in engines\nSignal processing and data transmission\nPurpose of vibration monitoring systems\nInterpretation of vibration data trends",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Operation of on-engine vibration monitoring systems",
+        "System integration with aircraft warning systems",
+        "Maintenance requirements for vibration sensors",
+        "Calibration procedures for vibration monitoring units",
+        "Troubleshooting common system failures"
+      ],
+      "content": "Operation of on-engine vibration monitoring systems\nSystem integration with aircraft warning systems\nMaintenance requirements for vibration sensors\nCalibration procedures for vibration monitoring units\nTroubleshooting common system failures",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Review of EVMS schematic diagrams",
+        "Identification of sensor locations on engine models",
+        "Analysis of vibration data trends",
+        "Discussion on maintenance schedules",
+        "Summary of key operational principles"
+      ],
+      "content": "Review of EVMS schematic diagrams\nIdentification of sensor locations on engine diagrams\nAnalysis of vibration data trends\nDiscussion on maintenance schedules\nSummary of key operational principles",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the principle of operation of an on-engine vibration monitoring system.",
+    "Describe the steps involved in troubleshooting a vibration sensor failure."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the integration of Engine Vibration Monitoring Systems with the Engine Indicating and Crew Alerting System (EICAS) for the next lesson.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Introduction to EFIS, display units, Symbol Generators and display presentations. Visit to P8i Lab for familiarization on EFIS.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 16"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Instructor, Senior Instructor, P No. 12345",
+  "approved_by": "Senior Instructor, Chief Instructor, P No. 67890",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

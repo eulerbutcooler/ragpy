@@ -1,0 +1,149 @@
+{
+  "subject_name": "Avionics and Electronic Warfare",
+  "subject_code": "13",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "25",
+  "total_lesson_plans": "25",
+  "time_allotted": "80 min",
+  "topic": "Practical on operation on DC motor, Induction Motor (1Ø & 3 Ø), universal motor on AEMT",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Practical on operation on DC motor, Induction Motor (1Ø & 3 Ø), universal motor on AEMT.",
+  "specific_objectives": "13.1.4.1 knowledge on Safety precautions & Practical on cleaning of connecters, terminals.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Operation on DC, 1Ø Induction, 3Ø Induction, and Universal motors on AEMT; Cleaning of connectors and terminals.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the three types of motors covered in this practical?",
+    "List two essential safety precautions before starting any motor operation.",
+    "Why is cleaning connectors and terminals critical for motor performance?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Safety Precautions for AEMT Operation",
+        "Cleaning Connectors and Terminals",
+        "DC Motor Operation Procedure",
+        "Universal Motor Operation Procedure"
+      ],
+      "content": "Safety Precautions for AEMT Operation\nCleaning Connectors and Terminals\nDC Motor Operation Procedure\nUniversal Motor Operation Procedure",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Single Phase Induction Motor Operation",
+        "Three Phase Induction Motor Operation",
+        "Troubleshooting Common Motor Faults",
+        "Verification of Motor Rotation Direction"
+      ],
+      "content": "Single Phase Induction Motor Operation\nThree Phase Induction Motor Operation\nTroubleshooting Common Motor Faults\nVerification of Motor Rotation Direction",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Final Inspection of Motors",
+        "Documentation of Practical Results",
+        "Review of Safety Compliance",
+        "Q&A Session on Motor Operations"
+      ],
+      "content": "Final Inspection of Motors\nDocumentation of Practical Results\nReview of Safety Compliance\nQ&A Session on Motor Operations",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Describe the correct sequence for cleaning motor terminals before operation.",
+    "Explain the difference in starting procedures between a DC motor and a 3Ø Induction motor.",
+    "Identify three signs that indicate a motor is overheating during operation."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report detailing the specific safety checks performed on the AEMT motors and how they relate to the safety protocols discussed in LP 02.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "End of subject",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "-"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Instructor, Senior Instructor, P No. 12345",
+  "approved_by": "Senior Instructor, Chief Instructor, P No. 67890",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

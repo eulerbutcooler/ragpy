@@ -1,0 +1,149 @@
+{
+  "subject_name": "Engineering Metrology",
+  "subject_code": "13",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "08",
+  "total_lesson_plans": "9",
+  "time_allotted": "80 min",
+  "topic": "Auto rotation, ground resonance, vertex ring, blade sailing",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Auto rotation, ground resonance, vertex ring, blade sailing.",
+  "specific_objectives": "13.1.1.1 Trainee will be able to explain the helicopter control, main rotor movements, translation flight, power, auto rotation, vibration checks and various adjustments.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of IB diagrams regarding rotor dynamics; Instructor supervision of theoretical explanation only.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of the main rotor in translation flight?",
+    "Define the term 'auto rotation' in the context of engine failure.",
+    "List two common causes of excessive vibration in the rotor system."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Auto rotation entry and control",
+        "Main rotor behavior during descent",
+        "Power management in auto rotation",
+        "Vibration checks and adjustments"
+      ],
+      "content": "Auto rotation entry and control\nMain rotor behavior during descent\nPower management in auto rotation\nVibration checks and adjustments",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Ground resonance mechanism",
+        "Vertex ring identification",
+        "Blade sailing characteristics",
+        "Safety implications of resonance"
+      ],
+      "content": "Ground resonance mechanism\nVertex ring identification\nBlade sailing characteristics\nSafety implications of resonance",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Remedial actions for vibration",
+        "Monitoring device indications",
+        "Preventive maintenance checks",
+        "Reporting procedures for anomalies"
+      ],
+      "content": "Remedial actions for vibration\nMonitoring device indications\nPreventive maintenance checks\nReporting procedures for anomalies",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between ground resonance and blade sailing.",
+    "Describe the immediate pilot actions required upon entering auto rotation.",
+    "How does the vertex ring assist in diagnosing rotor imbalance?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the remedial actions for gearbox vibrators as covered in the next lesson plan (LP 09) to bridge the gap between rotor dynamics and monitoring devices.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Vibration of rotor and gearbox vibrators, disc cause effects on helicopter monitoring devices and remedial action. On hand experience to use vibration measuring equipment’s.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 09"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Instructor, Flight Lieutenant, P No. 12345",
+  "approved_by": "Senior Instructor, Captain, P No. 67890",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

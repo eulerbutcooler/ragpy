@@ -1,0 +1,152 @@
+{
+  "subject_name": "Pyro techniques",
+  "subject_code": "34",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "04",
+  "total_lesson_plans": "10",
+  "time_allotted": "80 min",
+  "topic": "Warhead system, types and requirements of warhead",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Warhead system, types and requirements of warhead",
+  "specific_objectives": "34.1.1.1 Trainee will be able to explain various terms on guided weapon.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of warhead terminology diagrams; Instructor supervision required for safety protocols regarding explosive concepts.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of a warhead in a guided weapon?",
+    "Define the term 'fuzing' in the context of a warhead system.",
+    "List three common types of warhead effects used in air-to-ground munitions."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition and function of warhead system",
+        "Types of warheads: HE, HEAT, and Submunition",
+        "Fuzing mechanisms: Proximity, Impact, and Delay",
+        "Safety requirements for warhead handling",
+        "Compatibility with guidance systems"
+      ],
+      "content": "Definition and function of warhead system\nTypes of warheads: HE, HEAT, and Submunition\nFuzing mechanisms: Proximity, Impact, and Delay\nSafety requirements for warhead handling\nCompatibility with guidance systems",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Detailed analysis of High Explosive (HE) warheads",
+        "Operational principles of High Explosive Anti-Tank (HEAT) warheads",
+        "Characteristics and deployment of cluster/submunition warheads",
+        "Selection criteria based on target type and range",
+        "Regulatory standards for warhead performance"
+      ],
+      "content": "Detailed analysis of High Explosive (HE) warheads\nOperational principles of High Explosive Anti-Tank (HEAT) warheads\nCharacteristics and deployment of cluster/submunition warheads\nSelection criteria based on target type and range\nRegulatory standards for warhead performance",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Review of specific warhead terminology",
+        "Application of warhead requirements in mission planning",
+        "Safety protocols during maintenance and inspection",
+        "Troubleshooting common warhead system failures",
+        "Summary of key terms and definitions"
+      ],
+      "content": "Review of specific warhead terminology\nApplication of warhead requirements in mission planning\nSafety protocols during maintenance and inspection\nTroubleshooting common warhead system failures\nSummary of key terms and definitions",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between a proximity fuze and an impact fuze.",
+    "Describe the specific requirements a warhead must meet to be effective against armored vehicles.",
+    "Identify two safety requirements that must be followed when handling warhead components."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note comparing the advantages and disadvantages of different propulsion systems, to be discussed in the next lesson on Propulsion system requirements.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Propulsion system, requirements, selection criteria and advantages /disadvantages of each propulsion system",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 05"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

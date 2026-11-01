@@ -1,0 +1,152 @@
+{
+  "subject_name": "A/C Engineering System",
+  "subject_code": "17",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "05",
+  "total_lesson_plans": "30",
+  "time_allotted": "80 min",
+  "topic": "Principles of pressure refueling and de-fueling",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Principles of pressure refueling and de-fueling",
+  "specific_objectives": "17.1.1.1 Trainee will be able to understand the construction and requirements of typical aircraft fuel system and its components.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of fuel system diagrams; Instructor supervision of theoretical concepts only",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of the aircraft fuel system?",
+    "Name two methods used for refueling aircraft.",
+    "Why is pressure refueling preferred over gravity refueling for large aircraft?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition and working principle of pressure refueling",
+        "Fuel tank pressure requirements and limits",
+        "Refueling nozzle design and sealing mechanisms",
+        "Fuel flow control valves and shut-off systems",
+        "Safety protocols during pressure refueling operations"
+      ],
+      "content": "Definition and working principle of pressure refueling\nFuel tank pressure requirements and limits\nRefueling nozzle design and sealing mechanisms\nFuel flow control valves and shut-off systems\nSafety protocols during pressure refueling operations",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Principles of de-fueling and defueling procedures",
+        "Pressure differential management during de-fueling",
+        "Fuel transfer pumps and venting systems",
+        "Precautions against fuel spillage and contamination",
+        "Emergency de-fueling scenarios and response"
+      ],
+      "content": "Principles of de-fueling and defueling procedures\nPressure differential management during de-fueling\nFuel transfer pumps and venting systems\nPrecautions against fuel spillage and contamination\nEmergency de-fueling scenarios and response",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Comparison of pressure refueling and de-fueling systems",
+        "System components specific to pressure operations",
+        "Maintenance requirements for refueling equipment",
+        "Regulatory standards for fueling operations",
+        "Common failures and troubleshooting techniques"
+      ],
+      "content": "Comparison of pressure refueling and de-fueling systems\nSystem components specific to pressure operations\nMaintenance requirements for refueling equipment\nRegulatory standards for fueling operations\nCommon failures and troubleshooting techniques",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the role of pressure differential in preventing fuel tank over-pressurization.",
+    "Describe the sequence of operations during a pressure refueling event.",
+    "Identify three critical safety measures required during de-fueling operations."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the principles of pressure refueling and de-fueling discussed in this lesson will assist in understanding fuel contamination issues covered in LP 06.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Fuel contamination with water, foreign particles, other types of fuel, micro biological growth, contamination detection and control",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 06"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

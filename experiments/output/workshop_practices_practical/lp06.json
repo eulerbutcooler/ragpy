@@ -1,0 +1,148 @@
+{
+  "subject_name": "Workshop Practices (Practical)",
+  "subject_code": "23",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "06",
+  "total_lesson_plans": "8",
+  "time_allotted": "80 min",
+  "topic": "The basic principle of propulsion system used in guided weapons, present day propulsive systems and propellants for rockets and their classifications",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "The basic principle of propulsion system used in guided weapons, present day propulsive systems and propellants for rockets and their classifications. Practical on propulsion system.",
+  "specific_objectives": "23.1.1.1 Trainee will be able the basic knowledge of air craft armaments.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of rocket propulsion model; Safety: PPE mandatory, no loose clothing; Supervision: Instructor monitors ignition and range safety.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the fundamental principle of rocket propulsion?",
+    "Name two types of guided weapon propulsion systems.",
+    "Define specific impulse in the context of rocketry."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Basic principle of propulsion systems",
+        "Present day propulsive systems overview",
+        "Rocket propellants types and characteristics",
+        "Classification of rocket propellants"
+      ],
+      "content": "Basic principle of propulsion systems\nPresent day propulsive systems overview\nRocket propellants types and characteristics\nClassification of rocket propellants",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Practical demonstration of propulsion model",
+        "Safety protocols for propellant handling",
+        "Instructor supervision of live fire simulation",
+        "Trainee observation and note taking"
+      ],
+      "content": "Practical demonstration of propulsion model\nSafety protocols for propellant handling\nInstructor supervision of live fire simulation\nTrainee observation and note taking",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Review of propellant classifications",
+        "Comparison of solid vs liquid systems",
+        "Application in guided weapons context",
+        "Summary of key propulsion concepts"
+      ],
+      "content": "Review of propellant classifications\nComparison of solid vs liquid systems\nApplication in guided weapons context\nSummary of key propulsion concepts",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between solid and liquid propellants.",
+    "Describe the role of thrust vectoring in guided weapons."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the control systems used in guided missiles to be discussed in LP 07.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Guided missile control system, introduction functions and types of control systems (Aerodynamic controls and thrust controls) and classifications of aerodynamic and thrust control.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 07"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

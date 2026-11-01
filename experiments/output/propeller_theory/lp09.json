@@ -1,0 +1,152 @@
+{
+  "subject_name": "Propeller Theory",
+  "subject_code": "10",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "09",
+  "total_lesson_plans": "9",
+  "time_allotted": "80 min",
+  "topic": "Engine Health monitoring by using Power performance Check",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Engine Health monitoring by using Power performance Check",
+  "specific_objectives": "10.1.1.8 Trainee will be able to explain vibration analysis EHM Technique",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of Power Performance Check data sheets; Safety: Handle charts carefully; Supervision: Instructor monitors data interpretation",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of Engine Health Monitoring?",
+    "Define Power Performance Check in the context of EHM.",
+    "List three common indicators of engine degradation."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Introduction to Vibration Analysis",
+        "Principles of EHM Technique",
+        "Data Acquisition Methods",
+        "Frequency Domain Analysis",
+        "Amplitude and Phase Interpretation"
+      ],
+      "content": "Introduction to Vibration Analysis\nPrinciples of EHM Technique\nData Acquisition Methods\nFrequency Domain Analysis\nAmplitude and Phase Interpretation",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Vibration Sensor Types",
+        "Signal Processing Techniques",
+        "Thresholds and Alarms",
+        "Trend Analysis Methods",
+        "Correlation with Power Output"
+      ],
+      "content": "Vibration Sensor Types\nSignal Processing Techniques\nThresholds and Alarms\nTrend Analysis Methods\nCorrelation with Power Output",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Fault Isolation Strategies",
+        "Maintenance Action Planning",
+        "Reporting Procedures",
+        "Impact on Flight Safety",
+        "Future Technology Trends"
+      ],
+      "content": "Fault Isolation Strategies\nMaintenance Action Planning\nReporting Procedures\nImpact on Flight Safety\nFuture Technology Trends",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how vibration amplitude correlates with engine power loss.",
+    "Describe the steps involved in a Power Performance Check for EHM.",
+    "What actions are taken when vibration thresholds are exceeded?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the techniques learned in this lesson will be applied in the next lesson plan regarding advanced diagnostic tools.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "End of subject",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "-"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

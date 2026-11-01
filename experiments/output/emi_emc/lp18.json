@@ -1,0 +1,151 @@
+{
+  "subject_name": "EMI/EMC",
+  "subject_code": "14",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "18",
+  "total_lesson_plans": "46",
+  "time_allotted": "80 min",
+  "topic": "Functional components of three axis FCS",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Functional components of three axis FCS.",
+  "specific_objectives": "14.2.1.1 Trainee will be able to explain the functions of AFCS.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of AFCS block diagrams and signal flow paths from IB; Instructor supervision required for schematic interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the three primary axes of aircraft rotation?",
+    "Define the term 'Autoflight Control System' (AFCS).",
+    "List two basic control surfaces associated with pitch and roll."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition and scope of AFCS",
+        "Three-axis control architecture",
+        "Sensors and data acquisition",
+        "Control law logic",
+        "Actuator types and response"
+      ],
+      "content": "Definition and scope of AFCS\nThree-axis control architecture\nSensors and data acquisition\nControl law logic\nActuator types and response",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Pitch axis component breakdown",
+        "Roll axis component breakdown",
+        "Yaw axis component breakdown",
+        "Integration of axis functions",
+        "Feedback loop mechanisms"
+      ],
+      "content": "Pitch axis component breakdown\nRoll axis component breakdown\nYaw axis component breakdown\nIntegration of axis functions\nFeedback loop mechanisms",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Mode selection and engagement",
+        "Fail-safe mechanisms overview",
+        "Interface with flight instruments",
+        "Summary of functional hierarchy",
+        "Key terminology review"
+      ],
+      "content": "Mode selection and engagement\nFail-safe mechanisms overview\nInterface with flight instruments\nSummary of functional hierarchy\nKey terminology review",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the specific function of the yaw damper within the three-axis FCS.",
+    "Describe how the AFCS integrates data from multiple sensors to maintain stability."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the interlock requirements for the AFCS, referencing the schematic to be studied in Lesson Plan 19.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Need for interlock in AFCS and explanation with schematic.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 19"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

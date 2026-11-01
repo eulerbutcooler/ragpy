@@ -1,0 +1,152 @@
+{
+  "subject_name": "Correct Aircraft Maintenance Practices (CAMP)",
+  "subject_code": "32",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "06",
+  "total_lesson_plans": "10",
+  "time_allotted": "80 min",
+  "topic": "Troubleshooting procedures and electrical measurements",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Troubleshooting procedures and electrical measurements",
+  "specific_objectives": "32.1.1.1 Trainees will understand EWIS",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of EWIS components and identification of electrical measurement points; Safety precautions include PPE usage and lock-out/tag-out procedures; Instructor supervision during component identification exercises",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What does EWIS stand for?",
+    "Why is proper troubleshooting important in aircraft maintenance?",
+    "List three basic electrical measurements used in aircraft systems."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition and scope of EWIS",
+        "Components of EWIS systems",
+        "Impact of EWIS on aircraft safety",
+        "Regulatory requirements for EWIS",
+        "Common EWIS failure modes"
+      ],
+      "content": "Definition and scope of EWIS\nComponents of EWIS systems\nImpact of EWIS on aircraft safety\nRegulatory requirements for EWIS\nCommon EWIS failure modes",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Standard troubleshooting procedures",
+        "Electrical measurement techniques",
+        "Use of multimeters and test equipment",
+        "Interpretation of electrical readings",
+        "Documentation of troubleshooting steps"
+      ],
+      "content": "Standard troubleshooting procedures\nElectrical measurement techniques\nUse of multimeters and test equipment\nInterpretation of electrical readings\nDocumentation of troubleshooting steps",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Case studies of EWIS failures",
+        "Preventive maintenance strategies",
+        "Reporting and analysis of faults",
+        "Integration of troubleshooting in daily tasks",
+        "Review of safety protocols during troubleshooting"
+      ],
+      "content": "Case studies of EWIS failures\nPreventive maintenance strategies\nReporting and analysis of faults\nIntegration of troubleshooting in daily tasks\nReview of safety protocols during troubleshooting",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the role of EWIS in aircraft electrical systems.",
+    "Describe the steps involved in a standard troubleshooting procedure.",
+    "How do you ensure safety while performing electrical measurements?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the tools required for electrical measurements and their proper usage, referencing LP 02 for tooling details.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Zonal areas and Tooling",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 07"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

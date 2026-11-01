@@ -1,0 +1,151 @@
+{
+  "subject_name": "FOLG",
+  "subject_code": "26",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "03",
+  "total_lesson_plans": "9",
+  "time_allotted": "80 min",
+  "topic": "Engine Health monitoring by using MCD test",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Engine Health monitoring by using MCD test",
+  "specific_objectives": "26.1.1.2 Trainee will be able to explain the MCD EHM Technique",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of MCD test data sheets; Instructor supervision required for data interpretation exercises",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of Engine Health Monitoring?",
+    "Define the acronym MCD in the context of engine diagnostics.",
+    "List three parameters typically monitored during an engine test."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Introduction to MCD Test Fundamentals",
+        "Understanding EHM Technique Components",
+        "Data Acquisition and Processing Methods",
+        "Thresholds and Limit Definitions",
+        "Interpretation of MCD Results"
+      ],
+      "content": "Introduction to MCD Test Fundamentals\nUnderstanding EHM Technique Components\nData Acquisition and Processing Methods\nThresholds and Limit Definitions\nInterpretation of MCD Results",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Step-by-Step MCD Execution Procedure",
+        "Analysis of Deviation from Nominal Values",
+        "Correlation with Physical Engine Wear",
+        "Reporting Standards for MCD Data",
+        "Common Pitfalls in MCD Analysis"
+      ],
+      "content": "Step-by-Step MCD Execution Procedure\nAnalysis of Deviation from Nominal Values\nCorrelation with Physical Engine Wear\nReporting Standards for MCD Data\nCommon Pitfalls in MCD Analysis",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Integration of MCD with Overall Engine Strategy",
+        "Maintenance Decision Making based on MCD",
+        "Future Trends in Engine Health Monitoring",
+        "Role of Air Agniveer in Data Logging",
+        "Summary of Key EHM Concepts"
+      ],
+      "content": "Integration of MCD with Overall Engine Strategy\nMaintenance Decision Making based on MCD\nFuture Trends in Engine Health Monitoring\nRole of Air Agniveer in Data Logging\nSummary of Key EHM Concepts",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how the MCD test contributes to predictive maintenance.",
+    "Describe the relationship between MCD thresholds and engine overhaul schedules."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the concepts of MCD testing discussed in this lesson will assist in understanding SOAP Analysis in the next lesson plan.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Engine Health monitoring by using SOAP Analysis",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 04"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

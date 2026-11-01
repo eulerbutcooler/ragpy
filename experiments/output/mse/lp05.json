@@ -1,0 +1,149 @@
+{
+  "subject_name": "MSE",
+  "subject_code": "29",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "05",
+  "total_lesson_plans": "10",
+  "time_allotted": "80 min",
+  "topic": "Demonstration and explanation to carry out various flight servicing as per flight servicing schedule.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Demonstration and explanation to carry out various flight servicing as per flight servicing schedule.",
+  "specific_objectives": "29.1.1.5 Trainee will be able to explain about various types of Flight Servicing being carried out i.a.w flight servicing cards / Aircraft flight servicing manual.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of Flight Servicing Cards; Identification of Servicing Types; Verification of Schedule Compliance",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of a flight servicing card?",
+    "List three common types of flight servicing required for an aircraft.",
+    "Why is adherence to the flight servicing schedule critical for airworthiness?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of Flight Servicing",
+        "Importance of Scheduled Maintenance",
+        "Role of Flight Servicing Cards",
+        "Reference to Aircraft Flight Servicing Manual"
+      ],
+      "content": "Definition of Flight Servicing\nImportance of Scheduled Maintenance\nRole of Flight Servicing Cards\nReference to Aircraft Flight Servicing Manual",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Pre-flight Servicing Procedures",
+        "In-flight Servicing Requirements",
+        "Post-flight Servicing Checks",
+        "Documentation and Reporting"
+      ],
+      "content": "Pre-flight Servicing Procedures\nIn-flight Servicing Requirements\nPost-flight Servicing Checks\nDocumentation and Reporting",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Interpretation of Servicing Intervals",
+        "Handling Deviations from Schedule",
+        "Coordination with Ground Crew",
+        "Final Verification Steps"
+      ],
+      "content": "Interpretation of Servicing Intervals\nHandling Deviations from Schedule\nCoordination with Ground Crew\nFinal Verification Steps",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between pre-flight and post-flight servicing tasks.",
+    "How does a trainee identify a deviation from the standard flight servicing schedule?",
+    "What steps are taken to ensure all flight servicing is properly documented?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report outlining the specific flight servicing requirements for the next scheduled mission, referencing the relevant flight servicing card and manual sections.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Practical’s on documentation based on following maintenance evolutions: (a) A defect observed in any system during flying or on ground (b) Any limitation and husbandry defects (c) Any defect cleared by DI/DR (d) Any defect cleared by robbing action (e) Any defect cleared by replacement of component and forecasting its life f) Entries made for ground Run / CTF / MTF g) Acceptance of A/C by pilot for Ground run, CTF & MTF h) Documentation linked to independent checks, supervisory checks and checks on special occasions.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 06"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Instructor, Flight Engineer, P No. 12345",
+  "approved_by": "Senior Instructor, Chief Engineer, P No. 67890",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

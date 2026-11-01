@@ -1,0 +1,146 @@
+{
+  "subject_name": "Aircraft Electrical equipment, Power generation and Distribution",
+  "subject_code": "15",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "32",
+  "total_lesson_plans": "35",
+  "time_allotted": "80 min",
+  "topic": "Direct reading magnetic compasses- Magnetic properties, hard iron and soft iron, terrestrial magnetism, magnetic variation, magnetic dip.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Direct reading magnetic compasses- Magnetic properties, hard iron and soft iron, terrestrial magnetism, magnetic variation, magnetic dip.",
+  "specific_objectives": "15.1.12.1 Trainee will be able to explain properties and reading of magnetic compass.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of magnetic compass theory using L & Ds and IB; Instructor supervision required for diagram interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of the magnetic compass in aircraft navigation?",
+    "Define the difference between true north and magnetic north.",
+    "List three factors that affect the accuracy of a magnetic compass."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Magnetic properties of compass needle",
+        "Hard iron and soft iron distinctions",
+        "Terrestrial magnetism fundamentals"
+      ],
+      "content": "Magnetic properties of compass needle\nHard iron and soft iron distinctions\nTerrestrial magnetism fundamentals",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Magnetic variation definition and causes",
+        "Magnetic dip and its effect on compass",
+        "Isogonic lines and agonic lines"
+      ],
+      "content": "Magnetic variation definition and causes\nMagnetic dip and its effect on compass\nIsogonic lines and agonic lines",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Compass deviation basics",
+        "Interpreting magnetic variation charts",
+        "Summary of magnetic properties"
+      ],
+      "content": "Compass deviation basics\nInterpreting magnetic variation charts\nSummary of magnetic properties",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how magnetic variation differs from magnetic deviation.",
+    "Describe the impact of magnetic dip on the compass reading in high latitudes.",
+    "Identify the difference between hard iron and soft iron in the context of compass errors."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how magnetic variation changes with location and its relevance for the next lesson on compass construction and compensation.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Features of direct reading compass- Magnetic system, liquid damping, liquid expansion, compensation, compass construction. Practical on compass, how to read compass & safety precautions.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 33"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

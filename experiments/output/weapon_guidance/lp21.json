@@ -1,0 +1,152 @@
+{
+  "subject_name": "Weapon Guidance",
+  "subject_code": "19",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "21",
+  "total_lesson_plans": "22",
+  "time_allotted": "80 min",
+  "topic": "Practical on aircraft wiring routing and repair like crimping, insulating using heat sleeve, Solder sleeve etc.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Practical on aircraft wiring routing and repair like crimping, insulating using heat sleeve, Solder sleeve etc.",
+  "specific_objectives": "19.1.1.1Trainee will be able to explain aircraft wiring and Causes of wiring degradation.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Hands-on practice on crimping terminals, applying heat shrink sleeves, and using solder sleeves on aircraft wiring samples.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the primary causes of aircraft wiring degradation?",
+    "Why is proper crimping essential for electrical continuity?",
+    "What safety precautions must be observed during soldering operations?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Preparation of wire ends and stripping techniques",
+        "Selection and application of crimping tools",
+        "Inspection of crimp quality and terminal fit",
+        "Application of heat shrink insulation sleeves",
+        "Use of solder sleeves for additional protection"
+      ],
+      "content": "Preparation of wire ends and stripping techniques\nSelection and application of crimping tools\nInspection of crimp quality and terminal fit\nApplication of heat shrink insulation sleeves\nUse of solder sleeves for additional protection",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Routing wires through aircraft structure",
+        "Securing wires with clips and ties",
+        "Avoiding interference with moving parts",
+        "Maintaining proper bend radius",
+        "Labeling and identification of repaired wires"
+      ],
+      "content": "Routing wires through aircraft structure\nSecuring wires with clips and ties\nAvoiding interference with moving parts\nMaintaining proper bend radius\nLabeling and identification of repaired wires",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Final inspection of repaired wiring",
+        "Testing continuity and insulation resistance",
+        "Documentation of repair details",
+        "Cleaning work area and tools",
+        "Review of common defects and corrections"
+      ],
+      "content": "Final inspection of repaired wiring\nTesting continuity and insulation resistance\nDocumentation of repair details\nCleaning work area and tools\nReview of common defects and corrections",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Describe the correct procedure for applying a heat shrink sleeve to ensure a proper seal.",
+    "Identify three signs of a defective crimp and explain how to correct each.",
+    "Explain why solder sleeves are used in addition to heat shrink insulation in certain applications."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report detailing the steps for routing a wire bundle in a confined space, referencing the procedures to be covered in LP 22 regarding connector pin insertion.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Practical on aircraft connectors like pin configuration, insertion and exertion of connector pins, insulation check.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 22"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

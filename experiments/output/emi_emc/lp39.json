@@ -1,0 +1,152 @@
+{
+  "subject_name": "EMI/EMC",
+  "subject_code": "14",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "39",
+  "total_lesson_plans": "46",
+  "time_allotted": "80 min",
+  "topic": "Explanation of artificial feel system and helicopter trim system",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Explanation of artificial feel system and helicopter trim system.",
+  "specific_objectives": "14.2.1.1 Trainee will be able to explain the functions of AFCS.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of AFCS and Trim system schematics; Instructor supervision required for safety regarding hydraulic lines.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of the artificial feel system?",
+    "Why is a trim system necessary in a helicopter?",
+    "How does the pilot's control input relate to the main rotor torque?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Purpose of Artificial Feel System",
+        "Components of AFCS",
+        "Hydraulic Boost Mechanism",
+        "Feedback Force Generation",
+        "Safety Valves and Limits"
+      ],
+      "content": "Purpose of Artificial Feel System\nComponents of AFCS\nHydraulic Boost Mechanism\nFeedback Force Generation\nSafety Valves and Limits",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Helicopter Trim System Overview",
+        "Trim Wheel Operation",
+        "Trim Cable and Pulley Arrangement",
+        "Effect on Main Rotor Pitch",
+        "Trim Indicator Function"
+      ],
+      "content": "Helicopter Trim System Overview\nTrim Wheel Operation\nTrim Cable and Pulley Arrangement\nEffect on Main Rotor Pitch\nTrim Indicator Function",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Interaction between AFCS and Trim",
+        "Pilot Workload Reduction",
+        "System Failures and Contingencies",
+        "Maintenance Checks",
+        "Operational Procedures"
+      ],
+      "content": "Interaction between AFCS and Trim\nPilot Workload Reduction\nSystem Failures and Contingencies\nMaintenance Checks\nOperational Procedures",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how the artificial feel system compensates for control forces.",
+    "Describe the sequence of operation when adjusting the trim wheel.",
+    "Identify two potential failure modes in the AFCS and their effects."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the trim system settings change during different phases of flight (hover, climb, cruise) to be discussed in the next lesson on actuators.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Explanation of various types of actuators series and parallel and combine.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 40"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Instructor, Flight Lieutenant, P No. 12345",
+  "approved_by": "Senior Instructor, Captain, P No. 67890",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

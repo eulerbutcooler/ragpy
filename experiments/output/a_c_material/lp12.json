@@ -1,0 +1,152 @@
+{
+  "subject_name": "A/C Material",
+  "subject_code": "15",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "12",
+  "total_lesson_plans": "16",
+  "time_allotted": "80 min",
+  "topic": "Empennage structure, configuration of longitudinal stabilizer and concord and fore plane, layout of configuration of lateral stabilizer and control",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Empennage structure, configuration of longitudinal stabilizer and concord and fore plane, layout of configuration of lateral stabilizer and control",
+  "specific_objectives": "15.1.1.1 Trainee will be able to explain aircraft structure, various structural elements and their details.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of aircraft empennage diagrams; Safety: No physical handling of aircraft structures; Supervision: Instructor monitors diagram interpretation",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of the empennage?",
+    "Name the two main sections of the empennage.",
+    "How does the empennage differ from the fuselage structure?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "General empennage structure and elements",
+        "Longitudinal stabilizer configuration",
+        "Concord and fore plane layout",
+        "Lateral stabilizer configuration",
+        "Lateral stabilizer control mechanisms"
+      ],
+      "content": "General empennage structure and elements\nLongitudinal stabilizer configuration\nConcord and fore plane layout\nLateral stabilizer configuration\nLateral stabilizer control mechanisms",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Structural details of longitudinal stabilizer",
+        "Configuration of fore plane elements",
+        "Lateral stabilizer structural layout",
+        "Control surface integration details",
+        "Material usage in empennage sections"
+      ],
+      "content": "Structural details of longitudinal stabilizer\nConfiguration of fore plane elements\nLateral stabilizer structural layout\nControl surface integration details\nMaterial usage in empennage sections",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Summary of empennage structural elements",
+        "Comparison of longitudinal and lateral layouts",
+        "Key structural element identification",
+        "Review of configuration standards",
+        "Clarification of specific structural details"
+      ],
+      "content": "Summary of empennage structural elements\nComparison of longitudinal and lateral layouts\nKey structural element identification\nReview of configuration standards\nClarification of specific structural details",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the structural difference between the longitudinal and lateral stabilizers.",
+    "Identify the key structural elements of the fore plane configuration.",
+    "Describe how the lateral stabilizer control is integrated into the empennage structure."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the structural elements of the empennage to be discussed in the next lesson regarding control surfaces and tabs.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Control surface and tabs, aerodynamics characteristics of trailing edge controls, types of tabs, all moving surface, mechanical and structural aspects of control surface design",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 13"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

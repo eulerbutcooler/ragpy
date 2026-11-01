@@ -1,0 +1,152 @@
+{
+  "subject_name": "Advanced Aircraft Technology",
+  "subject_code": "20",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "14",
+  "total_lesson_plans": "20",
+  "time_allotted": "80 min",
+  "topic": "Full Authority Digital Control System",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Full Authority Digital Control System.",
+  "specific_objectives": "20.4.2.1 Trainee will be able to explain principles of Aero engine control systems.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of FCS Block Diagram and FADEC Logic Flow; Safety: Do not touch live avionics; Instructor supervision required for diagram analysis.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of an engine control system?",
+    "How did analog control systems differ from digital systems?",
+    "Why is digital control preferred for modern aero engines?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of Full Authority Digital Control",
+        "Comparison with Analog Control Systems",
+        "Role of FADEC in Engine Management",
+        "Sensors and Actuators in FCS",
+        "Benefits of Digital Over Analog Control"
+      ],
+      "content": "Definition of Full Authority Digital Control\nComparison with Analog Control Systems\nRole of FADEC in Engine Management\nSensors and Actuators in FCS\nBenefits of Digital Over Analog Control",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "FADEC Architecture and Components",
+        "Engine Parameters Monitored by FCS",
+        "Control Logic and Decision Making",
+        "Fail-Safe Mechanisms in FCS",
+        "Integration with Aircraft Flight Control"
+      ],
+      "content": "FADEC Architecture and Components\nEngine Parameters Monitored by FCS\nControl Logic and Decision Making\nFail-Safe Mechanisms in FCS\nIntegration with Aircraft Flight Control",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Advantages of FCS in Performance",
+        "Maintenance Implications of Digital Systems",
+        "Future Trends in Engine Control",
+        "Troubleshooting Common FCS Issues",
+        "Summary of FCS Principles"
+      ],
+      "content": "Advantages of FCS in Performance\nMaintenance Implications of Digital Systems\nFuture Trends in Engine Control\nTroubleshooting Common FCS Issues\nSummary of FCS Principles",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between full authority and limited authority digital control.",
+    "Describe how FADEC ensures engine safety during a sensor failure.",
+    "List three advantages of digital control systems over analog systems."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the principles of Full Authority Digital Control apply to the next lesson on Engine Vibration Monitoring Systems.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Purpose of Engine Vibration monitoring systems and Operation of Engine Vibration monitoring systems.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 15"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

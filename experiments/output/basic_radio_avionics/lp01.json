@@ -1,0 +1,151 @@
+{
+  "subject_name": "Basic Radio & Avionics",
+  "subject_code": "25",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "01",
+  "total_lesson_plans": "7",
+  "time_allotted": "80 min",
+  "topic": "Basic requirement of instrument in a typical aircraft and types",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Basic requirement of instrument in a typical aircraft and types",
+  "specific_objectives": "25.1.1.1 Trainee will be able to understand basic instrument gauges, instrument type auto pilot and maintenance.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of instrument types from IB; Instructor supervision required for safety",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of an aircraft instrument?",
+    "Name one essential instrument found in a typical cockpit.",
+    "Why are instruments required in a typical aircraft?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Basic requirements of aircraft instruments",
+        "Instrument types and classifications",
+        "Instrument gauges and displays",
+        "Auto pilot system basics",
+        "Instrument maintenance overview"
+      ],
+      "content": "Basic requirements of aircraft instruments\nInstrument types and classifications\nInstrument gauges and displays\nAuto pilot system basics\nInstrument maintenance overview",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Detailed analysis of instrument gauges",
+        "Operational principles of auto pilot",
+        "Maintenance procedures for instruments",
+        "Troubleshooting common instrument faults",
+        "Safety checks for instrument systems"
+      ],
+      "content": "Detailed analysis of instrument gauges\nOperational principles of auto pilot\nMaintenance procedures for instruments\nTroubleshooting common instrument faults\nSafety checks for instrument systems",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Summary of instrument requirements",
+        "Review of instrument types",
+        "Key maintenance points",
+        "Auto pilot integration basics",
+        "Final Q&A session"
+      ],
+      "content": "Summary of instrument requirements\nReview of instrument types\nKey maintenance points\nAuto pilot integration basics\nFinal Q&A session",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the basic requirement of an instrument in a typical aircraft.",
+    "Differentiate between the types of instruments discussed."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the purpose and principle operation of aircraft pressure gauges, pitot-static system, altimeter, ASI, and VSI for the next lesson.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Purpose and principle operation of aircraft pressure gauges, pilot static system, altimeter, ASI, and VSI. Practical on Pitot & Static instruments. Safety precautions while working on system",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 02"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

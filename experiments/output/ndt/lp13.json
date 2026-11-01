@@ -1,0 +1,145 @@
+{
+  "subject_name": "NDT",
+  "subject_code": "20",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "13",
+  "total_lesson_plans": "13",
+  "time_allotted": "80 min",
+  "topic": "Ice protection, hot air protection, electrical system Calculation of engine thrust, various parameters and tests, adjustments of engine cont",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Ice protection, hot air protection, electrical system Calculation of engine thrust, various parameters and tests, adjustments of engine controls",
+  "specific_objectives": "20.1.2.1 Trainee will be able to understand and appreciate noise separation methods, thrust reversal mechanism, after burning fuel system, lubrication system, thrust augmentation devices, cooling and thrust calculations",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of engine control adjustments and parameter verification procedures; Safety: Ensure no live engine operation; Supervision: Instructor monitors theoretical understanding only",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the primary methods used for ice protection on aircraft?",
+    "How does the thrust reversal mechanism function during landing?",
+    "Which electrical systems are critical for engine thrust calculation?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Ice protection and hot air systems",
+        "Thrust reversal and afterburning fuel systems",
+        "Lubrication and thrust augmentation devices"
+      ],
+      "content": "Ice protection and hot air systems\nThrust reversal and afterburning fuel systems\nLubrication and thrust augmentation devices",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Calculation of engine thrust parameters",
+        "Engine cooling system analysis",
+        "Noise separation methods overview"
+      ],
+      "content": "Calculation of engine thrust parameters\nEngine cooling system analysis\nNoise separation methods overview",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Various engine parameter tests",
+        "Adjustment of engine controls",
+        "Verification of thrust augmentation"
+      ],
+      "content": "Various engine parameter tests\nAdjustment of engine controls\nVerification of thrust augmentation",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the relationship between thrust augmentation devices and engine cooling requirements.",
+    "Describe the steps involved in adjusting engine controls based on calculated thrust parameters."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the concepts learned in this lesson apply to the engine control procedures covered in LP 02.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "End of subject",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "-"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

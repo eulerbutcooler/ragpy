@@ -1,0 +1,152 @@
+{
+  "subject_name": "EHM",
+  "subject_code": "28",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "06",
+  "total_lesson_plans": "7",
+  "time_allotted": "80 min",
+  "topic": "Sheet metal repair - patch repair, stop drilling of cracks.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Sheet metal repair - patch repair, stop drilling of cracks.",
+  "specific_objectives": "28.1.3.4 Trainee will be able to explain Sheet metal repair procedure.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of patch repair preparation and stop drilling technique; Safety precautions regarding PPE and tool handling; Instructor supervision of drill alignment and hole spacing.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the primary causes of sheet metal fatigue cracks?",
+    "List three safety precautions required before starting sheet metal repair.",
+    "Define the term 'stop drilling' in the context of crack repair."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Assessment of crack extent and location",
+        "Preparation of surface for patch application",
+        "Selection of patch material and fasteners",
+        "Drilling of stop holes at crack tips",
+        "Application of patch and fastening sequence"
+      ],
+      "content": "Assessment of crack extent and location\nPreparation of surface for patch application\nSelection of patch material and fasteners\nDrilling of stop holes at crack tips\nApplication of patch and fastening sequence",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Execution of stop drilling procedure",
+        "Placement and sizing of patch material",
+        "Fastening sequence and torque application",
+        "Inspection of repair integrity",
+        "Final surface finishing and sealing"
+      ],
+      "content": "Execution of stop drilling procedure\nPlacement and sizing of patch material\nFastening sequence and torque application\nInspection of repair integrity\nFinal surface finishing and sealing",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Common defects in patch repairs",
+        "Troubleshooting fastener loosening issues",
+        "Documentation of repair records",
+        "Review of maintenance manual procedures",
+        "Safety review of repair zone"
+      ],
+      "content": "Common defects in patch repairs\nTroubleshooting fastener loosening issues\nDocumentation of repair records\nReview of maintenance manual procedures\nSafety review of repair zone",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the critical importance of stop drilling in preventing crack propagation.",
+    "Describe the correct sequence for applying a patch repair to ensure structural integrity.",
+    "Identify two potential failure modes if the patch is not fastened according to the specified torque."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report outlining the safety precautions and step-by-step procedure for composite repair as covered in the next lesson plan (LP 07), highlighting key differences from sheet metal repair.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Composite repair - procedure and safety precautions while working of composites.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 07"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

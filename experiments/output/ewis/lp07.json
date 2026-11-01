@@ -1,0 +1,152 @@
+{
+  "subject_name": "EWIS",
+  "subject_code": "21",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "07",
+  "total_lesson_plans": "10",
+  "time_allotted": "80 min",
+  "topic": "Introduction to communication system",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Introduction to communication system. Purpose, technical details and types of various communication systems.",
+  "specific_objectives": "21.1.1.1 Trainee will be able to understand the basic theory of communication.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of communication theory diagrams; Safety: None; Supervision: Instructor monitors PPT navigation",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of a communication system?",
+    "Define the basic theory of communication.",
+    "List the types of communication systems covered in this subject."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Basic theory of communication",
+        "Purpose of communication systems",
+        "Signal transmission fundamentals",
+        "Modulation basics",
+        "Noise and interference"
+      ],
+      "content": "Basic theory of communication\nPurpose of communication systems\nSignal transmission fundamentals\nModulation basics\nNoise and interference",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Types of communication systems",
+        "Analog vs Digital systems",
+        "Wireless communication principles",
+        "Ground vs Air communication",
+        "Satellite communication overview"
+      ],
+      "content": "Types of communication systems\nAnalog vs Digital systems\nWireless communication principles\nGround vs Air communication\nSatellite communication overview",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Technical details of components",
+        "Frequency allocation basics",
+        "Antenna types and functions",
+        "Transmitter and receiver blocks",
+        "System integration overview"
+      ],
+      "content": "Technical details of components\nFrequency allocation basics\nAntenna types and functions\nTransmitter and receiver blocks\nSystem integration overview",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between analog and digital communication systems.",
+    "Describe the role of modulation in a communication system.",
+    "Identify the key components of a standard communication system."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the purpose and technical details of ADF to be discussed in LP 08.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Purpose and technical details of ADF. Basic layout of intercom system in aircraft.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 08"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

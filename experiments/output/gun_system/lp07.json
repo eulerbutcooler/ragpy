@@ -1,0 +1,151 @@
+{
+  "subject_name": "Gun system",
+  "subject_code": "35",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "07",
+  "total_lesson_plans": "8",
+  "time_allotted": "80 min",
+  "topic": "Guidance system suitable for under water weapons",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Guidance system suitable for under water weapons",
+  "specific_objectives": "35.1.1.1 Trainee will be able to explain role of underwater weapons",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of underwater weapon guidance principles; Safety: No live equipment; Instructor supervision: Monitor understanding of acoustic vs inertial guidance.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary role of underwater weapons?",
+    "Why is guidance critical for underwater ordnance?",
+    "Can you name one type of underwater weapon?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Role of underwater weapons",
+        "Acoustic guidance systems",
+        "Inertial guidance systems",
+        "Depth and time fuzing",
+        "Environmental challenges"
+      ],
+      "content": "Role of underwater weapons\nAcoustic guidance systems\nInertial guidance systems\nDepth and time fuzing\nEnvironmental challenges",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Comparison of guidance types",
+        "Target acquisition methods",
+        "Fuzing mechanisms",
+        "Operational limitations",
+        "Maintenance requirements"
+      ],
+      "content": "Comparison of guidance types\nTarget acquisition methods\nFuzing mechanisms\nOperational limitations\nMaintenance requirements",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Integration with ship systems",
+        "Safety protocols",
+        "Future trends",
+        "Case studies",
+        "Review of key points"
+      ],
+      "content": "Integration with ship systems\nSafety protocols\nFuture trends\nCase studies\nReview of key points",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how acoustic guidance works in underwater environments.",
+    "Describe the function of inertial guidance in torpedo systems."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the requirements of flight in air material types and purpose of FIAM for the next lesson.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Requirements of flight in air material types and purpose of FIAM",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 08"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

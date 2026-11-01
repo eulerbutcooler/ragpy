@@ -1,0 +1,151 @@
+{
+  "subject_name": "Explosive Technology",
+  "subject_code": "30",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "07",
+  "total_lesson_plans": "8",
+  "time_allotted": "80 min",
+  "topic": "Authority of demanding armament stores, warranty, established proportion and armament practice allowance various clauses for demanding armament stores",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Authority of demanding armament stores, warranty, established proportion and armament practice allowance various clauses for demanding armament stores.",
+  "specific_objectives": "30.1.1.1 Trainee will be able to explain the armament stores procedures",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of armament store demand forms and warranty clauses; Instructor supervision on form completion accuracy",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "Who has the authority to demand armament stores?",
+    "What is the warranty period for armament stores?",
+    "What is the established proportion for demanding stores?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Authority of demanding armament stores",
+        "Warranty clauses for armament stores",
+        "Established proportion requirements",
+        "Armament practice allowance rules",
+        "Various clauses for demanding stores"
+      ],
+      "content": "Authority of demanding armament stores\nWarranty clauses for armament stores\nEstablished proportion requirements\nArmament practice allowance rules\nVarious clauses for demanding stores",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Procedure for issuing armament stores",
+        "Documentation and record keeping",
+        "Verification of warranty status",
+        "Calculation of established proportion",
+        "Application of practice allowance"
+      ],
+      "content": "Procedure for issuing armament stores\nDocumentation and record keeping\nVerification of warranty status\nCalculation of established proportion\nApplication of practice allowance",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Common errors in store demands",
+        "Rectification of warranty discrepancies",
+        "Adjustment of established proportion",
+        "Integration of practice allowance",
+        "Final verification steps"
+      ],
+      "content": "Common errors in store demands\nRectification of warranty discrepancies\nAdjustment of established proportion\nIntegration of practice allowance\nFinal verification steps",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the authority required to demand armament stores.",
+    "Describe the warranty clauses applicable to armament stores."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the procedure for returning armament stores as covered in LP 08.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Occasion and procedure for returning armament stores",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 08"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

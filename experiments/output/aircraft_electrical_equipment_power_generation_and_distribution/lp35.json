@@ -1,0 +1,152 @@
+{
+  "subject_name": "Aircraft Electrical equipment, Power generation and Distribution",
+  "subject_code": "15",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "35",
+  "total_lesson_plans": "35",
+  "time_allotted": "80 min",
+  "topic": "Principle of operation of gyro magnetic compass system.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Principle of operation of gyro magnetic compass system.",
+  "specific_objectives": "15.1.12.4 Trainee will be able to explain gyro magnetic compass system.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of Gyro Magnetic Compass alignment procedure; Safety: Ensure electrical isolation before handling; Supervision: Instructor monitors alignment steps.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the two fundamental properties of a gyroscope?",
+    "Why is a magnetic compass unreliable near the poles?",
+    "How does the gyro magnetic compass differ from a standard magnetic compass?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Gyroscopic properties in navigation",
+        "Need for gyro magnetic compass",
+        "Sensing element and torque motor",
+        "Control system and damping mechanism",
+        "Alignment with magnetic north"
+      ],
+      "content": "Gyroscopic properties in navigation\nNeed for gyro magnetic compass\nSensing element and torque motor\nControl system and damping mechanism\nAlignment with magnetic north",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Error correction mechanisms",
+        "Latitude error compensation",
+        "Speed error compensation",
+        "Automatic alignment process",
+        "System monitoring indicators"
+      ],
+      "content": "Error correction mechanisms\nLatitude error compensation\nSpeed error compensation\nAutomatic alignment process\nSystem monitoring indicators",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Operational limitations",
+        "Power failure effects",
+        "Maintenance requirements",
+        "Troubleshooting common faults",
+        "Integration with flight instruments"
+      ],
+      "content": "Operational limitations\nPower failure effects\nMaintenance requirements\nTroubleshooting common faults\nIntegration with flight instruments",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how the gyro magnetic compass corrects for latitude error.",
+    "Describe the role of the torque motor in the system.",
+    "What happens to the compass indication during a power failure?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the differences between the gyro magnetic compass and the directional gyro, focusing on their respective roles in LP 02.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "End of subject",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "-"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Instructor, Flight Lieutenant, P No. 12345",
+  "approved_by": "Senior Instructor, Wing Commander, P No. 67890",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

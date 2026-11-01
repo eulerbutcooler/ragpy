@@ -1,0 +1,152 @@
+{
+  "subject_name": "MSE",
+  "subject_code": "29",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "06",
+  "total_lesson_plans": "10",
+  "time_allotted": "80 min",
+  "topic": "Practical's on documentation based on following maintenance evolutions: (a) A defect observed in any system during flying or on ground (b) Any limitation and husbandry defects (c) Any defect cleared by DI/DR (d) Any defect cleared by robbing action (e) Any defect cleared by replacement of component and forecasting its life f) Entries made for ground Run / CTF / MTF g) Acceptance of A/C by pilot for Ground run, CTF & MTF h) Documentation linked to independent checks, supervisory checks and checks on special occasions.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Practical’s on documentation based on following maintenance evolutions: (a) A defect observed in any system during flying or on ground (b) Any limitation and husbandry defects (c) Any defect cleared by DI/DR (d) Any defect cleared by robbing action (e) Any defect cleared by replacement of component and forecasting its life f) Entries made for ground Run / CTF / MTF g) Acceptance of A/C by pilot for Ground run, CTF & MTF h) Documentation linked to independent checks, supervisory checks and checks on special occasions.",
+  "specific_objectives": "29.1.1.6 Trainee will be able to explain the documentation based on maintenance evolutions.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Documentation of maintenance evolutions including defect reporting, limitation entries, clearance actions, and pilot acceptance forms.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of maintenance documentation?",
+    "List three types of defects recorded in the logbook.",
+    "Who is responsible for signing off a defect clearance?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Defect observation during flying",
+        "Defect observation on ground",
+        "Limitation and husbandry defects",
+        "Defect cleared by DI/DR",
+        "Defect cleared by robbing action"
+      ],
+      "content": "Defect observation during flying\nDefect observation on ground\nLimitation and husbandry defects\nDefect cleared by DI/DR\nDefect cleared by robbing action",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Defect cleared by replacement",
+        "Forecasting component life",
+        "Ground Run / CTF / MTF entries",
+        "Pilot acceptance documentation",
+        "Independent and supervisory checks"
+      ],
+      "content": "Defect cleared by replacement\nForecasting component life\nGround Run / CTF / MTF entries\nPilot acceptance documentation\nIndependent and supervisory checks",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Documentation for special occasions",
+        "Review of completed entries",
+        "Error identification and correction",
+        "Final verification of records",
+        "Handover of documentation"
+      ],
+      "content": "Documentation for special occasions\nReview of completed entries\nError identification and correction\nFinal verification of records\nHandover of documentation",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between a DI/DR clearance and a robbing action clearance.",
+    "Describe the required steps for forecasting the life of a replaced component.",
+    "What specific documentation is required for pilot acceptance of an aircraft for a CTF?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a mock logbook entry sequence for a defect observed during flight, cleared by replacement, and accepted by the pilot for a Ground Run, referencing LP 02 procedures.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Demonstration and explanation on aircraft marshalling procedure during taxing / aircraft movement.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 07"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

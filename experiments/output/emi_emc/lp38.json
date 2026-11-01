@@ -1,0 +1,149 @@
+{
+  "subject_name": "EMI/EMC",
+  "subject_code": "14",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "38",
+  "total_lesson_plans": "46",
+  "time_allotted": "80 min",
+  "topic": "Purpose and principle of operation of yaw damping circuit, explanation of torque limiting and phase advance.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Purpose and principle of operation of yaw damping circuit, explanation of torque limiting and phase advance.",
+  "specific_objectives": "14.2.1.1 Trainee will be able to explain the functions of AFCS.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of AFCS block diagrams and signal flow charts; Instructor supervision required for diagram interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of the yaw damping system?",
+    "How does torque reaction affect aircraft heading during power changes?",
+    "Why is phase advance necessary in yaw damping circuits?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Purpose of yaw damping circuit",
+        "Principle of operation",
+        "Torque limiting mechanism",
+        "Phase advance concept"
+      ],
+      "content": "Purpose of yaw damping circuit\nPrinciple of operation\nTorque limiting mechanism\nPhase advance concept",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Circuit component interaction",
+        "Signal processing flow",
+        "Torque limit calculation",
+        "Phase shift compensation"
+      ],
+      "content": "Circuit component interaction\nSignal processing flow\nTorque limit calculation\nPhase shift compensation",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "System response characteristics",
+        "Failure mode effects",
+        "Integration with AFCS",
+        "Operational limitations"
+      ],
+      "content": "System response characteristics\nFailure mode effects\nIntegration with AFCS\nOperational limitations",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how torque limiting prevents excessive rudder movement.",
+    "Describe the role of phase advance in improving yaw damping response.",
+    "Identify the key components involved in the yaw damping circuit operation."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the yaw damping system interfaces with the artificial feel system discussed in LP 39.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Explanation of artificial feel system and helicopter trim system.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 39"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

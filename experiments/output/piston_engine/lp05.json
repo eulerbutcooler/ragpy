@@ -1,0 +1,152 @@
+{
+  "subject_name": "Piston Engine",
+  "subject_code": "15",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "05",
+  "total_lesson_plans": "6",
+  "time_allotted": "80 min",
+  "topic": "Efficiency, BHP, IHP, FHP, SHP, knocking and detonation",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Efficiency, BHP, IHP, FHP, SHP, knocking and detonation. Ignition system, basic principles, description and operations",
+  "specific_objectives": "15.1.3.1 Trainees will be able to explain various engine power",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of engine power definitions and efficiency calculations using IB data; Instructor supervision required for calculation verification.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the difference between Indicated Horsepower and Brake Horsepower?",
+    "Define the term 'Friction Horsepower' in the context of piston engines.",
+    "Why is thermal efficiency a critical parameter for engine performance?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of Indicated Horsepower (IHP)",
+        "Definition of Brake Horsepower (BHP)",
+        "Calculation of Friction Horsepower (FHP)",
+        "Relationship between IHP, BHP, and FHP",
+        "Concept of Mechanical Efficiency"
+      ],
+      "content": "Definition of Indicated Horsepower (IHP)\nDefinition of Brake Horsepower (BHP)\nCalculation of Friction Horsepower (FHP)\nRelationship between IHP, BHP, and FHP\nConcept of Mechanical Efficiency",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Definition of Shaft Horsepower (SHP)",
+        "Calculation of Brake Thermal Efficiency",
+        "Identification of Knocking phenomena",
+        "Distinction between Knocking and Detonation",
+        "Causes and effects of Detonation"
+      ],
+      "content": "Definition of Shaft Horsepower (SHP)\nCalculation of Brake Thermal Efficiency\nIdentification of Knocking phenomena\nDistinction between Knocking and Detonation\nCauses and effects of Detonation",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Impact of detonation on engine components",
+        "Methods to prevent knocking and detonation",
+        "Role of octane rating in fuel selection",
+        "Effect of supercharging on detonation tendency",
+        "Summary of power definitions and efficiency metrics"
+      ],
+      "content": "Impact of detonation on engine components\nMethods to prevent knocking and detonation\nRole of octane rating in fuel selection\nEffect of supercharging on detonation tendency\nSummary of power definitions and efficiency metrics",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how Friction Horsepower is derived from Indicated and Brake Horsepower.",
+    "Describe the primary difference between knocking and detonation in a piston engine.",
+    "List three operational factors that increase the tendency for detonation."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note comparing the operation of a simple float type carburetor with a modified carburetor, focusing on how fuel-air mixture control affects engine efficiency and detonation risk, as covered in the next lesson plan.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Description & operation of simple float type carburetor, modified carburetor, limitation Types of Engine starters, & trouble shooting on piston engine",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 06"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

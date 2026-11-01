@@ -1,0 +1,152 @@
+{
+  "subject_name": "LSF, Stability, A/C Performance",
+  "subject_code": "6",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "12",
+  "total_lesson_plans": "33",
+  "time_allotted": "80 min",
+  "topic": "Study of pressure distribution over an aerofoil at various angles of attack, determination of center of pressure and aerodynamic center.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Study of pressure distribution over an aerofoil at various angles of attack, determination of center of pressure and aerodynamic center. various forces e.g. lift, drag and moments",
+  "specific_objectives": "6.1.2.1 Trainee will be able to describe various types of aerofoil sections, conditions of performance, theories, and concept related with performance",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Analysis of pressure distribution graphs for different angles of attack; identification of CP and AC locations; safety: Handle graph sheets carefully; supervision: Instructor monitors graph interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the primary forces acting on an aerofoil?",
+    "How does the angle of attack affect lift generation?",
+    "Define the term 'aerofoil section'."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Pressure distribution at low angles of attack",
+        "Pressure distribution at high angles of attack",
+        "Variation of center of pressure location",
+        "Definition of aerodynamic center",
+        "Relationship between lift and moment coefficients"
+      ],
+      "content": "Pressure distribution at low angles of attack\nPressure distribution at high angles of attack\nVariation of center of pressure location\nDefinition of aerodynamic center\nRelationship between lift and moment coefficients",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Calculation of center of pressure shift",
+        "Constant moment point concept",
+        "Impact of angle of attack on stability",
+        "Graphical determination of CP",
+        "Comparison of CP and AC positions"
+      ],
+      "content": "Calculation of center of pressure shift\nConstant moment point concept\nImpact of angle of attack on stability\nGraphical determination of CP\nComparison of CP and AC positions",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Practical analysis of force vectors",
+        "Identification of lift and drag components",
+        "Moment arm determination techniques",
+        "Effect of camber on pressure distribution",
+        "Summary of performance conditions"
+      ],
+      "content": "Practical analysis of force vectors\nIdentification of lift and drag components\nMoment arm determination techniques\nEffect of camber on pressure distribution\nSummary of performance conditions",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain why the aerodynamic center remains constant while the center of pressure moves.",
+    "Describe how pressure distribution changes as the angle of attack increases towards stall.",
+    "How does the location of the center of pressure affect the pitching moment of the aerofoil?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note comparing the NACA series aerofoil characteristics discussed in the next lesson with the general pressure distribution concepts covered today, focusing on how shape influences the center of pressure.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "NACA series, Vortex theory, Magnus effect, Kutta Jakubowski law, Span wise flow, down Wash wing tip and trailing edge vortices. Methods for preventing span-wise flow.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 13"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

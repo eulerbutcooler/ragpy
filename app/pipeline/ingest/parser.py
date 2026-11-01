@@ -5,6 +5,7 @@ from llama_index.core import Document
 
 logger = logging.getLogger(__name__)
 
+
 def _sanitize_text(text: str) -> str:
     # Convert surrogate pairs to actual codepoints and drop isolated surrogates
     # so downstream utf-8 encoding (e.g., llama_index hashing) never blows up.
@@ -56,10 +57,9 @@ def _table_to_markdown(raw_rows: list[list[str]]) -> str:
         "|" + "|".join(["---"] * col_count) + "|",
     ]
     for row in deduped[1:]:
-        lines.append("| " + " | ".join(
-            c.strip().replace("\n", " ") for c in pad(row)
-        ) + " |")
+        lines.append("| " + " | ".join(c.strip().replace("\n", " ") for c in pad(row)) + " |")
     return "\n".join(lines)
+
 
 def parse_docx(file_path: Path) -> list[Document]:
     from docx import Document as DocxDocument
@@ -68,13 +68,14 @@ def parse_docx(file_path: Path) -> list[Document]:
     doc = DocxDocument(str(file_path))
     parts: list[str] = []
 
+    # O(1) lookup instead of scanning doc.paragraphs for every body element.
+    paragraph_by_element = {paragraph._element: paragraph for paragraph in doc.paragraphs}
+
     for element in doc.element.body:
         tag = element.tag.split("}")[-1]
 
         if tag == "p":
-            para = next(
-                (p for p in doc.paragraphs if p._element is element), None
-            )
+            para = paragraph_by_element.get(element)
             if para and para.text.strip():
                 parts.append(para.text.strip())
 
@@ -82,10 +83,7 @@ def parse_docx(file_path: Path) -> list[Document]:
             table = Table(element, doc)
             raw_rows: list[list[str]] = []
             for row in table.rows:
-                raw_rows.append([
-                    cell.text.strip().replace("\n", " ")
-                    for cell in row.cells
-                ])
+                raw_rows.append([cell.text.strip().replace("\n", " ") for cell in row.cells])
 
             if raw_rows:
                 parts.append(_table_to_markdown(raw_rows))
@@ -97,6 +95,7 @@ def parse_docx(file_path: Path) -> list[Document]:
     text = _sanitize_text("\n\n".join(parts))
     logger.info("docx_parsed file=%s len=%d", file_path.name, len(text))
     return [Document(text=text)]
+
 
 def _extract_slide_text(slide) -> str:
     from pptx.enum.shapes import MSO_SHAPE_TYPE
@@ -110,10 +109,7 @@ def _extract_slide_text(slide) -> str:
             return
         if shape.has_table:
             raw_rows = [
-                [
-                    cell.text_frame.text.strip().replace("\n", " ")
-                    for cell in row.cells
-                ]
+                [cell.text_frame.text.strip().replace("\n", " ") for cell in row.cells]
                 for row in shape.table.rows
             ]
             if raw_rows:
@@ -134,6 +130,7 @@ def _extract_slide_text(slide) -> str:
 
     return "\n\n".join(parts)
 
+
 def _extract_slide_notes(slide) -> str:
     try:
         if slide.has_notes_slide:
@@ -143,6 +140,7 @@ def _extract_slide_notes(slide) -> str:
     except Exception:
         pass
     return ""
+
 
 def parse_pptx(file_path: Path) -> list[Document]:
     from pptx import Presentation
@@ -163,7 +161,8 @@ def parse_pptx(file_path: Path) -> list[Document]:
         if not content.strip():
             logger.warning(
                 "pptx_slide_no_text file=%s slide=%d",
-                file_path.name, i,
+                file_path.name,
+                i,
             )
             continue
 
@@ -171,34 +170,40 @@ def parse_pptx(file_path: Path) -> list[Document]:
         if notes:
             full_text += _sanitize_text(f"\n\nSpeaker notes:\n{notes}")
 
-        documents.append(Document(
-            text=full_text,
-            metadata={"slide_number": i},
-        ))
+        documents.append(
+            Document(
+                text=full_text,
+                metadata={"slide_number": i},
+            )
+        )
 
     logger.info(
         "pptx_parsed file=%s slides_indexed=%d/%d",
-        file_path.name, len(documents), total_slides,
+        file_path.name,
+        len(documents),
+        total_slides,
     )
     return documents
+
 
 def parse_pdf(file_path: Path) -> list[Document]:
     from llama_index.readers.file import PyMuPDFReader
 
     documents = PyMuPDFReader().load_data(file_path=file_path)
     sanitized = [_sanitize_document(doc) for doc in documents]
-    logger.info(
-        "pdf_parsed file=%s pages=%d", file_path.name, len(sanitized)
-    )
+    logger.info("pdf_parsed file=%s pages=%d", file_path.name, len(sanitized))
     return sanitized
+
 
 _PARSERS = {
     ".docx": parse_docx,
     ".pptx": parse_pptx,
-    ".pdf":  parse_pdf,
+    ".ppsx": parse_pptx,
+    ".pdf": parse_pdf,
 }
 
 _SUPPORTED_EXTENSIONS = set(_PARSERS.keys())
+
 
 def parse_file(file_path: Path) -> list[Document]:
     ext = file_path.suffix.lower()

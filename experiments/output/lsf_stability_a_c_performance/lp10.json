@@ -1,0 +1,152 @@
+{
+  "subject_name": "LSF, Stability, A/C Performance",
+  "subject_code": "6",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "10",
+  "total_lesson_plans": "33",
+  "time_allotted": "80 min",
+  "topic": "Video demonstrating fluid flow characteristics",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Video demonstrating fluid flow characteristics. Video on theory of flight Lift (b) Drag (c) control.",
+  "specific_objectives": "6.1.1.1 Trainee will be able to explain the properties of atmosphere, flow over bodies, boundary layer.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review video segments; Instructor supervises note-taking on flow separation and boundary layer concepts.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the three primary forces acting on an aircraft in flight?",
+    "Define the boundary layer in the context of fluid flow over a body.",
+    "List two properties of the atmosphere relevant to aerodynamic performance."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Properties of Atmosphere",
+        "Flow Over Bodies",
+        "Boundary Layer Formation",
+        "Flow Separation",
+        "Viscosity Effects"
+      ],
+      "content": "Properties of Atmosphere\nFlow Over Bodies\nBoundary Layer Formation\nFlow Separation\nViscosity Effects",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Lift Generation Principles",
+        "Drag Components Analysis",
+        "Control Surface Mechanics",
+        "Pressure Distribution",
+        "Angle of Attack Effects"
+      ],
+      "content": "Lift Generation Principles\nDrag Components Analysis\nControl Surface Mechanics\nPressure Distribution\nAngle of Attack Effects",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Interrelation of Forces",
+        "Stability Characteristics",
+        "Performance Implications",
+        "Flow Visualization",
+        "Real-world Applications"
+      ],
+      "content": "Interrelation of Forces\nStability Characteristics\nPerformance Implications\nFlow Visualization\nReal-world Applications",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how the boundary layer affects drag on an aircraft body.",
+    "Describe the relationship between angle of attack and lift coefficient.",
+    "Identify the primary control surfaces used for pitch, roll, and yaw."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the concepts of lift and drag discussed in this lesson will be expanded upon in LP 11 regarding factors affecting the coefficient of lift.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Factors affecting CL, Theories of Lift production, force and pitching moment, coefficient of lift, variation of co-efficient of lift with aspect ratio and sweep back and CL.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 11"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

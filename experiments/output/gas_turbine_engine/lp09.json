@@ -1,0 +1,152 @@
+{
+  "subject_name": "Gas Turbine Engine",
+  "subject_code": "13",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "09",
+  "total_lesson_plans": "16",
+  "time_allotted": "80 min",
+  "topic": "Exhaust system, exhaust gas flow, constructional details and materials",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Exhaust system, exhaust gas flow, constructional details and materials",
+  "specific_objectives": "13.1.2.2 Trainee will be able to explain function and operation of each components of gas turbine engine.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Examine engine cutaway model to identify exhaust nozzle, diffuser, and liner; verify safety precautions regarding hot surfaces and rotating parts; instructor supervises identification and material inspection.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of the exhaust system?",
+    "Name two materials commonly used in exhaust liners.",
+    "How does exhaust gas flow direction change after the turbine?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Exhaust gas flow path",
+        "Exhaust nozzle function",
+        "Thrust generation principle",
+        "Exhaust diffuser role",
+        "Pressure recovery mechanism"
+      ],
+      "content": "Exhaust gas flow path\nExhaust nozzle function\nThrust generation principle\nExhaust diffuser role\nPressure recovery mechanism",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Exhaust liner construction",
+        "Heat resistant alloys",
+        "Cooling air circulation",
+        "Nozzle guide vanes",
+        "Material thermal properties"
+      ],
+      "content": "Exhaust liner construction\nHeat resistant alloys\nCooling air circulation\nNozzle guide vanes\nMaterial thermal properties",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Exhaust system maintenance",
+        "Inspection criteria",
+        "Material degradation signs",
+        "Nozzle adjustment procedures",
+        "Safety during inspection"
+      ],
+      "content": "Exhaust system maintenance\nInspection criteria\nMaterial degradation signs\nNozzle adjustment procedures\nSafety during inspection",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how the exhaust nozzle converts pressure into thrust.",
+    "Describe the role of cooling air in exhaust liner construction.",
+    "List three signs of material degradation in the exhaust system."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the fuel system pressure control and flow control mechanisms to be discussed in LP 10.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Fuel system, pressure control and flow control system, plunger types pump, gear type pump, various stages of fuel atomization and types of burners.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 10"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

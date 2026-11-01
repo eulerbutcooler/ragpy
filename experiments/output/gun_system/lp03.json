@@ -1,0 +1,145 @@
+{
+  "subject_name": "Gun system",
+  "subject_code": "35",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "03",
+  "total_lesson_plans": "8",
+  "time_allotted": "80 min",
+  "topic": "Description of a typical torpedo",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Description of a typical torpedo. Demonstration of various sections of Torpedo",
+  "specific_objectives": "35.1.1.1 Trainee will be able to explain role of underwater weapons",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Examination of torpedo model sections; Safety: Handle model only; Instructor supervision required",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary role of underwater weapons?",
+    "Name one type of underwater weapon used against ships.",
+    "How does a torpedo differ from a depth charge?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "General definition and purpose of torpedo",
+        "Classification by propulsion type",
+        "Basic operational principle"
+      ],
+      "content": "General definition and purpose of torpedo\nClassification by propulsion type\nBasic operational principle",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Detailed examination of nose section",
+        "Analysis of warhead and fuse mechanism",
+        "Review of control surfaces and tail section"
+      ],
+      "content": "Detailed examination of nose section\nAnalysis of warhead and fuse mechanism\nReview of control surfaces and tail section",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Function of power plant and battery",
+        "Guidance system overview",
+        "Summary of torpedo components"
+      ],
+      "content": "Function of power plant and battery\nGuidance system overview\nSummary of torpedo components",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the function of the control surfaces on a torpedo.",
+    "Describe the role of the warhead in a typical torpedo."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Review LP 02 and list three key differences between surface and underwater weapon systems.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Description of a typical depth charge. Demonstration of various sections of depth charge",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 04"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

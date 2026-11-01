@@ -1,0 +1,151 @@
+{
+  "subject_name": "A/C Engineering System",
+  "subject_code": "17",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "21",
+  "total_lesson_plans": "30",
+  "time_allotted": "80 min",
+  "topic": "Aircraft controls systems; mechanical, power assisted, fully powered & flies by wire type of controls surfaces.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Aircraft controls systems; mechanical, power assisted, fully powered & flies by wire type of controls surfaces.",
+  "specific_objectives": "17.1.5.1 Trainee will be able to explain the construction and functioning of aircraft flight controls systems and its components.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Classroom discussion on control system types; Safety: Maintain discipline; Supervision: Instructor leads.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of aircraft flight controls?",
+    "Name the three main categories of aircraft control systems.",
+    "How does a mechanical control system transmit pilot input?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Mechanical Control System Construction",
+        "Power Assisted Control System Operation",
+        "Fully Powered Control System Features",
+        "Fly-by-Wire System Architecture",
+        "Comparison of Control System Types"
+      ],
+      "content": "Mechanical Control System Construction\nPower Assisted Control System Operation\nFully Powered Control System Features\nFly-by-Wire System Architecture\nComparison of Control System Types",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Detailed Analysis of Mechanical Linkages",
+        "Hydraulic Boost Mechanisms in Power Assist",
+        "Electronic Signal Processing in Fly-by-Wire",
+        "Advantages and Disadvantages of Each Type",
+        "Integration of Control Surfaces"
+      ],
+      "content": "Detailed Analysis of Mechanical Linkages\nHydraulic Boost Mechanisms in Power Assist\nElectronic Signal Processing in Fly-by-Wire\nAdvantages and Disadvantages of Each Type\nIntegration of Control Surfaces",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Evolution from Mechanical to Digital Systems",
+        "Future Trends in Control System Technology",
+        "Maintenance Implications of Different Systems",
+        "Safety Protocols for Control Systems",
+        "Operational Limitations of Each Type"
+      ],
+      "content": "Evolution from Mechanical to Digital Systems\nFuture Trends in Control System Technology\nMaintenance Implications of Different Systems\nSafety Protocols for Control Systems\nOperational Limitations of Each Type",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between a power-assisted and a fully powered control system.",
+    "Describe how a fly-by-wire system replaces traditional mechanical linkages."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the transition from mechanical to fly-by-wire systems to be discussed in LP 22 regarding Teleflex and Bowden cables.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Mechanical remote controls system: Teleflex, Bowden and use of control tube and cables",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 22"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

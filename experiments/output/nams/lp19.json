@@ -1,0 +1,146 @@
+{
+  "subject_name": "NAMS",
+  "subject_code": "3",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "19",
+  "total_lesson_plans": "19",
+  "time_allotted": "80 min",
+  "topic": "Engineering safe practices related to aircraft generally and aircraft systems, engine and associated equipment, air weapons & power cartridge",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Engineering safe practices related to aircraft generally and aircraft systems, engine and associated equipment, air weapons & power cartridge / EED, radio and electrical system, aircraft movement and stowage of aircraft and vehicles, use of lifting equipment, various workshops processes tyre charging, FOD and a/c ground running.",
+  "specific_objectives": "3.1.8.1 Trainees will know Safety precaution during fueling and while working on aircraft systems.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of FOD control procedures and aircraft ground running checks with instructor supervision.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of FOD control on the flight deck?",
+    "List three safety precautions required during aircraft fueling operations.",
+    "Why must engine ground running be conducted only under specific supervision?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Fueling safety precautions and bonding",
+        "Engine and associated equipment safety",
+        "Air weapons and power cartridge handling"
+      ],
+      "content": "Fueling safety precautions and bonding\nEngine and associated equipment safety\nAir weapons and power cartridge handling",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Radio and electrical system safety protocols",
+        "Aircraft movement and stowage procedures",
+        "Use of lifting equipment and workshop processes"
+      ],
+      "content": "Radio and electrical system safety protocols\nAircraft movement and stowage procedures\nUse of lifting equipment and workshop processes",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Tyre charging procedures and safety",
+        "FOD prevention and aircraft ground running",
+        "Review of general engineering safe practices"
+      ],
+      "content": "Tyre charging procedures and safety\nFOD prevention and aircraft ground running\nReview of general engineering safe practices",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the correct procedure for bonding an aircraft during fueling to prevent static discharge.",
+    "Describe the key steps involved in a safe aircraft ground running sequence.",
+    "Identify two critical safety measures required when handling air weapons and power cartridges."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the specific safety precautions required for the next lesson regarding aircraft systems maintenance, referencing the master syllabus.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "End of subject",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "-"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

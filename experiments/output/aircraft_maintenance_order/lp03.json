@@ -1,0 +1,151 @@
+{
+  "subject_name": "Aircraft Maintenance Order",
+  "subject_code": "1",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "03",
+  "total_lesson_plans": "16",
+  "time_allotted": "80 min",
+  "topic": "Air Publications, their supply sources and codification systems as per INAP 100 Z – 0201",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Air Publications, their supply sources and codification systems as per INAP 100 Z – 0201",
+  "specific_objectives": "1.1.1.1 Trainee will be able to explain the policy for maintenance of naval aircraft and associated equipment, orders, instruction and procedures.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Identification of Air Publication types and codification prefixes from sample IBs; Safety: Handle IBs with care to prevent damage; Supervision: Instructor verifies correct series identification.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary document governing naval aircraft maintenance policy?",
+    "Can you name one source where air publications are supplied?",
+    "Why is the codification system important for maintenance personnel?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition and scope of Air Publications",
+        "Policy for maintenance of naval aircraft",
+        "Orders, instructions, and procedures hierarchy",
+        "Role of Air Publications in maintenance",
+        "Supply sources for Air Publications"
+      ],
+      "content": "Definition and scope of Air Publications\nPolicy for maintenance of naval aircraft\nOrders, instructions, and procedures hierarchy\nRole of Air Publications in maintenance\nSupply sources for Air Publications",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Codification system structure and components",
+        "Interpretation of publication series codes",
+        "Identification of specific maintenance manuals",
+        "Relationship between orders and publications",
+        "Accessing publications via supply channels"
+      ],
+      "content": "Codification system structure and components\nInterpretation of publication series codes\nIdentification of specific maintenance manuals\nRelationship between orders and publications\nAccessing publications via supply channels",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Practical identification of publication types",
+        "Verification of supply source validity",
+        "Application of codification in maintenance",
+        "Review of policy implementation steps",
+        "Summary of key maintenance procedures"
+      ],
+      "content": "Practical identification of publication types\nVerification of supply source validity\nApplication of codification in maintenance\nReview of policy implementation steps\nSummary of key maintenance procedures",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between an order and an instruction in the maintenance policy.",
+    "How does the codification system help in locating the correct maintenance manual?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the information from this lesson will assist in understanding Flight servicing schedules covered in LP 02.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Flight servicing schedules: BFS, TRS, AFS, ARDS, rationalization behind various types of FS and their validity periods",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 04"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

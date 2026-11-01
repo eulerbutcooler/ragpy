@@ -1,0 +1,151 @@
+{
+  "subject_name": "Engineering Metrology",
+  "subject_code": "13",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "09",
+  "total_lesson_plans": "9",
+  "time_allotted": "80 min",
+  "topic": "Vibration of rotor and gearbox vibrators, disc cause effects on helicopter monitoring devices and remedial action.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Vibration of rotor and gearbox vibrators, disc cause effects on helicopter monitoring devices and remedial action. On hand experience to use vibration measuring equipment’s.",
+  "specific_objectives": "13.1.1.1 Trainee will be able to explain the helicopter control, main rotor movements, translation flight, power, auto rotation, vibration checks and various adjustments.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstrate use of vibration measuring equipment on simulated rotor/gearbox components; Safety: Wear PPE, ensure equipment is calibrated; Supervision: Instructor monitors probe placement and data reading.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the primary sources of vibration in a helicopter rotor system?",
+    "How does excessive vibration affect helicopter monitoring devices?",
+    "List three common causes of gearbox vibrator issues."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Main rotor movement dynamics",
+        "Translation flight vibration characteristics",
+        "Power transmission vibration effects",
+        "Auto rotation vibration behavior",
+        "Standard vibration check procedures"
+      ],
+      "content": "Main rotor movement dynamics\nTranslation flight vibration characteristics\nPower transmission vibration effects\nAuto rotation vibration behavior\nStandard vibration check procedures",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Disc causes of rotor vibration",
+        "Gearbox vibrator failure modes",
+        "Impact on monitoring device accuracy",
+        "Interpretation of vibration data trends",
+        "Remedial actions for identified faults"
+      ],
+      "content": "Disc causes of rotor vibration\nGearbox vibrator failure modes\nImpact on monitoring device accuracy\nInterpretation of vibration data trends\nRemedial actions for identified faults",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Operation of vibration measuring equipment",
+        "Calibration and zeroing procedures",
+        "Probe placement on rotor and gearbox",
+        "Reading and recording vibration levels",
+        "Troubleshooting equipment malfunctions"
+      ],
+      "content": "Operation of vibration measuring equipment\nCalibration and zeroing procedures\nProbe placement on rotor and gearbox\nReading and recording vibration levels\nTroubleshooting equipment malfunctions",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the relationship between disc imbalance and monitoring device readings.",
+    "Describe the remedial action required if gearbox vibration exceeds limits."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the vibration check procedures for the main rotor, referencing the next lesson plan (LP 02) on detailed rotor balancing adjustments.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "End of subject",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "-"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Instructor, Flight Lieutenant, P No. 12345",
+  "approved_by": "Senior Instructor, Major, P No. 67890",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

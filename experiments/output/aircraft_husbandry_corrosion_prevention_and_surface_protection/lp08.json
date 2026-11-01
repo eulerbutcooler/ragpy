@@ -1,0 +1,151 @@
+{
+  "subject_name": "Aircraft Husbandry, Corrosion Prevention and Surface Protection",
+  "subject_code": "27",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "08",
+  "total_lesson_plans": "8",
+  "time_allotted": "80 min",
+  "topic": "Introduction to mixed explosives and their advantages, Application",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Introduction to mixed explosives and their advantages, Application",
+  "specific_objectives": "27.1.1.1 Trainee will be able to explain about various explosives",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of explosive safety cards and identification of mixed explosive labels on storage containers",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary difference between single-base and mixed explosives?",
+    "Why are mixed explosives preferred over single-base explosives in modern aviation applications?",
+    "Can you list three common applications of mixed explosives in aircraft maintenance?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of mixed explosives",
+        "Composition of oxidizer and fuel components",
+        "Advantages of mixed explosives",
+        "Stability and safety characteristics",
+        "Common types of mixed explosives"
+      ],
+      "content": "Definition of mixed explosives\nComposition of oxidizer and fuel components\nAdvantages of mixed explosives\nStability and safety characteristics\nCommon types of mixed explosives",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Application in aircraft ordnance",
+        "Usage in pyrotechnic devices",
+        "Role in emergency systems",
+        "Handling and storage requirements",
+        "Safety precautions during application"
+      ],
+      "content": "Application in aircraft ordnance\nUsage in pyrotechnic devices\nRole in emergency systems\nHandling and storage requirements\nSafety precautions during application",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Comparison with single-base explosives",
+        "Environmental impact considerations",
+        "Future trends in explosive technology",
+        "Regulatory compliance for mixed explosives",
+        "Summary of key advantages"
+      ],
+      "content": "Comparison with single-base explosives\nEnvironmental impact considerations\nFuture trends in explosive technology\nRegulatory compliance for mixed explosives\nSummary of key advantages",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the primary advantage of using mixed explosives over single-base explosives in aircraft systems.",
+    "Describe the specific safety precautions required when handling mixed explosives in an aircraft hangar."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the specific application of mixed explosives in emergency ejection systems, referencing the next lesson plan (LP 02) on advanced pyrotechnic devices.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "End of subject",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "-"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Instructor, Senior Instructor, P No. 12345",
+  "approved_by": "Senior Officer, Chief Instructor, P No. 67890",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

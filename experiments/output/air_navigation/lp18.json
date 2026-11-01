@@ -1,0 +1,146 @@
+{
+  "subject_name": "Air Navigation",
+  "subject_code": "21",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "18",
+  "total_lesson_plans": "18",
+  "time_allotted": "80 min",
+  "topic": "Training on use of advanced test equipment: - Digital & analog multimeter & Megger, Digital & analog Insulation tester, Bonding tester and No volt tester",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Training on use of advanced test equipment: - Digital & analog multimeter & Megger, Digital & analog Insulation tester, Bonding tester and No volt tester.",
+  "specific_objectives": "21.1.11.1 Trainee will be able to explain / practically use advanced test equipment in aircraft maintenance.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Practical demonstration and hands-on operation of Digital/Analog Multimeter, Megger, Insulation Tester, Bonding Tester, and No Volt Tester with safety precautions and instructor supervision.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of a multimeter?",
+    "Why is insulation resistance testing critical in aircraft systems?",
+    "What safety precaution is essential before using a Megger?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Digital and Analog Multimeter Operation",
+        "Megger and Insulation Tester Principles",
+        "Bonding Tester and No Volt Tester Usage"
+      ],
+      "content": "Digital and Analog Multimeter Operation\nMegger and Insulation Tester Principles\nBonding Tester and No Volt Tester Usage",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Safety Precautions for High Voltage Testing",
+        "Calibration and Zeroing Procedures",
+        "Interpretation of Test Readings and Faults"
+      ],
+      "content": "Safety Precautions for High Voltage Testing\nCalibration and Zeroing Procedures\nInterpretation of Test Readings and Faults",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Troubleshooting Common Test Equipment Errors",
+        "Maintenance and Storage of Test Instruments",
+        "Documentation of Test Results"
+      ],
+      "content": "Troubleshooting Common Test Equipment Errors\nMaintenance and Storage of Test Instruments\nDocumentation of Test Results",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between a Megger and a standard multimeter.",
+    "Describe the correct procedure for testing aircraft bonding continuity.",
+    "What steps must be taken after completing an insulation resistance test?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the specific safety protocols required when operating a Megger on live aircraft systems, referencing the next lesson plan (LP 02) on electrical system troubleshooting.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "End of subject",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "-"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

@@ -1,0 +1,149 @@
+{
+  "subject_name": "LSF, Stability, A/C Performance",
+  "subject_code": "6",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "01",
+  "total_lesson_plans": "33",
+  "time_allotted": "80 min",
+  "topic": "Physical properties, composition and division of atmosphere, International Standard Atmosphere, variation of properties of air with altitude",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Physical properties, composition and division of atmosphere, International Standard Atmosphere, variation of properties of air with altitude.",
+  "specific_objectives": "6.1.1.1 Trainee will be able to explain the properties of atmosphere, flow over bodies, boundary layer.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of IB diagrams regarding atmospheric layers; Instructor supervision during Q&A session.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the three primary physical properties of air?",
+    "Name the four main layers of the atmosphere.",
+    "Define the International Standard Atmosphere."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Composition of dry air",
+        "Physical properties of air",
+        "Flow over bodies",
+        "Boundary layer concept"
+      ],
+      "content": "Composition of dry air\nPhysical properties of air\nFlow over bodies\nBoundary layer concept",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Division of atmosphere",
+        "International Standard Atmosphere",
+        "ISA temperature lapse rate",
+        "ISA pressure variation"
+      ],
+      "content": "Division of atmosphere\nInternational Standard Atmosphere\nISA temperature lapse rate\nISA pressure variation",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Variation of density with altitude",
+        "Variation of temperature with altitude",
+        "ISA deviation effects",
+        "Standard sea level values"
+      ],
+      "content": "Variation of density with altitude\nVariation of temperature with altitude\nISA deviation effects\nStandard sea level values",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how air density changes as altitude increases in the troposphere.",
+    "Describe the significance of the boundary layer in aerodynamic flow.",
+    "State the standard temperature and pressure values at sea level under ISA conditions."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note comparing geometric altitude, pressure altitude, and density altitude, referencing the concepts covered in the next lesson plan (LP 02).",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Pressure altitude, density altitude, geometric, absolute altitude and standard altitude",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 02"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

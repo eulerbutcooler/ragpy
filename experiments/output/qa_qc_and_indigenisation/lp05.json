@@ -1,0 +1,147 @@
+{
+  "subject_name": "QA/QC and Indigenisation",
+  "subject_code": "11",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "05",
+  "total_lesson_plans": "5",
+  "time_allotted": "80 min",
+  "topic": "Effect of propeller rotation on aircraft and methods used to counteract it.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Effect of propeller rotation on aircraft and methods used to counteract it.",
+  "specific_objectives": "11.1.1.1 Trainee will be able to describe the various types of propellers, principles of operation and pitch change mechanisms.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of P-factor using a spinning propeller model; Safety: Ensure model is secured; Supervision: Instructor monitors student observation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of a propeller?",
+    "Define the term 'Gyroscopic Precession'.",
+    "List three types of propellers based on pitch change mechanism."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Gyroscopic Precession Principles",
+        "Effect on Aircraft Control Surfaces",
+        "P-Factor Asymmetry Explanation",
+        "Torque Reaction on Fuselage",
+        "Propeller Slipstream Influence"
+      ],
+      "content": "Gyroscopic Precession Principles\nEffect on Aircraft Control Surfaces\nP-Factor Asymmetry Explanation\nTorque Reaction on Fuselage\nPropeller Slipstream Influence",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Counteracting Torque Reaction",
+        "Managing P-Factor During Climb",
+        "Correcting Gyroscopic Effects"
+      ],
+      "content": "Counteracting Torque Reaction\nManaging P-Factor During Climb\nCorrecting Gyroscopic Effects",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Engine RPM and Propeller Speed",
+        "Aerodynamic Balance Techniques",
+        "Control Input Coordination"
+      ],
+      "content": "Engine RPM and Propeller Speed\nAerodynamic Balance Techniques\nControl Input Coordination",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how P-factor affects aircraft yaw during high angles of attack.",
+    "Describe the specific control inputs required to counteract torque reaction."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how propeller rotation effects influence takeoff and landing performance, referencing the next lesson plan on engine power management.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "End of subject",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "-"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

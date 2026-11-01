@@ -1,0 +1,152 @@
+{
+  "subject_name": "Air Weapon",
+  "subject_code": "10",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "12",
+  "total_lesson_plans": "12",
+  "time_allotted": "80 min",
+  "topic": "Drag analysis, induced, form, skin friction, profile parasite and total drag",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Drag analysis, induced, form, skin friction, profile parasite and total drag.",
+  "specific_objectives": "10.1.1.1 Trainee will be able to explain the properties of atmosphere, flow over bodies, boundary layer and various concepts of Aerodynamics.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review drag component diagrams; verify definitions of induced, form, skin friction, profile parasite, and total drag; instructor supervises concept mapping.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the four primary forces acting on an aircraft in flight?",
+    "Define the boundary layer in the context of airflow over a body.",
+    "List the three main components of parasite drag."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of Drag and its significance",
+        "Skin friction drag and boundary layer effects",
+        "Form drag and pressure distribution",
+        "Profile drag as sum of skin friction and form",
+        "Induced drag and lift-induced downwash"
+      ],
+      "content": "Definition of Drag and its significance\nSkin friction drag and boundary layer effects\nForm drag and pressure distribution\nProfile drag as sum of skin friction and form\nInduced drag and lift-induced downwash",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Parasite drag components breakdown",
+        "Relationship between speed and drag types",
+        "Total drag curve analysis",
+        "Minimum drag speed determination",
+        "Impact of airfoil shape on drag"
+      ],
+      "content": "Parasite drag components breakdown\nRelationship between speed and drag types\nTotal drag curve analysis\nMinimum drag speed determination\nImpact of airfoil shape on drag",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Comparison of induced and parasite drag",
+        "Operational implications of drag analysis",
+        "Fuel efficiency and drag management",
+        "Reinforcement of total drag concept",
+        "Summary of drag types and causes"
+      ],
+      "content": "Comparison of induced and parasite drag\nOperational implications of drag analysis\nFuel efficiency and drag management\nReinforcement of total drag concept\nSummary of drag types and causes",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how induced drag changes as airspeed increases.",
+    "Differentiate between form drag and skin friction drag with examples.",
+    "Describe the relationship between total drag and the minimum drag speed."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how understanding drag components aids in optimizing aircraft performance for the next lesson on lift optimization.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "End of subject",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "-"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Instructor, Sub-Lieutenant, P No. 12345",
+  "approved_by": "Senior Instructor, Lieutenant, P No. 67890",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

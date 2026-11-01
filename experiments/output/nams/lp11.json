@@ -1,0 +1,151 @@
+{
+  "subject_name": "NAMS",
+  "subject_code": "3",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "11",
+  "total_lesson_plans": "19",
+  "time_allotted": "80 min",
+  "topic": "Stores: Classification and catalogues INBR-12, identification of stores, NIV items.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Stores: Classification and catalogues INBR-12, identification of stores, NIV items.",
+  "specific_objectives": "3.1.5.1 Trainees will be able to explain the Stores Classification and catalogues INBR-12",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Identification of stores from catalogues; Safety: Handle catalogues carefully; Supervision: Instructor verifies identification accuracy.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of the Stores Classification system?",
+    "Can you name one major category of air stores?",
+    "Why is accurate identification of stores critical for aircraft operations?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Stores Classification System Overview",
+        "Catalogue INBR-12 Structure and Use",
+        "Identification of Stores by Code",
+        "NIV Items Definition and Scope",
+        "Cross-referencing Catalogues"
+      ],
+      "content": "Stores Classification System Overview\nCatalogue INBR-12 Structure and Use\nIdentification of Stores by Code\nNIV Items Definition and Scope\nCross-referencing Catalogues",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Detailed Analysis of INBR-12 Entries",
+        "Practical Identification Exercise",
+        "Common Errors in Store Identification",
+        "Role of NIV Items in Logistics",
+        "Catalogue Maintenance and Updates"
+      ],
+      "content": "Detailed Analysis of INBR-12 Entries\nPractical Identification Exercise\nCommon Errors in Store Identification\nRole of NIV Items in Logistics\nCatalogue Maintenance and Updates",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Summary of Classification Rules",
+        "Review of NIV Item Protocols",
+        "Importance of Accurate Cataloguing",
+        "Linking Classification to Maintenance",
+        "Final Clarification of Concepts"
+      ],
+      "content": "Summary of Classification Rules\nReview of NIV Item Protocols\nImportance of Accurate Cataloguing\nLinking Classification to Maintenance\nFinal Clarification of Concepts",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the significance of the INBR-12 catalogue in store identification.",
+    "How do NIV items differ from standard classified stores?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the procedure for demanding air stores as covered in the next lesson plan (LP 12), linking it to the classification learned today.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Allowances, ASE, procedure for demanding / survey of air store, safe packaging/ transportation, pre-dispatch inspection & responsibilities, Use of RRA, initial provisioning committee.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 12"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

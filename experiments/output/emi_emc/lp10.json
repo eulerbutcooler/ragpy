@@ -1,0 +1,151 @@
+{
+  "subject_name": "EMI/EMC",
+  "subject_code": "14",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "10",
+  "total_lesson_plans": "46",
+  "time_allotted": "80 min",
+  "topic": "Simple inertial navigation system block diagram.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Simple inertial navigation system block diagram.",
+  "specific_objectives": "14.1.1.1 Trainee will be able to explain and define a position on the earth.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of INS Block Diagram components using PPT slides; Instructor supervision required for diagram interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of an Inertial Navigation System?",
+    "Define the term 'inertial' in the context of navigation.",
+    "List three basic parameters required to define a position on the earth."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of Simple INS",
+        "Core components of INS",
+        "Function of Accelerometers",
+        "Function of Gyroscopes",
+        "Integration process basics"
+      ],
+      "content": "Definition of Simple INS\nCore components of INS\nFunction of Accelerometers\nFunction of Gyroscopes\nIntegration process basics",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Interpretation of Block Diagram",
+        "Signal flow analysis",
+        "Coordinate transformation",
+        "Position calculation logic",
+        "Velocity to position integration"
+      ],
+      "content": "Interpretation of Block Diagram\nSignal flow analysis\nCoordinate transformation\nPosition calculation logic\nVelocity to position integration",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Earth position definition",
+        "Latitude and Longitude",
+        "Altitude measurement",
+        "Reference frame alignment",
+        "System initialization concept"
+      ],
+      "content": "Earth position definition\nLatitude and Longitude\nAltitude measurement\nReference frame alignment\nSystem initialization concept",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how the INS block diagram converts acceleration into position.",
+    "Describe the role of the gyroscope in maintaining the reference frame within the block diagram."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Draw a simple block diagram of an INS and label the input sensors and output position coordinates, preparing to discuss error sources in the next lesson.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Different errors in INS., initial leveling error, initial tilt error, accelerometer error, integrator error, initial azimuth misalignment, azimuth gyro drift, and leveling gyro drift.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 11"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

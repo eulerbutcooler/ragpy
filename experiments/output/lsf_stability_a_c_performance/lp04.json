@@ -1,0 +1,152 @@
+{
+  "subject_name": "LSF, Stability, A/C Performance",
+  "subject_code": "6",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "04",
+  "total_lesson_plans": "33",
+  "time_allotted": "80 min",
+  "topic": "Definition of streamline, stream tube, stream filament, ideal and real fluid, steady and turbulent flow, compressible and incompressible flow",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Definition of streamline, stream tube, stream filament, ideal and real fluid, steady and turbulent flow, compressible and incompressible flow, viscous and in viscous flow, rotational and irrotational flow.",
+  "specific_objectives": "6.1.1.1 Trainee will be able to explain the properties of atmosphere, flow over bodies, boundary layer.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of flow diagrams from IB; Instructor supervision required for diagram interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of air in an aircraft's flight envelope?",
+    "Can you list three fundamental properties of a fluid?",
+    "Why is understanding flow patterns critical for aerodynamic performance?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of streamline",
+        "Concept of stream tube",
+        "Definition of stream filament",
+        "Distinction between ideal and real fluid",
+        "Characteristics of steady flow"
+      ],
+      "content": "Definition of streamline\nConcept of stream tube\nDefinition of stream filament\nDistinction between ideal and real fluid\nCharacteristics of steady flow",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Difference between compressible and incompressible flow",
+        "Definition of viscous and inviscid flow",
+        "Concept of rotational and irrotational flow",
+        "Characteristics of turbulent flow",
+        "Comparison of flow regimes"
+      ],
+      "content": "Difference between compressible and incompressible flow\nDefinition of viscous and inviscid flow\nConcept of rotational and irrotational flow\nCharacteristics of turbulent flow\nComparison of flow regimes",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Application of flow definitions to atmosphere",
+        "Summary of key flow classifications",
+        "Link to boundary layer formation",
+        "Review of previous concepts",
+        "Preparation for flow over bodies"
+      ],
+      "content": "Application of flow definitions to atmosphere\nSummary of key flow classifications\nLink to boundary layer formation\nReview of previous concepts\nPreparation for flow over bodies",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between a streamline and a stream tube.",
+    "Why is flow considered compressible at high speeds?",
+    "How does viscosity affect the classification of real fluid flow?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the concepts of streamline and stream tube will be applied when analyzing flow over bluff bodies in the next lesson.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Flow over bodies; bluff bodies and streamlined bodies, Flow pattern over flat plate, formation of eddies, the wake and its reduction.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 05"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Instructor, Flight Lieutenant, P No. 12345",
+  "approved_by": "Senior Instructor, Captain, P No. 67890",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

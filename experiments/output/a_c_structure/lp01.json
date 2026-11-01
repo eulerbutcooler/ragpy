@@ -1,0 +1,152 @@
+{
+  "subject_name": "A/C Structure",
+  "subject_code": "11",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "01",
+  "total_lesson_plans": "17",
+  "time_allotted": "80 min",
+  "topic": "Classification of aircraft, arrangements of major components and their functions",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Classification of aircraft, arrangements of major components and their functions",
+  "specific_objectives": "11.1.1.1 Trainee will be able to explain aircraft structure, various structural elements and their details.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of component arrangement diagrams; Instructor supervision required for diagram interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the primary functions of an aircraft structure?",
+    "Can you list three major components of an aircraft?",
+    "How is an aircraft generally classified based on its configuration?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Classification of aircraft by configuration",
+        "Classification by propulsion type",
+        "Classification by mission role",
+        "Classification by size and capacity",
+        "Classification by wing configuration"
+      ],
+      "content": "Classification of aircraft by configuration\nClassification by propulsion type\nClassification by mission role\nClassification by size and capacity\nClassification by wing configuration",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Arrangement of fuselage and cockpit",
+        "Wing structure and control surfaces",
+        "Empennage components and functions",
+        "Landing gear types and mechanisms",
+        "Powerplant location and integration"
+      ],
+      "content": "Arrangement of fuselage and cockpit\nWing structure and control surfaces\nEmpennage components and functions\nLanding gear types and mechanisms\nPowerplant location and integration",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Structural elements: skin, frames, and ribs",
+        "Load distribution and stress analysis",
+        "Material selection for airframe",
+        "Fastening methods and joints",
+        "Corrosion protection and maintenance access"
+      ],
+      "content": "Structural elements: skin, frames, and ribs\nLoad distribution and stress analysis\nMaterial selection for airframe\nFastening methods and joints\nCorrosion protection and maintenance access",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between monoplane and biplane configurations.",
+    "Describe the function of the horizontal stabilizer in the empennage.",
+    "How does the landing gear arrangement affect aircraft performance?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the design requirements for the next lesson (LP 02) focusing on how classification influences manufacturing processes.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Steps in aircraft design, manufacturing process and aircraft design requirements",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 02"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Instructor, Flight Lieutenant, P No. 12345",
+  "approved_by": "Senior Instructor, Captain, P No. 67890",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

@@ -1,0 +1,152 @@
+{
+  "subject_name": "Explosive Technology",
+  "subject_code": "30",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "04",
+  "total_lesson_plans": "8",
+  "time_allotted": "80 min",
+  "topic": "Forms used in armament store procedure",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Forms used in armament store procedure",
+  "specific_objectives": "30.1.1.1 Trainee will be able to explain the armament stores procedures",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of physical form samples; Safety: Handle forms only; Instructor supervision: Monitor identification accuracy",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of documentation in armament stores?",
+    "Name one key safety rule regarding armament store forms.",
+    "How does proper form usage prevent inventory discrepancies?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Receipt Note IN 327",
+        "Issue Note IN 328",
+        "Stock Card Maintenance",
+        "Transfer Note Procedures",
+        "Discrepancy Reporting Forms"
+      ],
+      "content": "Receipt Note IN 327\nIssue Note IN 328\nStock Card Maintenance\nTransfer Note Procedures\nDiscrepancy Reporting Forms",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Form filling protocols",
+        "Signature authority levels",
+        "Storage and retrieval rules",
+        "Audit trail requirements",
+        "Correction and amendment standards"
+      ],
+      "content": "Form filling protocols\nSignature authority levels\nStorage and retrieval rules\nAudit trail requirements\nCorrection and amendment standards",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "End-of-day reconciliation",
+        "Monthly stock verification",
+        "Annual inventory audit",
+        "Loss reporting mechanisms",
+        "Record retention policies"
+      ],
+      "content": "End-of-day reconciliation\nMonthly stock verification\nAnnual inventory audit\nLoss reporting mechanisms\nRecord retention policies",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between a Receipt Note and an Issue Note.",
+    "Describe the procedure for reporting a stock discrepancy.",
+    "Why is signature authority critical in armament store forms?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief summary of the forms covered in this lesson and their specific roles in the armament store procedure, referencing LP 02 for context on store management basics.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Armament ledger IN 327and its parts",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 05"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

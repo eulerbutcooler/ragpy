@@ -1,0 +1,151 @@
+{
+  "subject_name": "INAP-2",
+  "subject_code": "4",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "03",
+  "total_lesson_plans": "19",
+  "time_allotted": "80 min",
+  "topic": "Definition of terms (Airframe, Custodian, Allotment, UE, UH), Aircraft/Engine Nomenclature and Aircraft classification, Reclassification of",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Definition of terms (Airframe, Custodian, Allotment, UE, UH), Aircraft/Engine Nomenclature and Aircraft classification, Reclassification of aircraft and its authority",
+  "specific_objectives": "4.1.2.1 Trainee will be able to understand nomenclature and classification of aircraft.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of Aircraft Nomenclature Cards; Safety: Handle cards carefully; Supervision: Instructor monitors card distribution and collection.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary definition of an Airframe?",
+    "Who is responsible for the custody of an aircraft?",
+    "Can you list three common aircraft classifications?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of Airframe",
+        "Definition of Custodian",
+        "Definition of Allotment",
+        "Definition of UE",
+        "Definition of UH"
+      ],
+      "content": "Definition of Airframe\nDefinition of Custodian\nDefinition of Allotment\nDefinition of UE\nDefinition of UH",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Aircraft Nomenclature Rules",
+        "Engine Nomenclature Rules",
+        "Aircraft Classification Types",
+        "Classification Criteria",
+        "Reclassification Authority"
+      ],
+      "content": "Aircraft Nomenclature Rules\nEngine Nomenclature Rules\nAircraft Classification Types\nClassification Criteria\nReclassification Authority",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Procedure for Reclassification",
+        "Documentation Requirements",
+        "Authority Verification",
+        "Record Keeping",
+        "Common Reclassification Scenarios"
+      ],
+      "content": "Procedure for Reclassification\nDocumentation Requirements\nAuthority Verification\nRecord Keeping\nCommon Reclassification Scenarios",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between UE and UH in the context of aircraft maintenance.",
+    "Who holds the authority to reclassify an aircraft and why is this important?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief summary of the aircraft nomenclature rules to be discussed in the next session on Aircraft accidents/incidents.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Aircraft accidents/ incident Definition, classification of causes, INSIG, FUR, MIR, follow up letter, impounding of documents, procedure of Raising of Form A-25.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 04"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

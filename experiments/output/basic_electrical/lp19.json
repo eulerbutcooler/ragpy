@@ -1,0 +1,152 @@
+{
+  "subject_name": "Basic Electrical",
+  "subject_code": "23",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "19",
+  "total_lesson_plans": "29",
+  "time_allotted": "80 min",
+  "topic": "Description purpose typical pneumatic system components",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Description purpose typical pneumatic system components",
+  "specific_objectives": "23.1.4.1 Trainee will be able to describe the construction and functioning of a typical pneumatic system and its components.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of system schematic diagrams; Instructor supervision required for diagram interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary source of power for pneumatic systems?",
+    "Name one common application of pneumatic power in an aircraft.",
+    "Why is compressed air preferred over hydraulic fluid for certain systems?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition and basic principle of pneumatic systems",
+        "Construction of air compressor and air turbine",
+        "Function of air reservoirs and pressure regulators",
+        "Role of air starters and bleed air valves",
+        "Safety considerations in high-pressure air systems"
+      ],
+      "content": "Definition and basic principle of pneumatic systems\nConstruction of air compressor and air turbine\nFunction of air reservoirs and pressure regulators\nRole of air starters and bleed air valves\nSafety considerations in high-pressure air systems",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Detailed analysis of air compressor operation",
+        "Functioning of air turbine and bleed valves",
+        "Integration of reservoirs and pressure control units",
+        "Operation of air starters and ground power units",
+        "Maintenance requirements for pneumatic components"
+      ],
+      "content": "Detailed analysis of air compressor operation\nFunctioning of air turbine and bleed valves\nIntegration of reservoirs and pressure control units\nOperation of air starters and ground power units\nMaintenance requirements for pneumatic components",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Typical layout of pneumatic system in aircraft",
+        "Interconnection of components and flow paths",
+        "Troubleshooting common pneumatic system faults",
+        "Impact of system failures on aircraft performance",
+        "Standard operating procedures for pneumatic systems"
+      ],
+      "content": "Typical layout of pneumatic system in aircraft\nInterconnection of components and flow paths\nTroubleshooting common pneumatic system faults\nImpact of system failures on aircraft performance\nStandard operating procedures for pneumatic systems",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the function of an air reservoir in a pneumatic system.",
+    "Describe how an air starter utilizes compressed air to start an engine.",
+    "Identify three safety precautions when working with high-pressure pneumatic systems."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the differences between mechanical, power-assisted, and fly-by-wire control systems to be discussed in LP 20.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Aircraft controls systems; mechanical, power assisted, fully powered & flies by wire type of controls surfaces.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 20"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

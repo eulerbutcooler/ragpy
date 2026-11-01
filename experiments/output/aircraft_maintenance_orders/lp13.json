@@ -1,0 +1,152 @@
+{
+  "subject_name": "Aircraft Maintenance Orders",
+  "subject_code": "1",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "13",
+  "total_lesson_plans": "16",
+  "time_allotted": "80 min",
+  "topic": "Wartime maintenance, procedure, authority to employ war time maintenance procedure schedule maintenance, component life defect rectification",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Wartime maintenance, procedure, authority to employ war time maintenance procedure schedule maintenance, component life defect rectification and repair, BDR recovery to peace time documentation.",
+  "specific_objectives": "1.1.3.1 Trainee will be able to understand modification, life categories and flight-testing effect of CG variation and wartime maintenance procedure.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of Wartime Maintenance Procedure Schedule (WMS) and Component Life Defect Rectification Log entries; Instructor supervision of documentation recovery simulation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary difference between peace-time and wartime maintenance priorities?",
+    "Who holds the authority to authorize Wartime Maintenance Procedures?",
+    "Why is Component Life Defect Rectification critical during operational phases?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition and scope of Wartime Maintenance",
+        "Authority to employ Wartime Maintenance Procedure",
+        "WMS Schedule maintenance requirements",
+        "Component life categories and limits",
+        "Defect rectification and repair protocols"
+      ],
+      "content": "Definition and scope of Wartime Maintenance\nAuthority to employ Wartime Maintenance Procedure\nWMS Schedule maintenance requirements\nComponent life categories and limits\nDefect rectification and repair protocols",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Modification impact on CG variation",
+        "Flight-testing effects of CG changes",
+        "BDR recovery to peace time documentation",
+        "Recording wartime repairs in permanent records",
+        "Verification of life limits post-rectification"
+      ],
+      "content": "Modification impact on CG variation\nFlight-testing effects of CG changes\nBDR recovery to peace time documentation\nRecording wartime repairs in permanent records\nVerification of life limits post-rectification",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Safety precautions during wartime repairs",
+        "Instructor supervision of defect rectification",
+        "Tool control during emergency maintenance",
+        "Final inspection before flight release",
+        "Reporting chain for wartime anomalies"
+      ],
+      "content": "Safety precautions during wartime repairs\nInstructor supervision of defect rectification\nTool control during emergency maintenance\nFinal inspection before flight release\nReporting chain for wartime anomalies",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the conditions under which Wartime Maintenance Procedures are authorized.",
+    "Describe the steps required to recover BDR entries to peace-time documentation standards.",
+    "How does CG variation affect flight testing and what modifications are required?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief summary of the Wartime Maintenance Procedure Schedule (WMS) and outline the specific steps for transitioning BDR entries to peace-time documentation, referencing the next lesson on Tool Control System requirements.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Tool control system – introduction and need of tool control set up, Tool control procedures, duties and responsibilities of tool controller, maintenance of tool out fits and procedure for use of forms TC-14, TC-15, LP tool procurement and survey/ demand of tool.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 14"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

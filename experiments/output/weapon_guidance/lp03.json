@@ -1,0 +1,147 @@
+{
+  "subject_name": "Weapon Guidance",
+  "subject_code": "19",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "03",
+  "total_lesson_plans": "22",
+  "time_allotted": "80 min",
+  "topic": "Electrical load determination and various load protection techniques",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Electrical load determination and various load protection techniques.",
+  "specific_objectives": "19.1.1.1Trainee will be able to explain aircraft wiring and Causes of wiring degradation.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of wiring diagrams and identification of load protection devices; Safety: Ensure no live circuits are touched; Supervision: Instructor monitors diagram interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of aircraft wiring?",
+    "List three common causes of wiring degradation.",
+    "Why is load determination critical for aircraft safety?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Aircraft wiring system overview",
+        "Conductor materials and insulation types",
+        "Causes of wiring degradation",
+        "Impact of degradation on system integrity"
+      ],
+      "content": "Aircraft wiring system overview\nConductor materials and insulation types\nCauses of wiring degradation\nImpact of degradation on system integrity",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Methods for electrical load determination",
+        "Calculation of total circuit load",
+        "Identification of overload conditions",
+        "Consequences of improper load management"
+      ],
+      "content": "Methods for electrical load determination\nCalculation of total circuit load\nIdentification of overload conditions\nConsequences of improper load management",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Overview of load protection techniques",
+        "Fuses and their operating principles",
+        "Circuit breakers and reset mechanisms"
+      ],
+      "content": "Overview of load protection techniques\nFuses and their operating principles\nCircuit breakers and reset mechanisms",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how wiring degradation leads to electrical failure.",
+    "Describe the difference between a fuse and a circuit breaker in load protection."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the specific load protection devices discussed in this lesson to be reviewed in the next lesson on circuit breakers.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Introduction to circuit breakers and various protection provided by circuit breakers.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 04"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

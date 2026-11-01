@@ -1,0 +1,149 @@
+{
+  "subject_name": "A/C Structure",
+  "subject_code": "11",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "16",
+  "total_lesson_plans": "17",
+  "time_allotted": "80 min",
+  "topic": "Panel bucking, estimation of compressive loads for bucking a panel on simply supported structures",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Panel bucking, estimation of compressive loads for bucking a panel on simply supported structures. Rigidity due to end conditions on panel, study of heads, to bend panel with regards to variation in end condition shear buckling of plates",
+  "specific_objectives": "11.1.1.1 Trainee will be able to explain aircraft structure, various structural elements and their details.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of panel buckling under compressive load; Safety: Ensure load application is controlled; Supervision: Instructor monitors load limits and panel integrity",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary failure mode for thin skin panels under compression?",
+    "Define simply supported boundary conditions for a structural panel.",
+    "How does end rigidity affect the critical buckling load of a panel?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of panel bucking",
+        "Estimation of compressive loads",
+        "Simply supported structures analysis",
+        "Critical load calculation methods"
+      ],
+      "content": "Definition of panel bucking\nEstimation of compressive loads\nSimply supported structures analysis\nCritical load calculation methods",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Rigidity due to end conditions",
+        "Study of heads to bend panel",
+        "Variation in end condition effects",
+        "Shear buckling of plates"
+      ],
+      "content": "Rigidity due to end conditions\nStudy of heads to bend panel\nVariation in end condition effects\nShear buckling of plates",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Impact of boundary stiffness",
+        "Comparison of theoretical vs actual",
+        "Factors influencing buckling load",
+        "Role of shear in plate stability"
+      ],
+      "content": "Impact of boundary stiffness\nComparison of theoretical vs actual\nFactors influencing buckling load\nRole of shear in plate stability",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how end condition rigidity alters the critical buckling load.",
+    "Describe the relationship between shear buckling and plate geometry.",
+    "Identify two factors that increase the compressive load capacity of a panel."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the repair scheme considerations for a panel damaged due to buckling, referencing the next lesson plan (LP 17).",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Assessment of damage and estimation of loads, preparation of repair scheme. Material specification, special tools required for carrying out repairs",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 17"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

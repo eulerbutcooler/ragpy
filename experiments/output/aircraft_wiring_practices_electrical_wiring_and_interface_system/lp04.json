@@ -1,0 +1,146 @@
+{
+  "subject_name": "Aircraft Wiring Practices (Electrical wiring and Interface system)",
+  "subject_code": "12",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "04",
+  "total_lesson_plans": "7",
+  "time_allotted": "80 min",
+  "topic": "Control horizontal and vertical movement, control of RPM, torque reaction, tail rotor compensations, contra rotating rotors.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Control horizontal and vertical movement, control of RPM, torque reaction, tail rotor compensations, contra rotating rotors.",
+  "specific_objectives": "12.1.4.1 Trainee will be able to explain horizontal and vertical movement, torque reaction, tail rotor compensations, contra rotating rotors.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of cyclic and collective control inputs, torque reaction principles, tail rotor compensation mechanisms, and contra-rotating rotor configurations. Safety: Ensure no loose items near workspace. Instructor supervision: Monitor trainee understanding of rotational dynamics.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the primary functions of the cyclic and collective controls?",
+    "How does torque reaction affect the helicopter fuselage?",
+    "Why are contra-rotating rotors used in certain helicopter designs?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Horizontal and vertical movement control",
+        "Control of RPM via collective pitch",
+        "Torque reaction and fuselage rotation"
+      ],
+      "content": "Horizontal and vertical movement control\nControl of RPM via collective pitch\nTorque reaction and fuselage rotation",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Tail rotor compensations for torque",
+        "Pedal control for yaw movement",
+        "Efficiency of tail rotor systems"
+      ],
+      "content": "Tail rotor compensations for torque\nPedal control for yaw movement\nEfficiency of tail rotor systems",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Contra rotating rotors design",
+        "Cancellation of torque effects",
+        "Advantages of coaxial systems"
+      ],
+      "content": "Contra rotating rotors design\nCancellation of torque effects\nAdvantages of coaxial systems",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how the tail rotor compensates for torque reaction.",
+    "Describe the mechanism of contra-rotating rotors in eliminating torque.",
+    "How does the pilot control vertical movement using the collective?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the differences between single main rotor and contra-rotating rotor systems, referencing concepts covered in LP 02.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Main rotor movements, symmetry of lift feathering, flapping, dragging, hook’s joint effect, flapping to equality, phase lag and advance angle concepts.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 05"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

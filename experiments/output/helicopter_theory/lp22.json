@@ -1,0 +1,149 @@
+{
+  "subject_name": "Helicopter Theory",
+  "subject_code": "11",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "22",
+  "total_lesson_plans": "27",
+  "time_allotted": "80 min",
+  "topic": "Stability and control: static, dynamic stability",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Stability and control: static, dynamic stability. definition, notation used Stability requirements, a/c controls and Manoeuvres,",
+  "specific_objectives": "11.1.4.1 Trainee will be able to describe aircraft stability in all the three axis",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of static stability definitions and dynamic stability concepts using IB and L & Ds; Instructor supervision required for concept verification.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "Define the term 'stability' in the context of aircraft motion.",
+    "List the three axes of aircraft rotation.",
+    "State the primary difference between static and dynamic stability."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of static stability",
+        "Notation used for stability axes",
+        "Static stability requirements",
+        "Aircraft controls and manoeuvres"
+      ],
+      "content": "Definition of static stability\nNotation used for stability axes\nStatic stability requirements\nAircraft controls and manoeuvres",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Definition of dynamic stability",
+        "Oscillatory motion characteristics",
+        "Damping effects on stability",
+        "Comparison of static and dynamic responses"
+      ],
+      "content": "Definition of dynamic stability\nOscillatory motion characteristics\nDamping effects on stability\nComparison of static and dynamic responses",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Summary of stability in three axes",
+        "Key stability requirements recap",
+        "Role of controls in stability",
+        "Link to next lesson on longitudinal stability"
+      ],
+      "content": "Summary of stability in three axes\nKey stability requirements recap\nRole of controls in stability\nLink to next lesson on longitudinal stability",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how dynamic stability differs from static stability regarding oscillations.",
+    "Identify the notation used for the three axes of stability.",
+    "Describe the relationship between aircraft controls and stability requirements."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the forces and moments affecting static longitudinal stability as covered in LP 23.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Static longitudinal stability: forces and moments Stick fixed and stick free stability, neutral point and static margin, stability curve, Longitudinal dynamic stability,",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 23"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

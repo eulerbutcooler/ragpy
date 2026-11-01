@@ -1,0 +1,152 @@
+{
+  "subject_name": "NDT",
+  "subject_code": "19",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "04",
+  "total_lesson_plans": "9",
+  "time_allotted": "80 min",
+  "topic": "Eddy current inspection, principle of operation, function of basic system, coil impedance, electrical conductivity mag permeability, types of inspection coils, application of various types of parts",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Eddy current inspection, principle of operation, function of basic system, coil impedance, electrical conductivity mag permeability, types of inspection coils, application of various types of parts",
+  "specific_objectives": "19.1.1.1 Trainee will be able to describe types of NDT and perform liquid penetrant, magnetic particles and eddy current inspections",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of Eddy Current testing principle using non-conductive and conductive samples; Safety precautions regarding high voltage and electrical grounding; Instructor supervision during coil coupling and signal interpretation",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "List the three main types of NDT methods covered in this course.",
+    "Define the basic principle of electromagnetic induction.",
+    "State the relationship between electrical conductivity and eddy current generation."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Principle of operation of eddy current inspection",
+        "Function of basic system components",
+        "Concept of coil impedance and phase angle",
+        "Role of electrical conductivity and magnetic permeability",
+        "Factors affecting eddy current penetration depth"
+      ],
+      "content": "Principle of operation of eddy current inspection\nFunction of basic system components\nConcept of coil impedance and phase angle\nRole of electrical conductivity and magnetic permeability\nFactors affecting eddy current penetration depth",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Types of inspection coils and their configurations",
+        "Application of various coil types on different parts",
+        "Interpretation of impedance plane diagrams",
+        "Effect of lift-off and frequency on inspection results",
+        "Selection criteria for coil type based on defect orientation"
+      ],
+      "content": "Types of inspection coils and their configurations\nApplication of various coil types on different parts\nInterpretation of impedance plane diagrams\nEffect of lift-off and frequency on inspection results\nSelection criteria for coil type based on defect orientation",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Standardized testing procedures for eddy current",
+        "Calibration and sensitivity settings",
+        "Reporting of indications and false calls",
+        "Comparison with other NDT methods",
+        "Limitations of eddy current inspection"
+      ],
+      "content": "Standardized testing procedures for eddy current\nCalibration and sensitivity settings\nReporting of indications and false calls\nComparison with other NDT methods\nLimitations of eddy current inspection",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how magnetic permeability affects the sensitivity of eddy current testing.",
+    "Describe the function of the reference standard in calibrating an eddy current system.",
+    "Differentiate between absolute and differential probe applications."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report comparing the applicability of eddy current inspection with radiographic inspection for detecting surface cracks in non-ferromagnetic aircraft structures, referencing the principles covered in this lesson and the upcoming Radiographic inspection lesson (LP 05).",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Radiographic inspection, use, applicability inspection principle of radiography, X-ray gamma ray, shadow for motion, types of recording, types of test specimen safety precaution while using x-ray",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 05"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

@@ -1,0 +1,152 @@
+{
+  "subject_name": "Basic Electrical",
+  "subject_code": "23",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "03",
+  "total_lesson_plans": "29",
+  "time_allotted": "80 min",
+  "topic": "Fuel, major classification of fuel based on fuel state, turbine engine fuels",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Fuel, major classification of fuel based on fuel state, turbine engine fuels",
+  "specific_objectives": "23.1.1.1 Trainee will be able to understand the construction and requirements of typical aircraft fuel system and its components.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of fuel system diagrams; Safety: No handling of fuel samples; Instructor supervision: Monitor diagram interpretation accuracy",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of aircraft fuel?",
+    "Name two common states of fuel used in aviation.",
+    "Why is fuel quality critical for turbine engines?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Liquid vs Solid fuel classification",
+        "Jet A and Jet A-1 specifications",
+        "Fuel density and freezing points",
+        "Additives and corrosion inhibitors",
+        "Storage and contamination risks"
+      ],
+      "content": "Liquid vs Solid fuel classification\nJet A and Jet A-1 specifications\nFuel density and freezing points\nAdditives and corrosion inhibitors\nStorage and contamination risks",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Turbine engine fuel requirements",
+        "Ignition quality and flash point",
+        "Thermal stability under load",
+        "Water separation mechanisms",
+        "Filtering and straining systems"
+      ],
+      "content": "Turbine engine fuel requirements\nIgnition quality and flash point\nThermal stability under load\nWater separation mechanisms\nFiltering and straining systems",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Fuel system component overview",
+        "Tank venting and pressure control",
+        "Fuel pumps and flow regulation",
+        "Fuel heaters and de-icing",
+        "Emergency fuel shutoff valves"
+      ],
+      "content": "Fuel system component overview\nTank venting and pressure control\nFuel pumps and flow regulation\nFuel heaters and de-icing\nEmergency fuel shutoff valves",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between Jet A and Jet A-1 regarding freezing points.",
+    "Describe how a turbine engine fuel system prevents water accumulation.",
+    "Identify three key components in a typical aircraft fuel system."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the differences between reciprocating engine fuels and turbine engine fuels to review before Lesson Plan 02.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Brief description and purpose of inverted flight valve and recuperate.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 04"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

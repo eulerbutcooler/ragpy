@@ -157,3 +157,19 @@ QUIZ_GRADING_PROMPT = PromptTemplate(
     )
 )
 
+
+
+TITLE_PROMPT = PromptTemplate(
+    template=(
+        "You write a short chat title from a user's first message.\n"
+        "Rules:\n"
+        "- 3 to 6 words, title case.\n"
+        "- Summarize the topic; do not quote the message verbatim.\n"
+        "- No punctuation at the end. No quotes. No markdown.\n"
+        "- Plain text only. Nothing else.\n"
+        "\n"
+        "First message:\n"
+        "{message}\n"
+        "Title:"
+    )
+)

@@ -1,0 +1,151 @@
+{
+  "subject_name": "INAP-2",
+  "subject_code": "4",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "18",
+  "total_lesson_plans": "19",
+  "time_allotted": "80 min",
+  "topic": "Induction to various aviation returns rendered with periodicity",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Induction to various aviation returns rendered with periodicity.",
+  "specific_objectives": "4.1.7.1 Trainee will be able to describe fuel accounting procedure, quality checks on fuel and list out aviation returns & their occurrence",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of sample fuel accounting forms and identification of return types from provided IB excerpts",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of aviation returns?",
+    "Can you name one type of aviation return related to fuel?",
+    "Why is periodicity important in rendering aviation returns?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Fuel accounting procedure basics",
+        "Fuel quality check parameters",
+        "Fuel sampling and testing methods",
+        "Documentation of fuel discrepancies",
+        "Reporting fuel quality issues"
+      ],
+      "content": "Fuel accounting procedure basics\nFuel quality check parameters\nFuel sampling and testing methods\nDocumentation of fuel discrepancies\nReporting fuel quality issues",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "List of aviation returns types",
+        "Periodicity of various returns",
+        "Submission deadlines and formats",
+        "Common errors in return preparation",
+        "Consequences of delayed returns"
+      ],
+      "content": "List of aviation returns types\nPeriodicity of various returns\nSubmission deadlines and formats\nCommon errors in return preparation\nConsequences of delayed returns",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Practical review of fuel forms",
+        "Identification of return categories",
+        "Verification of periodicity rules",
+        "Instructor supervision of form filling",
+        "Safety precautions during review"
+      ],
+      "content": "Practical review of fuel forms\nIdentification of return categories\nVerification of periodicity rules\nInstructor supervision of form filling\nSafety precautions during review",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the steps involved in the fuel accounting procedure.",
+    "List three types of aviation returns and their submission periodicity."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the follow-up actions required after a detachment, linking it to the proper rendering of aviation returns as covered in LP 19.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Planning and preparation for a/c detachment and embarkation follow up action post detachment/embarkation.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 19"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

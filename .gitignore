@@ -1,6 +1,8 @@
 docs/
 repomix-output.xml
 .env
+# The Modal profile contains LLM_API_KEY; keep it local.
+env/inference.modal.env
 .venv/
 __pycache__/
 *.pyc

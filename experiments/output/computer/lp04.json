@@ -1,0 +1,152 @@
+{
+  "subject_name": "Computer",
+  "subject_code": "26",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "04",
+  "total_lesson_plans": "10",
+  "time_allotted": "80 min",
+  "topic": "Basics of EMI and EMC",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Basics of EMI and EMC. Types of testing.",
+  "specific_objectives": "26.1.1.1 Trainee will be able to understand the basic theory of communication.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of EMI/EMC definitions and testing types from IB/PDF; Instructor supervision required for Q&A verification.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of a communication system?",
+    "Define the term 'noise' in a signal context.",
+    "Why is signal integrity critical for aircrew operations?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of Electromagnetic Interference",
+        "Sources of EMI in aircraft systems",
+        "Impact of EMI on avionics performance",
+        "Basic principles of Electromagnetic Compatibility",
+        "Distinction between emission and susceptibility"
+      ],
+      "content": "Definition of Electromagnetic Interference\nSources of EMI in aircraft systems\nImpact of EMI on avionics performance\nBasic principles of Electromagnetic Compatibility\nDistinction between emission and susceptibility",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Types of EMI testing procedures",
+        "Radiated emission testing methods",
+        "Conducted emission testing methods",
+        "Susceptibility testing protocols",
+        "Standard compliance requirements for aircraft"
+      ],
+      "content": "Types of EMI testing procedures\nRadiated emission testing methods\nConducted emission testing methods\nSusceptibility testing protocols\nStandard compliance requirements for aircraft",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Shielding techniques for cable bundles",
+        "Grounding and bonding best practices",
+        "Filtering components in power systems",
+        "Common mode chokes application",
+        "Maintenance checks for EMC integrity"
+      ],
+      "content": "Shielding techniques for cable bundles\nGrounding and bonding best practices\nFiltering components in power systems\nCommon mode chokes application\nMaintenance checks for EMC integrity",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the relationship between EMI and EMC in aircraft systems.",
+    "Identify two common sources of interference in a cockpit environment.",
+    "Describe the purpose of shielding in reducing electromagnetic coupling."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the principles of EMC discussed in this lesson apply to the upcoming Sonar system introduction in LP 05.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Introduction to sonar system. Purpose and technical details of active and passive sonar system.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 05"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

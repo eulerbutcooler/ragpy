@@ -1,0 +1,151 @@
+{
+  "subject_name": "Aircraft Armament",
+  "subject_code": "18",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "08",
+  "total_lesson_plans": "12",
+  "time_allotted": "80 min",
+  "topic": "Explanation of basic block diagram of I-band transponder",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Explanation of basic block diagram of I-band transponder.",
+  "specific_objectives": "18.1.4.1 Trainee will be able to appraise the function of secondary radars in ASW operation.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of transponder block diagram components; Safety: No live equipment handling; Supervision: Instructor monitors diagram interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of a secondary radar system?",
+    "Define the term 'I-band' in the context of radar frequencies.",
+    "How does a secondary radar differ from a primary radar?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Pulse Repetition Frequency (PRF)",
+        "Pulse Width and Duty Cycle",
+        "Antenna Beam Pattern",
+        "Receiver Sensitivity",
+        "Transmitter Power Output"
+      ],
+      "content": "Pulse Repetition Frequency (PRF)\nPulse Width and Duty Cycle\nAntenna Beam Pattern\nReceiver Sensitivity\nTransmitter Power Output",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Intermediate Frequency (IF) Amplifier",
+        "Video Detector Function",
+        "Video Amplifier Gain",
+        "Video Limiter Circuit",
+        "Video Detector Output"
+      ],
+      "content": "Intermediate Frequency (IF) Amplifier\nVideo Detector Function\nVideo Amplifier Gain\nVideo Limiter Circuit\nVideo Detector Output",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Video Limiter Output",
+        "Video Detector Output",
+        "Intermediate Frequency (IF) Amplifier",
+        "Video Amplifier Gain",
+        "Video Limiter Circuit"
+      ],
+      "content": "Video Limiter Output\nVideo Detector Output\nIntermediate Frequency (IF) Amplifier\nVideo Amplifier Gain\nVideo Limiter Circuit",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the role of the video limiter in the transponder block diagram.",
+    "Describe how the I-band transponder contributes to Anti-Submarine Warfare (ASW) operations."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the application of Radar in surveillance operation for the next lesson (LP 09).",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Brief description on application of Radar in surveillance operation. Features generally available on surveillance radar. Information obtained by surveillance radar. Concept of controlling and supporting aircraft taking part in surveillance operation and methods of passing information.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 09"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

@@ -1,0 +1,152 @@
+{
+  "subject_name": "Engine Health Monitoring",
+  "subject_code": "9",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "05",
+  "total_lesson_plans": "7",
+  "time_allotted": "80 min",
+  "topic": "Cable system inspection, cable maintenance, fittings, pulleys and wear patterns, Construction and servicing of Bowden cable and Teleflex con",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Cable system inspection, cable maintenance, fittings, pulleys and wear patterns, Construction and servicing of Bowden cable and Teleflex controls",
+  "specific_objectives": "9.1.1.1 Trainee will be able to describe the use of various standards, identification of bolts, nuts, safety methods and maintenance of cables.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Inspection of Bowden cable assembly, identification of wear patterns on pulleys, verification of fitting torque standards, safety method demonstration for cable tensioning, instructor supervision of trainee cable servicing procedure",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the primary functions of control cables in an aircraft system?",
+    "List three common types of cable fittings used in aviation maintenance.",
+    "Why is regular inspection of cable wear patterns critical for flight safety?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Cable system inspection procedures",
+        "Identification of bolts and nuts standards",
+        "Safety methods for cable handling",
+        "Pulley wear pattern analysis",
+        "Fitting torque specifications"
+      ],
+      "content": "Cable system inspection procedures\nIdentification of bolts and nuts standards\nSafety methods for cable handling\nPulley wear pattern analysis\nFitting torque specifications",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Construction of Bowden cable assemblies",
+        "Servicing procedures for Teleflex controls",
+        "Identification of corrosion and damage",
+        "Replacement criteria for worn cables",
+        "Proper lubrication and tensioning techniques"
+      ],
+      "content": "Construction of Bowden cable assemblies\nServicing procedures for Teleflex controls\nIdentification of corrosion and damage\nReplacement criteria for worn cables\nProper lubrication and tensioning techniques",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Documentation of maintenance actions",
+        "Reporting wear patterns and defects",
+        "Final verification of cable tension",
+        "Storage and handling of spare cables",
+        "Review of safety protocols during servicing"
+      ],
+      "content": "Documentation of maintenance actions\nReporting wear patterns and defects\nFinal verification of cable tension\nStorage and handling of spare cables\nReview of safety protocols during servicing",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between internal and external cable wear patterns.",
+    "Describe the correct procedure for identifying and replacing a damaged cable fitting.",
+    "How do you verify that a serviced Bowden cable meets tension standards?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the key differences between Bowden cable and Teleflex control systems, referencing standards and maintenance requirements for the next lesson plan.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Various locking devices, Fasteners and fork joints",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 06"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

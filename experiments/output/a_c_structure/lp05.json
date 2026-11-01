@@ -1,0 +1,151 @@
+{
+  "subject_name": "A/C Structure",
+  "subject_code": "11",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "05",
+  "total_lesson_plans": "17",
+  "time_allotted": "80 min",
+  "topic": "Overall consideration of aircraft loading action.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Overall consideration of aircraft loading action.",
+  "specific_objectives": "11.1.1.1 Trainee will be able to explain aircraft structure, various structural elements and their details.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of structural element diagrams from IB; Instructor supervision during Q&A session.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the primary functions of the aircraft structure?",
+    "List three major structural elements of a typical aircraft.",
+    "How does the fuselage contribute to overall aircraft integrity?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of aircraft loading action",
+        "Types of structural loads",
+        "Material properties in structure",
+        "Load distribution principles",
+        "Safety factors in design"
+      ],
+      "content": "Definition of aircraft loading action\nTypes of structural loads\nMaterial properties in structure\nLoad distribution principles\nSafety factors in design",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Analysis of symmetric flight loads",
+        "Impact of maneuvers on structure",
+        "Stress concentration points",
+        "Fatigue life considerations",
+        "Maintenance inspection criteria"
+      ],
+      "content": "Analysis of symmetric flight loads\nImpact of maneuvers on structure\nStress concentration points\nFatigue life considerations\nMaintenance inspection criteria",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Integration of structural elements",
+        "Role of fasteners and joints",
+        "Corrosion prevention methods",
+        "Repair techniques for damaged areas",
+        "Documentation of structural repairs"
+      ],
+      "content": "Integration of structural elements\nRole of fasteners and joints\nCorrosion prevention methods\nRepair techniques for damaged areas\nDocumentation of structural repairs",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how different structural elements work together to handle loading actions.",
+    "Describe the importance of safety factors in aircraft structural design."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on how the principles discussed in this lesson apply to the next lesson on symmetric flight loads.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Symmetric flight loads, symmetric maneuvers",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 06"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "John Doe, Flight Lieutenant, P No. 12345",
+  "approved_by": "Jane Smith, Commander, P No. 67890",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

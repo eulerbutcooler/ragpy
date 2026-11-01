@@ -1,0 +1,148 @@
+{
+  "subject_name": "U/W Weapon",
+  "subject_code": "38",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "02",
+  "total_lesson_plans": "9",
+  "time_allotted": "80 min",
+  "topic": "OLGs – Identification of OLGs, Up-keeping OLGs Issue Centre, Life Extension of OLGs, Common Errors, Storage and Handling of OLGs and Ready U",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "OLGs – Identification of OLGs, Up-keeping OLGs Issue Centre, Life Extension of OLGs, Common Errors, Storage and Handling of OLGs and Ready Use OLGs.",
+  "specific_objectives": "38.1.1.1 Trainee will be able to explain principles of Correct Aircraft Maintenance Practices, tools and their usage",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of OLG identification marks, inspection of storage racks, and verification of Ready Use status; Safety: Handle OLGs with care to prevent damage; Supervision: Instructor monitors tool usage and handling techniques.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of OLGs in naval aircraft?",
+    "Where is the Up-keeping OLGs Issue Centre located?",
+    "List three common errors observed during OLG storage."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Identification of OLGs",
+        "Up-keeping OLGs Issue Centre",
+        "Life Extension of OLGs",
+        "Common Errors in Handling"
+      ],
+      "content": "Identification of OLGs\nUp-keeping OLGs Issue Centre\nLife Extension of OLGs\nCommon Errors in Handling",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Storage and Handling of OLGs",
+        "Ready Use OLGs Criteria",
+        "Correct Aircraft Maintenance Practices",
+        "Tool Usage for OLGs"
+      ],
+      "content": "Storage and Handling of OLGs\nReady Use OLGs Criteria\nCorrect Aircraft Maintenance Practices\nTool Usage for OLGs",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Review of Common Errors",
+        "Life Extension Techniques",
+        "Issue Centre Procedures",
+        "Safety Precautions"
+      ],
+      "content": "Review of Common Errors\nLife Extension Techniques\nIssue Centre Procedures\nSafety Precautions",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the procedure for verifying Ready Use status of OLGs.",
+    "Describe two methods for extending the life of OLGs."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the compliance of OLG storage with the Technical Instructions covered in this lesson, linking to the corrosion identification topics in LP 03.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Corrosion on Naval Aircraft – Compliance of respective Technical Instruction and its documentation, Identification of corrosion on aircraft structure and Protective Treatment.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 03"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

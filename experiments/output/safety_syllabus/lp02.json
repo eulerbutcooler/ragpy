@@ -1,0 +1,148 @@
+{
+  "subject_name": "Safety syllabus",
+  "subject_code": "25",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "02",
+  "total_lesson_plans": "6",
+  "time_allotted": "80 min",
+  "topic": "Air Squadrons/ Flights and its Aircraft: - Introductions, Type of aircraft operating, Roles and Locations.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Air Squadrons/ Flights and its Aircraft: - Introductions, Type of aircraft operating, Roles and Locations.",
+  "specific_objectives": "25.1.1.1 Trainee will be able to enumerate roles of Air Arm of the Indian Navy and introduce about IN aircrafts, its roles and operating squadrons/ flights.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of squadron emblems and aircraft markings on PPT slides; Instructor supervision during Q&A session.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary role of the Indian Navy Air Arm?",
+    "Name one major naval air base in India.",
+    "Can you recall the designation of the Navy's fighter squadron?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Introduction to Naval Air Squadrons",
+        "Types of Aircraft Operating",
+        "Roles of Naval Aviation",
+        "Locations of Key Squadrons"
+      ],
+      "content": "Introduction to Naval Air Squadrons\nTypes of Aircraft Operating\nRoles of Naval Aviation\nLocations of Key Squadrons",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Operational Roles of Squadrons",
+        "Aircraft Capabilities Overview",
+        "Strategic Locations Analysis",
+        "Squadron Emblems and History"
+      ],
+      "content": "Operational Roles of Squadrons\nAircraft Capabilities Overview\nStrategic Locations Analysis\nSquadron Emblems and History",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Future Aircraft Integration",
+        "Maintenance Support Roles",
+        "Logistics and Supply Chain",
+        "Training and Readiness Standards"
+      ],
+      "content": "Future Aircraft Integration\nMaintenance Support Roles\nLogistics and Supply Chain\nTraining and Readiness Standards",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between a flight and a squadron in naval aviation.",
+    "Identify the primary role of the Sea Harrier squadron."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the location and role of the Naval Air Enclave for the next lesson plan.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Air Stations/ Aviation Establishment (Naval Air Enclave): - Introductions and its locations.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 03"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

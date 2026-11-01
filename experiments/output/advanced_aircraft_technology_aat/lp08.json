@@ -1,0 +1,152 @@
+{
+  "subject_name": "Advanced Aircraft Technology (AAT)",
+  "subject_code": "31",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "08",
+  "total_lesson_plans": "12",
+  "time_allotted": "80 min",
+  "topic": "Introduction to Welding and types of welding technologies",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Introduction to Welding and types of welding technologies",
+  "specific_objectives": "31.1.3.1 Trainee will be able to perform various repair works on aircraft structure",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of welding symbols and joint types; Safety briefing on PPE; Instructor supervision of theoretical concepts",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of welding in aircraft maintenance?",
+    "Name one common material used in aircraft structural repair.",
+    "Why is understanding welding types essential for an air engineer?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition and basic principle of welding",
+        "Fundamental requirements for a sound weld",
+        "Role of welding in aircraft structural repair",
+        "Importance of filler metals and base metals",
+        "Basic classification of welding processes"
+      ],
+      "content": "Definition and basic principle of welding\nFundamental requirements for a sound weld\nRole of welding in aircraft structural repair\nImportance of filler metals and base metals\nBasic classification of welding processes",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Overview of Fusion Welding technologies",
+        "Arc welding methods: SMAW, GMAW, GTAW",
+        "Solid State and Resistance welding types",
+        "Comparison of manual vs automated welding",
+        "Selection criteria for aircraft repair welding"
+      ],
+      "content": "Overview of Fusion Welding technologies\nArc welding methods: SMAW, GMAW, GTAW\nSolid State and Resistance welding types\nComparison of manual vs automated welding\nSelection criteria for aircraft repair welding",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Introduction to welding symbols and notation",
+        "Standard joint configurations in aircraft structures",
+        "Basic defects and their visual identification",
+        "Preparation requirements for different joint types",
+        "Post-weld inspection basics"
+      ],
+      "content": "Introduction to welding symbols and notation\nStandard joint configurations in aircraft structures\nBasic defects and their visual identification\nPreparation requirements for different joint types\nPost-weld inspection basics",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between fusion and solid-state welding in one sentence.",
+    "Identify two critical factors when selecting a welding process for aluminum aircraft structures.",
+    "Describe the function of a welding symbol in a maintenance drawing."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the specific welding requirements for repairing a damaged aluminum skin panel, referencing the procedures to be covered in LP 02.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Safety precautions to be observed during Gas/ Arc welding, Gas cutting and hot working",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 09"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

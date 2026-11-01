@@ -1,0 +1,152 @@
+{
+  "subject_name": "Aircraft Propulsion & Engineering System",
+  "subject_code": "6",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "11",
+  "total_lesson_plans": "14",
+  "time_allotted": "80 min",
+  "topic": "Identification of types of paint & Restoration of paint",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Identification of types of paint & Restoration of paint i.e. nitro cellulose lacquer epoxy, fluorescent and enamel surface protection.",
+  "specific_objectives": "6.2.1.1 Trainee will be able to understand surface protection materials, paint identification, restoration of various paint and application, dope shop, dope articles and troubles.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Identification of paint samples (Nitro, Epoxy, Enamel, Fluorescent) and matching to restoration protocols; Safety: PPE usage, ventilation checks; Supervision: Instructor verifies sample identification accuracy.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of surface protection materials on an aircraft?",
+    "Name one common type of paint used for aircraft surface protection.",
+    "Why is proper paint identification critical before starting restoration work?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Nitro Cellulose Lacquer Characteristics",
+        "Epoxy Paint Properties and Uses",
+        "Enamel Surface Protection Types",
+        "Fluorescent Paint Identification",
+        "Dope Shop Articles and Equipment"
+      ],
+      "content": "Nitro Cellulose Lacquer Characteristics\nEpoxy Paint Properties and Uses\nEnamel Surface Protection Types\nFluorescent Paint Identification\nDope Shop Articles and Equipment",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Paint Restoration Techniques",
+        "Surface Preparation for Restoration",
+        "Troubleshooting Paint Application Issues",
+        "Application Methods for Different Paints",
+        "Safety Precautions During Restoration"
+      ],
+      "content": "Paint Restoration Techniques\nSurface Preparation for Restoration\nTroubleshooting Paint Application Issues\nApplication Methods for Different Paints\nSafety Precautions During Restoration",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Common Paint Defects and Causes",
+        "Corrective Actions for Paint Failures",
+        "Storage and Handling of Paint Materials",
+        "Record Keeping for Paint Applications",
+        "Final Inspection Criteria for Restored Surfaces"
+      ],
+      "content": "Common Paint Defects and Causes\nCorrective Actions for Paint Failures\nStorage and Handling of Paint Materials\nRecord Keeping for Paint Applications\nFinal Inspection Criteria for Restored Surfaces",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the key difference between Nitro Cellulose Lacquer and Epoxy paints.",
+    "Describe the correct procedure for identifying paint types before restoration.",
+    "List three common troubles encountered during paint application and their solutions."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the specific restoration steps required for a damaged Nitro Cellulose Lacquer surface, referencing the procedures discussed in the next lesson plan (LP 12) regarding application methods.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Methods of applying surface protection, preparation of paints, equipment used, common paint and troubles.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 12"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

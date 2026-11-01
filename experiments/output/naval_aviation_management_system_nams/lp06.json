@@ -1,0 +1,146 @@
+{
+  "subject_name": "Naval Aviation Management System (NAMS)",
+  "subject_code": "5",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "06",
+  "total_lesson_plans": "9",
+  "time_allotted": "80 min",
+  "topic": "NAMS: Introduction, Importance, Salient Features and Functions",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "NAMS: Introduction, Importance, Salient Features and Functions. Modules: Introduction, Types, Importance, Salient Features and Functions. Roles: Introduction, Types, Importance, Salient Features and Functions.",
+  "specific_objectives": "5.1.5.1 Trainee will be able to enumerate various NAMS Modules and its Roles",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of NAMS Module Diagrams; Safety: Handle PPT clickers carefully; Instructor Supervision: Monitor trainee note-taking",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the full form of NAMS?",
+    "Why is a centralized management system required for naval aviation?",
+    "Can you name one module discussed in previous lessons?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition and Scope of NAMS",
+        "Historical Context and Evolution",
+        "Core Objectives of the System"
+      ],
+      "content": "Definition and Scope of NAMS\nHistorical Context and Evolution\nCore Objectives of the System",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Strategic Importance of NAMS",
+        "Salient Features of Architecture",
+        "Key Functional Capabilities"
+      ],
+      "content": "Strategic Importance of NAMS\nSalient Features of Architecture\nKey Functional Capabilities",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Enumeration of NAMS Modules",
+        "Definition of Module Roles",
+        "Inter-module Communication Protocols"
+      ],
+      "content": "Enumeration of NAMS Modules\nDefinition of Module Roles\nInter-module Communication Protocols",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "List three salient features of the NAMS architecture.",
+    "Explain the specific role of the Inventory Management Module.",
+    "How does NAMS improve operational readiness compared to manual systems?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the data flow in NAMS supports the objectives outlined in LP 02 regarding basic system initialization.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Utilisation of NAMS Functions: Initiate & Cancel Demand action, Initiate & Cancel Survey action,",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 07"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

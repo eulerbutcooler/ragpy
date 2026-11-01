@@ -1,0 +1,152 @@
+{
+  "subject_name": "Advanced Aircraft Technology",
+  "subject_code": "20",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "11",
+  "total_lesson_plans": "20",
+  "time_allotted": "80 min",
+  "topic": "Concept of Glass cockpit and architecture, Ring Laser Gyros",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Concept of Glass cockpit and architecture, Ring Laser Gyros. Practical demonstration of Gyro properties like rigidity and precision.",
+  "specific_objectives": "20.4.1.1 Trainee will be able to explain principles of various advanced electrical systems.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of Ring Laser Gyro properties (Rigidity and Precision) using model; Safety: Handle optical components gently; Supervision: Instructor monitors alignment and rotation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of a gyroscope in aircraft navigation?",
+    "How does a classical mechanical gyroscope differ from a Ring Laser Gyro?",
+    "Define the term 'Glass Cockpit' in the context of modern aviation."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition and scope of Glass Cockpit",
+        "Architecture of modern avionics integration",
+        "Benefits of digital over analog systems",
+        "Data bus architecture in glass cockpits",
+        "Redundancy and failure management systems"
+      ],
+      "content": "Definition and scope of Glass Cockpit\nArchitecture of modern avionics integration\nBenefits of digital over analog systems\nData bus architecture in glass cockpits\nRedundancy and failure management systems",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Operating principle of Ring Laser Gyro",
+        "Sagnac effect and light path interference",
+        "Construction of laser gyroscope components",
+        "Mechanism of rigidity in laser gyros",
+        "Sources of error and dithering techniques"
+      ],
+      "content": "Operating principle of Ring Laser Gyro\nSagnac effect and light path interference\nConstruction of laser gyroscope components\nMechanism of rigidity in laser gyros\nSources of error and dithering techniques",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Demonstration of gyroscopic rigidity",
+        "Demonstration of gyroscopic precision",
+        "Comparison with classical mechanical gyros",
+        "Application in modern flight instruments",
+        "Maintenance and inspection requirements"
+      ],
+      "content": "Demonstration of gyroscopic rigidity\nDemonstration of gyroscopic precision\nComparison with classical mechanical gyros\nApplication in modern flight instruments\nMaintenance and inspection requirements",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how the Sagnac effect enables the Ring Laser Gyro to measure rotation.",
+    "Describe two key advantages of a Glass Cockpit over traditional analog instruments.",
+    "Why is dithering necessary in the operation of a Ring Laser Gyro?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note comparing the architecture of a classical control system (covered in LP 12) with the data bus architecture of a Glass Cockpit, highlighting the shift from mechanical linkages to electrical signals.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Aero engine classical control system.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 12"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

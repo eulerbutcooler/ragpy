@@ -1,0 +1,152 @@
+{
+  "subject_name": "Air Navigation",
+  "subject_code": "21",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "10",
+  "total_lesson_plans": "18",
+  "time_allotted": "80 min",
+  "topic": "Demonstration and explanation on aircraft marshalling procedure during taxing / aircraft movement (With SFNA assistance).",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Demonstration and explanation on aircraft marshalling procedure during taxing / aircraft movement (With SFNA assistance).",
+  "specific_objectives": "21.1.6.1 Trainee will be able to carry out aircraft marshalling.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of aircraft marshalling signals by SFNA during simulated taxiing; Safety: Maintain safe distance from rotating propellers/turbines; Supervision: Instructor monitors signal clarity and trainee observation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary role of the SFNA during aircraft movement?",
+    "List three safety precautions for personnel near a moving aircraft.",
+    "Why is standardization of hand signals critical for ground operations?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "SFNA positioning and visibility requirements",
+        "Standard hand signals for start, stop, and turn",
+        "Communication protocols with flight deck",
+        "Emergency stop procedures and abort signals",
+        "Role of wingmen and ground crew coordination"
+      ],
+      "content": "SFNA positioning and visibility requirements\nStandard hand signals for start, stop, and turn\nCommunication protocols with flight deck\nEmergency stop procedures and abort signals\nRole of wingmen and ground crew coordination",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Taxiing procedures with SFNA guidance",
+        "Handling specific aircraft types and configurations",
+        "Night and low-visibility marshalling techniques",
+        "Use of light wands and portable lighting",
+        "Coordination with air traffic control instructions"
+      ],
+      "content": "Taxiing procedures with SFNA guidance\nHandling specific aircraft types and configurations\nNight and low-visibility marshalling techniques\nUse of light wands and portable lighting\nCoordination with air traffic control instructions",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Post-taxiing shutdown procedures",
+        "Reporting defects or irregularities observed",
+        "Handover to maintenance or parking crew",
+        "Documentation of marshalling activities",
+        "Review of common errors and corrective actions"
+      ],
+      "content": "Post-taxiing shutdown procedures\nReporting defects or irregularities observed\nHandover to maintenance or parking crew\nDocumentation of marshalling activities\nReview of common errors and corrective actions",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Describe the correct hand signal for 'Stop' and its immediate application.",
+    "How does an SFNA ensure visibility during night taxiing operations?",
+    "What steps are taken if a trainee fails to recognize a critical marshalling signal?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the differences in marshalling procedures for different aircraft categories, referencing LP 02 towing arm procedures.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Demonstration and explanation on the correct procedures of connecting the towing arm to A/C and tractor and movement of aircraft with proper positioning of safety numbers and choke man i.a.w INAP-2 article.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 11"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

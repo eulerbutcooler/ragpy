@@ -1,0 +1,151 @@
+{
+  "subject_name": "Advanced Aircraft Technology",
+  "subject_code": "20",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "08",
+  "total_lesson_plans": "20",
+  "time_allotted": "80 min",
+  "topic": "Introduction to CRO and construction details.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Introduction to CRO and construction details.",
+  "specific_objectives": "20.3.1.1 Trainee will be able to explain the construction and operation of DMM & CRO.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of CRO internal components, safety precautions regarding high voltage, instructor supervision during component identification.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the full form of CRO?",
+    "Name one other electronic measuring instrument.",
+    "Why is a CRO preferred over a DMM for waveforms?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition and basic principle of CRO",
+        "Block diagram of CRO system",
+        "Function of vertical amplifier",
+        "Function of horizontal amplifier",
+        "Function of CRT display"
+      ],
+      "content": "Definition and basic principle of CRO\nBlock diagram of CRO system\nFunction of vertical amplifier\nFunction of horizontal amplifier\nFunction of CRT display",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Construction of Cathode Ray Tube",
+        "Electron gun assembly details",
+        "Deflection plates and coils",
+        "Phosphor screen and focusing",
+        "Internal shielding and housing"
+      ],
+      "content": "Construction of Cathode Ray Tube\nElectron gun assembly details\nDeflection plates and coils\nPhosphor screen and focusing\nInternal shielding and housing",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Operation of sweep generator",
+        "Role of time base circuit",
+        "Triggering mechanism explanation",
+        "Intensity and focus controls",
+        "Calibration of vertical and horizontal"
+      ],
+      "content": "Operation of sweep generator\nRole of time base circuit\nTriggering mechanism explanation\nIntensity and focus controls\nCalibration of vertical and horizontal",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the function of the electron gun in a CRO.",
+    "How does the time base circuit affect the waveform display?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the differences between DMM and CRO for the next lesson on voltage and current measurement.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Various functions of CRO, measurement of voltage, current, phase and frequency.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 09"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

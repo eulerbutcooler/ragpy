@@ -1,0 +1,151 @@
+{
+  "subject_name": "NBCD",
+  "subject_code": "30",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "05",
+  "total_lesson_plans": "6",
+  "time_allotted": "80 min",
+  "topic": "Construct, test and observe output on voice transmission using amplitude modulation and demodulation on optical fiber communication trainer.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Construct, test and observe output on voice transmission using amplitude modulation and demodulation on optical fiber communication trainer.",
+  "specific_objectives": "30.1.1.1 Trainee should be able to practical on various lab FTL, RF & Embedded lab.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Construction of AM circuit, testing voice transmission, observing demodulated output, safety precautions regarding high voltage and optical sources, instructor supervision during setup and operation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the basic principle of Amplitude Modulation?",
+    "How does an optical fiber communication system transmit data?",
+    "What are the safety precautions when handling optical fiber components?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Introduction to AM Modulation Theory",
+        "Components of Optical Fiber Communication Trainer",
+        "Circuit Construction and Wiring Procedures",
+        "Signal Generation and Input Configuration",
+        "Demodulation Process and Output Observation"
+      ],
+      "content": "Introduction to AM Modulation Theory\nComponents of Optical Fiber Communication Trainer\nCircuit Construction and Wiring Procedures\nSignal Generation and Input Configuration\nDemodulation Process and Output Observation",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Adjustment of Modulation Index for Optimal Transmission",
+        "Verification of Voice Signal Integrity",
+        "Troubleshooting Common Transmission Errors",
+        "Documentation of Observed Waveforms",
+        "Comparison of Modulated and Demodulated Signals"
+      ],
+      "content": "Adjustment of Modulation Index for Optimal Transmission\nVerification of Voice Signal Integrity\nTroubleshooting Common Transmission Errors\nDocumentation of Observed Waveforms\nComparison of Modulated and Demodulated Signals",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Final System Performance Evaluation",
+        "Recording of Test Results and Observations",
+        "Review of Safety Protocols During Operation",
+        "Cleanup and Return of Equipment",
+        "Preparation for Next Session"
+      ],
+      "content": "Final System Performance Evaluation\nRecording of Test Results and Observations\nReview of Safety Protocols During Operation\nCleanup and Return of Equipment\nPreparation for Next Session",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the relationship between modulation index and signal quality in AM transmission.",
+    "Describe the steps taken to troubleshoot a distorted voice output on the trainer."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the differences between RF and optical fiber transmission methods as discussed in LP 02.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Operation of maritime radar trainer and measuring the range of the target.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 06"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

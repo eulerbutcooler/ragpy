@@ -1,0 +1,153 @@
+{
+  "subject_name": "Avionics and Electronic Warfare",
+  "subject_code": "13",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "02",
+  "total_lesson_plans": "25",
+  "time_allotted": "80 min",
+  "topic": "Generator, engine coupling, cooling of generators, constructional details of brushes types of brushes and causes of brush wear and spark suppression",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Generator, engine coupling, cooling of generators, constructional details of brushes types of brushes and causes of brush wear and spark suppression techniques.",
+  "specific_objectives": "13.1.1.1 Trainee will be able to explain the A/C power systems.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of brush assembly removal and inspection; Safety: Ensure power is isolated and capacitors discharged; Supervision: Instructor monitors tool usage and electrical safety protocols.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of the aircraft AC power system?",
+    "How does the engine drive the generator mechanically?",
+    "Why is spark suppression critical in generator maintenance?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Generator engine coupling mechanisms",
+        "Generator cooling systems and airflow",
+        "Constructional details of generator stator and rotor",
+        "Types of brushes and commutator materials",
+        "Causes of brush wear and replacement criteria"
+      ],
+      "content": "Generator engine coupling mechanisms\nGenerator cooling systems and airflow\nConstructional details of generator stator and rotor\nTypes of brushes and commutator materials\nCauses of brush wear and replacement criteria",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Spark suppression techniques and components",
+        "Brush wear analysis and fault diagnosis",
+        "Inspection procedures for generator coupling",
+        "Cooling system maintenance checks",
+        "Brush material selection and application"
+      ],
+      "content": "Spark suppression techniques and components\nBrush wear analysis and fault diagnosis\nInspection procedures for generator coupling\nCooling system maintenance checks\nBrush material selection and application",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Review of AC power system integration",
+        "Summary of brush wear causes and prevention",
+        "Overview of spark suppression methods",
+        "Key constructional features of generators",
+        "Cooling system operational requirements"
+      ],
+      "content": "Review of AC power system integration\nSummary of brush wear causes and prevention\nOverview of spark suppression methods\nKey constructional features of generators\nCooling system operational requirements",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the relationship between brush wear and commutator sparking.",
+    "Describe the role of the carbon pile in voltage regulation context.",
+    "Identify three common causes of excessive generator brush wear."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the differences between carbon pile and solid state voltage regulators to be discussed in the next lesson plan.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Need for Voltage regulation, types of voltage Regulators - Carbon pile voltage regulator, solid voltage regulators, paralleling and load sharing.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 03"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT.",
+    "Verify specific BR reference number for brush wear charts."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

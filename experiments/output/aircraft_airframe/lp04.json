@@ -1,0 +1,152 @@
+{
+  "subject_name": "Aircraft Airframe",
+  "subject_code": "33",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "04",
+  "total_lesson_plans": "11",
+  "time_allotted": "80 min",
+  "topic": "Near Miss scheme/ Near Miss box",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Near Miss scheme/ Near Miss box",
+  "specific_objectives": "33.1.1.1 Trainee will be able to state various terminology used and differentiate between Error, Mistake, Negligence and Violation, flight safety, near miss box and accident reporting procedure.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of Near Miss Box terminology and classification of incidents using provided case studies; Safety: Ensure no sensitive operational data is discussed; Supervision: Instructor monitors group discussion accuracy.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "Define the term 'Near Miss' in aviation context.",
+    "List three types of errors that may lead to a near miss.",
+    "State the primary purpose of the Near Miss reporting scheme."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of Error, Mistake, Negligence, Violation",
+        "Distinction between Human Error and System Failure",
+        "Role of Near Miss in Flight Safety Management",
+        "Importance of Reporting Near Miss incidents",
+        "Consequences of unreported Near Miss events"
+      ],
+      "content": "Definition of Error, Mistake, Negligence, Violation\nDistinction between Human Error and System Failure\nRole of Near Miss in Flight Safety Management\nImportance of Reporting Near Miss incidents\nConsequences of unreported Near Miss events",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Structure and usage of Near Miss Box",
+        "Classification of Near Miss incidents",
+        "Reporting procedure for Near Miss events",
+        "Analysis of Near Miss data trends",
+        "Preventive measures derived from Near Miss reports"
+      ],
+      "content": "Structure and usage of Near Miss Box\nClassification of Near Miss incidents\nReporting procedure for Near Miss events\nAnalysis of Near Miss data trends\nPreventive measures derived from Near Miss reports",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Comparison of Near Miss vs Accident reporting",
+        "Legal implications of Near Miss reporting",
+        "Best practices for incident documentation",
+        "Feedback loop from Near Miss to safety improvements",
+        "Future trends in aviation safety reporting"
+      ],
+      "content": "Comparison of Near Miss vs Accident reporting\nLegal implications of Near Miss reporting\nBest practices for incident documentation\nFeedback loop from Near Miss to safety improvements\nFuture trends in aviation safety reporting",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between a Mistake and a Violation.",
+    "Describe the steps involved in the Near Miss reporting procedure.",
+    "How does a Near Miss contribute to overall flight safety?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on a hypothetical Near Miss incident and outline the reporting steps as per the syllabus, linking concepts to LP 02.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "GRACC",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 05"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

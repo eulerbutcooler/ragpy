@@ -1,0 +1,152 @@
+{
+  "subject_name": "Composite",
+  "subject_code": "19",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "01",
+  "total_lesson_plans": "11",
+  "time_allotted": "80 min",
+  "topic": "Introduction to Engineering Metrology, need for inspection, precision and accuracy",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Introduction to Engineering Metrology, need for inspection, precision and accuracy.",
+  "specific_objectives": "19.1.1.1 Trainee will be able to describe details about Engineering Metrology.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of standard measuring instruments; Safety: Handle glass/plastic scales gently; Supervision: Instructor monitors handling of fragile gauges.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of engineering metrology?",
+    "Why is inspection necessary in aircraft maintenance?",
+    "Can a measurement be accurate but not precise? Explain."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of Engineering Metrology",
+        "Scope and applications in aviation",
+        "Role of measurement in quality control",
+        "Basic units of measurement",
+        "Importance of standardization"
+      ],
+      "content": "Definition of Engineering Metrology\nScope and applications in aviation\nRole of measurement in quality control\nBasic units of measurement\nImportance of standardization",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Need for inspection in engineering",
+        "Difference between precision and accuracy",
+        "Sources of measurement errors",
+        "Significance of tolerance limits",
+        "Impact of errors on aircraft safety"
+      ],
+      "content": "Need for inspection in engineering\nDifference between precision and accuracy\nSources of measurement errors\nSignificance of tolerance limits\nImpact of errors on aircraft safety",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Classification of measurement errors",
+        "Methods to improve measurement reliability",
+        "Role of calibration in metrology",
+        "Common instruments used for inspection",
+        "Summary of key concepts"
+      ],
+      "content": "Classification of measurement errors\nMethods to improve measurement reliability\nRole of calibration in metrology\nCommon instruments used for inspection\nSummary of key concepts",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Define precision and provide an example relevant to aircraft parts.",
+    "Explain how inspection prevents catastrophic failures in engineering systems.",
+    "Differentiate between accuracy and precision using a target analogy."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the objectives of metrology and its relationship with standardization for the next lesson on calibration.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Importance of Calibration, classification of measurements, general care of instruments, objective of metrology, Standardization and various Standardizing organizations.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 02"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

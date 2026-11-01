@@ -1,0 +1,152 @@
+{
+  "subject_name": "A/C Material",
+  "subject_code": "15",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "10",
+  "total_lesson_plans": "16",
+  "time_allotted": "80 min",
+  "topic": "Fuselage introduction, fuselage shape, structural design, detailed design layout",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Fuselage introduction, fuselage shape, structural design, detailed design layout",
+  "specific_objectives": "15.1.1.1 Trainee will be able to explain aircraft structure, various structural elements and their details.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of fuselage structural elements using IB diagrams; Instructor supervision required for diagram interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of the fuselage in an aircraft?",
+    "List three main structural elements found in a typical fuselage.",
+    "How does the fuselage shape differ between commercial and fighter aircraft?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Fuselage introduction and primary functions",
+        "Standard fuselage shape configurations",
+        "Monocoque and semi-monocoque structures",
+        "Skin, frames, and longerons roles",
+        "Riveting and bonding techniques"
+      ],
+      "content": "Fuselage introduction and primary functions\nStandard fuselage shape configurations\nMonocoque and semi-monocoque structures\nSkin, frames, and longerons roles\nRiveting and bonding techniques",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Detailed design layout principles",
+        "Load distribution and stress analysis",
+        "Material selection for fuselage structures",
+        "Integration of systems within fuselage",
+        "Fire protection and environmental sealing"
+      ],
+      "content": "Detailed design layout principles\nLoad distribution and stress analysis\nMaterial selection for fuselage structures\nIntegration of systems within fuselage\nFire protection and environmental sealing",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Inspection of structural element diagrams",
+        "Identification of load paths in design",
+        "Review of material properties and usage",
+        "Analysis of system integration points",
+        "Discussion on maintenance access design"
+      ],
+      "content": "Inspection of structural element diagrams\nIdentification of load paths in design\nReview of material properties and usage\nAnalysis of system integration points\nDiscussion on maintenance access design",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between monocoque and semi-monocoque fuselage structures.",
+    "Describe how loads are distributed through the fuselage skin and frames.",
+    "Why is material selection critical in detailed fuselage design layout?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the fuselage design principles discussed in this lesson apply to the main plane structure covered in LP 02.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Introduction to main plane, aero dynamic and structural considerations, loads on wings, basic structural requirements, role of wings as structure, positioning of components, form of wing construction",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 11"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Instructor, Flight Lieutenant, P No. 12345",
+  "approved_by": "Senior Instructor, Commander, P No. 67890",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

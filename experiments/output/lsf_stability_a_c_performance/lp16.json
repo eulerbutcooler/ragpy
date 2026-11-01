@@ -1,0 +1,152 @@
+{
+  "subject_name": "LSF, Stability, A/C Performance",
+  "subject_code": "6",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "16",
+  "total_lesson_plans": "33",
+  "time_allotted": "80 min",
+  "topic": "Secondary/Auxiliary flight controls, thrust reversing/braking",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Secondary/Auxiliary flight controls, thrust reversing/braking",
+  "specific_objectives": "6.1.2.1 Trainee will be able to describe various types of aerofoil sections, conditions of performance, theories, and concept related with performance",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of L & Ds diagrams for Spoilers, Flaps, and Thrust Reverser mechanisms; Instructor supervision on safety protocols regarding hydraulic systems and brake actuation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the primary flight controls?",
+    "Define the function of ailerons.",
+    "List the three main types of secondary flight controls."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition and purpose of secondary controls",
+        "Types of flaps and their aerodynamic effects",
+        "Spoiler operation and ground effect",
+        "Trim systems and balance mechanisms",
+        "Hydraulic actuation principles"
+      ],
+      "content": "Definition and purpose of secondary controls\nTypes of flaps and their aerodynamic effects\nSpoiler operation and ground effect\nTrim systems and balance mechanisms\nHydraulic actuation principles",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Thrust reverser mechanical systems",
+        "Brake actuation and anti-skid systems",
+        "Integration of reverse thrust with braking",
+        "Safety interlocks and ground handling",
+        "Maintenance checks for reverse thrust units"
+      ],
+      "content": "Thrust reverser mechanical systems\nBrake actuation and anti-skid systems\nIntegration of reverse thrust with braking\nSafety interlocks and ground handling\nMaintenance checks for reverse thrust units",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Performance impact of flap deployment",
+        "Braking efficiency calculations",
+        "Emergency braking procedures",
+        "System failure scenarios and recovery",
+        "Operational limits for secondary controls"
+      ],
+      "content": "Performance impact of flap deployment\nBraking efficiency calculations\nEmergency braking procedures\nSystem failure scenarios and recovery\nOperational limits for secondary controls",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how spoilers assist in roll control.",
+    "Describe the sequence of thrust reverser deployment.",
+    "Identify the role of anti-skid systems during landing."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report comparing the aerodynamic benefits of leading-edge flaps versus trailing-edge flaps, referencing LP 02 concepts.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Flight control surface balancing",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 17"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Instructor, Senior Instructor, P No. 12345",
+  "approved_by": "Senior Officer, Chief Instructor, P No. 67890",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

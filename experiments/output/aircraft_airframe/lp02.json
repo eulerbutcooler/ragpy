@@ -1,0 +1,152 @@
+{
+  "subject_name": "Aircraft Airframe",
+  "subject_code": "33",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "02",
+  "total_lesson_plans": "11",
+  "time_allotted": "80 min",
+  "topic": "Difference between Error, Mistake, Negligence and Violation",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Difference between Error, Mistake, Negligence and Violation.",
+  "specific_objectives": "33.1.1.1 Trainee will be able to state various terminology used and differentiate between Error, Mistake, Negligence and Violation, flight safety, near miss box and accident reporting procedure.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Classroom discussion on case studies; Safety precautions: Maintain confidentiality of personnel; Instructor supervision: Monitor participation and ensure correct terminology usage.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary goal of flight safety?",
+    "Can you define a near miss?",
+    "Why is accurate reporting essential for accident investigation?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of Human Error",
+        "Distinction between Error and Mistake",
+        "Concept of Negligence in Aviation",
+        "Definition of Violation",
+        "Comparison of Error, Mistake, Negligence, Violation"
+      ],
+      "content": "Definition of Human Error\nDistinction between Error and Mistake\nConcept of Negligence in Aviation\nDefinition of Violation\nComparison of Error, Mistake, Negligence, Violation",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Flight Safety Management Systems",
+        "Near Miss Box Reporting Criteria",
+        "Accident Reporting Procedures",
+        "Chain of Command for Reporting",
+        "Confidentiality in Reporting"
+      ],
+      "content": "Flight Safety Management Systems\nNear Miss Box Reporting Criteria\nAccident Reporting Procedures\nChain of Command for Reporting\nConfidentiality in Reporting",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Review of Terminology Differences",
+        "Application of Reporting Procedures",
+        "Importance of Safety Culture",
+        "Role of Air Agniveer in Safety",
+        "Summary of Key Concepts"
+      ],
+      "content": "Review of Terminology Differences\nApplication of Reporting Procedures\nImportance of Safety Culture\nRole of Air Agniveer in Safety\nSummary of Key Concepts",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Differentiate between a mistake and a violation.",
+    "Explain the procedure for reporting a near miss.",
+    "Why is negligence considered more severe than an error?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the concepts of Error, Mistake, Negligence, and Violation apply to your daily duties as an Air Agniveer Apprentice, referencing the next lesson plan on Flight Safety.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Flight Safety",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 03"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

@@ -1,0 +1,152 @@
+{
+  "subject_name": "Advanced Aircraft Technology (AAT)",
+  "subject_code": "31",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "11",
+  "total_lesson_plans": "12",
+  "time_allotted": "80 min",
+  "topic": "Performing Butt/Lap joint by Arc welding procedure and Inspection of welded job",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Performing Butt/Lap joint by Arc welding procedure and Inspection of welded job",
+  "specific_objectives": "31.1.4.1 Trainee will be able to explain arc welding and brazing procedure",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of Butt and Lap joint preparation, Arc welding execution, and visual inspection of weld quality with instructor supervision on safety protocols.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the two primary types of arc welding joints discussed in this lesson?",
+    "Define the term 'weld penetration' in the context of butt joints.",
+    "List three essential safety precautions required before starting an arc welding operation."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition and principles of Arc Welding",
+        "Preparation of Butt and Lap joints",
+        "Selection of electrode and current settings",
+        "Step-by-step welding procedure execution",
+        "Common defects in arc welded joints"
+      ],
+      "content": "Definition and principles of Arc Welding\nPreparation of Butt and Lap joints\nSelection of electrode and current settings\nStep-by-step welding procedure execution\nCommon defects in arc welded joints",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Execution of Butt joint welding procedure",
+        "Execution of Lap joint welding procedure",
+        "Visual inspection criteria for weld quality",
+        "Non-destructive testing methods overview",
+        "Identification and rectification of weld defects"
+      ],
+      "content": "Execution of Butt joint welding procedure\nExecution of Lap joint welding procedure\nVisual inspection criteria for weld quality\nNon-destructive testing methods overview\nIdentification and rectification of weld defects",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Final inspection and quality assessment",
+        "Documentation of weld parameters",
+        "Comparison of Butt vs Lap joint applications",
+        "Review of safety shutdown procedures",
+        "Summary of key learning points"
+      ],
+      "content": "Final inspection and quality assessment\nDocumentation of weld parameters\nComparison of Butt vs Lap joint applications\nReview of safety shutdown procedures\nSummary of key learning points",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference in preparation requirements between a Butt joint and a Lap joint.",
+    "Describe the visual indicators that suggest a weld has insufficient penetration.",
+    "Outline the correct sequence for shutting down an arc welding machine safely."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report comparing the structural advantages of Butt joints versus Lap joints in aircraft structural applications, referencing the master syllabus for LP 02.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Equipment setup, tools and spares for Gas welding and Brazing procedure",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 12"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

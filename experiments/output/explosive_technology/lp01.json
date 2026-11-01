@@ -1,0 +1,152 @@
+{
+  "subject_name": "Explosive Technology",
+  "subject_code": "30",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "01",
+  "total_lesson_plans": "8",
+  "time_allotted": "80 min",
+  "topic": "Classification of armaments",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Classification of armaments",
+  "specific_objectives": "30.1.1.1 Trainee will be able to explain the armament stores procedures",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of armament classification charts; Instructor supervision required for safety protocols",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of aircraft armaments?",
+    "Can you list three types of weapon systems?",
+    "Why is proper classification of armaments essential for safety?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of armament stores",
+        "Internal vs external stores",
+        "Fixed vs removable stores",
+        "Guided vs unguided munitions",
+        "Conventional vs nuclear weapons"
+      ],
+      "content": "Definition of armament stores\nInternal vs external stores\nFixed vs removable stores\nGuided vs unguided munitions\nConventional vs nuclear weapons",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Classification by delivery method",
+        "Classification by warhead type",
+        "Storage and handling categories",
+        "Marking and identification codes",
+        "Compatibility with aircraft systems"
+      ],
+      "content": "Classification by delivery method\nClassification by warhead type\nStorage and handling categories\nMarking and identification codes\nCompatibility with aircraft systems",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Safety procedures during classification",
+        "Documentation requirements",
+        "Inspection and maintenance protocols",
+        "Emergency response for misclassified items",
+        "Record keeping and reporting"
+      ],
+      "content": "Safety procedures during classification\nDocumentation requirements\nInspection and maintenance protocols\nEmergency response for misclassified items\nRecord keeping and reporting",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between internal and external armament stores.",
+    "How does the classification system impact storage and handling procedures?",
+    "What are the key safety considerations when classifying guided munitions?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note comparing gun warfare stores and magazine stores, focusing on their classification differences, to be discussed in Lesson Plan 02.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Difference between Gun Warf and magazine stores",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 02"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

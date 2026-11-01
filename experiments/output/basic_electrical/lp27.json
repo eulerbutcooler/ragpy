@@ -1,0 +1,145 @@
+{
+  "subject_name": "Basic Electrical",
+  "subject_code": "23",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "27",
+  "total_lesson_plans": "29",
+  "time_allotted": "80 min",
+  "topic": "Maintenance of O2 system, servicing and safety precautions",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Maintenance of O2 system, servicing and safety precautions. Safety measures while handling /upkeep of gaseous oxygen system. Quality checks on pressurized gas cylinders.",
+  "specific_objectives": "23.2.1.1 Trainee will be able to understand the need of oxygen systems, types of systems, working principles of components.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of O2 cylinder quality checks, safety valve inspection, and leak detection procedures with instructor supervision.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the primary safety risks associated with gaseous oxygen?",
+    "List three common types of oxygen systems used in aviation.",
+    "Why is oil contamination strictly prohibited in oxygen systems?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Need and types of oxygen systems",
+        "Working principles of O2 components",
+        "Safety measures for gaseous oxygen handling"
+      ],
+      "content": "Need and types of oxygen systems\nWorking principles of O2 components\nSafety measures for gaseous oxygen handling",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Quality checks on pressurized gas cylinders",
+        "Servicing procedures and documentation",
+        "Inspection of safety valves and regulators"
+      ],
+      "content": "Quality checks on pressurized gas cylinders\nServicing procedures and documentation\nInspection of safety valves and regulators",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Leak detection techniques",
+        "Storage and transport safety protocols",
+        "Emergency response to O2 system failures"
+      ],
+      "content": "Leak detection techniques\nStorage and transport safety protocols\nEmergency response to O2 system failures",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the correct procedure for checking the hydrostatic test date on an oxygen cylinder.",
+    "Describe the immediate actions required if an oxygen leak is detected in the cabin."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the differences between gaseous and liquid oxygen systems, focusing on maintenance requirements, to be discussed in LP 02.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Typical cabin pressurization system, Cabin pressure regulator safety v/v, outflow v/v etc and its operation, Methods of sealing of cabin",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 28"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

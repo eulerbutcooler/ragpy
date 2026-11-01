@@ -1,0 +1,152 @@
+{
+  "subject_name": "Composite",
+  "subject_code": "19",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "06",
+  "total_lesson_plans": "11",
+  "time_allotted": "80 min",
+  "topic": "Slip gauges introduction, Indian standards slip gauges, care and use of slip gauges",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Slip gauges introduction, Indian standards slip gauges, care and use of slip gauges",
+  "specific_objectives": "19.1.1.1 Trainee will be able to describe details about Engineering Metrology.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of slip gauge handling, cleaning, and storage; Safety: Handle with tissue, avoid dropping; Supervision: Instructor monitors technique",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of slip gauges in metrology?",
+    "Name two common materials used to manufacture slip gauges.",
+    "Why must slip gauges be handled with clean hands or tissue?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Introduction to Engineering Metrology",
+        "Definition and function of slip gauges",
+        "Historical context of gauge blocks",
+        "Basic terminology and nomenclature",
+        "Importance of precision in measurements"
+      ],
+      "content": "Introduction to Engineering Metrology\nDefinition and function of slip gauges\nHistorical context of gauge blocks\nBasic terminology and nomenclature\nImportance of precision in measurements",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Indian Standards for slip gauges",
+        "Material composition and properties",
+        "Grades and tolerances (Grade 0 to 3)",
+        "Surface finish and flatness requirements",
+        "Standard sizes and series available"
+      ],
+      "content": "Indian Standards for slip gauges\nMaterial composition and properties\nGrades and tolerances (Grade 0 to 3)\nSurface finish and flatness requirements\nStandard sizes and series available",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Proper handling techniques",
+        "Cleaning and maintenance procedures",
+        "Storage methods and environmental control",
+        "Common errors and damage prevention",
+        "Inspection and verification practices"
+      ],
+      "content": "Proper handling techniques\nCleaning and maintenance procedures\nStorage methods and environmental control\nCommon errors and damage prevention\nInspection and verification practices",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between Grade 0 and Grade 3 slip gauges in terms of accuracy.",
+    "Describe the correct method for wiping a slip gauge before use.",
+    "Why is it critical to store slip gauges in a controlled environment?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the principles of slip gauge usage apply to the upcoming lesson on dial indicators (LP 07), focusing on precision measurement continuity.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Dial indicators advantages, classifications, care and use of dial indicators",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 07"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

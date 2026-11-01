@@ -1,0 +1,152 @@
+{
+  "subject_name": "Aircraft Electrical equipment, Power generation and Distribution",
+  "subject_code": "15",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "20",
+  "total_lesson_plans": "35",
+  "time_allotted": "80 min",
+  "topic": "Desynn type pressure indicating system",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Desynn type pressure indicating system.",
+  "specific_objectives": "15.1.8.2 Trainee will be able to explain Desynn type pressure indicating system.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of Desynn indicator mechanism operation; Safety: Ensure no loose tools near rotating parts; Supervision: Instructor monitors alignment and torque application.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of a Desynn system?",
+    "How does a pressure indicating system differ from a torque meter?",
+    "Name one application of Desynn systems in aircraft instrumentation."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Desynn system basic principle",
+        "Encoder and decoder components",
+        "Pressure to electrical conversion",
+        "Signal transmission path",
+        "Indicator display mechanism"
+      ],
+      "content": "Desynn system basic principle\nEncoder and decoder components\nPressure to electrical conversion\nSignal transmission path\nIndicator display mechanism",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Desynn indicator construction",
+        "Rotor and stator interaction",
+        "Pressure sensing element function",
+        "System calibration procedures",
+        "Common failure modes"
+      ],
+      "content": "Desynn indicator construction\nRotor and stator interaction\nPressure sensing element function\nSystem calibration procedures\nCommon failure modes",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "System integration in cockpit",
+        "Maintenance and inspection",
+        "Troubleshooting steps",
+        "Replacement procedures",
+        "Safety checks during maintenance"
+      ],
+      "content": "System integration in cockpit\nMaintenance and inspection\nTroubleshooting steps\nReplacement procedures\nSafety checks during maintenance",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how pressure is converted into a readable value in a Desynn system.",
+    "Describe the role of the encoder and decoder in the Desynn circuit.",
+    "List three safety precautions when handling Desynn indicator components."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the operational differences between the Desynn pressure system and the torque meter system covered in LP 21.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Principle of torque meter.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 21"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

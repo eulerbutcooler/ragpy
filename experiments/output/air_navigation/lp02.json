@@ -1,0 +1,152 @@
+{
+  "subject_name": "Air Navigation",
+  "subject_code": "21",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "02",
+  "total_lesson_plans": "18",
+  "time_allotted": "80 min",
+  "topic": "Practical on AHCP measures: - Contents of an AHCP kit, Application of AHCP measures, Documentation associated with AHCP.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Practical on AHCP measures: - Contents of an AHCP kit, Application of AHCP measures, Documentation associated with AHCP.",
+  "specific_objectives": "21.1.1.1 Trainee will be able to explain about various facilities available in an aircraft hangar.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Inspection of AHCP kit contents, Demonstration of AHCP application, Review of associated documentation forms.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of an Aircraft Hangar Control Panel (AHCP)?",
+    "List three essential items found in a standard AHCP kit.",
+    "Which documentation form is typically used to record AHCP maintenance actions?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Identification of AHCP kit components",
+        "Functionality of individual AHCP tools",
+        "Safety protocols for AHCP usage",
+        "Storage requirements for AHCP equipment",
+        "Verification of kit completeness"
+      ],
+      "content": "Identification of AHCP kit components\nFunctionality of individual AHCP tools\nSafety protocols for AHCP usage\nStorage requirements for AHCP equipment\nVerification of kit completeness",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Application of AHCP measures in hangar",
+        "Troubleshooting common AHCP issues",
+        "Integration with aircraft maintenance procedures",
+        "Emergency response using AHCP features",
+        "Coordination with ground support equipment"
+      ],
+      "content": "Application of AHCP measures in hangar\nTroubleshooting common AHCP issues\nIntegration with aircraft maintenance procedures\nEmergency response using AHCP features\nCoordination with ground support equipment",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Review of AHCP documentation forms",
+        "Filling out maintenance logs accurately",
+        "Archiving procedures for AHCP records",
+        "Compliance with regulatory documentation standards",
+        "Error correction in AHCP documentation"
+      ],
+      "content": "Review of AHCP documentation forms\nFilling out maintenance logs accurately\nArchiving procedures for AHCP records\nCompliance with regulatory documentation standards\nError correction in AHCP documentation",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the critical role of AHCP documentation in aircraft maintenance safety.",
+    "Describe the correct procedure for reporting an AHCP malfunction during a practical session.",
+    "How does proper AHCP kit maintenance contribute to overall hangar operational efficiency?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report detailing the specific AHCP measures applied during today's practical session and their relevance to future hangar operations.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Practical use and filling of A-21, A-703, S-156, S-118, S-1091, A-720, MOD FORM 760, INA 704, 705, 706, INA 701, 701A, 701B, MOD FORM 735 etc. flight servicing forms (A/C specific only).",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 03"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

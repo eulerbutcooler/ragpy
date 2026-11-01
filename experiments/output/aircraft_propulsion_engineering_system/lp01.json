@@ -1,0 +1,152 @@
+{
+  "subject_name": "Aircraft Propulsion & Engineering System",
+  "subject_code": "6",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "01",
+  "total_lesson_plans": "14",
+  "time_allotted": "80 min",
+  "topic": "Requirement of aircraft husbandry",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Requirement of aircraft husbandry.",
+  "specific_objectives": "6.1.1.1 Trainee will be able to describe types of corrosion.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Visual inspection of corrosion samples; Safety: Wear gloves and eye protection; Supervision: Instructor monitors handling of samples",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of aircraft husbandry?",
+    "Why is regular maintenance essential for aircraft safety?",
+    "Can you list three factors that degrade aircraft structures?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of aircraft husbandry",
+        "Importance of structural integrity",
+        "Impact of environmental factors",
+        "Role of scheduled maintenance",
+        "Consequences of neglecting husbandry"
+      ],
+      "content": "Definition of aircraft husbandry\nImportance of structural integrity\nImpact of environmental factors\nRole of scheduled maintenance\nConsequences of neglecting husbandry",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Types of corrosion mechanisms",
+        "Galvanic corrosion principles",
+        "Environmental corrosion factors",
+        "Internal vs external corrosion",
+        "Effect of moisture and salts"
+      ],
+      "content": "Types of corrosion mechanisms\nGalvanic corrosion principles\nEnvironmental corrosion factors\nInternal vs external corrosion\nEffect of moisture and salts",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Preventive measures against corrosion",
+        "Inspection techniques for corrosion",
+        "Documentation of corrosion findings",
+        "Reporting procedures for defects",
+        "Basic cleaning and preservation methods"
+      ],
+      "content": "Preventive measures against corrosion\nInspection techniques for corrosion\nDocumentation of corrosion findings\nReporting procedures for defects\nBasic cleaning and preservation methods",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between galvanic and environmental corrosion.",
+    "How does neglecting husbandry affect aircraft operational safety?",
+    "What are the key steps in reporting a corrosion defect?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the specific corrosion types discussed in this lesson and how they relate to the definition of corrosion on steel, aluminum, and magnesium alloys covered in LP 02.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Definition of corrosion on steel products, aluminum and magnesium alloys and copper alloys.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 02"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

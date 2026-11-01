@@ -1,0 +1,152 @@
+{
+  "subject_name": "AFCS",
+  "subject_code": "22",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "08",
+  "total_lesson_plans": "10",
+  "time_allotted": "80 min",
+  "topic": "Long range guidance: Inertial navigation, Hybrid inertial system and air flying missile guidance.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Long range guidance: Inertial navigation, Hybrid inertial system and air flying missile guidance.",
+  "specific_objectives": "22.1.1.1Trainee will be able to understand the basic of guided weapon systems and types of targets.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of Inertial Navigation System components and Missile Guidance modes using L & Ds and IB.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the primary types of long-range guidance systems?",
+    "Define the basic principle of inertial navigation.",
+    "List the common types of targets for guided weapons."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Basic principles of inertial navigation",
+        "Components of inertial navigation system",
+        "Error accumulation in inertial systems",
+        "Hybrid inertial system architecture",
+        "Integration of GPS with INS"
+      ],
+      "content": "Basic principles of inertial navigation\nComponents of inertial navigation system\nError accumulation in inertial systems\nHybrid inertial system architecture\nIntegration of GPS with INS",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Air-to-air missile guidance modes",
+        "Air-to-surface missile guidance modes",
+        "Terminal guidance techniques",
+        "Missile seeker types and operation",
+        "Guidance law selection criteria"
+      ],
+      "content": "Air-to-air missile guidance modes\nAir-to-surface missile guidance modes\nTerminal guidance techniques\nMissile seeker types and operation\nGuidance law selection criteria",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Comparison of inertial and hybrid systems",
+        "Advantages of hybrid inertial guidance",
+        "Limitations of pure inertial navigation",
+        "Future trends in missile guidance",
+        "Operational considerations for aircrew"
+      ],
+      "content": "Comparison of inertial and hybrid systems\nAdvantages of hybrid inertial guidance\nLimitations of pure inertial navigation\nFuture trends in missile guidance\nOperational considerations for aircrew",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how a hybrid inertial system corrects drift errors.",
+    "Differentiate between semi-active and active radar homing in missiles.",
+    "Describe the role of the inertial reference unit in a missile."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the specific guidance units and reference units discussed in the next lesson plan (LP 09) and how they interface with the inertial system.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Sensor units for guidance systems computer units of guidance system, reference units of guidance system.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 09"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

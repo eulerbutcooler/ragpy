@@ -1,0 +1,152 @@
+{
+  "subject_name": "NAMS",
+  "subject_code": "3",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "17",
+  "total_lesson_plans": "19",
+  "time_allotted": "80 min",
+  "topic": "Introduction to New management strategy (NMS) and relevant parts of NI/1/ 2006 (or latest issue), GFR 2017 (or latest issue) and Defense Pro",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Introduction to New management strategy (NMS) and relevant parts of NI/1/ 2006 (or latest issue), GFR 2017 (or latest issue) and Defense Procurement manual 2025 (or latest issue), DFPDS – 2026 (or latest issue), DAP -20 (or latest issue).",
+  "specific_objectives": "3.1.7.1 Trainees will come to know New management strategy (NMS).",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Nil specified; default to L & Ds and IB, PDF",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary goal of the New Management Strategy?",
+    "Which regulation governs the financial management of defense procurement?",
+    "What does DFPDS stand for in the context of defense planning?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Overview of New Management Strategy",
+        "Key provisions of NI/1/2006",
+        "Guidelines under GFR 2017",
+        "Defense Procurement Manual 2025 updates",
+        "Role of DFPDS and DAP-20"
+      ],
+      "content": "Overview of New Management Strategy\nKey provisions of NI/1/2006\nGuidelines under GFR 2017\nDefense Procurement Manual 2025 updates\nRole of DFPDS and DAP-20",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Comparison of old vs new procurement systems",
+        "Importance of DFPDS in strategic planning",
+        "Functions and scope of DAP-20",
+        "Integration of NMS with existing frameworks",
+        "Benefits of streamlined management processes"
+      ],
+      "content": "Comparison of old vs new procurement systems\nImportance of DFPDS in strategic planning\nFunctions and scope of DAP-20\nIntegration of NMS with existing frameworks\nBenefits of streamlined management processes",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Review of specific clauses in NI/1/2006",
+        "Latest amendments in GFR 2017",
+        "Key directives in Defense Procurement Manual 2025",
+        "Operational use of DFPDS-2026",
+        "Implementation of DAP-20 guidelines"
+      ],
+      "content": "Review of specific clauses in NI/1/2006\nLatest amendments in GFR 2017\nKey directives in Defense Procurement Manual 2025\nOperational use of DFPDS-2026\nImplementation of DAP-20 guidelines",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how the New Management Strategy improves efficiency in defense procurement.",
+    "Describe the relationship between DFPDS and the overall procurement strategy.",
+    "Identify two key changes introduced in the Defense Procurement Manual 2025."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief summary of the New Management Strategy and its impact on future engineering operations, referencing the relevant sections of NI/1/2006 and GFR 2017 to be discussed in the next lesson on safety precautions during fueling and aircraft systems.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Safety precaution during fueling, working on aircraft systems i.r.o fire, dermatitis risk, protection from noise, ground testing of pressurized cabins static electricity, radiography, personnel safety, radioactive contamination, protective clothing.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 18"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

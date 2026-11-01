@@ -1,0 +1,148 @@
+{
+  "subject_name": "Rocket Engine",
+  "subject_code": "17",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "04",
+  "total_lesson_plans": "9",
+  "time_allotted": "80 min",
+  "topic": "Selection criteria for matrix material",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Selection criteria for matrix material. Different types of matrix material and brief description of Thermosetting matrix material and Thermoplastic matrix material.",
+  "specific_objectives": "17.1.1.1 Trainee will be able to understand the development of composite materials, types and functions of fibers and resin, Defects in composite, selection criteria for Matrix, fabric weaves, prepress, strength flowcharts",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of Matrix Material Selection Flowchart; Instructor Supervision: Verify trainee understanding of Thermoset vs Thermoplastic properties.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of the matrix in a composite material?",
+    "Name two common types of matrix materials used in composites.",
+    "Why is the selection of matrix material critical for structural integrity?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Development of Composite Materials",
+        "Functions of Fibers and Resin",
+        "Common Defects in Composites",
+        "Selection Criteria for Matrix Material"
+      ],
+      "content": "Development of Composite Materials\nFunctions of Fibers and Resin\nCommon Defects in Composites\nSelection Criteria for Matrix Material",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Thermosetting Matrix Material Description",
+        "Thermoplastic Matrix Material Description",
+        "Comparison of Thermoset and Thermoplastic Properties",
+        "Impact of Matrix on Composite Performance"
+      ],
+      "content": "Thermosetting Matrix Material Description\nThermoplastic Matrix Material Description\nComparison of Thermoset and Thermoplastic Properties\nImpact of Matrix on Composite Performance",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Fabric Weaves and Prepress Techniques",
+        "Strength Flowcharts for Matrix Selection",
+        "Application of Selection Criteria in Design",
+        "Review of Defects Related to Matrix Choice"
+      ],
+      "content": "Fabric Weaves and Prepress Techniques\nStrength Flowcharts for Matrix Selection\nApplication of Selection Criteria in Design\nReview of Defects Related to Matrix Choice",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the key difference between the curing process of thermosetting and thermoplastic matrices.",
+    "How does the selection of a specific matrix material influence the defect profile of the final composite?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the knowledge of matrix selection criteria will assist in the study of Prepregs in the next lesson plan.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Definition of Prepregs. Application of prepregs in aerospace industry. Advantages and disadvantages of prepress. Storage of Prepregs.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 05"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

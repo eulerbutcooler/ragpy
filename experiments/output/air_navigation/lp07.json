@@ -1,0 +1,146 @@
+{
+  "subject_name": "Air Navigation",
+  "subject_code": "21",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "07",
+  "total_lesson_plans": "18",
+  "time_allotted": "80 min",
+  "topic": "practical on making entries in: - Part 3 flight servicing log of MOD form A-700C for BFS/TRS/AFS, forecasting of servicing schedules / inspe",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "practical on making entries in: - Part 3 flight servicing log of MOD form A-700C for BFS/TRS/AFS, forecasting of servicing schedules / inspections due, in Part 6D, 6E & 6F, Entries of inspections due as per part 6 above, in Part 4 U/S log and how to clear the un-serviceability & re-forecasting, Filling of Part 6G, compass deviation log for making deviation coefficient entries.",
+  "specific_objectives": "21.1.4.1 Trainee will be able to explain about various types of Flight Servicing being carried out i.a.w flight servicing cards / Aircraft flight servicing manual.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Practical on making entries in Part 3 Flight Servicing Log, forecasting schedules, clearing U/S entries, filling Part 6G, and compass deviation log entries.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of the MOD Form A-700C?",
+    "List three types of flight servicing defined in the Aircraft Flight Servicing Manual.",
+    "Where are Unserviceability (U/S) entries recorded in the log?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Entry procedures for Part 3 Flight Servicing Log",
+        "Forecasting servicing schedules and inspections",
+        "Recording inspections due in Parts 6D, 6E, and 6F"
+      ],
+      "content": "Entry procedures for Part 3 Flight Servicing Log\nForecasting servicing schedules and inspections\nRecording inspections due in Parts 6D, 6E, and 6F",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Clearing Unserviceability entries in Part 4 U/S log",
+        "Re-forecasting procedures after defect clearance",
+        "Filling Part 6G for completed inspections"
+      ],
+      "content": "Clearing Unserviceability entries in Part 4 U/S log\nRe-forecasting procedures after defect clearance\nFilling Part 6G for completed inspections",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Compass deviation log entries and coefficient calculation",
+        "Verification of deviation coefficients against standards",
+        "Final review of logbook completeness"
+      ],
+      "content": "Compass deviation log entries and coefficient calculation\nVerification of deviation coefficients against standards\nFinal review of logbook completeness",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the relationship between Part 3 servicing entries and Part 6 inspection due dates.",
+    "Describe the steps required to clear a U/S entry and re-forecast the next inspection.",
+    "How are deviation coefficients derived and recorded in the compass deviation log?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a draft entry for a hypothetical BFS servicing event and forecast the next inspection date, referencing the procedures in LP 02.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Demonstration and explanation procedure of removal and fitment of various LRUs/ major assemblies i.a.w ASM.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 08"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

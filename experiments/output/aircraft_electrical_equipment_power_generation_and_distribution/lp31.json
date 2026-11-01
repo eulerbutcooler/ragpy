@@ -1,0 +1,149 @@
+{
+  "subject_name": "Aircraft Electrical equipment, Power generation and Distribution",
+  "subject_code": "15",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "31",
+  "total_lesson_plans": "35",
+  "time_allotted": "80 min",
+  "topic": "Protection and location of flight data recorder",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Protection and location of flight data recorder.",
+  "specific_objectives": "15.1.11.4 Trainee will be able to explain Protection and location of FDR.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of FDR installation diagrams in IB; Instructor supervision required for diagram interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of the Flight Data Recorder?",
+    "Where is the FDR typically located on a commercial aircraft?",
+    "Why is the FDR often painted orange?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "FDR physical protection mechanisms",
+        "Crash survivability requirements",
+        "Environmental sealing standards",
+        "Impact resistance specifications"
+      ],
+      "content": "FDR physical protection mechanisms\nCrash survivability requirements\nEnvironmental sealing standards\nImpact resistance specifications",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Standard FDR installation locations",
+        "Tail cone mounting procedures",
+        "Fire protection systems",
+        "Access panel configurations"
+      ],
+      "content": "Standard FDR installation locations\nTail cone mounting procedures\nFire protection systems\nAccess panel configurations",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Regulatory compliance for FDR",
+        "Maintenance access protocols",
+        "Data integrity safeguards",
+        "Post-accident recovery procedures"
+      ],
+      "content": "Regulatory compliance for FDR\nMaintenance access protocols\nData integrity safeguards\nPost-accident recovery procedures",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how the FDR protects data during a crash event.",
+    "Describe the typical location of the FDR relative to the aircraft center of gravity.",
+    "What measures ensure the FDR remains operational after fire exposure?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the knowledge of FDR protection and location will assist in future troubleshooting of aircraft black box systems during LP 02.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Direct reading magnetic compasses- Magnetic properties, hard iron and soft iron, terrestrial magnetism, magnetic variation, magnetic dip.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 32"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

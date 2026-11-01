@@ -1,0 +1,148 @@
+{
+  "subject_name": "Advanced Aircraft Technology (AAT)",
+  "subject_code": "31",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "06",
+  "total_lesson_plans": "12",
+  "time_allotted": "80 min",
+  "topic": "Making of different jobs using Sheet metal i.e Butt/Lap joints",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Making of different jobs using Sheet metal i.e Butt/Lap joints",
+  "specific_objectives": "31.1.3.1 Trainee will be able to perform various repair works on aircraft structure",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration and supervised practice of Butt and Lap joint fabrication on sheet metal blanks; Safety precautions include PPE usage, tool handling, and fire safety; Instructor supervision ensures correct alignment and fastening techniques.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the two primary types of sheet metal joints used in aircraft structures?",
+    "Why is proper joint selection critical for aircraft structural integrity?",
+    "List three safety precautions required before starting sheet metal fabrication."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition and application of Butt joints",
+        "Edge preparation for Butt joints",
+        "Fastening methods for Butt joints",
+        "Inspection criteria for Butt joints"
+      ],
+      "content": "Definition and application of Butt joints\nEdge preparation for Butt joints\nFastening methods for Butt joints\nInspection criteria for Butt joints",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Definition and application of Lap joints",
+        "Overlap dimensions and edge finishing",
+        "Riveting patterns for Lap joints",
+        "Common defects in Lap joints"
+      ],
+      "content": "Definition and application of Lap joints\nOverlap dimensions and edge finishing\nRiveting patterns for Lap joints\nCommon defects in Lap joints",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Quality control checks for sheet metal joints",
+        "Repair techniques for damaged joints",
+        "Documentation of joint fabrication",
+        "Final inspection and acceptance criteria"
+      ],
+      "content": "Quality control checks for sheet metal joints\nRepair techniques for damaged joints\nDocumentation of joint fabrication\nFinal inspection and acceptance criteria",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between edge preparation for Butt joints versus Lap joints.",
+    "Describe the inspection criteria used to verify the quality of a completed Lap joint."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report outlining the steps required to repair a damaged Butt joint on an aircraft structure, referencing the procedures covered in this lesson and anticipating the removal of loose rivets discussed in LP 07.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Removal of loose rivets structural repair on aircraft structure",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 07"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

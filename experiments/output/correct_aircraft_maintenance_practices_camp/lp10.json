@@ -1,0 +1,151 @@
+{
+  "subject_name": "Correct Aircraft Maintenance Practices (CAMP)",
+  "subject_code": "32",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "10",
+  "total_lesson_plans": "10",
+  "time_allotted": "80 min",
+  "topic": "Grounding and bonding",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Grounding and bonding",
+  "specific_objectives": "32.1.1.1 Trainees will understand EWIS",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of EWIS bonding diagrams, Safety precautions regarding static discharge, Instructor supervision of diagram interpretation",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of an Electrical Wiring Interconnection System?",
+    "Why is grounding essential for aircraft safety?",
+    "Can you identify the difference between grounding and bonding?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition and scope of EWIS",
+        "Components of EWIS",
+        "Importance of EWIS integrity",
+        "Regulatory requirements for EWIS",
+        "Common EWIS failure modes"
+      ],
+      "content": "Definition and scope of EWIS\nComponents of EWIS\nImportance of EWIS integrity\nRegulatory requirements for EWIS\nCommon EWIS failure modes",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Principles of grounding",
+        "Principles of bonding",
+        "Types of bonding connections",
+        "Static electricity hazards",
+        "Grounding points identification"
+      ],
+      "content": "Principles of grounding\nPrinciples of bonding\nTypes of bonding connections\nStatic electricity hazards\nGrounding points identification",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Inspection techniques for bonding",
+        "Maintenance procedures for EWIS",
+        "Troubleshooting bonding issues",
+        "Documentation requirements",
+        "Safety protocols during bonding work"
+      ],
+      "content": "Inspection techniques for bonding\nMaintenance procedures for EWIS\nTroubleshooting bonding issues\nDocumentation requirements\nSafety protocols during bonding work",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between grounding and bonding in the context of EWIS.",
+    "Describe the potential consequences of poor bonding practices on aircraft systems."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the bonding requirements for the next aircraft type covered in LP 02, focusing on static discharge paths.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "End of subject",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "-"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Instructor, Senior, P No. 12345",
+  "approved_by": "Senior Instructor, Chief, P No. 67890",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

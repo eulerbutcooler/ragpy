@@ -1,0 +1,152 @@
+{
+  "subject_name": "Propeller Theory",
+  "subject_code": "7",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "04",
+  "total_lesson_plans": "8",
+  "time_allotted": "80 min",
+  "topic": "Constant Speed Unit (CSU)",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Constant Speed Unit (CSU)",
+  "specific_objectives": "7.1.1.1 Trainee will be able to describe the various types of propellers, principles of operation and pitch change mechanisms.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of CSU cutaway diagrams; Instructor supervision required for diagram interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of a propeller in an aircraft?",
+    "How does a fixed pitch propeller differ from a variable pitch propeller?",
+    "Why is a constant speed propeller preferred for modern aircraft?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Types of propellers",
+        "Fixed pitch vs Variable pitch",
+        "Constant speed unit components",
+        "Governor operation principles",
+        "Hydraulic pitch change mechanism"
+      ],
+      "content": "Types of propellers\nFixed pitch vs Variable pitch\nConstant speed unit components\nGovernor operation principles\nHydraulic pitch change mechanism",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "CSU internal valve operation",
+        "Oil pressure and pitch relationship",
+        "Low speed and high speed stops",
+        "Blade angle adjustment logic",
+        "RPM maintenance during flight"
+      ],
+      "content": "CSU internal valve operation\nOil pressure and pitch relationship\nLow speed and high speed stops\nBlade angle adjustment logic\nRPM maintenance during flight",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Pitch change mechanisms",
+        "Hydraulic actuation systems",
+        "Feedback loops in CSU",
+        "Failure modes and indications",
+        "Maintenance considerations"
+      ],
+      "content": "Pitch change mechanisms\nHydraulic actuation systems\nFeedback loops in CSU\nFailure modes and indications\nMaintenance considerations",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how the CSU maintains a constant RPM despite changes in engine power demand.",
+    "Describe the role of oil pressure in changing the propeller blade pitch.",
+    "What happens to the propeller pitch if the governor fails to maintain speed?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the principles of CSU operation apply to the counteracting methods discussed in LP 05 regarding propeller rotation effects.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Effect of propeller rotation on aircraft and methods used to counteract it",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 05"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

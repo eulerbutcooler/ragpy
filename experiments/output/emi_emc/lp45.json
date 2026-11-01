@@ -1,0 +1,152 @@
+{
+  "subject_name": "EMI/EMC",
+  "subject_code": "14",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "45",
+  "total_lesson_plans": "46",
+  "time_allotted": "80 min",
+  "topic": "Architecture and control laws of a typical FBW system.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Architecture and control laws of a typical FBW system. Advantages and disadvantages of an FBW system.",
+  "specific_objectives": "14.2.1.1 Trainee will be able to explain the functions of AFCS.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of FBW block diagrams and control law definitions from IB; Instructor supervision required for diagram interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of the AFCS?",
+    "Define the term 'fly-by-wire' in the context of modern aircraft.",
+    "List three traditional mechanical control linkages used in older aircraft."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "FBW System Architecture Overview",
+        "Sensors and Signal Processing",
+        "Flight Control Computers (FCC)",
+        "Actuator Control Electronics",
+        "Control Law Logic Implementation"
+      ],
+      "content": "FBW System Architecture Overview\nSensors and Signal Processing\nFlight Control Computers (FCC)\nActuator Control Electronics\nControl Law Logic Implementation",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Gain Scheduling Principles",
+        "Stability Augmentation Systems",
+        "Protection Envelopes",
+        "Direct Law vs Normal Law",
+        "Degraded Mode Operations"
+      ],
+      "content": "Gain Scheduling Principles\nStability Augmentation Systems\nProtection Envelopes\nDirect Law vs Normal Law\nDegraded Mode Operations",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Advantages of FBW Systems",
+        "Disadvantages and Risks",
+        "Redundancy Requirements",
+        "Cybersecurity Considerations",
+        "Comparison with Mechanical Systems"
+      ],
+      "content": "Advantages of FBW Systems\nDisadvantages and Risks\nRedundancy Requirements\nCybersecurity Considerations\nComparison with Mechanical Systems",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how a control law modifies pilot input to ensure aircraft stability.",
+    "Identify two major advantages and two major disadvantages of implementing an FBW system.",
+    "Describe the role of the Flight Control Computer in processing sensor data."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note comparing the pitch control interceptor logic in a typical FBW system versus a conventional mechanical system, referencing concepts introduced in LP 46.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Explanation of pitch and roll control interceptors.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 46"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

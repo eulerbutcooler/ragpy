@@ -1,0 +1,152 @@
+{
+  "subject_name": "Weapon Guidance",
+  "subject_code": "19",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "20",
+  "total_lesson_plans": "22",
+  "time_allotted": "80 min",
+  "topic": "Conduits types, and insulation of wires in aircraft.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Conduits types, and insulation of wires in aircraft.",
+  "specific_objectives": "19.1.1.1Trainee will be able to explain aircraft wiring and Causes of wiring degradation.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of wiring routing standards and insulation types; Instructor supervision on safety protocols.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the primary causes of aircraft wiring degradation?",
+    "List the common types of conduits used in aircraft wiring.",
+    "Why is proper insulation critical for aircraft electrical systems?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Types of Aircraft Conduits",
+        "Rigid vs Flexible Conduit Applications",
+        "Conduit Installation Standards",
+        "Conduit Sizing and Routing",
+        "Conduit Termination Methods"
+      ],
+      "content": "Types of Aircraft Conduits\nRigid vs Flexible Conduit Applications\nConduit Installation Standards\nConduit Sizing and Routing\nConduit Termination Methods",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Wire Insulation Materials",
+        "Insulation Degradation Mechanisms",
+        "Environmental Factors Affecting Insulation",
+        "Insulation Repair Techniques",
+        "Selection of Insulation Types"
+      ],
+      "content": "Wire Insulation Materials\nInsulation Degradation Mechanisms\nEnvironmental Factors Affecting Insulation\nInsulation Repair Techniques\nSelection of Insulation Types",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Integrated Conduit and Insulation Systems",
+        "Maintenance Inspection Procedures",
+        "Preventive Measures for Degradation",
+        "Documentation and Reporting",
+        "Safety Considerations in Wiring"
+      ],
+      "content": "Integrated Conduit and Insulation Systems\nMaintenance Inspection Procedures\nPreventive Measures for Degradation\nDocumentation and Reporting\nSafety Considerations in Wiring",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how environmental factors contribute to wiring degradation.",
+    "Differentiate between rigid and flexible conduit applications in aircraft.",
+    "Describe the steps involved in inspecting conduit and insulation integrity."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the differences between conduit types and their specific applications in aircraft wiring, referencing the next lesson plan on practical repair techniques.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Practical on aircraft wiring routing and repair like crimping, insulating using heat sleeve, Solder sleeve etc.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 21"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

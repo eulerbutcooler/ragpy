@@ -1,0 +1,152 @@
+{
+  "subject_name": "EMI/EMC",
+  "subject_code": "14",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "15",
+  "total_lesson_plans": "46",
+  "time_allotted": "80 min",
+  "topic": "Need and role of flight control system, fundamental elements of flight control system",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Need and role of flight control system, fundamental elements of flight control system.",
+  "specific_objectives": "14.2.1.1 Trainee will be able to explain the functions of AFCS.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of AFCS functional diagram; Instructor supervision required for diagram interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the three primary axes of aircraft rotation?",
+    "Why is manual control insufficient for high-speed flight?",
+    "Define the term 'stability' in the context of flight dynamics."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition and necessity of flight control systems",
+        "Role of AFCS in modern aircraft operations",
+        "Distinction between primary and secondary controls",
+        "Impact of pilot workload on manual control",
+        "Basic classification of control surfaces"
+      ],
+      "content": "Definition and necessity of flight control systems\nRole of AFCS in modern aircraft operations\nDistinction between primary and secondary controls\nImpact of pilot workload on manual control\nBasic classification of control surfaces",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Fundamental elements: Control stick and rudder pedals",
+        "Fundamental elements: Control surfaces and hinges",
+        "Fundamental elements: Control linkages and cables",
+        "Fundamental elements: Hydraulic actuators and servos",
+        "Fundamental elements: Feedback mechanisms and feel units"
+      ],
+      "content": "Fundamental elements: Control stick and rudder pedals\nFundamental elements: Control surfaces and hinges\nFundamental elements: Control linkages and cables\nFundamental elements: Hydraulic actuators and servos\nFundamental elements: Feedback mechanisms and feel units",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Integration of AFCS with autopilot systems",
+        "Safety considerations in flight control design",
+        "Maintenance implications of control system elements",
+        "Troubleshooting common control system failures",
+        "Future trends in fly-by-wire architectures"
+      ],
+      "content": "Integration of AFCS with autopilot systems\nSafety considerations in flight control design\nMaintenance implications of control system elements\nTroubleshooting common control system failures\nFuture trends in fly-by-wire architectures",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how the AFCS reduces pilot workload during turbulence.",
+    "Identify the fundamental element responsible for converting pilot input into surface movement.",
+    "Describe the role of feedback mechanisms in ensuring control feel."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the principles of flight control systems discussed in this lesson apply to the functional diagram of a basic closed loop flight control system covered in LP 16.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Functional diagram of a basic closed loop flight control system. Explanation of automatic control and classification of system and explanation of controls.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 16"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

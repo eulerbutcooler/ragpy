@@ -1,0 +1,151 @@
+{
+  "subject_name": "Nuclear Weapon",
+  "subject_code": "39",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "07",
+  "total_lesson_plans": "7",
+  "time_allotted": "80 min",
+  "topic": "Promotion Regulations and Promotion Criteria: Fitters, Artificer Apprentices and Aircraft Mechanician i.a.w NI 2/S/96",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Promotion Regulations and Promotion Criteria: Fitters, Artificer Apprentices and Aircraft Mechanician i.a.w NI 2/S/96.",
+  "specific_objectives": "39.1.5.1 Trainee will be able to describe promotion regulations i.a.w NI 2/S/96",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of individual service records for promotion eligibility; Instructor supervision required for record verification",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary document governing promotion in the Indian Navy?",
+    "Can an Apprentice be promoted without completing the required training?",
+    "Who is responsible for maintaining the promotion register?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Scope of NI 2/S/96 Regulations",
+        "Eligibility Criteria for Fitters",
+        "Eligibility Criteria for Artificer Apprentices",
+        "Eligibility Criteria for Aircraft Mechanicians",
+        "Minimum Service Requirements"
+      ],
+      "content": "Scope of NI 2/S/96 Regulations\nEligibility Criteria for Fitters\nEligibility Criteria for Artificer Apprentices\nEligibility Criteria for Aircraft Mechanicians\nMinimum Service Requirements",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Promotion Criteria for Fitters",
+        "Promotion Criteria for Artificer Apprentices",
+        "Promotion Criteria for Aircraft Mechanicians",
+        "Role of Promotion Board",
+        "Conduct and Discipline Requirements"
+      ],
+      "content": "Promotion Criteria for Fitters\nPromotion Criteria for Artificer Apprentices\nPromotion Criteria for Aircraft Mechanicians\nRole of Promotion Board\nConduct and Discipline Requirements",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Review of Promotion Regulations",
+        "Key Differences in Criteria",
+        "Importance of Service Records",
+        "Next Steps for Trainees",
+        "Clarification of Doubts"
+      ],
+      "content": "Review of Promotion Regulations\nKey Differences in Criteria\nImportance of Service Records\nNext Steps for Trainees\nClarification of Doubts",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference in promotion criteria between Fitters and Artificer Apprentices.",
+    "How does conduct affect promotion eligibility under NI 2/S/96?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief summary of the promotion pathway from Apprentice to Aircraft Mechanician as per NI 2/S/96 for the next lesson plan.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "End of subject",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "-"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

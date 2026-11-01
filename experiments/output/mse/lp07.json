@@ -1,0 +1,152 @@
+{
+  "subject_name": "MSE",
+  "subject_code": "29",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "07",
+  "total_lesson_plans": "10",
+  "time_allotted": "80 min",
+  "topic": "Demonstration and explanation on aircraft marshalling procedure during taxing / aircraft movement.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Demonstration and explanation on aircraft marshalling procedure during taxing / aircraft movement.",
+  "specific_objectives": "29.1.1.7 Trainee will be able to explain the aircraft marshalling procedure.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of marshaller positioning, hand signals for start/stop/turn, and safety precautions during aircraft movement under instructor supervision.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary role of a marshaller during aircraft movement?",
+    "List three safety precautions required before an aircraft begins taxiing.",
+    "Where should the marshaller stand relative to the aircraft nose?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Marshaller positioning and visibility",
+        "Standard hand signals for movement",
+        "Communication with pilot via radio",
+        "Emergency stop procedures",
+        "Safety zones and exclusion areas"
+      ],
+      "content": "Marshaller positioning and visibility\nStandard hand signals for movement\nCommunication with pilot via radio\nEmergency stop procedures\nSafety zones and exclusion areas",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Taxi route adherence and markings",
+        "Handling specific aircraft types",
+        "Coordination with ground crew",
+        "Night marshalling procedures",
+        "Use of light bars and reflectors"
+      ],
+      "content": "Taxi route adherence and markings\nHandling specific aircraft types\nCoordination with ground crew\nNight marshalling procedures\nUse of light bars and reflectors",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Practical demonstration of signals",
+        "Safety checks before movement",
+        "Instructor supervision protocols",
+        "Correct marshaller stance",
+        "Signal clarity and visibility checks"
+      ],
+      "content": "Practical demonstration of signals\nSafety checks before movement\nInstructor supervision protocols\nCorrect marshaller stance\nSignal clarity and visibility checks",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between the 'Stop' and 'Hold' signals in marshalling.",
+    "Describe the correct positioning of the marshaller when guiding an aircraft turn.",
+    "What actions must be taken if the marshaller loses visual contact with the pilot?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the specific marshalling signals required for the aircraft type discussed in LP 02, focusing on start and stop procedures.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Demonstration and explanation on the correct procedures of connecting the towing arm to A/C and tractor and movement of aircraft with proper positioning of safety numbers and choke man i.a.w INAP 2 article",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 08"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

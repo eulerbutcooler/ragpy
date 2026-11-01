@@ -1,0 +1,152 @@
+{
+  "subject_name": "NAMS",
+  "subject_code": "3",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "12",
+  "total_lesson_plans": "19",
+  "time_allotted": "80 min",
+  "topic": "Allowances, ASE, procedure for demanding / survey of air store, safe packaging/ transportation, pre-dispatch inspection & responsibilities",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Allowances, ASE, procedure for demanding / survey of air store, safe packaging/ transportation, pre-dispatch inspection & responsibilities, Use of RRA, initial provisioning committee.",
+  "specific_objectives": "3.1.5.2 Trainees will be able to explain ASE, procedure for demanding/ survey of air store.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of RRA usage and Initial Provisioning Committee responsibilities; Instructor supervision of document verification procedures.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the full form of ASE?",
+    "Who constitutes the Initial Provisioning Committee?",
+    "What is the primary purpose of the RRA in air store management?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition and scope of Allowances",
+        "Concept and calculation of ASE",
+        "Procedure for demanding air stores",
+        "Survey process for air store verification",
+        "Roles of Initial Provisioning Committee"
+      ],
+      "content": "Definition and scope of Allowances\nConcept and calculation of ASE\nProcedure for demanding air stores\nSurvey process for air store verification\nRoles of Initial Provisioning Committee",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Safe packaging standards for air stores",
+        "Transportation protocols and safety measures",
+        "Pre-dispatch inspection checklist",
+        "Responsibilities of storekeepers and handlers",
+        "Use of RRA for inventory tracking"
+      ],
+      "content": "Safe packaging standards for air stores\nTransportation protocols and safety measures\nPre-dispatch inspection checklist\nResponsibilities of storekeepers and handlers\nUse of RRA for inventory tracking",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Documentation requirements for dispatch",
+        "Reporting discrepancies during survey",
+        "Maintenance of air store records",
+        "Coordination with logistics units",
+        "Final verification before release"
+      ],
+      "content": "Documentation requirements for dispatch\nReporting discrepancies during survey\nMaintenance of air store records\nCoordination with logistics units\nFinal verification before release",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the step-by-step procedure for demanding an air store.",
+    "Describe the key responsibilities involved in the pre-dispatch inspection.",
+    "How does the RRA assist in the survey of air stores?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the coordination required between the Initial Provisioning Committee and the logistics unit for the next provisioning cycle, referencing LP 02.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "AOG occurrence signal demand and follow up action.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 13"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

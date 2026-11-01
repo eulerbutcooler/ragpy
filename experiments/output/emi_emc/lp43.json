@@ -1,0 +1,152 @@
+{
+  "subject_name": "EMI/EMC",
+  "subject_code": "14",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "43",
+  "total_lesson_plans": "46",
+  "time_allotted": "80 min",
+  "topic": "Need and components of FDS",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Need and components of FDS.",
+  "specific_objectives": "14.2.1.1 Trainee will be able to explain the functions of AFCS.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of FDS block diagram and component interconnections",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of the Flight Director System?",
+    "Why is an AFCS necessary in modern aircraft?",
+    "Can you list three basic components of a Flight Director?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition and purpose of FDS",
+        "Need for automated flight guidance",
+        "Basic FDS block diagram overview",
+        "Role of AFCS in flight control",
+        "Integration with autopilot systems"
+      ],
+      "content": "Definition and purpose of FDS\nNeed for automated flight guidance\nBasic FDS block diagram overview\nRole of AFCS in flight control\nIntegration with autopilot systems",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Pitch command generation logic",
+        "Roll command generation logic",
+        "Sensor inputs for FDS",
+        "Error signal processing",
+        "Display symbology interpretation"
+      ],
+      "content": "Pitch command generation logic\nRoll command generation logic\nSensor inputs for FDS\nError signal processing\nDisplay symbology interpretation",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "FDS failure modes and indications",
+        "Pilot override procedures",
+        "Maintenance access points",
+        "Troubleshooting common faults",
+        "Safety implications of FDS failure"
+      ],
+      "content": "FDS failure modes and indications\nPilot override procedures\nMaintenance access points\nTroubleshooting common faults\nSafety implications of FDS failure",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how the AFCS uses sensor data to generate flight commands.",
+    "Describe the pilot's role when the FDS indicates a system fault.",
+    "Differentiate between the functions of the FDS and the autopilot."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the transition from manual to automatic flight using FDS guidance, referencing LP 02.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Brief explanation of about typical ADI, HSI and flight computer. Brief explanation of EFIS and concept of symbology.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 44"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

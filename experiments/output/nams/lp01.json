@@ -1,0 +1,152 @@
+{
+  "subject_name": "NAMS",
+  "subject_code": "5",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "01",
+  "total_lesson_plans": "5",
+  "time_allotted": "80 min",
+  "topic": "Quality, A brief history of quality, Aspects and dimensions of quality Quality control, Basic objectives of quality control, Benefits of quality control, Quality assurance",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Quality, A brief history of quality, Aspects and dimensions of quality Quality control, Basic objectives of quality control, Benefits of quality control, Quality assurance",
+  "specific_objectives": "5.1.1.1 Trainee will be able to understand the concept of quality assurance, control and indigenization.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of Quality Control Charts; Safety: Handle charts carefully; Supervision: Instructor monitors group discussion",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "Define the term 'Quality' in an engineering context.",
+    "List three basic objectives of quality control.",
+    "What is the primary difference between quality control and quality assurance?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Brief history of quality evolution",
+        "Aspects and dimensions of quality",
+        "Quality control definition and scope",
+        "Basic objectives of quality control",
+        "Benefits of quality control implementation"
+      ],
+      "content": "Brief history of quality evolution\nAspects and dimensions of quality\nQuality control definition and scope\nBasic objectives of quality control\nBenefits of quality control implementation",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Concept of Quality Assurance",
+        "Indigenization in quality management",
+        "Comparison of QC and QA roles",
+        "Importance of indigenization for defense",
+        "Integration of QA in engineering processes"
+      ],
+      "content": "Concept of Quality Assurance\nIndigenization in quality management\nComparison of QC and QA roles\nImportance of indigenization for defense\nIntegration of QA in engineering processes",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Review of Quality Control Charts",
+        "Identification of defects in samples",
+        "Application of QC principles",
+        "Group discussion on quality benefits",
+        "Summary of key learning points"
+      ],
+      "content": "Review of Quality Control Charts\nIdentification of defects in samples\nApplication of QC principles\nGroup discussion on quality benefits\nSummary of key learning points",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how quality assurance differs from quality control in practice.",
+    "Describe two benefits of implementing quality control in engineering projects.",
+    "What role does indigenization play in modern quality management?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the ISO 9000 series standards and their relevance to quality assurance, to be discussed in the next lesson plan.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Quality circle, size, membership, duration, structure, responsibilities and advantages ISO 9000, Benefits of ISO 9000, ISO 9000 series of standards – ISO 9000: 2008, 9001: 2008, 9004: 2008, Registration process",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 02"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

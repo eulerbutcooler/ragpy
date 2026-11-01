@@ -1,0 +1,152 @@
+{
+  "subject_name": "Composite",
+  "subject_code": "19",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "07",
+  "total_lesson_plans": "11",
+  "time_allotted": "80 min",
+  "topic": "Dial indicators advantages, classifications, care and use of dial indicators",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Dial indicators advantages, classifications, care and use of dial indicators",
+  "specific_objectives": "19.1.1.1 Trainee will be able to describe details about Engineering Metrology.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of dial indicator zeroing, spindle selection, and measurement on test block; Safety: Secure workpiece, avoid dropping indicator; Supervision: Instructor monitors zeroing technique and reading interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of Engineering Metrology?",
+    "Name two common types of measuring instruments used in aviation maintenance.",
+    "Why is precision measurement critical in aircraft engine assembly?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Advantages of dial indicators over vernier calipers",
+        "Classification by range (0-1mm, 0-10mm, 0-50mm)",
+        "Classification by mounting type (magnetic, anvil, stand)",
+        "Mechanism of gear train and magnification",
+        "Applications in runout and parallelism checks"
+      ],
+      "content": "Advantages of dial indicators over vernier calipers\nClassification by range (0-1mm, 0-10mm, 0-50mm)\nClassification by mounting type (magnetic, anvil, stand)\nMechanism of gear train and magnification\nApplications in runout and parallelism checks",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Proper zeroing procedure and spindle selection",
+        "Reading dial faces and interpreting positive/negative values",
+        "Care and maintenance including cleaning and lubrication",
+        "Storage requirements to prevent damage",
+        "Common errors and how to avoid them"
+      ],
+      "content": "Proper zeroing procedure and spindle selection\nReading dial faces and interpreting positive/negative values\nCare and maintenance including cleaning and lubrication\nStorage requirements to prevent damage\nCommon errors and how to avoid them",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Calibration verification procedures",
+        "Troubleshooting indicator drift or sticking",
+        "Recording measurement data in logbooks",
+        "Safety precautions during handling",
+        "Integration with other metrology tools"
+      ],
+      "content": "Calibration verification procedures\nTroubleshooting indicator drift or sticking\nRecording measurement data in logbooks\nSafety precautions during handling\nIntegration with other metrology tools",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between a magnetic base and an anvil mount dial indicator.",
+    "Describe the correct steps to zero a dial indicator before taking a measurement.",
+    "List three essential care practices to maintain dial indicator accuracy."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the specific dial indicator range required for measuring the clearance in a typical aircraft piston engine cylinder, referencing the next lesson on comparators.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Comparators, introduction types and their application",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 08"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Lt. Cdr. Sharma, P No. 12345",
+  "approved_by": "Capt. Verma, P No. 67890",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

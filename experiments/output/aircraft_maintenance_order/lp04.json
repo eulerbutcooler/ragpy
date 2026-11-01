@@ -1,0 +1,148 @@
+{
+  "subject_name": "Aircraft Maintenance Order",
+  "subject_code": "1",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "04",
+  "total_lesson_plans": "16",
+  "time_allotted": "80 min",
+  "topic": "Flight servicing schedules: BFS, TRS, AFS, ARDS, rationalization behind various types of FS and their validity periods",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Flight servicing schedules: BFS, TRS, AFS, ARDS, rationalization behind various types of FS and their validity periods",
+  "specific_objectives": "1.1.4.1 Trainee will be able to enumerate various servicing schedules on naval aircraft and defect reporting procedure.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of Aircraft Technical Log (ATL) entries for BFS/AFS/ARDS compliance; Instructor supervision on defect reporting logic",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of flight servicing?",
+    "Can you list three types of flight servicing schedules?",
+    "Why is defect reporting critical after servicing?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition and scope of BFS",
+        "Validity periods for BFS",
+        "Rationalization for BFS frequency",
+        "Defect reporting procedure post-BFS"
+      ],
+      "content": "Definition and scope of BFS\nValidity periods for BFS\nRationalization for BFS frequency\nDefect reporting procedure post-BFS",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Overview of TRS and AFS",
+        "Key differences between TRS and AFS",
+        "Validity periods for TRS and AFS",
+        "Rationalization for TRS and AFS schedules"
+      ],
+      "content": "Overview of TRS and AFS\nKey differences between TRS and AFS\nValidity periods for TRS and AFS\nRationalization for TRS and AFS schedules",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Detailed analysis of ARDS",
+        "Validity periods for ARDS",
+        "Rationalization for ARDS implementation",
+        "Integration of ARDS with other schedules"
+      ],
+      "content": "Detailed analysis of ARDS\nValidity periods for ARDS\nRationalization for ARDS implementation\nIntegration of ARDS with other schedules",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the rationalization behind choosing BFS over AFS for specific aircraft types.",
+    "How does the defect reporting procedure differ between BFS and ARDS?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note comparing the validity periods of BFS and AFS, referencing the next lesson plan on Lines and depths of maintenance.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Lines and depths of maintenance, difference between various lines of servicing",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 05"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

@@ -1,0 +1,151 @@
+{
+  "subject_name": "Avionics and Electronic Warfare",
+  "subject_code": "13",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "10",
+  "total_lesson_plans": "25",
+  "time_allotted": "80 min",
+  "topic": "Practical and demonstration on Wires and cables: - Types of wires and cables, routing of wires and cables, open loom, ducted loom conduits, cable loom, and co-axial cables. Special purpose cables: - Ignition cables, thermocouple cables.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Practical and demonstration on Wires and cables: - Types of wires and cables, routing of wires and cables, open loom, ducted loom conduits, cable loom, and co-axial cables. Special purpose cables: - Ignition cables, thermocouple cables.",
+  "specific_objectives": "13.1.2.1 Knowledge of Static converting equipment, Bus bars, cable terminations, Switches.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of wire types, routing methods, open loom, ducted loom, cable loom, co-axial cables, ignition cables, and thermocouple cables. Safety: Wear PPE, verify power off. Instructor supervision: Monitor handling and routing techniques.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of a cable loom?",
+    "Define the difference between open loom and ducted loom.",
+    "List two types of special purpose cables mentioned in the syllabus."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Types of wires and cables",
+        "Routing of wires and cables",
+        "Open loom and ducted loom conduits",
+        "Cable loom construction",
+        "Co-axial cable characteristics"
+      ],
+      "content": "Types of wires and cables\nRouting of wires and cables\nOpen loom and ducted loom conduits\nCable loom construction\nCo-axial cable characteristics",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Special purpose cables: Ignition cables",
+        "Special purpose cables: Thermocouple cables",
+        "Comparison of standard vs special cables",
+        "Inspection criteria for cable integrity",
+        "Routing constraints for high-voltage cables"
+      ],
+      "content": "Special purpose cables: Ignition cables\nSpecial purpose cables: Thermocouple cables\nComparison of standard vs special cables\nInspection criteria for cable integrity\nRouting constraints for high-voltage cables",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Summary of cable termination points",
+        "Bus bar connection basics",
+        "Switch integration with cabling",
+        "Static converting equipment overview",
+        "Final routing verification checklist"
+      ],
+      "content": "Summary of cable termination points\nBus bar connection basics\nSwitch integration with cabling\nStatic converting equipment overview\nFinal routing verification checklist",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain why ignition cables require specific routing compared to standard wires.",
+    "Describe the advantages of using a ducted loom over an open loom in a high-vibration environment."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the differences between cable loom and open loom routing, referencing the next lesson on earthing connections.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Earthing or grounding connections, cable terminations, crimped terminals and Its advantages. Aluminum cable connections, Plugs and sockets. Different types of plugs and sockets potting, need for electrical Bonding. Static discharge wicks. Bonding and screening methods. Practical on crimping, bonding screening, earthing & grounding.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 11"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

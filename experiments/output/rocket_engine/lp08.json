@@ -1,0 +1,151 @@
+{
+  "subject_name": "Rocket Engine",
+  "subject_code": "17",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "08",
+  "total_lesson_plans": "9",
+  "time_allotted": "80 min",
+  "topic": "Advantages and disadvantages of composites",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Advantages and disadvantages of composites. Difference between Isotropic, Anisotropic and Orthotropic materials.",
+  "specific_objectives": "17.1.1.1 Trainee will be able to understand the development of composite materials, types and functions of fibers and resin, Defects in composite, selection criteria for Matrix, fabric weaves, prepress, strength flowcharts",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of composite strength flowcharts and fabric weave patterns; Instructor supervision required for material property identification.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the primary components of a composite material?",
+    "Name one advantage of using composites over traditional metals.",
+    "Define the term 'matrix' in the context of composites."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Development of composite materials",
+        "Types of fibers and resin functions",
+        "Advantages and disadvantages of composites",
+        "Defects in composite structures"
+      ],
+      "content": "Development of composite materials\nTypes of fibers and resin functions\nAdvantages and disadvantages of composites\nDefects in composite structures",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Difference between Isotropic materials",
+        "Difference between Anisotropic materials",
+        "Difference between Orthotropic materials",
+        "Selection criteria for Matrix and fabric weaves",
+        "Prepress and strength flowcharts"
+      ],
+      "content": "Difference between Isotropic materials\nDifference between Anisotropic materials\nDifference between Orthotropic materials\nSelection criteria for Matrix and fabric weaves\nPrepress and strength flowcharts",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Review of composite selection criteria",
+        "Analysis of strength flowcharts",
+        "Summary of defects and mitigation",
+        "Fabric weave patterns overview",
+        "Matrix selection guidelines"
+      ],
+      "content": "Review of composite selection criteria\nAnalysis of strength flowcharts\nSummary of defects and mitigation\nFabric weave patterns overview\nMatrix selection guidelines",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the key difference between isotropic and anisotropic materials.",
+    "List three major advantages and two disadvantages of composite materials.",
+    "How does fabric weave affect the mechanical properties of a composite?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note comparing the structural applications of isotropic metals versus anisotropic composites in aircraft construction, referencing LP 02.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Advanced composite i.e. carbon-carbon composite, metal-matrix composite and their utilization.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 09"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

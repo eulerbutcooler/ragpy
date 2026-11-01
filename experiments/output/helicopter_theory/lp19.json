@@ -1,0 +1,152 @@
+{
+  "subject_name": "Helicopter Theory",
+  "subject_code": "11",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "19",
+  "total_lesson_plans": "27",
+  "time_allotted": "80 min",
+  "topic": "Forces in climb, Excess power, max angle, maximum rate, Economical climb, time to climb",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Forces in climb, Excess power, max angle, maximum rate, Economical climb, time to climb.",
+  "specific_objectives": "11.1.3.1 Trainee will be able to describe flight performance of aircraft.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of flight performance charts; Safety: No live flight; Instructor supervision: Monitor chart interpretation accuracy.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the four primary forces acting on an aircraft in steady flight?",
+    "How does the relationship between thrust and drag change during a climb?",
+    "Define excess power in the context of helicopter performance."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Forces in climb configuration",
+        "Excess power definition and calculation",
+        "Maximum angle of climb criteria",
+        "Maximum rate of climb criteria",
+        "Economical climb speed selection"
+      ],
+      "content": "Forces in climb configuration\nExcess power definition and calculation\nMaximum angle of climb criteria\nMaximum rate of climb criteria\nEconomical climb speed selection",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Time to climb performance factors",
+        "Glide range comparison in climb vs descend",
+        "Practical application of climb limits",
+        "Impact of weight on climb performance",
+        "Effect of density altitude on climb"
+      ],
+      "content": "Time to climb performance factors\nGlide range comparison in climb vs descend\nPractical application of climb limits\nImpact of weight on climb performance\nEffect of density altitude on climb",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Summary of climb performance metrics",
+        "Distinction between max angle and max rate",
+        "Operational significance of economical climb",
+        "Review of time to climb calculations",
+        "Preparation for descent forces analysis"
+      ],
+      "content": "Summary of climb performance metrics\nDistinction between max angle and max rate\nOperational significance of economical climb\nReview of time to climb calculations\nPreparation for descent forces analysis",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between maximum angle of climb and maximum rate of climb.",
+    "How does excess power relate to the ability to maintain a climb?",
+    "Why is the economical climb speed different from the maximum rate of climb speed?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note comparing the forces in climb with the forces in a descent glide, referencing the next lesson plan (LP 20).",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Descend forces in a descend glide range.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 20"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

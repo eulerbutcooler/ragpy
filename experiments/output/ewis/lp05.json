@@ -1,0 +1,152 @@
+{
+  "subject_name": "EWIS",
+  "subject_code": "21",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "05",
+  "total_lesson_plans": "10",
+  "time_allotted": "80 min",
+  "topic": "Introduction to sonar system",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Introduction to sonar system. Purpose and technical details of active and passive sonar system.",
+  "specific_objectives": "21.1.1.1 Trainee will be able to understand the basic theory of communication.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of sonar theory diagrams; Instructor supervision required for diagram interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of a sonar system?",
+    "Define the basic theory of communication in underwater contexts.",
+    "List two applications of sonar in naval operations."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Basic theory of communication",
+        "Sound propagation in water",
+        "Active sonar operating principle",
+        "Passive sonar operating principle",
+        "Comparison of active and passive systems"
+      ],
+      "content": "Basic theory of communication\nSound propagation in water\nActive sonar operating principle\nPassive sonar operating principle\nComparison of active and passive systems",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Technical details of active sonar",
+        "Technical details of passive sonar",
+        "Signal processing basics",
+        "Transducer types and functions",
+        "Echo location and target detection"
+      ],
+      "content": "Technical details of active sonar\nTechnical details of passive sonar\nSignal processing basics\nTransducer types and functions\nEcho location and target detection",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Limitations of active sonar",
+        "Limitations of passive sonar",
+        "Environmental factors affecting sonar",
+        "Operational constraints",
+        "Future trends in sonar technology"
+      ],
+      "content": "Limitations of active sonar\nLimitations of passive sonar\nEnvironmental factors affecting sonar\nOperational constraints\nFuture trends in sonar technology",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between active and passive sonar detection methods.",
+    "Describe how sound waves are utilized for underwater communication.",
+    "Identify one key limitation of active sonar systems."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the transition from LP 05 to LP 06, focusing on how sonar data feeds into sonobuoy systems.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Introduction to sonobuoy system. Purpose and technical details of active and passive sonobuoy.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 06"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

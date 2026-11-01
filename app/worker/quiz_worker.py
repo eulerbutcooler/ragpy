@@ -1,6 +1,5 @@
 """NATS JetStream pull consumer for async quiz generation."""
 
-
 import asyncio
 import json
 import logging
@@ -22,6 +21,7 @@ logger = logging.getLogger(__name__)
 
 
 _in_flight: set[str] = set()
+_completed: set[str] = set()
 
 
 def _get_task_key(course_id: str, lesson_id: str | None, difficulty: str) -> str:
@@ -42,8 +42,10 @@ async def process_quiz_message(msg: Msg, sem: asyncio.Semaphore) -> None:
         course_id: str | None = payload.get("course_id")
         lesson_id: str | None = payload.get("lesson_id")
         file_id: str | None = payload.get("file_id")
+        quiz_id: str | None = payload.get("quiz_id")
+        request_id: str | None = payload.get("request_id")
         keywords: list[str] = payload.get("keywords", [])
-        
+
         if not course_id or not quiz_type:
             logger.error("quiz_msg missing required fields subject=%s", msg.subject)
             await msg.term()
@@ -52,9 +54,12 @@ async def process_quiz_message(msg: Msg, sem: asyncio.Semaphore) -> None:
         difficulty: str = payload.get("difficulty", "medium")
         limit_chunks: int = int(payload.get("limit_chunks", 20))
 
-        task_key = _get_task_key(course_id, lesson_id, difficulty)
-        if task_key in _in_flight:
-            logger.warning("quiz_msg duplicate already in flight key=%s - acking & skipping", task_key)
+        # request_id is unique per deliberate generation request. NATS
+        # redeliveries keep the same payload, so they dedupe, while a reset
+        # reuses the quiz_id with a fresh request_id and must be processed.
+        task_key = request_id or quiz_id or _get_task_key(course_id, lesson_id, difficulty)
+        if task_key in _in_flight or task_key in _completed:
+            logger.warning("quiz_msg duplicate key=%s - acking & skipping", task_key)
             await msg.ack()
             return
 
@@ -70,6 +75,7 @@ async def process_quiz_message(msg: Msg, sem: asyncio.Semaphore) -> None:
                 "course_id": course_id,
                 "lesson_id": lesson_id,
                 "difficulty": difficulty,
+                "quiz_id": quiz_id,
                 "keywords": [],
                 "questions": [],
                 "topics": [],
@@ -112,30 +118,54 @@ async def process_quiz_message(msg: Msg, sem: asyncio.Semaphore) -> None:
                 "course_id": course_id,
                 "lesson_id": lesson_id,
                 "difficulty": difficulty,
+                "quiz_id": quiz_id,
                 "keywords": extracted_keywords,
                 "questions": dumped.get("questions", []),
                 "topics": dumped.get("topics", []),
             }
             await js.publish(RAG_QUIZ_DONE_SUBJECT, json.dumps(done_payload).encode())
-            logger.info("quiz_done type=%s course_id=%s difficulty=%s questions=%d topics=%d", quiz_type, course_id, difficulty, len(result.questions), len(dumped.get("topics", [])))
-            await msg.ack()
-
+            _completed.add(task_key)
+            logger.info(
+                "quiz_done type=%s course_id=%s difficulty=%s questions=%d topics=%d",
+                quiz_type,
+                course_id,
+                difficulty,
+                len(result.questions),
+                len(dumped.get("topics", [])),
+            )
         except Exception:
-            logger.exception("quiz_failed type=%s course_id=%s difficulty=%s", quiz_type, course_id, difficulty)
+            logger.exception(
+                "quiz_failed type=%s course_id=%s difficulty=%s", quiz_type, course_id, difficulty
+            )
             done_payload = {
                 "type": quiz_type,
                 "status": "failed",
                 "course_id": course_id,
                 "lesson_id": lesson_id,
                 "difficulty": difficulty,
+                "quiz_id": quiz_id,
                 "questions": [],
             }
-            await js.publish(RAG_QUIZ_DONE_SUBJECT, json.dumps(done_payload).encode())
-            # Acknowledge the message since we've permanently failed and notified the backend
-            await msg.ack()
+            try:
+                await js.publish(RAG_QUIZ_DONE_SUBJECT, json.dumps(done_payload).encode())
+            except Exception:
+                logger.exception("quiz_failed_notify_failed course_id=%s", course_id)
         finally:
             heartbeat_task.cancel()
             _in_flight.discard(task_key)
+
+        # Ack outside the generation try-block: a transient ack failure must not
+        # turn a good quiz into a failed one.
+        try:
+            await msg.ack()
+        except Exception:
+            logger.warning(
+                "quiz_ack_failed course_id=%s lesson_id=%s quiz_id=%s",
+                course_id,
+                lesson_id,
+                quiz_id,
+                exc_info=True,
+            )
 
 
 async def start_quiz_worker() -> None:
@@ -149,15 +179,18 @@ async def start_quiz_worker() -> None:
     )
     logger.info("quiz_worker pull_subscribe registered subject=%s", RAG_QUIZ_PUBLISH_SUBJECT)
 
-    # Process 1 lesson message at a time to prevent overloading local LLM endpoint on 40+ lesson courses
+    # Process 1 lesson message at a time to avoid overloading the LLM endpoint
+    # on 40+ lesson courses.
     sem = asyncio.Semaphore(1)
 
     while True:
         try:
-            # Fetch 1 message at a time
+            # Fetch and process one message at a time. Prefetching while the
+            # semaphore queues work leaves messages unacked past ack_wait, so
+            # JetStream redelivers them and the same quiz is generated again.
             msgs = await psub.fetch(batch=1, timeout=1.0)
             for msg in msgs:
-                asyncio.create_task(process_quiz_message(msg, sem))
+                await process_quiz_message(msg, sem)
         except nats.errors.TimeoutError:
             continue
         except Exception as e:

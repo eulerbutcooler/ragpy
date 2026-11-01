@@ -1,0 +1,152 @@
+{
+  "subject_name": "Explosive Technology",
+  "subject_code": "30",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "03",
+  "total_lesson_plans": "8",
+  "time_allotted": "80 min",
+  "topic": "Groups of Gun Warf stores",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Groups of Gun Warf stores",
+  "specific_objectives": "30.1.1.1 Trainee will be able to explain the armament stores procedures",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of armament store classification charts; Instructor supervision required for safety protocols",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of gun warf stores?",
+    "List three general categories of armament stores.",
+    "Why is proper classification of stores critical for safety?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of Gun Warf stores",
+        "Classification criteria for stores",
+        "Storage requirements for different groups",
+        "Handling procedures for live ammunition",
+        "Safety zones for warf stores"
+      ],
+      "content": "Definition of Gun Warf stores\nClassification criteria for stores\nStorage requirements for different groups\nHandling procedures for live ammunition\nSafety zones for warf stores",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Group A: High Explosive rounds",
+        "Group B: Incendiary and Illumination",
+        "Group C: Practice and Dummy rounds",
+        "Marking and identification codes",
+        "Compatibility and segregation rules"
+      ],
+      "content": "Group A: High Explosive rounds\nGroup B: Incendiary and Illumination\nGroup C: Practice and Dummy rounds\nMarking and identification codes\nCompatibility and segregation rules",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Loading sequence for different groups",
+        "Inspection protocols before loading",
+        "Emergency response for store mishaps",
+        "Documentation and record keeping",
+        "Transfer of custody procedures"
+      ],
+      "content": "Loading sequence for different groups\nInspection protocols before loading\nEmergency response for store mishaps\nDocumentation and record keeping\nTransfer of custody procedures",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between Group A and Group B stores.",
+    "Describe the key safety precautions when handling live ammunition.",
+    "How does proper marking prevent storage accidents?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief summary of the forms used in armament store procedures to be discussed in LP 04.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Forms used in armament store procedure",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 04"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

@@ -1,0 +1,151 @@
+{
+  "subject_name": "U/W Weapon",
+  "subject_code": "38",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "03",
+  "total_lesson_plans": "9",
+  "time_allotted": "80 min",
+  "topic": "Corrosion on Naval Aircraft – Compliance of respective Technical Instruction and its documentation, Identification of corrosion on aircraft",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Corrosion on Naval Aircraft – Compliance of respective Technical Instruction and its documentation, Identification of corrosion on aircraft structure and Protective Treatment.",
+  "specific_objectives": "38.1.1.1 Trainee will be able to explain principles of Correct Aircraft Maintenance Practices, tools and their usage",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Identification of simulated corrosion defects on aircraft structure training equipment; Safety: Wear PPE and ensure training equipment stability; Supervision: Instructor verifies defect classification and documentation accuracy.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the primary causes of corrosion in naval aircraft environments?",
+    "Which Technical Instruction governs corrosion control documentation?",
+    "Why is immediate identification of corrosion critical for airworthiness?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Principles of Correct Aircraft Maintenance Practices",
+        "Tools and Equipment for Corrosion Inspection",
+        "Compliance with Technical Instructions",
+        "Documentation Requirements for Defects",
+        "Reporting Procedures for Corrosion Findings"
+      ],
+      "content": "Principles of Correct Aircraft Maintenance Practices\nTools and Equipment for Corrosion Inspection\nCompliance with Technical Instructions\nDocumentation Requirements for Defects\nReporting Procedures for Corrosion Findings",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Identification of Corrosion Types on Aircraft Structure",
+        "Visual Inspection Techniques for Early Detection",
+        "Differentiating Surface Contamination from Corrosion",
+        "Assessment of Corrosion Severity Levels",
+        "Initial Steps for Protective Treatment Application"
+      ],
+      "content": "Identification of Corrosion Types on Aircraft Structure\nVisual Inspection Techniques for Early Detection\nDifferentiating Surface Contamination from Corrosion\nAssessment of Corrosion Severity Levels\nInitial Steps for Protective Treatment Application",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Practical Identification of Corrosion Defects",
+        "Documentation of Findings in Technical Logs",
+        "Verification of Compliance with Inspection Standards",
+        "Review of Protective Treatment Protocols",
+        "Final Assessment of Inspection Procedures"
+      ],
+      "content": "Practical Identification of Corrosion Defects\nDocumentation of Findings in Technical Logs\nVerification of Compliance with Inspection Standards\nReview of Protective Treatment Protocols\nFinal Assessment of Inspection Procedures",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "How do you verify that a corrosion report complies with the relevant Technical Instruction?",
+    "What specific steps must be taken immediately upon identifying active corrosion on a structure?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief summary of the tool control procedures required before issuing inspection tools, referencing the upcoming Lesson Plan 04.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Tool Control procedure with Standard Tallies – Procedure for Issue and receipt of tools and Tool Outfits, Calibration of Special Tools, Duties and Responsibilities of Tool Controller, Practices in Tool Control.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 04"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

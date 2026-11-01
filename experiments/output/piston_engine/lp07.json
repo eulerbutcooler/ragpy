@@ -1,0 +1,149 @@
+{
+  "subject_name": "Piston Engine",
+  "subject_code": "18",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "07",
+  "total_lesson_plans": "9",
+  "time_allotted": "80 min",
+  "topic": "Titanium and its alloys, copper and its alloys",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Titanium and its alloys, copper and its alloys. Superalloys",
+  "specific_objectives": "18.1.2.1 Trainee will be able to know the concept of ferrous and non-ferrous metals and their identification etc.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Identification of Titanium and Copper alloys using visual inspection and basic property charts; Safety: Handle samples with care to avoid contamination; Supervision: Instructor monitors identification accuracy.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "Define ferrous and non-ferrous metals.",
+    "List two common ferrous metals used in aircraft.",
+    "Name one non-ferrous metal known for high strength-to-weight ratio."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition and properties of Titanium",
+        "Applications of Titanium alloys in aviation",
+        "Corrosion resistance of Titanium",
+        "Identification characteristics of Titanium"
+      ],
+      "content": "Definition and properties of Titanium\nApplications of Titanium alloys in aviation\nCorrosion resistance of Titanium\nIdentification characteristics of Titanium",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Properties of Copper and its alloys",
+        "Uses of Copper alloys in aircraft systems",
+        "Identification of Copper alloys",
+        "Comparison of Copper and Titanium properties"
+      ],
+      "content": "Properties of Copper and its alloys\nUses of Copper alloys in aircraft systems\nIdentification of Copper alloys\nComparison of Copper and Titanium properties",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Overview of Superalloys",
+        "Key characteristics of Superalloys",
+        "Applications of Superalloys in engines",
+        "Distinction between Superalloys and other alloys"
+      ],
+      "content": "Overview of Superalloys\nKey characteristics of Superalloys\nApplications of Superalloys in engines\nDistinction between Superalloys and other alloys",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain why Titanium is preferred over steel in aircraft structures.",
+    "Differentiate between pure Copper and Brass based on properties.",
+    "Identify one critical application of Superalloys in jet engines."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the knowledge of non-ferrous metals will assist in the upcoming lesson on Heat treatment of Iron and its alloys (LP 08).",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Heat treatment of Iron and its alloys. Advantages, procedure and different types of heat treatment",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 08"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

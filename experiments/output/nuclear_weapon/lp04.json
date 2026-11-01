@@ -1,0 +1,151 @@
+{
+  "subject_name": "Nuclear Weapon",
+  "subject_code": "39",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "04",
+  "total_lesson_plans": "7",
+  "time_allotted": "80 min",
+  "topic": "Naval Aviation's Support Units: Introduction and it location.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Naval Aviation’s Support Units: Introduction and it location.",
+  "specific_objectives": "39.1.2.1 Trainee will be able to elucidate IN Air Stations/ Aviation’s Establishment (Naval Air Enclave) and various Naval Aviation’s support units at various locations.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of station maps and unit locations; Safety: No unauthorized access to classified maps; Supervision: Instructor monitors map interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of Naval Air Stations?",
+    "Define the term 'Naval Air Enclave'.",
+    "List three key support units found at an air station."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Introduction to Naval Air Stations",
+        "Structure of Naval Air Enclave",
+        "Geographical distribution of units",
+        "Roles of shore-based support units",
+        "Integration of aviation establishments"
+      ],
+      "content": "Introduction to Naval Air Stations\nStructure of Naval Air Enclave\nGeographical distribution of units\nRoles of shore-based support units\nIntegration of aviation establishments",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Detailed analysis of support unit locations",
+        "Operational requirements of specific units",
+        "Logistical support chain overview",
+        "Maintenance and repair facility locations",
+        "Command and control structure mapping"
+      ],
+      "content": "Detailed analysis of support unit locations\nOperational requirements of specific units\nLogistical support chain overview\nMaintenance and repair facility locations\nCommand and control structure mapping",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Summary of unit locations and functions",
+        "Key takeaways from support unit overview",
+        "Preparation for functional organization study",
+        "Clarification of complex location data",
+        "Linkage to next lesson plan content"
+      ],
+      "content": "Summary of unit locations and functions\nKey takeaways from support unit overview\nPreparation for functional organization study\nClarification of complex location data\nLinkage to next lesson plan content",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the relationship between Naval Air Stations and support units.",
+    "Identify the location of the primary maintenance support unit."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the support units discussed in this lesson will be organized functionally in the next lesson (LP 05).",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Aviation Functional Organisation at various levels. IHQ, Command, HQNA, Yards, Air Stations, Aircraft Carrier, Air Squadrons, Flights and 2nd Line unit in Air Station.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 05"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

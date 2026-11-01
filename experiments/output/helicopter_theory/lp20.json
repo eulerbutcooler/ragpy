@@ -1,0 +1,151 @@
+{
+  "subject_name": "Helicopter Theory",
+  "subject_code": "11",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "20",
+  "total_lesson_plans": "27",
+  "time_allotted": "80 min",
+  "topic": "Descend forces in a descend glide range.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Descend forces in a descend glide range.",
+  "specific_objectives": "11.1.3.1 Trainee will be able to describe flight performance of aircraft.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of flight performance charts; Instructor supervision required for chart interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the primary forces acting on an aircraft in flight?",
+    "How does the weight vector change when an aircraft enters a glide?",
+    "Define the term 'glide range' in the context of helicopter theory."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of descend forces",
+        "Weight vector orientation in glide",
+        "Lift and drag relationship",
+        "Thrust absence in glide",
+        "Glide angle determination"
+      ],
+      "content": "Definition of descend forces\nWeight vector orientation in glide\nLift and drag relationship\nThrust absence in glide\nGlide angle determination",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Calculation of best glide speed",
+        "Effect of weight on glide ratio",
+        "Wind correction in descent",
+        "Energy management during glide",
+        "Stall speed in glide configuration"
+      ],
+      "content": "Calculation of best glide speed\nEffect of weight on glide ratio\nWind correction in descent\nEnergy management during glide\nStall speed in glide configuration",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Recovery techniques from glide",
+        "Emergency descent procedures",
+        "Fuel conservation in glide",
+        "Landing zone selection criteria",
+        "Final approach alignment"
+      ],
+      "content": "Recovery techniques from glide\nEmergency descent procedures\nFuel conservation in glide\nLanding zone selection criteria\nFinal approach alignment",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how the absence of engine thrust alters the force equilibrium in a helicopter glide.",
+    "Describe the relationship between the glide angle and the lift-to-drag ratio."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the principles of descend forces in a glide range apply to the initial approach phase described in LP 02.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Turn forces in a turn, rate of turn steady level coordinated turn and control in a turn.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 21"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

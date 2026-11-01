@@ -1,0 +1,152 @@
+{
+  "subject_name": "Basic Radio & Avionics",
+  "subject_code": "22",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "09",
+  "total_lesson_plans": "10",
+  "time_allotted": "80 min",
+  "topic": "Security of Data and Information in a Computer Operating in Naval Network's",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Security of Data and Information in a Computer Operating in Naval Network’s",
+  "specific_objectives": "22.1.1.1 Trainee will be able to explain computer operations and its applications viz hardware, software and networking.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of Network Security Protocols; Safety: No live network access; Supervision: Instructor monitors PPT display",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the three main components of a computer system?",
+    "Define networking in the context of naval operations.",
+    "Why is data security critical for naval networks?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Threats to Naval Network Data",
+        "Types of Security Attacks",
+        "Data Encryption Fundamentals",
+        "Access Control Mechanisms",
+        "Firewall and Intrusion Detection"
+      ],
+      "content": "Threats to Naval Network Data\nTypes of Security Attacks\nData Encryption Fundamentals\nAccess Control Mechanisms\nFirewall and Intrusion Detection",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Data Integrity Verification",
+        "Authentication Protocols",
+        "Secure Communication Channels",
+        "Incident Response Procedures",
+        "Role of Naval Cyber Defense"
+      ],
+      "content": "Data Integrity Verification\nAuthentication Protocols\nSecure Communication Channels\nIncident Response Procedures\nRole of Naval Cyber Defense",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Password Management Best Practices",
+        "Physical Security of Network Nodes",
+        "Regular Software Updates",
+        "Backup and Recovery Strategies",
+        "Compliance with Naval Security Directives"
+      ],
+      "content": "Password Management Best Practices\nPhysical Security of Network Nodes\nRegular Software Updates\nBackup and Recovery Strategies\nCompliance with Naval Security Directives",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between data confidentiality and data integrity.",
+    "Describe one method used to prevent unauthorized access in a naval network.",
+    "How does regular software updating contribute to network security?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on how the concepts learned in this lesson apply to the network topology discussed in LP 10.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Network, LAN, WAN and Network Topology.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 10"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

@@ -1,0 +1,152 @@
+{
+  "subject_name": "Auxiliary Equipment",
+  "subject_code": "22",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "03",
+  "total_lesson_plans": "5",
+  "time_allotted": "80 min",
+  "topic": "Terminology used i.e. BDC TDC Stoke length, clearance volume, swept volume, valve lead, valve lag, ineffective crank angle",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Terminology used i.e. BDC TDC Stoke length, clearance volume, swept volume, valve lead, valve lag, ineffective crank angle",
+  "specific_objectives": "22.1.1.1 Trainees will be able to explain about the working principle of piston engines.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of engine terminology diagrams; Safety: Ensure no loose items on desk; Supervision: Instructor monitors diagram interpretation",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of a piston engine?",
+    "Define the term 'stroke' in an engine context.",
+    "List three key components found in a piston engine cylinder."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of BDC and TDC",
+        "Calculation of Stroke Length",
+        "Explanation of Clearance Volume",
+        "Explanation of Swept Volume",
+        "Relationship between volumes and displacement"
+      ],
+      "content": "Definition of BDC and TDC\nCalculation of Stroke Length\nExplanation of Clearance Volume\nExplanation of Swept Volume\nRelationship between volumes and displacement",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Concept of Valve Lead and Valve Lag",
+        "Timing of Valve events relative to crank angle",
+        "Definition of Ineffective Crank Angle",
+        "Impact of timing on engine efficiency",
+        "Visualizing valve timing on cycle diagram"
+      ],
+      "content": "Concept of Valve Lead and Valve Lag\nTiming of Valve events relative to crank angle\nDefinition of Ineffective Crank Angle\nImpact of timing on engine efficiency\nVisualizing valve timing on cycle diagram",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Summary of all terminology definitions",
+        "Differentiation between swept and clearance volume",
+        "Recap of valve lead and lag effects",
+        "Review of ineffective crank angle significance",
+        "Final clarification of terms"
+      ],
+      "content": "Summary of all terminology definitions\nDifferentiation between swept and clearance volume\nRecap of valve lead and lag effects\nReview of ineffective crank angle significance\nFinal clarification of terms",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between BDC and TDC in your own words.",
+    "How does valve lead differ from valve lag in operation?",
+    "Why is the ineffective crank angle important for engine performance?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note linking the terminology learned in this lesson to the concepts of Efficiency, BHP, and IHP covered in the next lesson plan (LP 04).",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Efficiency, BHP, IHP, FHP, SHP, knocking and detonation. Ignition system, basic principles, description and operations",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 04"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

@@ -1,0 +1,151 @@
+{
+  "subject_name": "Air Navigation",
+  "subject_code": "21",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "17",
+  "total_lesson_plans": "18",
+  "time_allotted": "80 min",
+  "topic": "Practical on different wire locking techniques used during maintenance.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Practical on different wire locking techniques used during maintenance.",
+  "specific_objectives": "21.1.10.1 Trainee will be able to explain how to carry out DI / DR on aircraft system.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration and practice of DI/DR wire locking techniques using dummy harnesses; Safety: Ensure power off, wear PPE; Supervision: Instructor monitors knot tightness and tool usage.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of wire locking in aircraft maintenance?",
+    "Name two common types of wire locking techniques used in aviation.",
+    "Why is it critical to inspect wire locks before flight?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Introduction to DI and DR wire locking",
+        "Tools required for wire locking",
+        "Step-by-step DI wire locking procedure",
+        "Step-by-step DR wire locking procedure",
+        "Common errors in wire locking"
+      ],
+      "content": "Introduction to DI and DR wire locking\nTools required for wire locking\nStep-by-step DI wire locking procedure\nStep-by-step DR wire locking procedure\nCommon errors in wire locking",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Inspection criteria for wire locks",
+        "Safety precautions during wire locking",
+        "Troubleshooting loose or damaged locks",
+        "Documentation of wire locking work",
+        "Quality assurance checks"
+      ],
+      "content": "Inspection criteria for wire locks\nSafety precautions during wire locking\nTroubleshooting loose or damaged locks\nDocumentation of wire locking work\nQuality assurance checks",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Final verification of wire locking",
+        "Cleaning and storage of tools",
+        "Review of DI/DR procedures",
+        "Addressing trainee queries",
+        "Preparation for next lesson"
+      ],
+      "content": "Final verification of wire locking\nCleaning and storage of tools\nReview of DI/DR procedures\nAddressing trainee queries\nPreparation for next lesson",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between DI and DR wire locking techniques.",
+    "Describe the steps to verify a correctly installed wire lock."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the use of advanced test equipment (Digital multimeter, Megger, Bonding tester) as covered in LP 18.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Training on use of advanced test equipment: - Digital & analog multimeter & Megger, Digital & analog Insulation tester, Bonding tester and No volt tester.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 18"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

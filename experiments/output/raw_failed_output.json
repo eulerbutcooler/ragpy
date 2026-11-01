@@ -1,0 +1,116 @@
+{
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "17",
+  "total_lesson_plans": "35",
+  "time_allotted": "80 min",
+  "topic": "Principle of operation and constructional details of float type gauge",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Principle of operation and constructional details of float type gauge. Practical & Demonstration",
+  "specific_objectives": "15.1.7.2 Trainee will be able to explain float type fuel quantity measurement indicator.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "IB / L & Ds / WB",
+      "remarks": "Refer to master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Nil",
+      "remarks": "Not applicable"
+    },
+    {
+      "ser": "(c)",
+      "description": "Nil",
+      "remarks": "Not applicable"
+    },
+    {
+      "ser": "(d)",
+      "description": "PDF",
+      "remarks": "Technical manual excerpts"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Float type gauge assembly model"
+    },
+    {
+      "ser": "(f)",
+      "description": "Nil",
+      "remarks": "Not applicable"
+    }
+  ],
+  "practical": "Demonstration of float type gauge mechanism; Safety: Ensure model is stable and disconnected from live fuel systems; Instructor supervision: Monitor trainee interaction with mechanical parts.",
+  "existing_knowledge": "Basic understanding of aircraft fuel systems and electrical power generation.",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of a fuel quantity indicator?",
+    "Name two types of fuel quantity gauges used in aircraft.",
+    "Why is accurate fuel measurement critical for flight safety?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Constructional details of float type gauge",
+        "Principle of operation mechanism",
+        "Float movement and lever linkage",
+        "Magnetic coupling and reed switch operation",
+        "Signal transmission to cockpit indicator"
+      ],
+      "content": "Constructional details of float type gauge\nPrinciple of operation mechanism\nFloat movement and lever linkage\nMagnetic coupling and reed switch operation\nSignal transmission to cockpit indicator",
+      "method": "Instructor demonstration using physical model followed by guided questioning",
+      "trg_aids": "Models, IB, L & Ds",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Installation requirements and positioning",
+        "Calibration and zeroing procedures",
+        "Common faults and troubleshooting steps",
+        "Maintenance and inspection intervals",
+        "Impact of fuel temperature on accuracy"
+      ],
+      "content": "Installation requirements and positioning\nCalibration and zeroing procedures\nCommon faults and troubleshooting steps\nMaintenance and inspection intervals\nImpact of fuel temperature on accuracy",
+      "method": "Group discussion and analysis of case studies from IB",
+      "trg_aids": "IB, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Practical demonstration of gauge operation",
+      "content",
+      "Practical demonstration of gauge operation",
+      "Safety precautions during handling",
+      "Instructor supervision of trainee interaction",
+      "Verification of float movement and signal output",
+      "Recording observations in logbook",
+      "method",
+      "Practical demonstration of gauge operation",
+      "Safety precautions during handling",
+      "Instructor supervision of trainee interaction",
+      "Verification of float movement and signal output",
+      "Recording observations in logbook",
+      "trg_aids",
+      "Models, L & Ds",
+      "time",
+      "15 min"
+    ]
+  },
+  "summary_time",
+  "summary_questions",
+  "home_assignment_time",
+  "home_assignment_question",
+  "pft_rows",
+  "pe_rows",
+  "prepared_by",
+  "approved_by",
+  "prep_date",
+  "approval_date",
+  "queries",
+  "timing_check",
+  "timing_check"
+  ]
+}

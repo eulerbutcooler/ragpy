@@ -1,0 +1,149 @@
+{
+  "subject_name": "Composite",
+  "subject_code": "19",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "10",
+  "total_lesson_plans": "11",
+  "time_allotted": "80 min",
+  "topic": "Surface roughness, meaning of real surface, geometrical surface, effective surface, and various irregularities.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Surface roughness, meaning of real surface, geometrical surface, effective surface, and various irregularities.",
+  "specific_objectives": "19.1.1.1 Trainee will be able to describe details about Engineering Metrology.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of surface finish types using magnified samples; Safety: Handle samples carefully; Supervision: Instructor monitors handling.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of metrology in engineering?",
+    "Can you list three types of surface irregularities?",
+    "Why is surface finish critical for aircraft components?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of geometrical surface",
+        "Concept of real surface",
+        "Meaning of effective surface",
+        "Distinction between ideal and actual surfaces"
+      ],
+      "content": "Definition of geometrical surface\nConcept of real surface\nMeaning of effective surface\nDistinction between ideal and actual surfaces",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Classification of surface irregularities",
+        "Long wavelength irregularities",
+        "Short wavelength irregularities",
+        "Impact of roughness on performance"
+      ],
+      "content": "Classification of surface irregularities\nLong wavelength irregularities\nShort wavelength irregularities\nImpact of roughness on performance",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Measurement of surface roughness",
+        "Standard roughness parameters",
+        "Practical implications in maintenance",
+        "Comparison of finish types"
+      ],
+      "content": "Measurement of surface roughness\nStandard roughness parameters\nPractical implications in maintenance\nComparison of finish types",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between geometrical and real surfaces.",
+    "How do long wavelength irregularities affect component fit?",
+    "Why is effective surface important in metrology?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how surface roughness affects the sealing efficiency of aircraft joints, referencing LP 02 maintenance procedures.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Standard room maintenance procedure, inspection, standard maintenance and safety precaution",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 11"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Instructor, Flight Lieutenant, P No. 12345",
+  "approved_by": "Senior Instructor, Wing Commander, P No. 67890",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

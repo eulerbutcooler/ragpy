@@ -1,0 +1,151 @@
+{
+  "subject_name": "NAMS",
+  "subject_code": "3",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "16",
+  "total_lesson_plans": "19",
+  "time_allotted": "80 min",
+  "topic": "Various aviation returns and their occurrence",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Various aviation returns and their occurrence.",
+  "specific_objectives": "3.1.6.2 Trainees will be able to render Various aviation returns.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of aviation return formats; Safety: Handle documents carefully; Supervision: Instructor monitors accuracy of data entry.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of aviation returns?",
+    "List three types of aviation returns encountered in engineering.",
+    "Why is accurate recording of aviation returns critical for safety?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of aviation returns",
+        "Importance of timely submission",
+        "Standard formats for returns",
+        "Role of engineering section",
+        "Chain of command for returns"
+      ],
+      "content": "Definition of aviation returns\nImportance of timely submission\nStandard formats for returns\nRole of engineering section\nChain of command for returns",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Technical defect reporting",
+        "Maintenance action returns",
+        "Safety incident reporting",
+        "Equipment utilization returns",
+        "Personnel performance returns"
+      ],
+      "content": "Technical defect reporting\nMaintenance action returns\nSafety incident reporting\nEquipment utilization returns\nPersonnel performance returns",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Review of return submission process",
+        "Common errors in data entry",
+        "Verification and approval steps",
+        "Archiving and retrieval procedures",
+        "Impact of errors on operations"
+      ],
+      "content": "Review of return submission process\nCommon errors in data entry\nVerification and approval steps\nArchiving and retrieval procedures\nImpact of errors on operations",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between a technical defect return and a maintenance action return.",
+    "Describe the steps involved in the verification and approval of an aviation return."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief summary of the New Management Strategy (NMS) and relevant parts of NI/1/2006 to be discussed in LP 17.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Introduction to New management strategy (NMS) and relevant parts of NI/1/ 2006 (or latest issue), GFR 2017 (or latest issue) and Defense Procurement manual 2025 (or latest issue), DFPDS – 2026 (or latest issue), DAP -20 (or latest issue).",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 17"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

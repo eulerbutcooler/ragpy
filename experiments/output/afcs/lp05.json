@@ -1,0 +1,151 @@
+{
+  "subject_name": "AFCS",
+  "subject_code": "22",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "05",
+  "total_lesson_plans": "10",
+  "time_allotted": "80 min",
+  "topic": "Homing and its forms",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Homing and its forms.",
+  "specific_objectives": "22.1.1.1Trainee will be able to understand the basic of guided weapon systems and types of targets.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of guided weapon system principles; Safety: No live equipment; Supervision: Instructor monitors understanding.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of a homing guidance system?",
+    "Name one type of target suitable for homing weapons.",
+    "How does a homing weapon differ from a command-guided weapon?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of Homing Guidance",
+        "Principle of Self-Steering",
+        "Basic Block Diagram Components",
+        "Active vs Passive Homing",
+        "Target Acquisition Mechanism"
+      ],
+      "content": "Definition of Homing Guidance\nPrinciple of Self-Steering\nBasic Block Diagram Components\nActive vs Passive Homing\nTarget Acquisition Mechanism",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Forms of Homing: Active",
+        "Forms of Homing: Semi-Active",
+        "Forms of Homing: Passive",
+        "Advantages of Homing Systems",
+        "Limitations of Homing Systems"
+      ],
+      "content": "Forms of Homing: Active\nForms of Homing: Semi-Active\nForms of Homing: Passive\nAdvantages of Homing Systems\nLimitations of Homing Systems",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Comparison of Homing Types",
+        "Operational Scenarios",
+        "Target Types for Homing",
+        "Future Trends in Homing",
+        "Integration with Fire Control"
+      ],
+      "content": "Comparison of Homing Types\nOperational Scenarios\nTarget Types for Homing\nFuture Trends in Homing\nIntegration with Fire Control",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between active and passive homing in your own words.",
+    "Identify two limitations of homing guidance systems discussed today."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the specific advantages and limitations of Infra-red homing to be discussed in the next lesson plan.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Infra-red homing, its block diagram and advantages and limitations of IR guidance Demonstration on Helmet mounted target designation system Film on Infra-red homing techniques",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 06"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

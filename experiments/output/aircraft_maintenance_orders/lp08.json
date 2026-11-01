@@ -1,0 +1,152 @@
+{
+  "subject_name": "Aircraft Maintenance Orders",
+  "subject_code": "1",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "08",
+  "total_lesson_plans": "16",
+  "time_allotted": "80 min",
+  "topic": "Purpose of various forms used in aircraft / equipment servicing: (its importance, calculation & recording of life, action in case of loss and method of raising log card)",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Purpose of various forms used in aircraft / equipment servicing: (its importance, calculation & recording of life, action in case of loss and method of raising log card), A-701, A -701B, A-703, A-704, A-705, A-706, A-720, A-2, A-9, A-10, A-11, A-20 (modified), A- 21 (latest version), A-25, A-53.",
+  "specific_objectives": "1.1.2.1 Trainee will be able to explain the documentation and various other forms used in naval aircraft.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of Log Card (A-21) and Service Life calculation sheets; Instructor supervision on form identification and data entry accuracy.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of aircraft maintenance documentation?",
+    "Why is recording service life critical for airworthiness?",
+    "What immediate action is required if a log card is lost?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Importance of maintenance forms",
+        "Overview of A-701 and A-701B",
+        "Purpose of A-703 and A-704",
+        "Role of A-705 and A-706",
+        "Function of A-720"
+      ],
+      "content": "Importance of maintenance forms\nOverview of A-701 and A-701B\nPurpose of A-703 and A-704\nRole of A-705 and A-706\nFunction of A-720",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Calculation and recording of life",
+        "Forms A-2, A-9, A-10, A-11",
+        "Modified A-20 and latest A-21",
+        "Forms A-25 and A-53 usage",
+        "Action in case of loss"
+      ],
+      "content": "Calculation and recording of life\nForms A-2, A-9, A-10, A-11\nModified A-20 and latest A-21\nForms A-25 and A-53 usage\nAction in case of loss",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Method of raising log card",
+        "Procedure for new entry",
+        "Verification steps",
+        "Filing and archiving",
+        "Cross-referencing requirements"
+      ],
+      "content": "Method of raising log card\nProcedure for new entry\nVerification steps\nFiling and archiving\nCross-referencing requirements",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the specific role of Form A-21 in the latest version.",
+    "Describe the procedure to follow if a service life calculation is found to be incorrect.",
+    "How does the loss of a log card impact the aircraft's operational status?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief summary of the method for raising a log card as outlined in the syllabus, to be discussed in the next lesson on Modification (LP 09).",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Modification: Definition and procedure (configuration control committee, LMC). Classification, promulgation and embodiment of modification, accounting of Mod kit, reports and returns, naval service modification (NSM), Modification SOP and concession.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 09"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

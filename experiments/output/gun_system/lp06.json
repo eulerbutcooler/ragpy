@@ -1,0 +1,152 @@
+{
+  "subject_name": "Gun system",
+  "subject_code": "35",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "06",
+  "total_lesson_plans": "8",
+  "time_allotted": "80 min",
+  "topic": "Propulsion system used in torpedo, power supply and control systems",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Propulsion system used in torpedo, power supply and control systems",
+  "specific_objectives": "35.1.1.1 Trainee will be able to explain role of underwater weapons",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of propulsion diagrams and control circuit schematics; Safety: No live electrical components; Instructor supervision: Monitor diagram interpretation accuracy",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of a torpedo?",
+    "Name two types of underwater weapons.",
+    "How does a torpedo differ from a surface missile?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Types of torpedo propulsion systems",
+        "Chemical fuel cell operation principles",
+        "Electric motor drive mechanisms",
+        "Power supply battery configurations",
+        "Control system actuation methods"
+      ],
+      "content": "Types of torpedo propulsion systems\nChemical fuel cell operation principles\nElectric motor drive mechanisms\nPower supply battery configurations\nControl system actuation methods",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Thermal battery activation sequences",
+        "Hydraulic control line functions",
+        "Gyroscopic stabilization systems",
+        "Depth charge deployment mechanisms",
+        "Propeller pitch adjustment controls"
+      ],
+      "content": "Thermal battery activation sequences\nHydraulic control line functions\nGyroscopic stabilization systems\nDepth charge deployment mechanisms\nPropeller pitch adjustment controls",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Integration of power and control units",
+        "Fail-safe mechanisms in propulsion",
+        "Signal transmission in control circuits",
+        "Maintenance requirements for power cells",
+        "Troubleshooting common control faults"
+      ],
+      "content": "Integration of power and control units\nFail-safe mechanisms in propulsion\nSignal transmission in control circuits\nMaintenance requirements for power cells\nTroubleshooting common control faults",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the role of the thermal battery in torpedo propulsion.",
+    "Describe how the control system directs the torpedo's path.",
+    "Identify the primary power source for modern electric torpedoes."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the guidance system suitable for underwater weapons to be discussed in LP 07.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Guidance system suitable for under water weapons",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 07"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

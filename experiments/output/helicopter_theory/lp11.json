@@ -1,0 +1,152 @@
+{
+  "subject_name": "Helicopter Theory",
+  "subject_code": "11",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "11",
+  "total_lesson_plans": "27",
+  "time_allotted": "80 min",
+  "topic": "Factors affecting CL, Theories of Lift production, force and pitching moment, coefficient of lift, variation of co-efficient of lift with aspect ratio and sweep back and CL",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Factors affecting CL, Theories of Lift production, force and pitching moment, coefficient of lift, variation of co-efficient of lift with aspect ratio and sweep back and CL.",
+  "specific_objectives": "11.1.2.1 Trainee will be able to describe various types of aerofoil sections, conditions of performance, theories, and concept related with performance",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of theoretical concepts via IB diagrams; Safety: Ensure no unauthorized handling of training materials; Supervision: Instructor monitors comprehension and directs discussion flow.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the four fundamental forces acting on an aircraft?",
+    "Define the term 'angle of attack' in your own words.",
+    "Recall the primary function of the wing in generating lift."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Types of aerofoil sections",
+        "Conditions of performance",
+        "Theories of lift production",
+        "Force and pitching moment concepts",
+        "Coefficient of lift definition"
+      ],
+      "content": "Types of aerofoil sections\nConditions of performance\nTheories of lift production\nForce and pitching moment concepts\nCoefficient of lift definition",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Variation of CL with aspect ratio",
+        "Effect of sweep back on CL",
+        "Relationship between CL and angle of attack",
+        "Critical angle of attack identification",
+        "Stall characteristics and recovery"
+      ],
+      "content": "Variation of CL with aspect ratio\nEffect of sweep back on CL\nRelationship between CL and angle of attack\nCritical angle of attack identification\nStall characteristics and recovery",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Summary of lift production theories",
+        "Application of CL concepts to helicopter rotors",
+        "Review of force and moment balance",
+        "Key takeaways on aerofoil performance",
+        "Preparation for pressure distribution study"
+      ],
+      "content": "Summary of lift production theories\nApplication of CL concepts to helicopter rotors\nReview of force and moment balance\nKey takeaways on aerofoil performance\nPreparation for pressure distribution study",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how increasing the aspect ratio affects the coefficient of lift.",
+    "Describe the relationship between the angle of attack and the coefficient of lift up to the critical point.",
+    "Differentiate between the center of pressure and the aerodynamic center based on today's lesson."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note comparing the lift generation mechanisms of a fixed-wing aircraft versus a helicopter rotor, referencing the coefficient of lift variations discussed in this lesson to bridge the gap to LP 12.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Study of pressure distribution over an aerofoil at various angles of attack, determination of center of pressure and aerodynamic center. various forces e.g. lift, drag and moments",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 12"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Instructor, Instructor, P No.",
+  "approved_by": "Senior Instructor, Senior Instructor, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

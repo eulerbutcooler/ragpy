@@ -1,0 +1,152 @@
+{
+  "subject_name": "Air Navigation",
+  "subject_code": "21",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "01",
+  "total_lesson_plans": "18",
+  "time_allotted": "80 min",
+  "topic": "Introduction to squadron hangar / second line hangar layout, Duties and responsibilities of AMCO, Aircraft movement and hangar evacuation plan",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Introduction to squadron hangar / second line hangar layout, Duties and responsibilities of AMCO, Aircraft movement and hangar evacuation plan, near miss scheme and filling up of near miss forms store (Identification of POL, safety precautions, POL hygiene, current orders in force). Responsibility and action during removal of unserviceable items from aircraft.",
+  "specific_objectives": "21.1.1.1 Trainee will be able to explain about various facilities available in an aircraft hangar.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of AMCO duties and hangar evacuation procedures using L & Ds and IB",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the primary safety zones in an aircraft hangar?",
+    "Define the role of an Aircraft Maintenance Crew Officer (AMCO).",
+    "List three essential safety precautions regarding Petroleum Oils and Lubricants (POL)."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Squadron and second line hangar layout",
+        "Facilities available in aircraft hangar",
+        "Duties and responsibilities of AMCO",
+        "Aircraft movement procedures",
+        "Hangar evacuation plan"
+      ],
+      "content": "Squadron and second line hangar layout\nFacilities available in aircraft hangar\nDuties and responsibilities of AMCO\nAircraft movement procedures\nHangar evacuation plan",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Near miss scheme and form filling",
+        "Identification of POL and safety precautions",
+        "POL hygiene standards",
+        "Current orders in force",
+        "Removal of unserviceable items from aircraft"
+      ],
+      "content": "Near miss scheme and form filling\nIdentification of POL and safety precautions\nPOL hygiene standards\nCurrent orders in force\nRemoval of unserviceable items from aircraft",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Review of AMCO duties",
+        "Hangar evacuation procedures",
+        "Near miss reporting",
+        "POL safety protocols",
+        "Unserviceable item removal actions"
+      ],
+      "content": "Review of AMCO duties\nHangar evacuation procedures\nNear miss reporting\nPOL safety protocols\nUnserviceable item removal actions",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the immediate actions required during a hangar evacuation.",
+    "Describe the correct procedure for filling up a near miss form.",
+    "What are the specific responsibilities of an AMCO regarding aircraft movement?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the contents of an AHCP kit and its application, to be discussed in LP 02.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Practical on AHCP measures: - Contents of an AHCP kit, Application of AHCP measures, Documentation associated with AHCP.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 02"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

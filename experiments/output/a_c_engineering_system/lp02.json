@@ -1,0 +1,149 @@
+{
+  "subject_name": "A/C Engineering System",
+  "subject_code": "17",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "02",
+  "total_lesson_plans": "30",
+  "time_allotted": "80 min",
+  "topic": "Types of tanks, constructional details and arrangements in air frame.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Types of tanks, constructional details and arrangements in air frame.",
+  "specific_objectives": "17.1.1.1 Trainee will be able to understand the construction and requirements of typical aircraft fuel system and its components.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of fuel tank diagrams in IB; Instructor supervision required for diagram interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of an aircraft fuel tank?",
+    "Name two common locations for fuel tanks in an airframe.",
+    "Why is the construction of fuel tanks critical for aircraft safety?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Internal vs External Tank Types",
+        "Bladder Tank Construction Details",
+        "Integral Tank Arrangement Features",
+        "Fuel Vent and Vapor Systems"
+      ],
+      "content": "Internal vs External Tank Types\nBladder Tank Construction Details\nIntegral Tank Arrangement Features\nFuel Vent and Vapor Systems",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Fuel Tank Heating Elements",
+        "Sump and Drain Valve Locations",
+        "Tank Pressure Relief Mechanisms",
+        "Anti-Corrosion Coating Standards"
+      ],
+      "content": "Fuel Tank Heating Elements\nSump and Drain Valve Locations\nTank Pressure Relief Mechanisms\nAnti-Corrosion Coating Standards",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Fuel Transfer Pump Arrangements",
+        "Scavenge System Operation",
+        "Tank Interconnect Valves",
+        "Emergency Fuel Dump Procedures"
+      ],
+      "content": "Fuel Transfer Pump Arrangements\nScavenge System Operation\nTank Interconnect Valves\nEmergency Fuel Dump Procedures",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between an integral tank and a bladder tank.",
+    "Describe the function of the fuel tank sump in the airframe arrangement.",
+    "How does the vapor vent system prevent tank over-pressurization?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note comparing turbine engine fuel requirements with piston engine fuels as covered in the next lesson plan.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Fuel, major classification of fuel based on fuel state, turbine engine fuels",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 03"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Instructor, Flight Lieutenant, P No. 12345",
+  "approved_by": "Senior Instructor, Wing Commander, P No. 67890",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

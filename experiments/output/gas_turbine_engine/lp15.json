@@ -1,0 +1,146 @@
+{
+  "subject_name": "Gas Turbine Engine",
+  "subject_code": "13",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "15",
+  "total_lesson_plans": "16",
+  "time_allotted": "80 min",
+  "topic": "Ice protection, hot air protection, electrical system",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Ice protection, hot air protection, electrical system",
+  "specific_objectives": "13.1.7.1 Trainee will be able to explain various methods of Ice protection system.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of engine electrical schematics and ice protection logic diagrams; Safety: Ensure no live electrical components are touched; Instructor supervision: Monitor trainee understanding of system interconnections.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the primary hazards of ice accumulation on engine components?",
+    "How does hot air protection prevent ice formation on the inlet?",
+    "Which electrical systems are critical for monitoring engine performance?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Ice formation mechanisms on engine surfaces",
+        "Hot air bleed system operation",
+        "Electrical power distribution for protection systems"
+      ],
+      "content": "Ice formation mechanisms on engine surfaces\nHot air bleed system operation\nElectrical power distribution for protection systems",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Anti-icing vs de-icing system differences",
+        "Thermal management of hot air valves",
+        "Electrical fault detection in protection circuits"
+      ],
+      "content": "Anti-icing vs de-icing system differences\nThermal management of hot air valves\nElectrical fault detection in protection circuits",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "System integration of ice protection controls",
+        "Maintenance checks for electrical sensors",
+        "Operational limits for hot air systems"
+      ],
+      "content": "System integration of ice protection controls\nMaintenance checks for electrical sensors\nOperational limits for hot air systems",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the sequence of activation for the hot air protection system during icing conditions.",
+    "Describe the role of electrical sensors in monitoring ice protection system status.",
+    "Identify two maintenance checks required for the electrical system of the ice protection unit."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief summary of the engine thrust calculation parameters to be discussed in the next lesson plan (LP 16).",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Calculation of engine thrust, various parameters and tests, adjustments of engine controls",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 16"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

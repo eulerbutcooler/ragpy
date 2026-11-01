@@ -1,0 +1,151 @@
+{
+  "subject_name": "Aircraft Propulsion & Engineering System",
+  "subject_code": "6",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "06",
+  "total_lesson_plans": "14",
+  "time_allotted": "80 min",
+  "topic": "Aircraft cleaning, periodicity of cleaning, various methods used.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Aircraft cleaning, periodicity of cleaning, various methods used.",
+  "specific_objectives": "6.1.2.1 Trainee will be able to explain various corrosion prevention measures.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of aircraft cleaning procedures using approved agents; Safety precautions include PPE usage and ventilation; Instructor supervision ensures correct application techniques.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of aircraft cleaning?",
+    "Why is periodic cleaning essential for corrosion prevention?",
+    "Name one common contaminant that affects aircraft surfaces."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition and importance of aircraft cleaning",
+        "Periodicity of cleaning based on operational factors",
+        "Environmental impact on cleaning schedules",
+        "Role of cleaning in corrosion prevention",
+        "Standard operating procedures for cleaning"
+      ],
+      "content": "Definition and importance of aircraft cleaning\nPeriodicity of cleaning based on operational factors\nEnvironmental impact on cleaning schedules\nRole of cleaning in corrosion prevention\nStandard operating procedures for cleaning",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Various methods of aircraft cleaning",
+        "Selection of cleaning agents and solvents",
+        "Manual cleaning techniques and tools",
+        "Chemical cleaning processes and safety",
+        "Post-cleaning inspection and drying"
+      ],
+      "content": "Various methods of aircraft cleaning\nSelection of cleaning agents and solvents\nManual cleaning techniques and tools\nChemical cleaning processes and safety\nPost-cleaning inspection and drying",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Maintenance of cleaning equipment",
+        "Disposal of cleaning waste and chemicals",
+        "Documentation of cleaning activities",
+        "Common errors in cleaning procedures",
+        "Integration of cleaning with general maintenance"
+      ],
+      "content": "Maintenance of cleaning equipment\nDisposal of cleaning waste and chemicals\nDocumentation of cleaning activities\nCommon errors in cleaning procedures\nIntegration of cleaning with general maintenance",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how regular cleaning prevents corrosion on aircraft surfaces.",
+    "Describe the correct method for selecting a cleaning agent for a specific aircraft component."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the cleaning requirements for the next lesson plan (LP 07) focusing on corrosion removal equipment.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "General treatment of corrosion, Paint removal, Corrosion removal equipment.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 07"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

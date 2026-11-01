@@ -1,0 +1,151 @@
+{
+  "subject_name": "Workshop Practices (Practical)",
+  "subject_code": "23",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "04",
+  "total_lesson_plans": "8",
+  "time_allotted": "80 min",
+  "topic": "Introduction to guided missiles and definition",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Introduction to guided missiles and definition. Classifications of guided missiles –SAM, AAM, SSM & ASM.",
+  "specific_objectives": "23.1.1.1 Trainee will be able the basic knowledge of air craft armaments.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Nil specified; default to L & Ds and IB, PDF",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary difference between a guided missile and an unguided rocket?",
+    "Can you name one example of an aircraft armament?",
+    "What does the acronym SAM stand for in missile terminology?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of guided missile",
+        "Basic principle of guidance systems",
+        "Distinction between guided and unguided weapons",
+        "Role of guidance in target acquisition",
+        "Importance of guidance accuracy"
+      ],
+      "content": "Definition of guided missile\nBasic principle of guidance systems\nDistinction between guided and unguided weapons\nRole of guidance in target acquisition\nImportance of guidance accuracy",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Classification of guided missiles",
+        "Surface to Air Missile (SAM)",
+        "Air to Air Missile (AAM)",
+        "Surface to Surface Missile (SSM)",
+        "Air to Surface Missile (ASM)"
+      ],
+      "content": "Classification of guided missiles\nSurface to Air Missile (SAM)\nAir to Air Missile (AAM)\nSurface to Surface Missile (SSM)\nAir to Surface Missile (ASM)",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Operational characteristics of SAM",
+        "Operational characteristics of AAM",
+        "Operational characteristics of SSM",
+        "Operational characteristics of ASM",
+        "Comparison of missile types"
+      ],
+      "content": "Operational characteristics of SAM\nOperational characteristics of AAM\nOperational characteristics of SSM\nOperational characteristics of ASM\nComparison of missile types",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between SAM and AAM based on their launch and target platforms.",
+    "How does the guidance system affect the operational effectiveness of an ASM?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the sub-assemblies of a guided missile to be discussed in LP 05.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Guided missiles sub-assemblies, airframe, propulsion unit, guidance unit, control unit, warhead unit etc; Demonstration in weapon demo room.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 05"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

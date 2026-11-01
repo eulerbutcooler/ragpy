@@ -1,0 +1,152 @@
+{
+  "subject_name": "U/W Weapon",
+  "subject_code": "38",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "06",
+  "total_lesson_plans": "9",
+  "time_allotted": "80 min",
+  "topic": "Common hand held tool – Introduction, Usages and its maintenance.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Common hand held tool – Introduction, Usages and its maintenance.",
+  "specific_objectives": "38.1.1.1 Trainee will be able to explain principles of Correct Aircraft Maintenance Practices, tools and their usage",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of common hand held tool usage, safety precautions, and maintenance procedures under instructor supervision.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of using hand held tools in aircraft maintenance?",
+    "List three common hand held tools used in general engineering.",
+    "Why is it critical to select the correct tool for a specific task?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Introduction to Common Hand Held Tools",
+        "Classification of Tools by Function",
+        "Importance of Correct Tool Selection",
+        "Basic Safety Precautions for Tool Usage",
+        "Proper Handling and Grip Techniques"
+      ],
+      "content": "Introduction to Common Hand Held Tools\nClassification of Tools by Function\nImportance of Correct Tool Selection\nBasic Safety Precautions for Tool Usage\nProper Handling and Grip Techniques",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Detailed Usages of Screwdrivers and Pliers",
+        "Usages of Wrenches and Spanners",
+        "Usages of Hammers and Chisels",
+        "Usages of Cutting Tools and Saws",
+        "Usages of Fastening Tools and Clamps"
+      ],
+      "content": "Detailed Usages of Screwdrivers and Pliers\nUsages of Wrenches and Spanners\nUsages of Hammers and Chisels\nUsages of Cutting Tools and Saws\nUsages of Fastening Tools and Clamps",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Principles of Tool Maintenance and Cleaning",
+        "Procedures for Lubrication and Storage",
+        "Inspection for Wear and Damage",
+        "Reporting Defective Tools",
+        "Correct Storage in Tool Chests"
+      ],
+      "content": "Principles of Tool Maintenance and Cleaning\nProcedures for Lubrication and Storage\nInspection for Wear and Damage\nReporting Defective Tools\nCorrect Storage in Tool Chests",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the correct procedure for storing hand held tools after use.",
+    "Describe the potential risks of using a damaged tool in aircraft maintenance.",
+    "How does proper tool maintenance contribute to Correct Aircraft Maintenance Practices?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the specific hand held tools required for the next lesson (Precision Measuring Tools) and their storage requirements, bridging the gap to LP 02.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Precision Measuring Tools – Introduction to Vernier Caliper, Screw Gauge and Feeler Gauge, Usage of common/ Precision Measuring tools.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 07"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

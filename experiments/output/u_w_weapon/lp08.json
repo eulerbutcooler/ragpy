@@ -1,0 +1,145 @@
+{
+  "subject_name": "U/W Weapon",
+  "subject_code": "38",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "08",
+  "total_lesson_plans": "9",
+  "time_allotted": "80 min",
+  "topic": "Wire Locking – Introduction, Types of wires used in different wire locking and Wire locking procedure.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Wire Locking – Introduction, Types of wires used in different wire locking and Wire locking procedure.",
+  "specific_objectives": "38.1.1.1 Trainee will be able to explain principles of Correct Aircraft Maintenance Practices, tools and their usage",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of wire locking procedure using standard wire locking pliers and safety precautions; Instructor supervision required.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of wire locking in aircraft maintenance?",
+    "Name two common types of wires used for locking.",
+    "Why is correct wire locking considered a critical safety practice?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Introduction to Wire Locking Principles",
+        "Types of Wires Used in Locking",
+        "Selection Criteria for Wire Types"
+      ],
+      "content": "Introduction to Wire Locking Principles\nTypes of Wires Used in Locking\nSelection Criteria for Wire Types",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Standard Wire Locking Procedure Steps",
+        "Tool Usage and Safety Precautions",
+        "Inspection and Verification Methods"
+      ],
+      "content": "Standard Wire Locking Procedure Steps\nTool Usage and Safety Precautions\nInspection and Verification Methods",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Common Errors in Wire Locking",
+        "Troubleshooting Wire Locking Issues",
+        "Documentation Requirements"
+      ],
+      "content": "Common Errors in Wire Locking\nTroubleshooting Wire Locking Issues\nDocumentation Requirements",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the correct procedure for selecting the appropriate wire type for a specific application.",
+    "Describe the safety precautions that must be observed during the wire locking process."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the differences between wire locking and torque tightening procedures, referencing the upcoming lesson plan on torque tightening.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Torque Tightening Procedure – Introduction to torque giving tools, Torque Calculation and Torque tightening practice.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 09"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

@@ -1,0 +1,146 @@
+{
+  "subject_name": "Aircraft Wiring Practices (Electrical wiring and Interface system)",
+  "subject_code": "12",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "01",
+  "total_lesson_plans": "7",
+  "time_allotted": "80 min",
+  "topic": "Introduction to helicopter, difference between fixed wing and rotary wing, history of helicopter, development, different rotor systems",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Introduction to helicopter, difference between fixed wing and rotary wing, history of helicopter, development, different rotor systems.",
+  "specific_objectives": "12.1.1.1 Trainee will be able to explain helicopter, difference between fixed wing and rotary wing and history of helicopter.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Nil",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of a helicopter?",
+    "Can you name one major difference between fixed wing and rotary wing aircraft?",
+    "Who is credited with the first successful powered helicopter flight?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition and basic components of helicopter",
+        "Fixed wing vs rotary wing aerodynamic differences",
+        "Historical timeline of helicopter development"
+      ],
+      "content": "Definition and basic components of helicopter\nFixed wing vs rotary wing aerodynamic differences\nHistorical timeline of helicopter development",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Evolution of rotor systems and control mechanisms",
+        "Key milestones in helicopter technology",
+        "Modern helicopter design trends"
+      ],
+      "content": "Evolution of rotor systems and control mechanisms\nKey milestones in helicopter technology\nModern helicopter design trends",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Classification of different rotor systems",
+        "Impact of rotor design on flight performance",
+        "Future developments in rotor technology"
+      ],
+      "content": "Classification of different rotor systems\nImpact of rotor design on flight performance\nFuture developments in rotor technology",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the fundamental difference in lift generation between fixed wing and rotary wing aircraft.",
+    "Describe one significant historical milestone in helicopter development.",
+    "How does rotor system design influence the operational capabilities of a helicopter?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Research and list three modern helicopter models, noting their specific rotor system types and primary operational roles.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Definition of shaft axis, axis rotation, and plane of rotation tip path plane, blade pitch, rotor thrust, relative air flow, coning angle, limit of RPM.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 02"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

@@ -1,0 +1,152 @@
+{
+  "subject_name": "Gas Turbine Engine",
+  "subject_code": "13",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "13",
+  "total_lesson_plans": "16",
+  "time_allotted": "80 min",
+  "topic": "Various methods of thrust reversal and principles of operation.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Various methods of thrust reversal and principles of operation.",
+  "specific_objectives": "13.1.5.1 Trainee will be able to Explain methods and principles of operation of thrust reversal.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of thrust reversal diagrams in IB; Instructor supervision required for diagram interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of thrust reversal?",
+    "Name one type of jet engine that utilizes thrust reversal.",
+    "Why is thrust reversal critical during landing operations?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Cold Reverser Principle",
+        "Hot Reverser Principle",
+        "Thrust Reverser Components",
+        "Operational Sequence",
+        "Safety Limitations"
+      ],
+      "content": "Cold Reverser Principle\nHot Reverser Principle\nThrust Reverser Components\nOperational Sequence\nSafety Limitations",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Reverser Actuation Systems",
+        "Hydraulic vs Pneumatic",
+        "Locking Mechanisms",
+        "Exhaust Door Operation",
+        "Vectoring Nozzle Control"
+      ],
+      "content": "Reverser Actuation Systems\nHydraulic vs Pneumatic\nLocking Mechanisms\nExhaust Door Operation\nVectoring Nozzle Control",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Reverse Thrust Phases",
+        "Ground Idle Transition",
+        "Full Reverse Position",
+        "Retraction Criteria",
+        "System Failures"
+      ],
+      "content": "Reverse Thrust Phases\nGround Idle Transition\nFull Reverse Position\nRetraction Criteria\nSystem Failures",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between cold and hot reversers.",
+    "Describe the role of the locking mechanism in a thrust reverser.",
+    "Under what conditions must thrust reversers be retracted?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note comparing the operational principles of thrust reversal in LP 02 (Lubrication system) context versus engine thrust management, focusing on how system reliability impacts engine performance.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Lubrication system main components and its purposes, operation of each components of system, Air cooling and sealing of engine main bearings.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 14"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

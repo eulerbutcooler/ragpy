@@ -1,0 +1,152 @@
+{
+  "subject_name": "Aircraft Propulsion & Engineering System",
+  "subject_code": "6",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "04",
+  "total_lesson_plans": "14",
+  "time_allotted": "80 min",
+  "topic": "Short term protective and precautions while using short term protective",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Short term protective and precautions while using short term protective.",
+  "specific_objectives": "6.1.2.1 Trainee will be able to explain various corrosion prevention measures.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of short term protective application on test panels; Safety: PPE mandatory; Supervision: Instructor monitors technique.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of short term protective measures?",
+    "List three common types of short term protective materials.",
+    "Why is corrosion prevention critical for aircraft airworthiness?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition and scope of short term protection",
+        "Common materials used for short term protection",
+        "Application techniques for short term protection",
+        "Removal procedures for short term protection",
+        "Storage and handling of protective materials"
+      ],
+      "content": "Definition and scope of short term protection\nCommon materials used for short term protection\nApplication techniques for short term protection\nRemoval procedures for short term protection\nStorage and handling of protective materials",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Precautions during application of short term protection",
+        "Environmental factors affecting short term protection",
+        "Safety hazards associated with protective materials",
+        "Proper disposal of used protective materials",
+        "Inspection criteria for applied short term protection"
+      ],
+      "content": "Precautions during application of short term protection\nEnvironmental factors affecting short term protection\nSafety hazards associated with protective materials\nProper disposal of used protective materials\nInspection criteria for applied short term protection",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Troubleshooting common application errors",
+        "Maintenance schedules for short term protection",
+        "Documentation requirements for protective measures",
+        "Integration with long term protection strategies",
+        "Case studies of corrosion prevention failures"
+      ],
+      "content": "Troubleshooting common application errors\nMaintenance schedules for short term protection\nDocumentation requirements for protective measures\nIntegration with long term protection strategies\nCase studies of corrosion prevention failures",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between short term and long term protective measures.",
+    "Describe the correct procedure for removing short term protective materials.",
+    "Identify two safety precautions required when handling protective coatings."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the specific precautions required when applying short term protective measures to aircraft surfaces, referencing the next lesson plan on supplementary protective materials.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Supplementary protective material and their uses.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 05"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

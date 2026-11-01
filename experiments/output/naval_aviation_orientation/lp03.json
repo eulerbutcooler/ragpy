@@ -1,0 +1,152 @@
+{
+  "subject_name": "Naval Aviation Orientation",
+  "subject_code": "2",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "03",
+  "total_lesson_plans": "7",
+  "time_allotted": "80 min",
+  "topic": "Air Stations/ Aviation Establishment (Naval Air Enclave): Introductions and its locations.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Air Stations/ Aviation Establishment (Naval Air Enclave): Introductions and its locations.",
+  "specific_objectives": "2.1.2.1 Trainee will be able to elucidate IN Air Stations/ Aviation Establishment (Naval Air Enclave) and various Naval Aviation support units at various locations.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of Air Station locations on map; Instructor supervision required for map accuracy.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of an Air Station?",
+    "Name one major Naval Air Enclave in India.",
+    "How does an Air Station differ from a Naval Base?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of Naval Air Enclave",
+        "Role of Air Stations in Naval Aviation",
+        "Key components of an Air Station",
+        "Operational hierarchy of Air Stations",
+        "Strategic importance of locations"
+      ],
+      "content": "Definition of Naval Air Enclave\nRole of Air Stations in Naval Aviation\nKey components of an Air Station\nOperational hierarchy of Air Stations\nStrategic importance of locations",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Major Air Stations in Western India",
+        "Major Air Stations in Eastern India",
+        "Major Air Stations in Southern India",
+        "Support units at key locations",
+        "Geographical distribution analysis"
+      ],
+      "content": "Major Air Stations in Western India\nMajor Air Stations in Eastern India\nMajor Air Stations in Southern India\nSupport units at key locations\nGeographical distribution analysis",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Evolution of Naval Air Stations",
+        "Future expansion plans",
+        "Integration with shore establishments",
+        "Logistical support structures",
+        "Maintenance facilities overview"
+      ],
+      "content": "Evolution of Naval Air Stations\nFuture expansion plans\nIntegration with shore establishments\nLogistical support structures\nMaintenance facilities overview",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the significance of INS Hansa in the Naval Air Enclave.",
+    "Describe the support units located at INS Garuda.",
+    "How do Air Stations contribute to naval aviation readiness?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the historical development of Naval Air Stations in India, linking it to the next lesson on Naval Aviation Support Units.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Naval Aviation Support Units: Introduction and its location.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 04"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

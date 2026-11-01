@@ -1,0 +1,152 @@
+{
+  "subject_name": "NAMS",
+  "subject_code": "3",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "06",
+  "total_lesson_plans": "19",
+  "time_allotted": "80 min",
+  "topic": "Board of inquiry related to aircraft, duties and responsibilities of Board.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Board of inquiry related to aircraft, duties and responsibilities of Board.",
+  "specific_objectives": "3.1.2.3 Trainees will be able to explain Board of inquiry and its duties and responsibilities.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Nil",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of a Board of Inquiry?",
+    "Under what circumstances is a Board of Inquiry convened?",
+    "Who typically constitutes a Board of Inquiry?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition and scope of Board of Inquiry",
+        "Authority and jurisdiction of the Board",
+        "Composition and appointment of members",
+        "Quorum requirements for valid proceedings",
+        "Role of the Convenor and Secretary"
+      ],
+      "content": "Definition and scope of Board of Inquiry\nAuthority and jurisdiction of the Board\nComposition and appointment of members\nQuorum requirements for valid proceedings\nRole of the Convenor and Secretary",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Duties of the Board regarding evidence collection",
+        "Responsibilities for witness examination and recording",
+        "Authority to summon persons and documents",
+        "Procedure for site inspection of aircraft",
+        "Maintenance of official inquiry records"
+      ],
+      "content": "Duties of the Board regarding evidence collection\nResponsibilities for witness examination and recording\nAuthority to summon persons and documents\nProcedure for site inspection of aircraft\nMaintenance of official inquiry records",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Preparation and submission of final report",
+        "Recommendations for preventive measures",
+        "Confidentiality and handling of sensitive data",
+        "Submission timeline and approval process",
+        "Implementation of Board recommendations"
+      ],
+      "content": "Preparation and submission of final report\nRecommendations for preventive measures\nConfidentiality and handling of sensitive data\nSubmission timeline and approval process\nImplementation of Board recommendations",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between a Board of Inquiry and a Court Martial.",
+    "List three key duties of the Board regarding the aircraft involved.",
+    "Describe the process for submitting the final Board report."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the findings of a Board of Inquiry influence future aircraft maintenance protocols, linking this to the upcoming topic on repair and disposal categories.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Repair and disposal of damaged aircraft, aircraft categories, aircraft nomenclature, and classification, damage and repair categories. IAFZ 498, raising of loss statement.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 07"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

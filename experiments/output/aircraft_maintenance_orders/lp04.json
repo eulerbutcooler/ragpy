@@ -1,0 +1,146 @@
+{
+  "subject_name": "Aircraft Maintenance Orders",
+  "subject_code": "1",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "04",
+  "total_lesson_plans": "16",
+  "time_allotted": "80 min",
+  "topic": "Demarcation of responsibilities between trades in area of unscheduled maintenance, security of detachable panels and access doors, secure an",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Demarcation of responsibilities between trades in area of unscheduled maintenance, security of detachable panels and access doors, secure and stowage of loose articles, system equipment’s viz oxygen, air conditioning, auto pilots, auto stabilization and flight control system, micro switches, electrical components in engine and fuel system and static lines cameras, air radio installations, survival equipment, assisted escape system, and weapon system.",
+  "specific_objectives": "1.1.1.2 Trainee will be able to understand the qualification of responsibilities and promotion regulations.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of panel security checks and loose article stowage procedures; Safety: Ensure aircraft is grounded and power off; Supervision: Instructor verifies correct trade demarcation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of demarcating responsibilities between trades?",
+    "Why is the security of detachable panels critical during unscheduled maintenance?",
+    "List three systems covered in this lesson regarding equipment security."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Demarcation of responsibilities in unscheduled maintenance",
+        "Security of detachable panels and access doors",
+        "Secure and stowage of loose articles"
+      ],
+      "content": "Demarcation of responsibilities in unscheduled maintenance\nSecurity of detachable panels and access doors\nSecure and stowage of loose articles",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "System equipment security: Oxygen, Air Conditioning, Auto Pilots",
+        "Flight control systems, Auto stabilization, Micro switches",
+        "Electrical components in engine and fuel system"
+      ],
+      "content": "System equipment security: Oxygen, Air Conditioning, Auto Pilots\nFlight control systems, Auto stabilization, Micro switches\nElectrical components in engine and fuel system",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Static lines cameras, Air radio installations, Survival equipment",
+        "Assisted escape system and weapon system security",
+        "Final verification of trade responsibilities"
+      ],
+      "content": "Static lines cameras, Air radio installations, Survival equipment\nAssisted escape system and weapon system security\nFinal verification of trade responsibilities",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the procedure for securing an access door during unscheduled maintenance.",
+    "Identify the specific trade responsible for the security of the assisted escape system.",
+    "Describe the stowage requirements for loose articles in the aircraft cabin."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the current promotion regulations for Air Technical Sailors as outlined in the next lesson plan (LP 05).",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Branch structure and promotion regulations of air technical sailors’ terms conditions and time frame as per current order and instruction.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 05"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

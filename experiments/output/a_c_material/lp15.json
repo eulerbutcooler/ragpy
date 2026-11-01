@@ -1,0 +1,152 @@
+{
+  "subject_name": "A/C Material",
+  "subject_code": "15",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "15",
+  "total_lesson_plans": "16",
+  "time_allotted": "80 min",
+  "topic": "Panel bucking, estimation of compressive loads for bucking a panel on simply supported structures",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Panel bucking, estimation of compressive loads for bucking a panel on simply supported structures. Rigidity due to end conditions on panel, study of heads, to bend panel with regards to variation in end condition shear buckling of plates",
+  "specific_objectives": "15.1.1.1 Trainee will be able to explain aircraft structure, various structural elements and their details.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of theoretical buckling loads and end condition rigidity factors using IB diagrams; Instructor supervision required for diagram interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary failure mode for thin skin panels under compression?",
+    "Define the term 'buckling' in the context of aircraft structures.",
+    "List three common structural elements found in aircraft fuselage panels."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of panel bucking",
+        "Simply supported structure characteristics",
+        "Estimation of compressive loads",
+        "Rigidity due to end conditions",
+        "Effect of shear buckling on plates"
+      ],
+      "content": "Definition of panel bucking\nSimply supported structure characteristics\nEstimation of compressive loads\nRigidity due to end conditions\nEffect of shear buckling on plates",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Study of heads to bend panel",
+        "Variation in end condition rigidity",
+        "Calculation of critical buckling stress",
+        "Influence of boundary conditions",
+        "Comparison of theoretical vs actual loads"
+      ],
+      "content": "Study of heads to bend panel\nVariation in end condition rigidity\nCalculation of critical buckling stress\nInfluence of boundary conditions\nComparison of theoretical vs actual loads",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Impact of shear buckling on plate stability",
+        "Role of stiffeners in preventing buckling",
+        "Analysis of load distribution in panels",
+        "Factors affecting compressive load estimation",
+        "Summary of end condition effects"
+      ],
+      "content": "Impact of shear buckling on plate stability\nRole of stiffeners in preventing buckling\nAnalysis of load distribution in panels\nFactors affecting compressive load estimation\nSummary of end condition effects",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how end conditions affect the rigidity of a panel under compressive load.",
+    "Describe the relationship between shear buckling and the overall stability of a plate.",
+    "Identify the key factors that must be considered when estimating compressive loads for simply supported structures."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the variation in end conditions influences the critical buckling load, referencing concepts covered in LP 16 for damage assessment.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Assessment of damage and estimation of loads, preparation of repair scheme. Material specification, special tools required for carrying out repairs",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 16"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

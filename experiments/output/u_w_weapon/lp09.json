@@ -1,0 +1,146 @@
+{
+  "subject_name": "U/W Weapon",
+  "subject_code": "38",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "09",
+  "total_lesson_plans": "9",
+  "time_allotted": "80 min",
+  "topic": "Torque Tightening Procedure – Introduction to torque giving tools, Torque Calculation and Torque tightening practice.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Torque Tightening Procedure – Introduction to torque giving tools, Torque Calculation and Torque tightening practice.",
+  "specific_objectives": "38.1.1.1 Trainee will be able to explain principles of Correct Aircraft Maintenance Practices, tools and their usage",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Torque tightening practice on simulated fasteners using calibrated torque wrenches; Safety precautions include PPE usage and zeroing tools; Instructor supervision ensures correct technique and reading interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of torque tightening in aircraft maintenance?",
+    "Name two types of torque giving tools used in aviation.",
+    "Why is it critical to follow correct aircraft maintenance practices regarding fasteners?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Introduction to Torque Giving Tools",
+        "Selection and Calibration of Torque Wrenches",
+        "Principles of Correct Aircraft Maintenance Practices"
+      ],
+      "content": "Introduction to Torque Giving Tools\nSelection and Calibration of Torque Wrenches\nPrinciples of Correct Aircraft Maintenance Practices",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Torque Calculation Formulas",
+        "Conversion of Units and Factors",
+        "Interpretation of Torque Specifications"
+      ],
+      "content": "Torque Calculation Formulas\nConversion of Units and Factors\nInterpretation of Torque Specifications",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Hands-on Torque Tightening Practice",
+        "Verification of Applied Torque Values",
+        "Common Errors and Correction Techniques"
+      ],
+      "content": "Hands-on Torque Tightening Practice\nVerification of Applied Torque Values\nCommon Errors and Correction Techniques",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the relationship between torque, force, and lever arm length.",
+    "Describe the procedure for verifying that a fastener has been tightened to the correct specification.",
+    "Identify three common errors that can occur during torque tightening and their consequences."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief summary of the torque calculation method discussed and outline the key steps for the next lesson plan (LP 02) regarding specific aircraft fastener applications.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "End of subject",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "-"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

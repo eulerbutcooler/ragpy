@@ -1,0 +1,152 @@
+{
+  "subject_name": "NBCD",
+  "subject_code": "30",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "04",
+  "total_lesson_plans": "6",
+  "time_allotted": "80 min",
+  "topic": "Operation of oscilloscope and function generator and its controls and observe waveform, measurement of various parameters of waveform.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Operation of oscilloscope and function generator and its controls and observe waveform, measurement of various parameters of waveform.",
+  "specific_objectives": "30.1.1.1 Trainee should be able to practical on various lab FTL, RF & Embedded lab.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Operation of oscilloscope and function generator, observation of waveforms, measurement of amplitude, frequency, and period.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of an oscilloscope?",
+    "Define the term 'waveform' in the context of electronics.",
+    "List two common types of waveforms used in signal generation."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Introduction to Oscilloscope and Function Generator",
+        "Identification of Front Panel Controls",
+        "Power On/Off and Initial Setup Procedures",
+        "Selection of Probe Attenuation and Grounding",
+        "Basic Waveform Display and Triggering"
+      ],
+      "content": "Introduction to Oscilloscope and Function Generator\nIdentification of Front Panel Controls\nPower On/Off and Initial Setup Procedures\nSelection of Probe Attenuation and Grounding\nBasic Waveform Display and Triggering",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Generation of Sine, Square, and Triangle Waves",
+        "Adjustment of Amplitude and Frequency Controls",
+        "Measurement of Peak-to-Peak Voltage",
+        "Measurement of Period and Frequency Calculation",
+        "Use of Horizontal and Vertical Scale Factors"
+      ],
+      "content": "Generation of Sine, Square, and Triangle Waves\nAdjustment of Amplitude and Frequency Controls\nMeasurement of Peak-to-Peak Voltage\nMeasurement of Period and Frequency Calculation\nUse of Horizontal and Vertical Scale Factors",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Troubleshooting Common Display Issues",
+        "Verification of Measurement Accuracy",
+        "Safety Precautions During Practical Session",
+        "Documentation of Observed Waveforms",
+        "Instructor Supervision and Feedback"
+      ],
+      "content": "Troubleshooting Common Display Issues\nVerification of Measurement Accuracy\nSafety Precautions During Practical Session\nDocumentation of Observed Waveforms\nInstructor Supervision and Feedback",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the relationship between the horizontal time base and the measured frequency.",
+    "Describe the steps required to stabilize a waveform on the oscilloscope screen.",
+    "How do you calculate the peak-to-peak voltage from the vertical scale setting?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the operation of an oscilloscope and function generator to be submitted before LP 02.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Construct, test and observe output on voice transmission using amplitude modulation and demodulation on optical fiber communication trainer.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 05"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

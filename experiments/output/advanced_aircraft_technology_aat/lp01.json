@@ -1,0 +1,151 @@
+{
+  "subject_name": "Advanced Aircraft Technology (AAT)",
+  "subject_code": "31",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "01",
+  "total_lesson_plans": "12",
+  "time_allotted": "80 min",
+  "topic": "General safety precautions to be observed while working with power machines and power tools.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "General safety precautions to be observed while working with power machines and power tools. Introduction to Lathe, Milling, Grinding, Shaping and Radial drilling machine",
+  "specific_objectives": "31.1.1.1 Trainee will be able to perform various general engineering works",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of safety gear usage and machine startup checks under instructor supervision.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of wearing safety goggles?",
+    "Why must loose clothing be avoided near rotating machinery?",
+    "What is the first step before operating any power tool?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "General safety precautions for power machines",
+        "Introduction to Lathe machine components",
+        "Introduction to Milling machine components",
+        "Introduction to Grinding machine components",
+        "Introduction to Shaping machine components"
+      ],
+      "content": "General safety precautions for power machines\nIntroduction to Lathe machine components\nIntroduction to Milling machine components\nIntroduction to Grinding machine components\nIntroduction to Shaping machine components",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Specific safety rules for Lathe operation",
+        "Specific safety rules for Milling operation",
+        "Specific safety rules for Grinding operation",
+        "Specific safety rules for Shaping operation",
+        "Specific safety rules for Radial drilling operation"
+      ],
+      "content": "Specific safety rules for Lathe operation\nSpecific safety rules for Milling operation\nSpecific safety rules for Grinding operation\nSpecific safety rules for Shaping operation\nSpecific safety rules for Radial drilling operation",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Emergency stop procedures for all machines",
+        "Proper handling of cutting tools and workpieces",
+        "Maintenance and inspection of power tools",
+        "Storage and disposal of swarf and chips",
+        "Reporting of machine defects or hazards"
+      ],
+      "content": "Emergency stop procedures for all machines\nProper handling of cutting tools and workpieces\nMaintenance and inspection of power tools\nStorage and disposal of swarf and chips\nReporting of machine defects or hazards",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "List three critical safety precautions specific to the Lathe machine.",
+    "Explain the correct procedure for changing a grinding wheel."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the specific safety precautions required for the Lathe machine to be discussed in the next lesson on turning and facing operations.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Procedure of turning, facing, thread cuttings, grooving, knurling and tapering in lathe machine.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 02"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

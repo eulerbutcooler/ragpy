@@ -1,0 +1,152 @@
+{
+  "subject_name": "FOLG",
+  "subject_code": "26",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "02",
+  "total_lesson_plans": "9",
+  "time_allotted": "80 min",
+  "topic": "Approaches to Engine Health Monitoring, Various Engine Health Monitoring techniques and Concept of Engine Health Monitoring as part of QA",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Approaches to Engine Health Monitoring, Various Engine Health Monitoring techniques and Concept of Engine Health Monitoring as part of QA",
+  "specific_objectives": "26.1.1.1 Trainee will be able to explain the engine health monitoring techniques, Purpose and advantages",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of Engine Health Monitoring Techniques; Safety: No live engine operation; Instructor supervision: Monitor trainee engagement and Q&A flow",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of Engine Health Monitoring?",
+    "List two advantages of implementing EHM in aviation maintenance.",
+    "How does EHM differ from traditional scheduled maintenance?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of Engine Health Monitoring",
+        "Purpose of EHM in Aviation",
+        "Advantages of EHM over Scheduled Maintenance",
+        "Approaches to Engine Health Monitoring",
+        "Various EHM Techniques Overview"
+      ],
+      "content": "Definition of Engine Health Monitoring\nPurpose of EHM in Aviation\nAdvantages of EHM over Scheduled Maintenance\nApproaches to Engine Health Monitoring\nVarious EHM Techniques Overview",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Detailed Analysis of Vibration Monitoring",
+        "Overview of Oil Analysis Techniques",
+        "Principles of Acoustic Emission Monitoring",
+        "Role of Thermography in EHM",
+        "Integration of Multiple Monitoring Techniques"
+      ],
+      "content": "Detailed Analysis of Vibration Monitoring\nOverview of Oil Analysis Techniques\nPrinciples of Acoustic Emission Monitoring\nRole of Thermography in EHM\nIntegration of Multiple Monitoring Techniques",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Concept of EHM within Quality Assurance",
+        "Data Management and Reporting Standards",
+        "Predictive Maintenance Strategies",
+        "Impact on Operational Readiness",
+        "Future Trends in Engine Health Monitoring"
+      ],
+      "content": "Concept of EHM within Quality Assurance\nData Management and Reporting Standards\nPredictive Maintenance Strategies\nImpact on Operational Readiness\nFuture Trends in Engine Health Monitoring",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how EHM contributes to Quality Assurance protocols.",
+    "Describe one specific technique used for detecting engine anomalies.",
+    "How does predictive maintenance reduce downtime compared to scheduled maintenance?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the concepts learned in this lesson will be applied in the upcoming lesson on MCD testing for engine health monitoring.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Engine Health monitoring by using MCD test",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 03"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

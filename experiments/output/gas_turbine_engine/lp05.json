@@ -1,0 +1,146 @@
+{
+  "subject_name": "Gas Turbine Engine",
+  "subject_code": "16",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "05",
+  "total_lesson_plans": "8",
+  "time_allotted": "80 min",
+  "topic": "Radiographic inspection, use, applicability inspection principle of radiography, X-ray gamma ray, shadow for motion, types of recording, types of test specimen safety precaution while using x-ray",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Radiographic inspection, use, applicability inspection principle of radiography, X-ray gamma ray, shadow for motion, types of recording, types of test specimen safety precaution while using x-ray",
+  "specific_objectives": "16.1.2.1 Trainee will be able to explain principle of radiographic inspection.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of radiographic film interpretation using sample films; Safety briefing on X-ray source handling and shielding protocols; Instructor supervision of safety drill execution.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of non-destructive testing in engine maintenance?",
+    "Name two common methods used for inspecting internal engine components.",
+    "Define the term 'radiographic inspection' in one sentence."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Principle of radiographic inspection",
+        "Interaction of X-ray and Gamma ray with matter",
+        "Shadow formation and motion blur effects"
+      ],
+      "content": "Principle of radiographic inspection\nInteraction of X-ray and Gamma ray with matter\nShadow formation and motion blur effects",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Types of recording media",
+        "Applicability of radiography in gas turbine engines",
+        "Types of test specimens used"
+      ],
+      "content": "Types of recording media\nApplicability of radiography in gas turbine engines\nTypes of test specimens used",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Safety precautions during X-ray operations",
+        "Use of shielding and dosimetry",
+        "Emergency procedures for radiation exposure"
+      ],
+      "content": "Safety precautions during X-ray operations\nUse of shielding and dosimetry\nEmergency procedures for radiation exposure",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how the density of a material affects the shadow on a radiographic film.",
+    "List three safety precautions required when operating an X-ray machine.",
+    "Differentiate between X-ray and Gamma ray sources in terms of applicability."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report comparing the advantages and limitations of radiographic inspection versus ultrasonic testing for detecting cracks in turbine blades, referencing the principles covered in this lesson and preparing for the introduction to neutron radiography in LP 06.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Inspection of neutron radiography introduction, different methods principle and various applications",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 06"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

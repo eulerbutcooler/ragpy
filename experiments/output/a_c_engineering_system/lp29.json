@@ -1,0 +1,152 @@
+{
+  "subject_name": "A/C Engineering System",
+  "subject_code": "17",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "29",
+  "total_lesson_plans": "30",
+  "time_allotted": "80 min",
+  "topic": "Typical cabin pressurization system, Cabin pressure regulator safety v/v, outflow v/v etc.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Typical cabin pressurization system, Cabin pressure regulator safety v/v, outflow v/v etc. and its operation, Methods of sealing of cabin",
+  "specific_objectives": "17.2.2.1 Trainee will be able to understand the necessity of cabin pressurization and working principles of components.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of system schematic diagrams and identification of regulator and outflow valve components",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "Why is cabin pressurization necessary for high-altitude flight?",
+    "What are the primary sources of bleed air for the cabin system?",
+    "What happens to the cabin pressure if the outflow valve fails fully open?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Necessity of cabin pressurization",
+        "Typical cabin pressurization system layout",
+        "Cabin pressure regulator function",
+        "Safety valve operation principles",
+        "Outflow valve control mechanisms"
+      ],
+      "content": "Necessity of cabin pressurization\nTypical cabin pressurization system layout\nCabin pressure regulator function\nSafety valve operation principles\nOutflow valve control mechanisms",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Methods of sealing the cabin",
+        "Pressure differential limits",
+        "Regulator safety valve interlocks",
+        "Outflow valve modes of operation",
+        "System response to altitude changes"
+      ],
+      "content": "Methods of sealing the cabin\nPressure differential limits\nRegulator safety valve interlocks\nOutflow valve modes of operation\nSystem response to altitude changes",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Component failure scenarios",
+        "Emergency depressurization procedures",
+        "Maintenance access points",
+        "System testing protocols",
+        "Troubleshooting common faults"
+      ],
+      "content": "Component failure scenarios\nEmergency depressurization procedures\nMaintenance access points\nSystem testing protocols\nTroubleshooting common faults",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the role of the safety valve in preventing over-pressurization.",
+    "Describe the sequence of events during an emergency depressurization.",
+    "How does the outflow valve maintain the desired cabin altitude?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note comparing the operation of the cabin pressure regulator with the air conditioning system components covered in LP 30.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Typical air conditioning system, various components, types of systems,",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 30"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

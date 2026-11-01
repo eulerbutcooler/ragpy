@@ -1,0 +1,146 @@
+{
+  "subject_name": "Basic Electrical",
+  "subject_code": "23",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "24",
+  "total_lesson_plans": "29",
+  "time_allotted": "80 min",
+  "topic": "Types of fire zone classification of a/c, detection system requirements, types of detection system, types of detectors, extinguishing agents",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Types of fire zone classification of a/c, detection system requirements, types of detection system, types of detectors, extinguishing agents and systems",
+  "specific_objectives": "23.2.1.1 Trainee will be able to understand the need of oxygen systems, types of systems, working principles of components.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of fire zone diagrams and detector types from IB; Instructor supervision on correct identification of extinguishing agents for specific zones.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of an aircraft fire detection system?",
+    "Name two common types of fire extinguishing agents used in aviation.",
+    "Why is fire zone classification critical for aircraft safety?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Fire zone classification in aircraft",
+        "Detection system requirements",
+        "Types of detection systems"
+      ],
+      "content": "Fire zone classification in aircraft\nDetection system requirements\nTypes of detection systems",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Types of fire detectors",
+        "Extinguishing agents and systems",
+        "Detector installation principles"
+      ],
+      "content": "Types of fire detectors\nExtinguishing agents and systems\nDetector installation principles",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "System integration overview",
+        "Maintenance considerations",
+        "Operational limitations"
+      ],
+      "content": "System integration overview\nMaintenance considerations\nOperational limitations",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between continuous loop and spot fire detectors.",
+    "Identify the appropriate extinguishing agent for an engine fire zone.",
+    "Describe the role of fire zone classification in emergency response procedures."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the transition from basic fire detection concepts to specific oxygen system types covered in LP 025.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Types of oxygen systems, oxygen storage, regulators and masks",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 25"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

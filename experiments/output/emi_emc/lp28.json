@@ -1,0 +1,152 @@
+{
+  "subject_name": "EMI/EMC",
+  "subject_code": "14",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "28",
+  "total_lesson_plans": "46",
+  "time_allotted": "80 min",
+  "topic": "Functions of signal processing elements in a FCS, signal processing channel and its elements, limiting synchronizing, gain and adaptive control",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Functions of signal processing elements in a FCS, signal processing channel and its elements, limiting synchronizing, gain and adaptive control, feedback in a FCS.",
+  "specific_objectives": "14.2.1.1 Trainee will be able to explain the functions of AFCS.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of signal processing block diagrams and identification of limiting/synchronizing functions in provided schematics.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of an AFCS?",
+    "Define the term 'signal processing' in the context of flight controls.",
+    "List three common elements found in a signal processing channel."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Signal processing channel elements",
+        "Function of limiting and synchronizing",
+        "Gain control mechanisms",
+        "Adaptive control principles",
+        "Feedback loop integration"
+      ],
+      "content": "Signal processing channel elements\nFunction of limiting and synchronizing\nGain control mechanisms\nAdaptive control principles\nFeedback loop integration",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Detailed analysis of limiting circuits",
+        "Synchronization techniques in FCS",
+        "Gain scheduling applications",
+        "Adaptive control algorithms",
+        "Feedback stability criteria"
+      ],
+      "content": "Detailed analysis of limiting circuits\nSynchronization techniques in FCS\nGain scheduling applications\nAdaptive control algorithms\nFeedback stability criteria",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Integration of signal processing in FCS",
+        "Impact of adaptive control on performance",
+        "Troubleshooting signal processing faults",
+        "Case studies of FCS failures",
+        "Future trends in signal processing"
+      ],
+      "content": "Integration of signal processing in FCS\nImpact of adaptive control on performance\nTroubleshooting signal processing faults\nCase studies of FCS failures\nFuture trends in signal processing",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how limiting and synchronizing functions prevent control surface saturation.",
+    "Describe the role of adaptive control in varying flight conditions.",
+    "Identify the key components of a feedback loop in an AFCS."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the purpose and explanation of altitude hold and airspeed hold systems as covered in LP 29.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Purpose and explanation of altitude hold and airspeed hold.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 29"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

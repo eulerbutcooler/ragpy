@@ -1,0 +1,153 @@
+{
+  "subject_name": "Helicopter Theory",
+  "subject_code": "11",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "16",
+  "total_lesson_plans": "27",
+  "time_allotted": "80 min",
+  "topic": "Secondary/Auxiliary flight controls, thrust reversing/braking",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Secondary/Auxiliary flight controls, thrust reversing/braking",
+  "specific_objectives": "11.1.2.1 Trainee will be able to describe various types of aerofoil sections, conditions of performance, theories, and concept related with performance",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of Secondary Control Systems diagrams; Safety: Do not operate actual flight controls without instructor supervision; Instructor supervision required for all practical discussions",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the primary flight controls?",
+    "Define the function of an auxiliary flight control.",
+    "List two conditions affecting aerofoil performance."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of Secondary Flight Controls",
+        "Types of Spoilers and Flaps",
+        "Function of Trim Systems",
+        "Aerodynamic Theory of Control Surfaces",
+        "Performance Conditions for Aux Controls"
+      ],
+      "content": "Definition of Secondary Flight Controls\nTypes of Spoilers and Flaps\nFunction of Trim Systems\nAerodynamic Theory of Control Surfaces\nPerformance Conditions for Aux Controls",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Thrust Reversing Mechanisms",
+        "Braking Systems Operation",
+        "Hydraulic Power for Reversers",
+        "Safety Interlocks in Reversers",
+        "Maintenance Checks for Brakes"
+      ],
+      "content": "Thrust Reversing Mechanisms\nBraking Systems Operation\nHydraulic Power for Reversers\nSafety Interlocks in Reversers\nMaintenance Checks for Brakes",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Integration of Aux Controls with Primary",
+        "Effect of Spoilers on Lift Distribution",
+        "Brake Fade and Thermal Limits",
+        "Reverser Deployment Sequence",
+        "Troubleshooting Aux Control Failures"
+      ],
+      "content": "Integration of Aux Controls with Primary\nEffect of Spoilers on Lift Distribution\nBrake Fade and Thermal Limits\nReverser Deployment Sequence\nTroubleshooting Aux Control Failures",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how thrust reversers assist in landing rollout.",
+    "Describe the role of trim tabs in secondary control systems.",
+    "Identify three safety interlocks used in thrust reversing systems."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the differences between primary and secondary flight controls, referencing the concepts discussed in LP 17 (Flight control surface balancing).",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Flight control surface balancing. Flow Separation Stalling, behaviour of aircraft before and after stall. Factors effecting stalling speed, high incidences stall, high speed stall, G stall, wing tip stall, Basic stalling speed.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 17"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Instructor, Flight Engineer, P No. 12345",
+  "approved_by": "Senior Instructor, Chief Engineer, P No. 67890",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT.",
+    "Verify specific brake thermal limit values for current helicopter fleet."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

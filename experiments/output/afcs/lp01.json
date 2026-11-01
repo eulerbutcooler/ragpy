@@ -1,0 +1,145 @@
+{
+  "subject_name": "AFCS",
+  "subject_code": "22",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "01",
+  "total_lesson_plans": "10",
+  "time_allotted": "80 min",
+  "topic": "Initial considerations of guidance methods: Introduction, nature of target, moving targets and stationary targets.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Initial considerations of guidance methods: Introduction, nature of target, moving targets and stationary targets. Reason for Guidance and Advantages of Guided weapon over Aircraft. Walk around in AW Demo room.",
+  "specific_objectives": "22.1.1.1Trainee will be able to understand the basic of guided weapon systems and types of targets.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Walk around in AW Demo room; Observe weapon models; Instructor supervision required for safety.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of a guided weapon?",
+    "Can you name one difference between a guided and unguided weapon?",
+    "Why is target classification important for weapon selection?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Introduction to Guided Weapon Systems",
+        "Reason for Guidance Requirements",
+        "Advantages over Unguided Aircraft Bombs"
+      ],
+      "content": "Introduction to Guided Weapon Systems\nReason for Guidance Requirements\nAdvantages over Unguided Aircraft Bombs",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Nature of Stationary Targets",
+        "Nature of Moving Targets",
+        "Impact of Target Motion on Guidance"
+      ],
+      "content": "Nature of Stationary Targets\nNature of Moving Targets\nImpact of Target Motion on Guidance",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Walk around in AW Demo Room",
+        "Identification of Target Simulation Models",
+        "Review of Guidance Method Indicators"
+      ],
+      "content": "Walk around in AW Demo Room\nIdentification of Target Simulation diagrams\nReview of Guidance Method Indicators",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain one advantage of a guided weapon over an unguided bomb.",
+    "How does the nature of a moving target differ from a stationary target in guidance?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Draw a simple block diagram of a guidance loop and label the components to prepare for the next lesson.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Block diagram of Guidance and control loop.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 02"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

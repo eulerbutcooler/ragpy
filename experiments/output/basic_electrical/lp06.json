@@ -1,0 +1,152 @@
+{
+  "subject_name": "Basic Electrical",
+  "subject_code": "23",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "06",
+  "total_lesson_plans": "29",
+  "time_allotted": "80 min",
+  "topic": "Fuel contamination with water, foreign particles, other types of fuel, micro biological growth, contamination detection and control",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Fuel contamination with water, foreign particles, other types of fuel, micro biological growth, contamination detection and control",
+  "specific_objectives": "23.1.1.1 Trainee will be able to understand the construction and requirements of typical aircraft fuel system and its components.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstrate fuel sample inspection using test kit; Safety: Wear gloves and eye protection; Supervision: Instructor monitors handling of samples",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the primary components of a typical aircraft fuel system?",
+    "Why is fuel cleanliness critical for engine operation?",
+    "List three common sources of fuel contamination."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Water contamination types and sources",
+        "Foreign particle contamination mechanisms",
+        "Fuel type incompatibility issues",
+        "Micro biological growth characteristics",
+        "Impact of contamination on fuel systems"
+      ],
+      "content": "Water contamination types and sources\nForeign particle contamination mechanisms\nFuel type incompatibility issues\nMicro biological growth characteristics\nImpact of contamination on fuel systems",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Contamination detection methods and equipment",
+        "Water separation and filtration systems",
+        "Fuel sampling procedures and protocols",
+        "Prevention strategies for microbial growth",
+        "Maintenance schedules for fuel quality"
+      ],
+      "content": "Contamination detection methods and equipment\nWater separation and filtration systems\nFuel sampling procedures and protocols\nPrevention strategies for microbial growth\nMaintenance schedules for fuel quality",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Emergency response to fuel contamination",
+        "Reporting procedures for fuel quality issues",
+        "Record keeping for fuel maintenance",
+        "Review of contamination control best practices",
+        "Summary of key learning points"
+      ],
+      "content": "Emergency response to fuel contamination\nReporting procedures for fuel quality issues\nRecord keeping for fuel maintenance\nReview of contamination control best practices\nSummary of key learning points",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between free water and suspended water in fuel.",
+    "Describe the procedure for identifying microbial growth in fuel samples.",
+    "Outline the steps required to report a fuel contamination incident."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the specific fuel system components discussed in LP 02 that are susceptible to contamination and how they should be protected.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Hydraulic system, general design requirements, Typical layout of a basic hydraulic system and its brief description",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 07"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

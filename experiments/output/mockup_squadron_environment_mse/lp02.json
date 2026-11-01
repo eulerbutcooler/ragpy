@@ -1,0 +1,151 @@
+{
+  "subject_name": "Mockup Squadron Environment (MSE)",
+  "subject_code": "24",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "02",
+  "total_lesson_plans": "21",
+  "time_allotted": "80 min",
+  "topic": "Installation and operation of contactor",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Installation and operation of contactor.",
+  "specific_objectives": "24.1.1.1 Trainee will be able to explain the operation of Polarized relay and contacts.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of contactor installation and operation; Safety: De-energize circuit before handling; Supervision: Instructor monitors wiring and testing procedures.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of a contactor in an electrical circuit?",
+    "How does a polarized relay differ from a standard relay?",
+    "Why is it critical to de-energize a circuit before installing a contactor?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Construction of polarized relay",
+        "Operation of polarized relay contacts",
+        "Installation steps for contactor",
+        "Safety precautions during installation",
+        "Testing contactor operation"
+      ],
+      "content": "Construction of polarized relay\nOperation of polarized relay contacts\nInstallation steps for contactor\nSafety precautions during installation\nTesting contactor operation",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Wiring configuration for contactor",
+        "Coil energization sequence",
+        "Contact closure and arc suppression",
+        "Troubleshooting common faults",
+        "Maintenance and inspection procedures"
+      ],
+      "content": "Wiring configuration for contactor\nCoil energization sequence\nContact closure and arc suppression\nTroubleshooting common faults\nMaintenance and inspection procedures",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Verification of contactor operation",
+        "Documentation of installation",
+        "Review of safety protocols",
+        "Q&A session on operation principles",
+        "Preparation for next lesson topic"
+      ],
+      "content": "Verification of contactor operation\nDocumentation of installation\nReview of safety protocols\nQ&A session on operation principles\nPreparation for next lesson topic",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the role of the polarized relay in controlling the contactor coil.",
+    "Describe the steps taken to ensure safe installation of the contactor."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the differences between a Wheatstone bridge and a ratio meter coil, as covered in the next lesson plan (LP 03), focusing on their application in temperature measurement.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Measurement of temperature using Wheatstone bridge, ratio meter coil and thermocouple.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 03"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

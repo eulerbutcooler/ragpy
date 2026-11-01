@@ -1,0 +1,152 @@
+{
+  "subject_name": "LSF, Stability, A/C Performance",
+  "subject_code": "6",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "25",
+  "total_lesson_plans": "33",
+  "time_allotted": "80 min",
+  "topic": "Stability and control: static, dynamic stability.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Stability and control: static, dynamic stability. definition, notation used Stability requirements, a/c controls and Maneuver",
+  "specific_objectives": "6.1.4.1 Trainee will be able to describe aircraft stability in all the three axis.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of static stability definitions and dynamic stability concepts using IB and L & Ds; Instructor supervision required for concept verification.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the three axes of aircraft motion?",
+    "Define the term 'stability' in the context of flight.",
+    "List the primary flight controls and their associated axes."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of Static Stability",
+        "Notation used for Stability",
+        "Static Stability in Longitudinal Axis",
+        "Static Stability in Lateral Axis",
+        "Static Stability in Directional Axis"
+      ],
+      "content": "Definition of Static Stability\nNotation used for Stability\nStatic Stability in Longitudinal Axis\nStatic Stability in Lateral Axis\nStatic Stability in Directional Axis",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Definition of Dynamic Stability",
+        "Oscillatory Motion Characteristics",
+        "Stability Requirements for Maneuver",
+        "Role of A/C Controls in Stability",
+        "Damping Effects in Dynamic Response"
+      ],
+      "content": "Definition of Dynamic Stability\nOscillatory Motion Characteristics\nStability Requirements for Maneuver\nRole of A/C Controls in Stability\nDamping Effects in Dynamic Response",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Comparison of Static and Dynamic Stability",
+        "Practical Implications for Aircrew",
+        "Summary of Stability Definitions",
+        "Review of Notation Standards",
+        "Link to Maneuver Requirements"
+      ],
+      "content": "Comparison of Static and Dynamic Stability\nPractical Implications for Aircrew\nSummary of Stability Definitions\nReview of Notation Standards\nLink to Maneuver Requirements",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between static and dynamic stability.",
+    "Describe how the aircraft responds to a disturbance in the longitudinal axis.",
+    "Identify the notation used to represent stability derivatives."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the concepts of static and dynamic stability learned in this lesson apply to the forces and moments discussed in LP 02.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Static longitudinal stability: forces and moments Stick fixed and stick free stability, neutral point and static margin, stability curve., Longitudinal dynamic stability,",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 26"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

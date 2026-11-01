@@ -1,0 +1,152 @@
+{
+  "subject_name": "Basic Radio & Avionics",
+  "subject_code": "22",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "10",
+  "total_lesson_plans": "10",
+  "time_allotted": "80 min",
+  "topic": "Network, LAN, WAN and Network Topology",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Network, LAN, WAN and Network Topology.",
+  "specific_objectives": "22.1.2.1 Trainee will able to explain existing IT networking system in IN",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of onboard IT architecture diagrams; Safety: No live electrical connections; Supervision: Instructor monitors diagram interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of a network?",
+    "Can a computer operate without a network connection?",
+    "Name one device used to connect computers in a local area."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition and scope of Computer Network",
+        "Classification of networks by geographical area",
+        "Characteristics of LAN and WAN systems",
+        "Role of IN IT networking infrastructure",
+        "Comparison of LAN and WAN protocols"
+      ],
+      "content": "Definition and scope of Computer Network\nClassification of networks by geographical area\nCharacteristics of LAN and WAN systems\nRole of IN IT networking infrastructure\nComparison of LAN and WAN protocols",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Star topology structure and advantages",
+        "Bus topology implementation and limitations",
+        "Ring topology data flow mechanisms",
+        "Mesh topology redundancy features",
+        "Hybrid topology combinations in modern systems"
+      ],
+      "content": "Star topology structure and advantages\nBus topology implementation and limitations\nRing topology data flow mechanisms\nMesh topology redundancy features\nHybrid topology combinations in modern systems",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Selection criteria for network topology",
+        "Impact of topology on network performance",
+        "Troubleshooting common topology failures",
+        "Future trends in aviation network design",
+        "Security implications of different topologies"
+      ],
+      "content": "Selection criteria for network topology\nImpact of topology on network performance\nTroubleshooting common topology failures\nFuture trends in aviation network design\nSecurity implications of different topologies",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between a LAN and a WAN in terms of coverage.",
+    "Why might a Star topology be preferred over a Bus topology in an aircraft cabin?",
+    "Describe one advantage of a Mesh topology regarding fault tolerance."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the existing IT networking system in India supports aviation data exchange, referencing concepts learned in this lesson to bridge to LP 02.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "End of subject",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "-"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

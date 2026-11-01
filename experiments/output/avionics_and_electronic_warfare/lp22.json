@@ -1,0 +1,152 @@
+{
+  "subject_name": "Avionics and Electronic Warfare",
+  "subject_code": "13",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "22",
+  "total_lesson_plans": "25",
+  "time_allotted": "80 min",
+  "topic": "Landing, gear control: - Landing gear position indication, anti-skid control systems, wind shield wiper systems, rain repellent systems, air",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Landing, gear control: - Landing gear position indication, anti-skid control systems, wind shield wiper systems, rain repellent systems, air conditioning systems.",
+  "specific_objectives": "13.1.3.1 Knowledge on circuit protection devices, generators, actuators & engine starting system.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of system schematics and logic diagrams; Safety: Ensure no live electrical connections are simulated; Instructor supervision: Monitor student understanding of circuit paths.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of the landing gear position indication system?",
+    "Name two types of circuit protection devices used in avionics.",
+    "How does an anti-skid system prevent wheel lock-up during landing?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Landing gear position indication systems",
+        "Anti-skid control system operation",
+        "Windshield wiper system components",
+        "Rain repellent system activation",
+        "Air conditioning system basics"
+      ],
+      "content": "Landing gear position indication systems\nAnti-skid control system operation\nWindshield wiper system components\nRain repellent system activation\nAir conditioning system basics",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Circuit protection devices analysis",
+        "Generator and actuator functions",
+        "Engine starting system overview",
+        "System interconnections review",
+        "Troubleshooting common failures"
+      ],
+      "content": "Circuit protection devices analysis\nGenerator and actuator functions\nEngine starting system overview\nSystem interconnections review\nTroubleshooting common failures",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Review of specific objectives",
+        "Key terminology clarification",
+        "System reliability factors",
+        "Maintenance requirements",
+        "Safety protocols for systems"
+      ],
+      "content": "Review of specific objectives\nKey terminology clarification\nSystem reliability factors\nMaintenance requirements\nSafety protocols for systems",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the role of circuit protection devices in the engine starting system.",
+    "Describe how the anti-skid system interacts with the landing gear control.",
+    "What are the primary functions of the rain repellent system?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the differences between warning lights and advisory lights, referencing the next lesson plan (LP 23) on central warning systems.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Warning lights, caution lights, indicating or advisory lights, magnetic indicators, central warning systems, electronic display systems.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 23"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

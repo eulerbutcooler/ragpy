@@ -1,0 +1,151 @@
+{
+  "subject_name": "Fuel, Oil, Lubricant and Greases",
+  "subject_code": "28",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "01",
+  "total_lesson_plans": "13",
+  "time_allotted": "80 min",
+  "topic": "Need for explosive regulation Terms and definition used in explosive regulation",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Need for explosive regulation Terms and definition used in explosive regulation",
+  "specific_objectives": "28.1.1.1 Trainee will be able to explain the need for explosive regulation",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of explosive classification charts; Safety: Maintain distance from simulated hazards; Supervision: Instructor monitors group discussion.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is an explosive?",
+    "Why are regulations necessary for handling explosives?",
+    "Can you name one type of explosive used in aviation?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "History of Explosive Accidents",
+        "Consequences of Unregulated Storage",
+        "Role of Regulatory Bodies",
+        "Importance of Standardization",
+        "Legal Framework Overview"
+      ],
+      "content": "History of Explosive Accidents\nConsequences of Unregulated Storage\nRole of Regulatory Bodies\nImportance of Standardization\nLegal Framework Overview",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Definition of Explosive Materials",
+        "Classification Systems Explained",
+        "Key Terminology Definitions",
+        "Handling Protocols Defined",
+        "Storage Requirements Specified"
+      ],
+      "content": "Definition of Explosive Materials\nClassification Systems Explained\nKey Terminology Definitions\nHandling Protocols Defined\nStorage Requirements Specified",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Impact on Aviation Safety",
+        "Emergency Response Procedures",
+        "Inspection and Maintenance Rules",
+        "Transportation Regulations",
+        "Record Keeping Requirements"
+      ],
+      "content": "Impact on Aviation Safety\nEmergency Response Procedures\nInspection and Maintenance Rules\nTransportation Regulations\nRecord Keeping Requirements",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain why standardization is critical for explosive regulation.",
+    "Describe the primary purpose of classification systems in explosive handling."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the regulations covered in this lesson will be applied in the next lesson regarding extrusion, exudation, and radio hazard.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Extrusion, exudation and radio hazard",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 02"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

@@ -1,0 +1,152 @@
+{
+  "subject_name": "NAMS",
+  "subject_code": "3",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "09",
+  "total_lesson_plans": "19",
+  "time_allotted": "80 min",
+  "topic": "Flight safety meeting, near miss scheme, red book, Discussion on summary of accidents/ incidents in respective aircraft streams for last three months",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Flight safety meeting, near miss scheme, red book, Discussion on summary of accidents/ incidents in respective aircraft streams for last three months.",
+  "specific_objectives": "3.1.3.2 Trainees will be able to explain the purpose of Flight safety meeting.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of Red Book entries and Near Miss Scheme forms; Instructor supervision during group discussion of incident summaries.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary objective of a Flight Safety Meeting?",
+    "Define a 'Near Miss' in the context of aviation safety.",
+    "Where is the official record of accidents and incidents maintained?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Purpose and objectives of Flight Safety Meeting",
+        "Role of Flight Safety Officer in organizing meetings",
+        "Agenda structure for safety briefings",
+        "Importance of safety culture in engineering stream",
+        "Reporting mechanisms for safety concerns"
+      ],
+      "content": "Purpose and objectives of Flight Safety Meeting\nRole of Flight Safety Officer in organizing meetings\nAgenda structure for safety briefings\nImportance of safety culture in engineering stream\nReporting mechanisms for safety concerns",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Near Miss Scheme definition and reporting",
+        "Red Book usage and maintenance procedures",
+        "Analysis of recent accident/incident summaries",
+        "Identification of recurring safety trends",
+        "Corrective actions derived from incident reports"
+      ],
+      "content": "Near Miss Scheme definition and reporting\nRed Book usage and maintenance procedures\nAnalysis of recent accident/incident summaries\nIdentification of recurring safety trends\nCorrective actions derived from incident reports",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Review of last three months incident data",
+        "Stream-specific accident patterns analysis",
+        "Lessons learned from recent incidents",
+        "Preventive measures implementation status",
+        "Feedback loop for continuous safety improvement"
+      ],
+      "content": "Review of last three months incident data\nStream-specific accident patterns analysis\nLessons learned from recent incidents\nPreventive measures implementation status\nFeedback loop for continuous safety improvement",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how the Near Miss Scheme contributes to accident prevention.",
+    "Describe the specific role of the Red Book in maintaining safety records.",
+    "What steps should be taken if a recurring safety trend is identified in the incident summary?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the transfer procedure of aircraft and aero engines, including the use of forms A-2, A-11, A-53, and IN-324, to be submitted in the next lesson plan.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Transfer procedure of aircraft, aero engines and power plant and documentation, use of form A-2, A-11, A-53 IN-324 and action for demands/ pending store transfer on NAMS/ CG AIR STORE.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 10"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

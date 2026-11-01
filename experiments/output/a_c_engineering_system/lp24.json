@@ -1,0 +1,152 @@
+{
+  "subject_name": "A/C Engineering System",
+  "subject_code": "17",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "24",
+  "total_lesson_plans": "30",
+  "time_allotted": "80 min",
+  "topic": "Need for simple oxygen system and pressurized cabin effect of lack of o2, Types of 02 regulators",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Need for simple oxygen system and pressurized cabin effect of lack of o2, Types of 02 regulators. Fire detection and protection system:",
+  "specific_objectives": "17.2.1.1 Trainee will be able to understand the need of oxygen systems, types of systems, working principles of components.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of regulator operation principles; Safety: Do not breathe directly from regulator; Instructor supervision required",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of the aircraft oxygen system?",
+    "How does cabin pressure affect oxygen availability at altitude?",
+    "Name one type of oxygen regulator used in aviation."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Physiological effects of hypoxia",
+        "Need for simple oxygen systems",
+        "Pressurized cabin oxygen requirements",
+        "Types of oxygen systems",
+        "Working principles of components"
+      ],
+      "content": "Physiological effects of hypoxia\nNeed for simple oxygen systems\nPressurized cabin oxygen requirements\nTypes of oxygen systems\nWorking principles of components",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Types of 02 regulators",
+        "Demand regulator operation",
+        "Continuous flow regulator operation",
+        "Pressure regulator function",
+        "Regulator maintenance basics"
+      ],
+      "content": "Types of 02 regulators\nDemand regulator operation\nContinuous flow regulator operation\nPressure regulator function\nRegulator maintenance basics",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Comparison of regulator types",
+        "Selection criteria for systems",
+        "Safety protocols for oxygen use",
+        "Troubleshooting common regulator issues",
+        "Integration with fire protection systems"
+      ],
+      "content": "Comparison of regulator types\nSelection criteria for systems\nSafety protocols for oxygen use\nTroubleshooting common regulator issues\nIntegration with fire protection systems",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain why a simple oxygen system is necessary for emergency descent.",
+    "Differentiate between demand and continuous flow regulators based on operation.",
+    "Describe the effect of lack of oxygen on crew performance at high altitude."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the transition from LP 24 to LP 02, focusing on how fire detection requirements relate to oxygen system safety.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Types of fire zone classification of a/c, detection system requirements, types of detection system, types of detectors, extinguishing agents and systems",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 25"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

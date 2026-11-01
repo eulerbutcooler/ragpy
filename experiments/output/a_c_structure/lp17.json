@@ -1,0 +1,152 @@
+{
+  "subject_name": "A/C Structure",
+  "subject_code": "11",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "17",
+  "total_lesson_plans": "17",
+  "time_allotted": "80 min",
+  "topic": "Assessment of damage and estimation of loads, preparation of repair scheme.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Assessment of damage and estimation of loads, preparation of repair scheme. Material specification, special tools required for carrying out repairs",
+  "specific_objectives": "11.1.1.1 Trainee will be able to explain aircraft structure, various structural elements and their details.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of damage assessment techniques, load estimation calculations, and repair scheme preparation using standard tools and material specifications under instructor supervision.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the primary steps in assessing aircraft structural damage?",
+    "How do you determine the load type acting on a damaged structural element?",
+    "Why is material specification critical before initiating a repair scheme?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Visual inspection for damage types",
+        "Non-destructive testing methods",
+        "Load estimation principles",
+        "Material specification selection",
+        "Special tools identification"
+      ],
+      "content": "Visual inspection for damage types\nNon-destructive testing methods\nLoad estimation principles\nMaterial specification selection\nSpecial tools identification",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Damage assessment procedures",
+        "Load calculation formulas",
+        "Repair scheme formulation",
+        "Tool selection criteria",
+        "Material compatibility checks"
+      ],
+      "content": "Damage assessment procedures\nLoad calculation formulas\nRepair scheme formulation\nTool selection criteria\nMaterial compatibility checks",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Review of repair documentation",
+        "Safety precautions for repairs",
+        "Final scheme validation",
+        "Tool maintenance protocols",
+        "Material storage guidelines"
+      ],
+      "content": "Review of repair documentation\nSafety precautions for repairs\nFinal scheme validation\nTool maintenance protocols\nMaterial storage guidelines",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the relationship between load estimation and repair scheme design.",
+    "List three special tools required for carrying out structural repairs.",
+    "Describe the importance of material specification in damage repair."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the transition from damage assessment to repair scheme preparation for the next lesson plan (LP 02).",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "End of subject",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "-"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

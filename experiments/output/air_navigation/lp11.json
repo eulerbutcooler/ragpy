@@ -1,0 +1,151 @@
+{
+  "subject_name": "Air Navigation",
+  "subject_code": "21",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "11",
+  "total_lesson_plans": "18",
+  "time_allotted": "80 min",
+  "topic": "Demonstration and explanation on the correct procedures of connecting the towing arm to A/C and tractor and movement of aircraft with proper positioning of safety numbers and choke man i.a.w INAP-2 article.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Demonstration and explanation on the correct procedures of connecting the towing arm to A/C and tractor and movement of aircraft with proper positioning of safety numbers and choke man i.a.w INAP-2 article.",
+  "specific_objectives": "21.1.7.1 Trainee will be able to explain procedure on movement of A/C from hangar to dispersal.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of towing arm connection, safety number positioning, and choke man placement under instructor supervision.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of the towing arm?",
+    "Where are safety numbers typically located on the aircraft?",
+    "What is the role of the choke man during aircraft movement?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Pre-flight inspection of towing equipment",
+        "Correct attachment of towing arm to tractor",
+        "Safety number positioning guidelines",
+        "Choke man positioning and responsibilities",
+        "Communication signals for movement"
+      ],
+      "content": "Pre-flight inspection of towing equipment\nCorrect attachment of towing arm to tractor\nSafety number positioning guidelines\nChoke man positioning and responsibilities\nCommunication signals for movement",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Step-by-step connection procedure",
+        "Verification of safety number placement",
+        "Choke man safety protocols",
+        "Tractor pushback alignment",
+        "Emergency stop procedures"
+      ],
+      "content": "Step-by-step connection procedure\nVerification of safety number placement\nChoke man safety protocols\nTractor pushback alignment\nEmergency stop procedures",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Movement from hangar to dispersal",
+        "Final safety check before release",
+        "Post-movement equipment stowage",
+        "Reporting discrepancies found",
+        "Review of INAP-2 article compliance"
+      ],
+      "content": "Movement from hangar to dispersal\nFinal safety check before release\nPost-movement equipment stowage\nReporting discrepancies found\nReview of INAP-2 article compliance",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the correct sequence for connecting the towing arm to the aircraft.",
+    "Describe the responsibilities of the choke man during aircraft movement."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief summary of the towing arm connection procedure to be discussed in LP 12 regarding GSE maintenance.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Demonstration and explanation on the various GSEs required on dispersal for flying activity and flight servicing, GSE maintenance. Schedule & record of inspections carried out, Calibration of GSE (as applicable) and record of calibration.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 12"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

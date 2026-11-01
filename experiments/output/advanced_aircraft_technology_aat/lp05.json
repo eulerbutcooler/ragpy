@@ -1,0 +1,151 @@
+{
+  "subject_name": "Advanced Aircraft Technology (AAT)",
+  "subject_code": "31",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "05",
+  "total_lesson_plans": "12",
+  "time_allotted": "80 min",
+  "topic": "Easy out / Chisel out of rounded screws on aircraft structure, Stop drilling of cracks",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Easy out / Chisel out of rounded screws on aircraft structure, Stop drilling of cracks",
+  "specific_objectives": "31.1.3.1 Trainee will be able to perform various repair works on aircraft structure",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration and supervised practice of Easy Out and Chisel Out techniques on simulated rounded screws; Safety precautions regarding tool handling and structural integrity; Instructor supervision during drilling and extraction processes",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the common causes of rounded screw heads in aircraft structures?",
+    "Why is it critical to stop drilling cracks immediately upon detection?",
+    "List three tools used for extracting rounded fasteners."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Identification of rounded screw heads",
+        "Selection of Easy Out extraction tools",
+        "Drilling technique for Easy Out installation",
+        "Extraction procedure for Easy Out",
+        "Post-extraction hole repair methods"
+      ],
+      "content": "Identification of rounded screw heads\nSelection of Easy Out extraction tools\nDrilling technique for Easy Out installation\nExtraction procedure for Easy Out\nPost-extraction hole repair methods",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Assessment of crack dimensions",
+        "Stop drilling procedure execution",
+        "Drilling sequence for crack arrest",
+        "Use of drill bits for crack stopping",
+        "Safety measures during crack drilling"
+      ],
+      "content": "Assessment of crack dimensions\nStop drilling procedure execution\nDrilling sequence for crack arrest\nUse of drill bits for crack stopping\nSafety measures during crack drilling",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Review of Easy Out installation steps",
+        "Review of crack stop drilling steps",
+        "Common errors in fastener extraction",
+        "Common errors in crack drilling",
+        "Corrective actions for identified errors"
+      ],
+      "content": "Review of Easy Out installation steps\nReview of crack stop drilling steps\nCommon errors in fastener extraction\nCommon errors in crack drilling\nCorrective actions for identified errors",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the step-by-step process for installing an Easy Out in a rounded screw hole.",
+    "Describe the correct procedure to stop drilling a crack in an aircraft structure."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the tools and materials required for the next lesson on Butt/Lap joints, referencing LP 06 syllabus.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Making of different jobs using Sheet metal i.e Butt/Lap joints",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 06"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

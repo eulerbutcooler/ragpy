@@ -1,0 +1,152 @@
+{
+  "subject_name": "A/C Structure",
+  "subject_code": "11",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "09",
+  "total_lesson_plans": "17",
+  "time_allotted": "80 min",
+  "topic": "Classification of aircraft parts, types of aircraft fuselage structure, joining techniques, riveted joints, bonded joints, brazing.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Classification of aircraft parts, types of aircraft fuselage structure, joining techniques, riveted joints, bonded joints, brazing.",
+  "specific_objectives": "11.1.1.1 Trainee will be able to explain aircraft structure, various structural elements and their details.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Identification of joint types on L & Ds; Safety precautions regarding heat and tools; Instructor supervision during model analysis.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the primary structural elements of an aircraft?",
+    "List three common methods used to join aircraft parts.",
+    "Define the term 'fuselage' in the context of aircraft structure."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Classification of aircraft parts",
+        "Types of fuselage structure",
+        "Riveted joints types",
+        "Bonded joints characteristics",
+        "Brazing techniques"
+      ],
+      "content": "Classification of aircraft parts\nTypes of fuselage structure\nRiveted joints types\nBonded joints characteristics\nBrazing techniques",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Monocoque vs Semi-monocoque",
+        "Spars and ribs function",
+        "Rivet types and spacing",
+        "Adhesive bonding process",
+        "Brazing filler metals"
+      ],
+      "content": "Monocoque vs Semi-monocoque\nSpars and ribs function\nRivet types and spacing\nAdhesive bonding process\nBrazing filler metals",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Joint efficiency factors",
+        "Inspection of bonded joints",
+        "Brazing temperature control",
+        "Corrosion prevention methods",
+        "Maintenance of structural integrity"
+      ],
+      "content": "Joint efficiency factors\nInspection of bonded joints\nBrazing temperature control\nCorrosion prevention methods\nMaintenance of structural integrity",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between a monocoque and semi-monocoque fuselage structure.",
+    "Describe the primary advantage of bonded joints over riveted joints.",
+    "Identify two critical factors that affect the strength of a riveted joint."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note comparing the structural assumptions used in engineering theory for the next lesson (LP 10), focusing on load distribution in fuselage structures.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Introduction to aircraft structural principles, general assumptions in engineering theory. methods by which structure carries load, typical ideal bending movement and shear force diagram.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 10"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

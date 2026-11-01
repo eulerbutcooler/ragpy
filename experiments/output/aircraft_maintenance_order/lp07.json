@@ -1,0 +1,151 @@
+{
+  "subject_name": "Aircraft Maintenance Order",
+  "subject_code": "1",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "07",
+  "total_lesson_plans": "16",
+  "time_allotted": "80 min",
+  "topic": "MSS / Major inspections, survey, reporting, and works",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "MSS / Major inspections, survey, reporting, and works",
+  "specific_objectives": "1.1.4.1 Trainee will be able to enumerate various servicing schedules on naval aircraft and defect reporting procedure.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of MSS schedule charts and defect reporting forms; Instructor supervision of form filling accuracy",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary difference between a routine check and a Major Structural Survey?",
+    "List three types of servicing schedules found in naval aircraft maintenance manuals.",
+    "Why is immediate defect reporting critical for flight safety?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition and scope of MSS",
+        "Frequency of Major inspections",
+        "Survey procedures and documentation",
+        "Reporting requirements and timelines",
+        "Work authorization and release"
+      ],
+      "content": "Definition and scope of MSS\nFrequency of Major inspections\nSurvey procedures and documentation\nReporting requirements and timelines\nWork authorization and release",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Servicing schedules enumeration",
+        "Defect identification criteria",
+        "Reporting procedure steps",
+        "Form A-26 overview",
+        "Chain of command for defects"
+      ],
+      "content": "Servicing schedules enumeration\nDefect identification criteria\nReporting procedure steps\nForm A-26 overview\nChain of command for defects",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Survey completion protocols",
+        "Rectification work initiation",
+        "Final inspection and sign-off",
+        "Record keeping standards",
+        "Preparation for next inspection"
+      ],
+      "content": "Survey completion protocols\nRectification work initiation\nFinal inspection and sign-off\nRecord keeping standards\nPreparation for next inspection",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the sequence of actions required when a major defect is identified during a survey.",
+    "How does the servicing schedule determine the interval for the next MSS?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief summary of the defect reporting procedure to be discussed in the next lesson on Defect rectification, reporting and recording, instruction for use of form A-26 (latest version).",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Defect rectification, reporting and recording, instruction for use of form A-26 (latest version).",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 08"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

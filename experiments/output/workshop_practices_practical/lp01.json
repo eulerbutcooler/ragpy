@@ -1,0 +1,152 @@
+{
+  "subject_name": "Workshop Practices (Practical)",
+  "subject_code": "23",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "01",
+  "total_lesson_plans": "8",
+  "time_allotted": "80 min",
+  "topic": "Armament stores and release units used on naval aircraft.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Armament stores and release units used on naval aircraft.",
+  "specific_objectives": "23.1.1.1 Trainee will be able the basic knowledge of air craft armaments.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of armament store diagrams and release unit schematics from IB; Instructor supervision required for safety verification of explosive regulations.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of an armament store?",
+    "Name one type of release unit used on naval aircraft.",
+    "Why is knowledge of armament stores critical for engineering trainees?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Classification of air craft armaments",
+        "Internal and external store configurations",
+        "Guided and unguided munitions types",
+        "Compatibility with naval aircraft platforms",
+        "Basic release unit mechanisms"
+      ],
+      "content": "Classification of air craft armaments\nInternal and external store configurations\nGuided and unguided munitions types\nCompatibility with naval aircraft platforms\nBasic release unit mechanisms",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Operational principles of release units",
+        "Electrical and pneumatic release systems",
+        "Safety features in release mechanisms",
+        "Arming and disarming procedures",
+        "Integration with aircraft fire control systems"
+      ],
+      "content": "Operational principles of release units\nElectrical and pneumatic release systems\nSafety features in release mechanisms\nArming and disarming procedures\nIntegration with aircraft fire control systems",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Maintenance requirements for release units",
+        "Inspection criteria for armament stores",
+        "Storage and handling safety protocols",
+        "Documentation and record keeping",
+        "Troubleshooting common release unit faults"
+      ],
+      "content": "Maintenance requirements for release units\nInspection criteria for armament stores\nStorage and handling safety protocols\nDocumentation and record keeping\nTroubleshooting common release unit faults",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between electrical and pneumatic release units.",
+    "Describe the safety precautions required before arming a release unit.",
+    "How does the fire control system interface with the release unit?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "List three abbreviations used in explosive regulations and publications referenced in the next lesson plan (LP 02) and define their meaning.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Abbreviations used in explosive regulations, publications reference, requirement of explosive regulations, safety precautions observed while handling explosives. Practical on handling of Armaments, cartridges.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 02"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

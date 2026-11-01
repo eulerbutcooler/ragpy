@@ -1,0 +1,152 @@
+{
+  "subject_name": "Helicopter Theory",
+  "subject_code": "11",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "23",
+  "total_lesson_plans": "27",
+  "time_allotted": "80 min",
+  "topic": "Static longitudinal stability: forces and moments Stick fixed and stick free stability, neutral point and static margin, stability curve, Lo",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Static longitudinal stability: forces and moments Stick fixed and stick free stability, neutral point and static margin, stability curve, Longitudinal dynamic stability,",
+  "specific_objectives": "11.1.4.1 Trainee will be able to describe aircraft stability in all the three axis",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of longitudinal stability concepts using IB diagrams; Instructor supervision required for diagram interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "Define aircraft stability in the three axes.",
+    "List the primary forces acting on a helicopter in longitudinal flight.",
+    "Explain the difference between stick fixed and stick free stability."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Forces and moments in longitudinal axis",
+        "Stick fixed and stick free stability",
+        "Neutral point and static margin",
+        "Stability curve characteristics",
+        "Longitudinal dynamic stability"
+      ],
+      "content": "Forces and moments in longitudinal axis\nStick fixed and stick free stability\nNeutral point and static margin\nStability curve characteristics\nLongitudinal dynamic stability",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Analysis of stability curve behavior",
+        "Calculation of static margin",
+        "Dynamic stability oscillation modes",
+        "Comparison of stick fixed and free",
+        "Impact of CG location on stability"
+      ],
+      "content": "Analysis of stability curve behavior\nCalculation of static margin\nDynamic stability oscillation modes\nComparison of stick fixed and free\nImpact of CG location on stability",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Summary of longitudinal stability principles",
+        "Review of neutral point significance",
+        "Application of stability concepts",
+        "Preparation for lateral stability",
+        "Q&A session on dynamic stability"
+      ],
+      "content": "Summary of longitudinal stability principles\nReview of neutral point significance\nApplication of stability concepts\nPreparation for lateral stability\nQ&A session on dynamic stability",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Describe the relationship between the neutral point and the center of gravity.",
+    "Differentiate between static and dynamic longitudinal stability.",
+    "Explain how the stability curve indicates aircraft stability characteristics."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the transition from longitudinal to lateral stability focusing on the forces and moments involved, referencing the next lesson plan.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Lateral stability: forces and Moments, effect of wing dihedral, effects of slide slip, induced roll and induced yaw. Factors effecting lateral stability. Wing sweepback effect. Dihedral effect",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 24"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

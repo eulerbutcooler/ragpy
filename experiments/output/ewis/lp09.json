@@ -1,0 +1,153 @@
+{
+  "subject_name": "EWIS",
+  "subject_code": "21",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "09",
+  "total_lesson_plans": "10",
+  "time_allotted": "80 min",
+  "topic": "Purpose and function of Altimeter and their types.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Purpose and function of Altimeter and their types. Global positioning system (GPS) introduction, purpose airborne and space components of the system. Safety precautions to be observed whilst working on avionics systems",
+  "specific_objectives": "21.1.1.1 Trainee will be able to understand the basic theory of communication.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of Altimeter types and GPS components using L & Ds and IB; Instructor supervision required for safety precautions.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of an altimeter?",
+    "Name two types of altimeters used in aviation.",
+    "Why is safety crucial when working on avionics systems?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Basic theory of communication",
+        "Purpose and function of Altimeter",
+        "Types of Altimeters",
+        "Global positioning system introduction",
+        "Airborne and space components of GPS"
+      ],
+      "content": "Basic theory of communication\nPurpose and function of Altimeter\nTypes of Altimeters\nGlobal positioning system introduction\nAirborne and space components of GPS",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Safety precautions for avionics work",
+        "Static pressure system operation",
+        "GPS signal acquisition basics",
+        "Interpretation of altimeter settings",
+        "Maintenance requirements for altimeters"
+      ],
+      "content": "Safety precautions for avionics work\nStatic pressure system operation\nGPS signal acquisition basics\nInterpretation of altimeter settings\nMaintenance requirements for altimeters",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Review of Altimeter types",
+        "GPS component functions",
+        "Safety protocol reinforcement",
+        "Troubleshooting common altimeter errors",
+        "Integration of GPS and Altimeter data"
+      ],
+      "content": "Review of Altimeter types\nGPS component functions\nSafety protocol reinforcement\nTroubleshooting common altimeter errors\nIntegration of GPS and Altimeter data",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between pressure altimeter and radar altimeter.",
+    "Describe the purpose of the airborne component in the GPS system.",
+    "List three safety precautions when handling avionics systems."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the next lesson topic: Purpose and function of radio systems including SLB and EL Emergency Radio System.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Purpose and function of following radio systems: - SLB ELT Emergency Radio System",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 10"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT.",
+    "Verify specific reference book titles for Altimeter theory in master syllabus."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

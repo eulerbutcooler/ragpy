@@ -1,0 +1,151 @@
+{
+  "subject_name": "Basic Electrical",
+  "subject_code": "23",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "18",
+  "total_lesson_plans": "29",
+  "time_allotted": "80 min",
+  "topic": "Pneumatic system basic design requirements, brief description, advantages and disadvantages of a typical pneumatic system.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Pneumatic system basic design requirements, brief description, advantages and disadvantages of a typical pneumatic system.",
+  "specific_objectives": "23.1.4.1 Trainee will be able to describe the construction and functioning of a typical pneumatic system and its components.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of system diagrams; Safety: No live pressure; Instructor supervision: Monitor diagram interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary working fluid in a pneumatic system?",
+    "Name one major advantage of pneumatic systems over hydraulic systems.",
+    "What is the basic design requirement regarding air cleanliness in a pneumatic system?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Basic design requirements for pneumatic systems",
+        "Brief description of typical pneumatic system layout",
+        "Functioning of air compressor and storage components",
+        "Role of control valves and actuators in system",
+        "Standard safety features in pneumatic design"
+      ],
+      "content": "Basic design requirements for pneumatic systems\nBrief description of typical pneumatic system layout\nFunctioning of air compressor and storage components\nRole of control valves and actuators in system\nStandard safety features in pneumatic design",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Advantages of pneumatic systems in aircraft",
+        "Disadvantages and limitations of pneumatic systems",
+        "Comparison with hydraulic and electrical systems",
+        "Impact of air compressibility on system response",
+        "Maintenance considerations for pneumatic components"
+      ],
+      "content": "Advantages of pneumatic systems in aircraft\nDisadvantages and limitations of pneumatic systems\nComparison with hydraulic and electrical systems\nImpact of air compressibility on system response\nMaintenance considerations for pneumatic components",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Summary of typical pneumatic system construction",
+        "Key functional elements and their interactions",
+        "Review of design requirements and constraints",
+        "Identification of common system failure points",
+        "Preparation for next lesson on components"
+      ],
+      "content": "Summary of typical pneumatic system construction\nKey functional elements and their interactions\nReview of design requirements and constraints\nIdentification of common system failure points\nPreparation for next lesson on components",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how the compressibility of air affects the response time of a pneumatic actuator.",
+    "List two specific advantages and two specific disadvantages of using a pneumatic system in an aircraft environment."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the specific components to be covered in LP 19, focusing on their individual purposes within the typical pneumatic system.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Description purpose typical pneumatic system components",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 19"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

@@ -1,0 +1,151 @@
+{
+  "subject_name": "Computer",
+  "subject_code": "26",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "03",
+  "total_lesson_plans": "10",
+  "time_allotted": "80 min",
+  "topic": "Radar system introduction to radar system, primary and secondary radar system",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Radar system introduction to radar system, primary and secondary radar system",
+  "specific_objectives": "26.1.1.1 Trainee will be able to understand the basic theory of communication.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of Radar Block Diagram and Signal Flow; Safety: No live equipment handling; Supervision: Instructor monitors PPT navigation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the full form of RADAR?",
+    "Define the basic principle of communication theory.",
+    "List two prerequisites for this lesson."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Basic Theory of Communication",
+        "Radar System Introduction",
+        "Radar Block Diagram Components",
+        "Pulse Transmission and Reception",
+        "Signal Processing Basics"
+      ],
+      "content": "Basic Theory of Communication\nRadar System Introduction\nRadar Block Diagram Components\nPulse Transmission and Reception\nSignal Processing Basics",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Primary Radar System Principles",
+        "Secondary Radar System Principles",
+        "Transponder Functionality",
+        "Interrogation and Reply Cycle",
+        "Comparison of Primary and Secondary"
+      ],
+      "content": "Primary Radar System Principles\nSecondary Radar System Principles\nTransponder Functionality\nInterrogation and Reply Cycle\nComparison of Primary and Secondary",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Radar Range Equation Factors",
+        "Antenna Beamwidth and Gain",
+        "Clutter and Noise Sources",
+        "Display Types: PPI and A-Scope",
+        "Summary of System Architecture"
+      ],
+      "content": "Radar Range Equation Factors\nAntenna Beamwidth and Gain\nClutter and Noise Sources\nDisplay Types: PPI and A-Scope\nSummary of System Architecture",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the fundamental difference between primary and secondary radar systems.",
+    "Describe the role of the transponder in a secondary radar system."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the concepts of this lesson bridge to the study of EMI and EMC in the next lesson plan.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Basics of EMI and EMC. Types of testing.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 04"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

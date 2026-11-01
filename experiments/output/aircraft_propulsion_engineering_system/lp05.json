@@ -1,0 +1,152 @@
+{
+  "subject_name": "Aircraft Propulsion & Engineering System",
+  "subject_code": "6",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "05",
+  "total_lesson_plans": "14",
+  "time_allotted": "80 min",
+  "topic": "Supplementary protective material and their uses.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Supplementary protective material and their uses.",
+  "specific_objectives": "6.1.2.1 Trainee will be able to explain various corrosion prevention measures.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of application of supplementary protective materials on test panels; Safety: Wear gloves and eye protection; Supervision: Instructor monitors material handling and disposal.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary cause of corrosion in aircraft structures?",
+    "Name one common method used to prevent corrosion on aircraft surfaces.",
+    "Why is it important to apply supplementary protective materials before painting?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of supplementary protective materials",
+        "Role of primers in corrosion prevention",
+        "Types of sealants and their applications",
+        "Function of anti-corrosive paints",
+        "Importance of surface preparation"
+      ],
+      "content": "Definition of supplementary protective materials\nRole of primers in corrosion prevention\nTypes of sealants and their applications\nFunction of anti-corrosive paints\nImportance of surface preparation",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Application techniques for sealants",
+        "Inspection criteria for protective coatings",
+        "Maintenance schedules for supplementary materials",
+        "Removal and replacement procedures",
+        "Storage and handling of protective materials"
+      ],
+      "content": "Application techniques for sealants\nInspection criteria for protective coatings\nMaintenance schedules for supplementary materials\nRemoval and replacement procedures\nStorage and handling of protective materials",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Common defects in protective coatings",
+        "Troubleshooting application errors",
+        "Impact of environmental factors on materials",
+        "Documentation of maintenance activities",
+        "Safety precautions during application"
+      ],
+      "content": "Common defects in protective coatings\nTroubleshooting application errors\nImpact of environmental factors on materials\nDocumentation of maintenance activities\nSafety precautions during application",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between a primer and a topcoat in corrosion prevention.",
+    "Describe the steps involved in inspecting a sealant application for defects.",
+    "How do environmental conditions affect the longevity of supplementary protective materials?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the periodicity of cleaning and its relation to the effectiveness of supplementary protective materials, referencing the upcoming lesson on aircraft cleaning.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Aircraft cleaning, periodicity of cleaning, various methods used.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 06"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

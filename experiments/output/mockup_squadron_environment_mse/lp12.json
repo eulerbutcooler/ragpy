@@ -1,0 +1,152 @@
+{
+  "subject_name": "Mockup Squadron Environment (MSE)",
+  "subject_code": "24",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "12",
+  "total_lesson_plans": "21",
+  "time_allotted": "80 min",
+  "topic": "Installation of components and assembling of circuits on a Bread board.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Installation of components and assembling of circuits on a Bread board.",
+  "specific_objectives": "24.11.1.1 Trainee will be able to mount and assemble circuits on a Bread board.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Mounting and assembling circuits on a Bread board; Safety precautions regarding short circuits and component polarity; Instructor supervision during insertion and verification.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of a breadboard in circuit prototyping?",
+    "Identify three common electronic components used in basic circuits.",
+    "Explain why soldering is generally avoided during breadboard assembly."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Introduction to Breadboard structure and internal connectivity",
+        "Identification and selection of passive components",
+        "Correct insertion techniques for resistors and capacitors",
+        "Polarity handling for diodes and integrated circuits",
+        "Verification of connections before power application"
+      ],
+      "content": "Introduction to Breadboard structure and internal connectivity\nIdentification and selection of passive components\nCorrect insertion techniques for resistors and capacitors\nPolarity handling for diodes and integrated circuits\nVerification of connections before power application",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Step-by-step assembly of a simple series circuit",
+        "Troubleshooting open and short circuits on breadboard",
+        "Testing circuit functionality with multimeter",
+        "Proper handling and storage of components",
+        "Documentation of circuit layout and component values"
+      ],
+      "content": "Step-by-step assembly of a simple series circuit\nTroubleshooting open and short circuits on breadboard\nTesting circuit functionality with multimeter\nProper handling and storage of components\nDocumentation of circuit layout and component values",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Review of common assembly errors and prevention",
+        "Safety protocols for live circuit testing",
+        "Final inspection checklist for circuit integrity",
+        "Transition to PCB layout concepts",
+        "Q&A session on practical challenges"
+      ],
+      "content": "Review of common assembly errors and prevention\nSafety protocols for live circuit testing\nFinal inspection checklist for circuit integrity\nTransition to PCB layout concepts\nQ&A session on practical challenges",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Describe the correct method for inserting an integrated circuit into a breadboard.",
+    "How would you verify if a resistor is correctly oriented in a circuit?",
+    "What steps should be taken if a circuit fails to power on after assembly?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a preliminary sketch of a circuit layout for a given schematic, considering component placement and trace routing, to be used in the next lesson on PCB design.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Design and preparation of PCB layout for a given circuit.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 13"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

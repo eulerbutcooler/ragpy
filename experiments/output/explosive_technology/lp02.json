@@ -1,0 +1,152 @@
+{
+  "subject_name": "Explosive Technology",
+  "subject_code": "30",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "02",
+  "total_lesson_plans": "8",
+  "time_allotted": "80 min",
+  "topic": "Difference between Gun Warf and magazine stores",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Difference between Gun Warf and magazine stores",
+  "specific_objectives": "30.1.1.1 Trainee will be able to explain the armament stores procedures",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of armament store diagrams; Safety precautions: Maintain safe distance from live rounds; Instructor supervision: Monitor trainee understanding of storage locations",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of aircraft armament stores?",
+    "Where are gun warf stores typically located on an aircraft?",
+    "Why is it important to distinguish between gun warf and magazine stores?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of Gun Warf stores",
+        "Definition of Magazine stores",
+        "Location differences",
+        "Safety protocols for Gun Warf",
+        "Safety protocols for Magazine stores"
+      ],
+      "content": "Definition of Gun Warf stores\nDefinition of Magazine stores\nLocation differences\nSafety protocols for Gun Warf\nSafety protocols for Magazine stores",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Handling procedures for Gun Warf",
+        "Handling procedures for Magazine stores",
+        "Loading sequence differences",
+        "Unloading sequence differences",
+        "Emergency response variations"
+      ],
+      "content": "Handling procedures for Gun Warf\nHandling procedures for Magazine stores\nLoading sequence differences\nUnloading sequence differences\nEmergency response variations",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Storage requirements for Gun Warf",
+        "Storage requirements for Magazine stores",
+        "Inspection criteria differences",
+        "Maintenance schedules",
+        "Documentation requirements"
+      ],
+      "content": "Storage requirements for Gun Warf\nStorage requirements for Magazine stores\nInspection criteria differences\nMaintenance schedules\nDocumentation requirements",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the key difference in storage locations between Gun Warf and magazine stores.",
+    "Describe the safety precautions specific to Gun Warf stores.",
+    "What are the primary handling procedure differences for these two store types?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief summary comparing the loading and unloading sequences of Gun Warf and magazine stores for the next lesson.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Groups of Gun Warf stores",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 03"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

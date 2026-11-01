@@ -1,0 +1,151 @@
+{
+  "subject_name": "A/C Material",
+  "subject_code": "15",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "04",
+  "total_lesson_plans": "16",
+  "time_allotted": "80 min",
+  "topic": "Familiarization with various parts of aircraft and different arrangement of components as seen on various aircraft in station.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Familiarization with various parts of aircraft and different arrangement of components as seen on various aircraft in station.",
+  "specific_objectives": "15.1.1.1 Trainee will be able to explain aircraft structure, various structural elements and their details.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Identification of primary and secondary structural elements on a cutaway model; Safety: Handle models with care to avoid damage; Supervision: Instructor verifies correct identification of fuselage, wings, and tail surfaces.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of the fuselage?",
+    "Name two types of wings used in modern aircraft.",
+    "Why is the empennage critical for flight stability?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Fuselage structure and types",
+        "Wing configuration and components",
+        "Empennage assembly details",
+        "Landing gear arrangement",
+        "Power plant location"
+      ],
+      "content": "Fuselage structure and types\nWing configuration and components\nEmpennage assembly details\nLanding gear arrangement\nPower plant location",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Comparison of component layouts",
+        "Structural element identification",
+        "Material usage in structures",
+        "Component arrangement variations",
+        "Station-specific configurations"
+      ],
+      "content": "Comparison of component layouts\nStructural element identification\nMaterial usage in structures\nComponent arrangement variations\nStation-specific configurations",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Review of structural elements",
+        "Identification of key stations",
+        "Function of major components",
+        "Variations across aircraft types",
+        "Safety implications of structure"
+      ],
+      "content": "Review of structural elements\nIdentification of key stations\nFunction of major components\nVariations across aircraft types\nSafety implications of structure",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between monocoque and semi-monocoque structures.",
+    "How does the arrangement of landing gear affect ground handling?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note comparing the structural layout of the aircraft currently in station with one previously studied, focusing on component arrangement.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Overall consideration of aircraft loading action. Symmetric flight loads, symmetric maneuvers",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 05"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Instructor, Flight Lieutenant, P No. 12345",
+  "approved_by": "Senior Instructor, Wing Commander, P No. 67890",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

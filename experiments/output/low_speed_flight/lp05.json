@@ -1,0 +1,152 @@
+{
+  "subject_name": "Low speed flight",
+  "subject_code": "9",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "05",
+  "total_lesson_plans": "13",
+  "time_allotted": "80 min",
+  "topic": "Wheels types of wheels and description of typical main wheel, general repair to wheels.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Wheels types of wheels and description of typical main wheel, general repair to wheels.",
+  "specific_objectives": "9.1.1.1 Trainee will be able to describe various Aircraft engineering systems.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Identification of wheel components on a typical main wheel assembly; Safety: Ensure aircraft is chocked and brakes are set; Supervision: Instructor verifies component identification.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of the aircraft wheel assembly?",
+    "Name two common types of aircraft wheels used in engineering.",
+    "Why is the main wheel critical compared to the nose wheel?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Classification of aircraft wheel types",
+        "Description of typical main wheel assembly",
+        "Identification of main wheel components",
+        "Function of wheel bearing and hub",
+        "Role of brake assembly in wheel system"
+      ],
+      "content": "Classification of aircraft wheel types\nDescription of typical main wheel assembly\nIdentification of main wheel components\nFunction of wheel bearing and hub\nRole of brake assembly in wheel system",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "General repair procedures for wheel assemblies",
+        "Inspection criteria for wheel damage",
+        "Handling of wheel bearing units",
+        "Torque specifications for wheel nuts",
+        "Documentation of wheel maintenance actions"
+      ],
+      "content": "General repair procedures for wheel assemblies\nInspection criteria for wheel damage\nHandling of wheel bearing units\nTorque specifications for wheel nuts\nDocumentation of wheel maintenance actions",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Common defects in wheel structures",
+        "Repair limitations and replacement criteria",
+        "Safety checks post-repair verification",
+        "Storage requirements for removed wheels",
+        "Reporting defects via engineering log"
+      ],
+      "content": "Common defects in wheel structures\nRepair limitations and replacement criteria\nSafety checks post-repair verification\nStorage requirements for removed wheels\nReporting defects via engineering log",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between a main wheel and a nose wheel in terms of load bearing.",
+    "List three critical inspection points when performing general repair to wheels.",
+    "Describe the procedure for verifying torque specifications on wheel nuts after installation."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the variation of tyre pressure with all-up weight as covered in the next lesson plan (LP 06), highlighting the relationship between weight and pressure.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Tyres and tubes, variation of tyre pressure with all up weight, creep and creep marking on wheels.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 06"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

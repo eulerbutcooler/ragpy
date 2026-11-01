@@ -1,0 +1,152 @@
+{
+  "subject_name": "Aircraft Electrical equipment, Power generation and Distribution",
+  "subject_code": "15",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "29",
+  "total_lesson_plans": "35",
+  "time_allotted": "80 min",
+  "topic": "Fatigue meter operation",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Fatigue meter operation.",
+  "specific_objectives": "15.1.11.2 Trainee will be able to explain operation of fatigue meter.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstrate fatigue meter operation on simulator; observe safety precautions regarding electrical isolation; instructor supervises trainee interaction with controls.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of a fatigue meter in an aircraft?",
+    "How does the fatigue meter relate to the overall electrical power generation system?",
+    "Why is monitoring fatigue critical for flight safety?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Principle of fatigue meter operation",
+        "Input signal acquisition from generators",
+        "Signal processing and integration logic",
+        "Display unit calibration and readout",
+        "Alarm threshold settings and indications"
+      ],
+      "content": "Principle of fatigue meter operation\nInput signal acquisition from generators\nSignal processing and integration logic\nDisplay unit calibration and readout\nAlarm threshold settings and indications",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Step-by-step operational procedure",
+        "Interpretation of meter readings",
+        "Troubleshooting common display faults",
+        "Maintenance checks and calibration steps",
+        "Recording data for flight logs"
+      ],
+      "content": "Step-by-step operational procedure\nInterpretation of meter readings\nTroubleshooting common display faults\nMaintenance checks and calibration steps\nRecording data for flight logs",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Impact of fatigue on power generation",
+        "Correlation with other electrical parameters",
+        "Limitations of the fatigue meter system",
+        "Integration with central warning systems",
+        "Future trends in fatigue monitoring"
+      ],
+      "content": "Impact of fatigue on power generation\nCorrelation with other electrical parameters\nLimitations of the fatigue meter system\nIntegration with central warning systems\nFuture trends in fatigue monitoring",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the sequence of events when a fatigue threshold is exceeded.",
+    "Describe how the fatigue meter data assists in maintenance scheduling.",
+    "Identify two potential causes for inaccurate fatigue meter readings."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report comparing the fatigue meter operation principles with the parameter selection methods for flight data recorders covered in LP 30.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Flight data recorders, parameters selected methods of recording.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 30"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

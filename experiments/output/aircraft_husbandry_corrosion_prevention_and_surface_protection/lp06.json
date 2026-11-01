@@ -1,0 +1,152 @@
+{
+  "subject_name": "Aircraft Husbandry, Corrosion Prevention and Surface Protection",
+  "subject_code": "25",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "06",
+  "total_lesson_plans": "7",
+  "time_allotted": "80 min",
+  "topic": "Various locking devices, Fasteners and fork joints",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Various locking devices, Fasteners and fork joints",
+  "specific_objectives": "25.1.1.2 Trainee will be able to explain the locking and swaging etc.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Identification of locking devices and fasteners; Safety precautions regarding tool handling; Instructor supervision during identification exercises",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What are the primary functions of aircraft fasteners?",
+    "Name two common types of locking devices used in aviation.",
+    "Why is corrosion prevention critical for structural integrity?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Types of locking devices",
+        "Function of split locks and safety wires",
+        "Application of lock washers and nylon inserts",
+        "Standard fastener grades and materials",
+        "Selection criteria for specific applications"
+      ],
+      "content": "Types of locking devices\nFunction of split locks and safety wires\nApplication of lock washers and nylon inserts\nStandard fastener grades and materials\nSelection criteria for specific applications",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Fork joint construction and assembly",
+        "Torque specifications for fasteners",
+        "Inspection criteria for worn fasteners",
+        "Procedures for reusing locking devices",
+        "Documentation requirements for maintenance"
+      ],
+      "content": "Fork joint construction and assembly\nTorque specifications for fasteners\nInspection criteria for worn fasteners\nProcedures for reusing locking devices\nDocumentation requirements for maintenance",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Common failure modes in locking devices",
+        "Preventive measures for corrosion control",
+        "Troubleshooting fastener installation issues",
+        "Best practices for torque application",
+        "Record keeping for fastener replacement"
+      ],
+      "content": "Common failure modes in locking devices\nPreventive measures for corrosion control\nTroubleshooting fastener installation issues\nBest practices for torque application\nRecord keeping for fastener replacement",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between a split lock and a safety wire.",
+    "Describe the procedure for inspecting a fork joint for wear.",
+    "What are the key indicators that a fastener must be replaced?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the types of locking devices covered in this lesson and their specific applications in aircraft structures, referencing the next lesson on swaging, plumbing and flaring processes.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Swaging, plumbing and flaring process and tools used",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 07"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

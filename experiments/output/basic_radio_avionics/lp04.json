@@ -1,0 +1,151 @@
+{
+  "subject_name": "Basic Radio & Avionics",
+  "subject_code": "25",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "04",
+  "total_lesson_plans": "7",
+  "time_allotted": "80 min",
+  "topic": "Introduction, need for starter, ignition, brief description of a typical engine starting system",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Introduction, need for starter, ignition, brief description of a typical engine starting system. Practical on Engine Starting system.",
+  "specific_objectives": "25.1.2.1 Trainee will be able to know and understand the constructional details of starters, ignition units and principles of. operation of various engine instruments",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Practical on Engine Starting system; Safety precautions: Ensure engine is cold, verify fuel flow, check battery voltage; Instructor supervision: Monitor trainee actions during start sequence and verify instrument readings.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of an engine starter?",
+    "Why is an ignition system necessary for engine operation?",
+    "List three instruments found on a typical engine starting panel."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Introduction to engine starting systems",
+        "Need for starter in aircraft engines",
+        "Basic principles of ignition systems",
+        "Components of a typical starting system",
+        "Sequence of engine start procedure"
+      ],
+      "content": "Introduction to engine starting systems\nNeed for starter in aircraft engines\nBasic principles of ignition systems\nComponents of a typical starting system\nSequence of engine start procedure",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Constructional details of starter motors",
+        "Operation of ignition units",
+        "Instrument principles and indications",
+        "System interconnections and controls",
+        "Safety considerations during start"
+      ],
+      "content": "Constructional details of starter motors\nOperation of ignition units\nInstrument principles and indications\nSystem interconnections and controls\nSafety considerations during start",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Practical demonstration of engine start",
+        "Verification of instrument readings",
+        "Troubleshooting common start faults",
+        "Review of start sequence steps",
+        "Documentation of start parameters"
+      ],
+      "content": "Practical demonstration of engine start\nVerification of instrument readings\nTroubleshooting common start faults\nReview of start sequence steps\nDocumentation of start parameters",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the role of the starter motor during the initial engine rotation phase.",
+    "Describe how the ignition unit ensures reliable combustion during start."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the differences between electric starter motors and cartridge turbo starters for review in LP 05.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Brief description of engine starter motor, electric starter motor, cartridge turbo starter. Types of starting system, auxiliary power unit, air starter and battery trolleys Purpose and principle of operation of high energy ignition unit",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 05"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

@@ -1,0 +1,148 @@
+{
+  "subject_name": "LSF, Stability, A/C Performance",
+  "subject_code": "6",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "18",
+  "total_lesson_plans": "33",
+  "time_allotted": "80 min",
+  "topic": "Flow Separation Stalling, behavior of aircraft before and after stall",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Flow Separation Stalling, behavior of aircraft before and after stall. Factors effecting stalling speed, high incidences stall, high speed stall, G stall, wing tip stall, Basic stalling speed.",
+  "specific_objectives": "6.1.2.1 Trainee will be able to describe various types of aerofoil sections, conditions of performance, theories, and concept related with performance",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of flight simulation stall recovery procedures; Safety: Ensure simulator brake is engaged; Instructor: Monitor student input on control surfaces",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary cause of an aerodynamic stall?",
+    "Define the critical angle of attack.",
+    "How does increasing weight affect the basic stalling speed?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Flow Separation Mechanism",
+        "Behavior Before Stall",
+        "Behavior After Stall",
+        "Basic Stalling Speed Factors"
+      ],
+      "content": "Flow Separation Mechanism\nBehavior Before Stall\nBehavior After Stall\nBasic Stalling Speed Factors",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "High Incidence Stall Characteristics",
+        "High Speed Stall Dynamics",
+        "G Stall Effects",
+        "Wing Tip Stall Identification"
+      ],
+      "content": "High Incidence Stall Characteristics\nHigh Speed Stall Dynamics\nG Stall Effects\nWing Tip Stall Identification",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Recovery Techniques",
+        "Prevention Strategies",
+        "Aerofoil Section Impact"
+      ],
+      "content": "Recovery Techniques\nPrevention Strategies\nAerofoil Section Impact",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between a high incidence stall and a high speed stall.",
+    "Describe the specific behavior of an aircraft immediately after a wing tip stall occurs.",
+    "List three factors that influence the basic stalling speed of an aircraft."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note comparing the stall characteristics of a high-lift aerofoil section versus a low-lift section, referencing the concepts covered in LP 19 regarding power requirements.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Level flight performances, power available and required for jet and propeller aircrafts. Best climb speeds.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 19"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Instructor, Sub-Lieutenant, P No. 12345",
+  "approved_by": "Senior Instructor, Lieutenant, P No. 67890",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

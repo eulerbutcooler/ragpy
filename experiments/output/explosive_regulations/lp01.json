@@ -1,0 +1,151 @@
+{
+  "subject_name": "Explosive Regulations",
+  "subject_code": "31",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "01",
+  "total_lesson_plans": "4",
+  "time_allotted": "80 min",
+  "topic": "Introduction to pyrotechnic store and Power cartridges",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Introduction to pyrotechnic store and Power cartridges",
+  "specific_objectives": "31.1.1.1 Trainee will be able to explain the application of pyrotechnic stores",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of L & Ds and IB PDFs; Instructor supervision on safety protocols regarding pyrotechnic storage and handling definitions.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the general definition of a pyrotechnic store?",
+    "List three general safety rules for handling explosive stores.",
+    "Where are pyrotechnic stores typically stored on a naval aircraft?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of pyrotechnic stores",
+        "Classification of power cartridges",
+        "Basic composition of pyrotechnic mixtures",
+        "General storage requirements",
+        "Safety precautions during handling"
+      ],
+      "content": "Definition of pyrotechnic stores\nClassification of power cartridges\nBasic composition of pyrotechnic mixtures\nGeneral storage requirements\nSafety precautions during handling",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Application of pyrotechnic stores in aircraft",
+        "Types of power cartridges used in Naval Aircrafts",
+        "Function of power cartridges in emergency systems",
+        "Distinction between illumination and signaling cartridges",
+        "Role of power cartridges in ejection seat systems"
+      ],
+      "content": "Application of pyrotechnic stores in aircraft\nTypes of power cartridges used in Naval Aircrafts\nFunction of power cartridges in emergency systems\nDistinction between illumination and signaling cartridges\nRole of power cartridges in ejection seat systems",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Labeling and identification of pyrotechnic stores",
+        "Inspection criteria for power cartridges",
+        "Documentation and record keeping procedures",
+        "Reporting damaged or expired stores",
+        "Final review of applications discussed"
+      ],
+      "content": "Labeling and identification of pyrotechnic stores\nInspection criteria for power cartridges\nDocumentation and record keeping procedures\nReporting damaged or expired stores\nFinal review of applications discussed",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the primary application of pyrotechnic stores in naval aviation.",
+    "Differentiate between the function of illumination and signaling power cartridges."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the specific types of power cartridges used in Naval Aircrafts to be discussed in Lesson Plan 02.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Purpose of pyrotechnic stores and types of power cartridges used in Naval Aircrafts",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 02"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

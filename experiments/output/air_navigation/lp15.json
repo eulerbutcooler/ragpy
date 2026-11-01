@@ -1,0 +1,152 @@
+{
+  "subject_name": "Air Navigation",
+  "subject_code": "21",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "15",
+  "total_lesson_plans": "18",
+  "time_allotted": "80 min",
+  "topic": "Practical on identifying various components and analyzing of Wiring diagram manual.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Practical on identifying various components and analyzing of Wiring diagram manual.",
+  "specific_objectives": "21.1.10.1 Trainee will be able to explain how to carry out DI / DR on aircraft system.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Identification of components on wiring diagram; verification of circuit paths; safety precautions regarding electrical isolation; instructor supervision during diagram analysis.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of a wiring diagram manual?",
+    "List three common symbols found in aircraft electrical schematics.",
+    "Why is it critical to verify power isolation before analyzing a circuit?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Identification of standard electrical symbols",
+        "Interpretation of wire color codes",
+        "Tracing circuit paths from power source",
+        "Locating component reference designations",
+        "Understanding circuit breaker and fuse ratings"
+      ],
+      "content": "Identification of standard electrical symbols\nInterpretation of wire color codes\nTracing circuit paths from power source\nLocating component reference designations\nUnderstanding circuit breaker and fuse ratings",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Analysis of component interconnections",
+        "Verification of ground and power points",
+        "Identification of switch positions and functions",
+        "Review of circuit protection devices",
+        "Cross-referencing with system logic"
+      ],
+      "content": "Analysis of component interconnections\nVerification of ground and power points\nIdentification of switch positions and functions\nReview of circuit protection devices\nCross-referencing with system logic",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Execution of DI/DR procedures",
+        "Documentation of findings",
+        "Troubleshooting common diagram errors",
+        "Safety checks during analysis",
+        "Final review of circuit integrity"
+      ],
+      "content": "Execution of DI/DR procedures\nDocumentation of findings\nTroubleshooting common diagram errors\nSafety checks during analysis\nFinal review of circuit integrity",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the step-by-step process for performing a DI/DR on an aircraft system.",
+    "How do you verify that a circuit is correctly grounded according to the diagram?",
+    "What safety precautions must be taken before analyzing a live or potentially live circuit?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report identifying five key components in the next system's wiring diagram and explain their function, bridging the knowledge required for LP 02.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Identification / removal and installation of various system components.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 16"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

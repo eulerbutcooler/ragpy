@@ -1,0 +1,151 @@
+{
+  "subject_name": "Computer",
+  "subject_code": "26",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "10",
+  "total_lesson_plans": "10",
+  "time_allotted": "80 min",
+  "topic": "Purpose and function of following radio systems: - SLB ELT Emergency Radio System",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Purpose and function of following radio systems: - SLB ELT Emergency Radio System",
+  "specific_objectives": "26.1.1.1 Trainee will be able to understand the basic theory of communication.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of ELT activation procedures and signal transmission parameters",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of an Emergency Locator Transmitter?",
+    "Define the basic theory of radio communication.",
+    "Identify the frequency band used by the SLB ELT system."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of SLB ELT System",
+        "Activation mechanisms and triggers",
+        "Signal transmission protocols",
+        "Frequency allocation details",
+        "Distress signal characteristics"
+      ],
+      "content": "Definition of SLB ELT System\nActivation mechanisms and triggers\nSignal transmission protocols\nFrequency allocation details\nDistress signal characteristics",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Function of emergency radio systems",
+        "Integration with aircraft safety systems",
+        "Operational limitations and constraints",
+        "Maintenance and testing requirements",
+        "Regulatory compliance standards"
+      ],
+      "content": "Function of emergency radio systems\nIntegration with aircraft safety systems\nOperational limitations and constraints\nMaintenance and testing requirements\nRegulatory compliance standards",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Comparison with other emergency systems",
+        "Real-world application scenarios",
+        "Troubleshooting common failures",
+        "Future developments in ELT technology",
+        "Safety implications for aircrew"
+      ],
+      "content": "Comparison with other emergency systems\nReal-world application scenarios\nTroubleshooting common failures\nFuture developments in ELT technology\nSafety implications for aircrew",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the function of the SLB ELT in an emergency scenario.",
+    "Describe the operational limitations of the emergency radio system."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the integration of the SLB ELT with future aircraft safety systems to be submitted in the next lesson plan.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "End of subject",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "-"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

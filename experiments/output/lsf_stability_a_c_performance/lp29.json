@@ -1,0 +1,152 @@
+{
+  "subject_name": "LSF, Stability, A/C Performance",
+  "subject_code": "6",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "29",
+  "total_lesson_plans": "33",
+  "time_allotted": "80 min",
+  "topic": "Directional static stability, prop effects, damping in Yaw, directional control, Effect of wing sweep back, spin, lateral dynamic stability.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Directional static stability, prop effects, damping in Yaw, directional control, Effect of wing sweep back, spin, lateral dynamic stability.",
+  "specific_objectives": "6.1.4.1 Trainee will be able to describe aircraft stability in all the three axis.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of flight characteristics diagrams; Instructor supervision required for theoretical application.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "Define the three axes of aircraft motion.",
+    "What is the primary function of the rudder?",
+    "Recall the definition of static stability."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Directional static stability definition",
+        "Propeller effects on yaw",
+        "Damping in Yaw mechanisms",
+        "Directional control surfaces",
+        "Effect of wing sweep back"
+      ],
+      "content": "Directional static stability definition\nPropeller effects on yaw\nDamping in Yaw mechanisms\nDirectional control surfaces\nEffect of wing sweep back",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Spin characteristics and recovery",
+        "Lateral dynamic stability",
+        "Dutch roll phenomenon",
+        "Phugoid motion overview",
+        "Fixed wing autorotation"
+      ],
+      "content": "Spin characteristics and recovery\nLateral dynamic stability\nDutch roll phenomenon\nPhugoid motion overview\nFixed wing autorotation",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Summary of stability axes",
+        "Integration of yaw and roll",
+        "Preparation for dynamic stability",
+        "Review of specific objectives",
+        "Link to next lesson plan"
+      ],
+      "content": "Summary of stability axes\nIntegration of yaw and roll\nPreparation for dynamic stability\nReview of specific objectives\nLink to next lesson plan",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how wing sweep affects directional stability.",
+    "Differentiate between static and dynamic stability in yaw.",
+    "Describe the role of damping in preventing oscillation."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the transition from static to dynamic stability concepts to be discussed in LP 30.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Dynamic stability: longitudinal and lateral, Phugoid, Dutch roll, Fixed wing autorotation. Short period oscillation, spiral divergence and Directional divergence.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 30"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

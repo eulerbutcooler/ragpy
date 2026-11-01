@@ -1,0 +1,152 @@
+{
+  "subject_name": "Aircraft Electrical equipment, Power generation and Distribution",
+  "subject_code": "15",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "23",
+  "total_lesson_plans": "35",
+  "time_allotted": "80 min",
+  "topic": "Synchro torque pressure-indicating system",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Synchro torque pressure-indicating system.",
+  "specific_objectives": "15.1.8.5 Trainee will be able to explain Synchro torque pressure indicating system.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of system schematic diagrams and verification of torque pressure indication principles against IB data; Safety: Ensure no live electrical connections are simulated; Supervision: Instructor monitors diagram interpretation accuracy.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of a synchro torque system?",
+    "How does pressure indication differ from direct pressure measurement?",
+    "Why is torque required in pressure-indicating synchro systems?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "System overview and components",
+        "Synchro torque generation principles",
+        "Pressure sensing mechanism integration",
+        "Signal transmission and indication",
+        "System calibration and zeroing"
+      ],
+      "content": "System overview and components\nSynchro torque generation principles\nPressure sensing mechanism integration\nSignal transmission and indication\nSystem calibration and zeroing",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Operational sequence analysis",
+        "Fault detection and isolation",
+        "Maintenance and troubleshooting procedures",
+        "Impact of torque failure on indication",
+        "Safety considerations during operation"
+      ],
+      "content": "Operational sequence analysis\nFault detection and isolation\nMaintenance and troubleshooting procedures\nImpact of torque failure on indication\nSafety considerations during operation",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Real-world application scenarios",
+        "Comparison with alternative systems",
+        "Performance limitations and constraints",
+        "Future developments in torque systems",
+        "Regulatory compliance and standards"
+      ],
+      "content": "Real-world application scenarios\nComparison with alternative systems\nPerformance limitations and constraints\nFuture developments in torque systems\nRegulatory compliance and standards",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the role of torque in the pressure-indicating synchro system.",
+    "Describe the steps involved in troubleshooting a torque failure.",
+    "How does the system ensure accurate pressure indication under varying loads?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report comparing the synchro torque pressure-indicating system with the engine vibration monitoring system covered in LP 24, highlighting key operational differences.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Engine vibration monitoring and indicating system.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 24"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

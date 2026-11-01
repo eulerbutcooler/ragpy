@@ -1,0 +1,151 @@
+{
+  "subject_name": "Gas Turbine Engine",
+  "subject_code": "13",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "16",
+  "total_lesson_plans": "16",
+  "time_allotted": "80 min",
+  "topic": "Calculation of engine thrust, various parameters and tests, adjustments of engine controls",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Calculation of engine thrust, various parameters and tests, adjustments of engine controls",
+  "specific_objectives": "13.1.8.1 Trainee will be able to calculate engine thrust",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Calculation of engine thrust using provided parameters; Safety: Verify data accuracy; Supervision: Instructor monitors calculation steps",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the definition of engine thrust?",
+    "List three parameters required for thrust calculation.",
+    "Name one test performed on engine controls."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Formula for calculating engine thrust",
+        "Variable definitions in thrust equation",
+        "Step-by-step calculation procedure",
+        "Unit conversion for thrust values",
+        "Sample problem solution"
+      ],
+      "content": "Formula for calculating engine thrust\nVariable definitions in thrust equation\nStep-by-step calculation procedure\nUnit conversion for thrust values\nSample problem solution",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Engine performance test procedures",
+        "Control adjustment mechanisms",
+        "Interpretation of test data",
+        "Standard operating limits",
+        "Troubleshooting common deviations"
+      ],
+      "content": "Engine performance test procedures\nControl adjustment mechanisms\nInterpretation of test data\nStandard operating limits\nTroubleshooting common deviations",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Final thrust verification steps",
+        "Documentation of test results",
+        "Adjustment of engine controls",
+        "Safety checks post-adjustment",
+        "Reporting anomalies"
+      ],
+      "content": "Final thrust verification steps\nDocumentation of test results\nAdjustment of engine controls\nSafety checks post-adjustment\nReporting anomalies",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how engine thrust is calculated using the derived formula.",
+    "Describe the procedure for adjusting engine controls during a test."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief summary of the thrust calculation method to be used in the next lesson on engine performance analysis.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "End of subject",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "-"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

@@ -1,0 +1,152 @@
+{
+  "subject_name": "Air Navigation",
+  "subject_code": "21",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "09",
+  "total_lesson_plans": "18",
+  "time_allotted": "80 min",
+  "topic": "Practical on documentation based on following maintenance evolutions:- Part 4 U/S log of MOD form 700C for an equipment removal / fitment, P",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Practical on documentation based on following maintenance evolutions:- Part 4 U/S log of MOD form 700C for an equipment removal / fitment, Progressing routine inspections, out of phase operations / servicing due as per Part 6 D, E, F and re-forecasting, A defect observed in any system during flying or on ground, Any limitation and husbandry defects as in Part 2A& 2B with their entries clearing procedure in Part 4, Any defect cleared by DI/DR, Any defect cleared by robbing action, Any defect cleared by replacement of component and forecasting its life, Entries made for grounding / CTF / MTF, Acceptance of A/C and clearing in Part 4 by pilot for Ground run, CTF & MTF, Documentation linked to independent checks, supervisory checks and checks on special occasions.",
+  "specific_objectives": "21.1.5.1 Trainee will be able to explain the procedure of removal and fitment of various LRUs i.a.w ASM",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Practical on documentation based on following maintenance evolutions:- Part 4 U/S log of MOD form 700C for an equipment removal / fitment, Progressing routine inspections, out of phase operations / servicing due as per Part 6 D, E, F and re-forecasting, A defect observed in any system during flying or on ground, Any limitation and husbandry defects as in Part 2A& 2B with their entries clearing procedure in Part 4, Any defect cleared by DI/DR, Any defect cleared by robbing action, Any defect cleared by replacement of component and forecasting its life, Entries made for grounding / CTF / MTF, Acceptance of A/C and clearing in Part 4 by pilot for Ground run, CTF & MTF, Documentation linked to independent checks, supervisory checks and checks on special occasions.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of the MOD Form 700C?",
+    "Which part of the logbook records Unscheduled Maintenance?",
+    "What does LRU stand for in the context of removal and fitment?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Equipment removal and fitment documentation",
+        "Routine inspections and out of phase operations",
+        "Defect observation during flying or on ground",
+        "Limitation and husbandry defects entry procedures",
+        "Defect clearing by DI/DR and robbing action"
+      ],
+      "content": "Equipment removal and fitment documentation\nRoutine inspections and out of phase operations\nDefect observation during flying or on ground\nLimitation and husbandry defects entry procedures\nDefect clearing by DI/DR and robbing action",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Defect clearing by replacement and life forecasting",
+        "Grounding CTF and MTF entries",
+        "Pilot acceptance and clearing procedures",
+        "Documentation for independent and supervisory checks",
+        "Special occasion check documentation"
+      ],
+      "content": "Defect clearing by replacement and life forecasting\nGrounding CTF and MTF entries\nPilot acceptance and clearing procedures\nDocumentation for independent and supervisory checks\nSpecial occasion check documentation",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Review of Part 6 D, E, F re-forecasting",
+        "Cross-checking entries for accuracy",
+        "Instructor feedback and correction",
+        "Final verification of documentation",
+        "Preparation for next lesson plan"
+      ],
+      "content": "Review of Part 6 D, E, F re-forecasting\nCross-checking entries for accuracy\nInstructor feedback and correction\nFinal verification of documentation\nPreparation for next lesson plan",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "How do you record a defect cleared by replacement of a component?",
+    "What specific entries are required for CTF and MTF?",
+    "Explain the procedure for pilot acceptance in Part 4."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the documentation requirements for the next lesson plan regarding aircraft marshalling procedures during taxing.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Demonstration and explanation on aircraft marshalling procedure during taxing / aircraft movement (With SFNA assistance).",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 10"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

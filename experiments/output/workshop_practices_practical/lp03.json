@@ -1,0 +1,152 @@
+{
+  "subject_name": "Workshop Practices (Practical)",
+  "subject_code": "23",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "03",
+  "total_lesson_plans": "8",
+  "time_allotted": "80 min",
+  "topic": "Safety precautions observed while arming, rearming and de-arming.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Safety precautions observed while arming, rearming and de-arming.",
+  "specific_objectives": "23.1.1.1 Trainee will be able the basic knowledge of air craft armaments.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of safe arming, rearming, and de-arming procedures with instructor supervision.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of arming aircraft armaments?",
+    "List three general safety rules for handling weapons.",
+    "Why is the de-arming procedure critical before maintenance?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Personal protective equipment requirements",
+        "Weapon handling and storage protocols",
+        "Communication signals during arming",
+        "Inspection of safety mechanisms",
+        "Emergency response procedures"
+      ],
+      "content": "Personal protective equipment requirements\nWeapon handling and storage protocols\nCommunication signals during arming\nInspection of safety mechanisms\nEmergency response procedures",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Step-by-step arming sequence",
+        "Rearming verification checks",
+        "De-arming isolation techniques",
+        "Locking mechanisms operation",
+        "Clearance of live ammunition"
+      ],
+      "content": "Step-by-step arming sequence\nRearming verification checks\nDe-arming isolation techniques\nLocking mechanisms operation\nClearance of live ammunition",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Common errors in armament handling",
+        "Reporting unsafe conditions",
+        "Post-operation safety checks",
+        "Documentation of armament status",
+        "Final clearance procedures"
+      ],
+      "content": "Common errors in armament handling\nReporting unsafe conditions\nPost-operation safety checks\nDocumentation of armament status\nFinal clearance procedures",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between arming and rearming procedures.",
+    "Describe the immediate action required if a safety lock fails during de-arming.",
+    "Why must the armament bay be cleared before maintenance begins?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief summary of the key safety precautions for arming, rearming, and de-arming to be discussed in the next lesson on guided missiles.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Introduction to guided missiles and definition. Classifications of guided missiles –SAM, AAM, SSM & ASM.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 04"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

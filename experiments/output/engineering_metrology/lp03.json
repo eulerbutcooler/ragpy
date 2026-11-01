@@ -1,0 +1,152 @@
+{
+  "subject_name": "Engineering Metrology",
+  "subject_code": "13",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "03",
+  "total_lesson_plans": "9",
+  "time_allotted": "80 min",
+  "topic": "Components of rotor mast, control system, swash plate, torque link, drag damper, droop restrainer, clutch mechanism, rotor brake, feathering",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Components of rotor mast, control system, swash plate, torque link, drag damper, droop restrainer, clutch mechanism, rotor brake, feathering sleeve etc.",
+  "specific_objectives": "13.1.1.1 Trainee will be able to explain the helicopter control, main rotor movements, translation flight, power, auto rotation, vibration checks and various adjustments.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Identification of rotor mast components and control linkages on a cutaway model; Safety: Wear eye protection; Instructor: Supervise handling of mechanical parts.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of the main rotor mast?",
+    "How does the swash plate convert pilot input into blade pitch changes?",
+    "Why is the droop restrainer critical during engine failure?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Rotor mast structural components",
+        "Control system linkage arrangement",
+        "Swash plate pitch and tilt mechanics",
+        "Torque link function and drag damper",
+        "Droop restrainer operation principles"
+      ],
+      "content": "Rotor mast structural components\nControl system linkage arrangement\nSwash plate pitch and tilt mechanics\nTorque link function and drag damper\nDroop restrainer operation principles",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Clutch mechanism engagement logic",
+        "Rotor brake application procedures",
+        "Feathering sleeve operation details",
+        "Vibration check procedures",
+        "Power and auto rotation controls"
+      ],
+      "content": "Clutch mechanism engagement logic\nRotor brake application procedures\nFeathering sleeve operation details\nVibration check procedures\nPower and auto rotation controls",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Translation flight vector analysis",
+        "Main rotor movement dynamics",
+        "System adjustments and maintenance",
+        "Control system troubleshooting basics",
+        "Integration of rotor and control systems"
+      ],
+      "content": "Translation flight vector analysis\nMain rotor movement dynamics\nSystem adjustments and maintenance\nControl system troubleshooting basics\nIntegration of rotor and control systems",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the role of the torque link in the control system.",
+    "Describe the sequence of events when the rotor brake is applied.",
+    "How does the feathering sleeve assist in auto-rotation?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note comparing the control systems of a single-rotor helicopter with a contra-rotating rotor system, referencing the next lesson plan.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Control horizontal and vertical movement, control of RPM, torque reaction, tail rotor compensations, contra rotating rotors.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 04"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

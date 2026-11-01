@@ -1,0 +1,149 @@
+{
+  "subject_name": "Computer",
+  "subject_code": "26",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "07",
+  "total_lesson_plans": "10",
+  "time_allotted": "80 min",
+  "topic": "Introduction to communication system",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Introduction to communication system. Purpose, technical details and types of various communication systems.",
+  "specific_objectives": "26.1.1.1 Trainee will be able to understand the basic theory of communication.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of basic signal transmission diagrams; Safety: No live equipment handling; Instructor supervision: Monitor understanding of theory only.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of a communication system?",
+    "Define the term 'signal' in the context of communication.",
+    "List two types of communication systems based on transmission medium."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Basic theory of communication",
+        "Purpose of communication systems",
+        "Key components of a system",
+        "Signal transmission process"
+      ],
+      "content": "Basic theory of communication\nPurpose of communication systems\nKey components of a system\nSignal transmission process",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Technical details of analog systems",
+        "Technical details of digital systems",
+        "Wired vs wireless transmission",
+        "Modulation techniques overview"
+      ],
+      "content": "Technical details of analog systems\nTechnical details of digital systems\nWired vs wireless transmission\nModulation techniques overview",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Classification of communication systems",
+        "Terrestrial vs satellite communication",
+        "Fiber optic basics",
+        "Radio frequency spectrum usage"
+      ],
+      "content": "Classification of communication systems\nTerrestrial vs satellite communication\nFiber optic basics\nRadio frequency spectrum usage",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between analog and digital communication systems.",
+    "Describe the role of modulation in a communication system.",
+    "Identify three types of communication systems based on the transmission medium."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the safety precautions required when handling embedded system components, to be discussed in LP 08.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Safety precautions while working on Embedded System",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 08"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

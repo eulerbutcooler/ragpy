@@ -1,0 +1,152 @@
+{
+  "subject_name": "Weapon Guidance",
+  "subject_code": "19",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "07",
+  "total_lesson_plans": "22",
+  "time_allotted": "80 min",
+  "topic": "Explanation on Current carrying capacity and effect of heat",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Explanation on Current carrying capacity and effect of heat.",
+  "specific_objectives": "19.1.1.1Trainee will be able to explain aircraft wiring and Causes of wiring degradation.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of wire gauge charts and calculation of heat generation based on current load; Instructor supervision required for safety calculations.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the definition of current carrying capacity?",
+    "How does electrical resistance relate to heat generation?",
+    "What are the primary causes of aircraft wiring degradation?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of Current Carrying Capacity",
+        "Factors influencing wire ampacity",
+        "Relationship between current and heat",
+        "Insulation melting points and limits",
+        "Consequences of exceeding capacity"
+      ],
+      "content": "Definition of Current Carrying Capacity\nFactors influencing wire ampacity\nRelationship between current and heat\nInsulation melting points and limits\nConsequences of exceeding capacity",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Joule's Law of Heating",
+        "Calculating heat dissipation in wires",
+        "Impact of ambient temperature",
+        "Bundle derating factors",
+        "Safety margins in aircraft wiring"
+      ],
+      "content": "Joule's Law of Heating\nCalculating heat dissipation in wires\nImpact of ambient temperature\nBundle derating factors\nSafety margins in aircraft wiring",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Common causes of wiring degradation",
+        "Thermal aging of insulation",
+        "Short circuit scenarios and heat",
+        "Preventive maintenance checks",
+        "Documentation of wire replacements"
+      ],
+      "content": "Common causes of wiring degradation\nThermal aging of insulation\nShort circuit scenarios and heat\nPreventive maintenance checks\nDocumentation of wire replacements",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how excessive current leads to insulation failure.",
+    "Describe three factors that reduce a wire's current carrying capacity.",
+    "Why is derating necessary when multiple wires are bundled together?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the procedure for selecting the correct wire gauge for a repair, referencing the next lesson plan on wire substitution.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Wire Substitution for Repairs and Maintenance.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 08"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

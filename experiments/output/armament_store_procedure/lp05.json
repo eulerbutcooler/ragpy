@@ -1,0 +1,152 @@
+{
+  "subject_name": "Armament Store Procedure",
+  "subject_code": "33",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "05",
+  "total_lesson_plans": "8",
+  "time_allotted": "80 min",
+  "topic": "Different conditions of ejection seat i.e. safe for parking, servicing and flight conditions",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Different conditions of ejection seat i.e. safe for parking, servicing and flight conditions",
+  "specific_objectives": "33.1.1.1 Trainee will be able to explain historical development of ejection seat",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of historical ejection seat evolution diagrams; Instructor supervision required for diagram interpretation",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of an ejection seat?",
+    "Can you name one early ejection seat system?",
+    "Why is historical context important for maintenance?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Early ejection seat concepts",
+        "Development of ballistic seats",
+        "Introduction of rocket-assisted seats",
+        "Evolution of safety mechanisms",
+        "Modern ejection seat standards"
+      ],
+      "content": "Early ejection seat concepts\nDevelopment of ballistic seats\nIntroduction of rocket-assisted seats\nEvolution of safety mechanisms\nModern ejection seat standards",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Safe parking conditions criteria",
+        "Servicing conditions requirements",
+        "Flight conditions parameters",
+        "Transition between conditions",
+        "Impact of environmental factors"
+      ],
+      "content": "Safe parking conditions criteria\nServicing conditions requirements\nFlight conditions parameters\nTransition between conditions\nImpact of environmental factors",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Historical milestones summary",
+        "Condition classification review",
+        "Safety protocol evolution",
+        "Future trends in ejection seats",
+        "Key takeaways from history"
+      ],
+      "content": "Historical milestones summary\nCondition classification review\nSafety protocol evolution\nFuture trends in ejection seats\nKey takeaways from history",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between safe parking and flight conditions.",
+    "How did historical developments improve ejection seat safety?",
+    "What are the key criteria for servicing an ejection seat?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on how the historical development of ejection seats influences current maintenance procedures for the next lesson (LP 02).",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Salient Features of KD 36-3.5M and IN10LH ejection seat.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 06"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

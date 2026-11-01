@@ -1,0 +1,152 @@
+{
+  "subject_name": "NAMS",
+  "subject_code": "3",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "07",
+  "total_lesson_plans": "19",
+  "time_allotted": "80 min",
+  "topic": "Repair and disposal of damaged aircraft, aircraft categories, aircraft nomenclature, and classification, damage and repair categories.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Repair and disposal of damaged aircraft, aircraft categories, aircraft nomenclature, and classification, damage and repair categories. IAFZ 498, raising of loss statement.",
+  "specific_objectives": "3.1.2.4 Trainees will be able to explain Repair and disposal of damaged aircraft.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of IAFZ 498 forms and classification criteria; Instructor supervision of form filling procedure.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary objective of aircraft damage assessment?",
+    "Can you list three categories of aircraft based on operational status?",
+    "Why is the raising of a loss statement critical in damage disposal?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Aircraft nomenclature and classification",
+        "Damage categories and severity levels",
+        "Repair categories and scope of work",
+        "Disposal procedures for write-off aircraft",
+        "Role of IAFZ 498 in documentation"
+      ],
+      "content": "Aircraft nomenclature and classification\nDamage categories and severity levels\nRepair categories and scope of work\nDisposal procedures for write-off aircraft\nRole of IAFZ 498 in documentation",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Detailed analysis of repair vs disposal criteria",
+        "Step-by-step process for raising loss statement",
+        "Classification of structural vs non-structural damage",
+        "Economic factors in aircraft disposal decisions",
+        "Regulatory compliance for damaged aircraft handling"
+      ],
+      "content": "Detailed analysis of repair vs disposal criteria\nStep-by-step process for raising loss statement\nClassification of structural vs non-structural damage\nEconomic factors in aircraft disposal decisions\nRegulatory compliance for damaged aircraft handling",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Practical application of IAFZ 498 forms",
+        "Identification of damage categories in scenarios",
+        "Drafting initial loss statement entries",
+        "Review of repair authorization workflows",
+        "Final verification of disposal classification"
+      ],
+      "content": "Practical application of IAFZ 498 forms\nIdentification of damage categories in scenarios\nDrafting initial loss statement entries\nReview of repair authorization workflows\nFinal verification of disposal classification",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between repairable and non-repairable damage categories.",
+    "Describe the key steps involved in raising a loss statement under IAFZ 498.",
+    "How does aircraft nomenclature influence the disposal decision process?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief summary of the aircraft disposal workflow and its relevance to the Flight safety organization covered in LP 08.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Flight safety organization in NAS/ carrier/ flights.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 08"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

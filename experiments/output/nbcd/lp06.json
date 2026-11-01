@@ -1,0 +1,152 @@
+{
+  "subject_name": "NBCD",
+  "subject_code": "30",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "06",
+  "total_lesson_plans": "6",
+  "time_allotted": "80 min",
+  "topic": "Operation of maritime radar trainer and measuring the range of the target.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Operation of maritime radar trainer and measuring the range of the target.",
+  "specific_objectives": "30.1.1.1 Trainee should be able to practical on various lab FTL, RF & Embedded lab.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Operation of maritime radar trainer and measuring the range of the target. Safety: High voltage precautions, RF exposure limits. Supervision: Instructor monitors PPE and equipment settings.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of a maritime radar system?",
+    "Define the term 'range' in the context of radar detection.",
+    "List three safety precautions required before operating RF equipment."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Radar Trainer Power Up Sequence",
+        "Control Panel Function Identification",
+        "Target Generation and Display",
+        "Range Scale Calibration",
+        "Signal-to-Noise Ratio Adjustment"
+      ],
+      "content": "Radar Trainer Power Up Sequence\nControl Panel Function Identification\nTarget Generation and Display\nRange Scale Calibration\nSignal-to-Noise Ratio Adjustment",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Measuring Target Range Procedure",
+        "Interpreting Range Rings",
+        "Adjusting Gain for Clear Echo",
+        "Recording Range Data",
+        "Troubleshooting False Alarms"
+      ],
+      "content": "Measuring Target Range Procedure\nInterpreting Range Rings\nAdjusting Gain for Clear Echo\nRecording Range Data\nTroubleshooting False Alarms",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Verification of Range Accuracy",
+        "Comparison with Known Targets",
+        "Error Analysis Techniques",
+        "Final Equipment Shutdown",
+        "Cleanup and Storage Protocols"
+      ],
+      "content": "Verification of Range Accuracy\nComparison with Known Targets\nError Analysis Techniques\nFinal Equipment Shutdown\nCleanup and Storage Protocols",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the step-by-step process for measuring the range of a target on the radar trainer.",
+    "Describe how to adjust the gain control to eliminate false alarms while maintaining target visibility.",
+    "What are the critical safety steps to follow when powering down the radar trainer?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report outlining the operational differences between the maritime radar trainer and the actual shipboard radar system, referencing the procedures learned in this session to bridge the gap for the next lesson plan.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "End of subject",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "-"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

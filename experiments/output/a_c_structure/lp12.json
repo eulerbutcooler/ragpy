@@ -1,0 +1,152 @@
+{
+  "subject_name": "A/C Structure",
+  "subject_code": "11",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "12",
+  "total_lesson_plans": "17",
+  "time_allotted": "80 min",
+  "topic": "Introduction to main plane, aero dynamic and structural considerations, loads on wings, basic structural requirements, role of wings as stru",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Introduction to main plane, aero dynamic and structural considerations, loads on wings, basic structural requirements, role of wings as structure, positioning of components, form of wing construction",
+  "specific_objectives": "11.1.1.1 Trainee will be able to explain aircraft structure, various structural elements and their details.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Examination of wing section model to identify spars, ribs, and skin; verification of load path understanding; instructor supervision required for model handling.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of the main plane?",
+    "Name two types of loads acting on a wing.",
+    "How does the wing contribute to overall aircraft stability?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Aerodynamic and structural considerations",
+        "Loads on wings: lift, drag, weight, thrust",
+        "Basic structural requirements for wings",
+        "Role of wings as primary structure",
+        "Positioning of components on the wing"
+      ],
+      "content": "Aerodynamic and structural considerations\nLoads on wings: lift, drag, weight, thrust\nBasic structural requirements for wings\nRole of wings as primary structure\nPositioning of components on the wing",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Form of wing construction: Monospar vs. Multi-spar",
+        "Rib and Spar configuration details",
+        "Skin types and attachment methods",
+        "Fuel tank integration in wing structure",
+        "Control surface mounting points"
+      ],
+      "content": "Form of wing construction: Monospar vs. Multi-spar\nRib and Spar configuration details\nSkin types and attachment methods\nFuel tank integration in wing structure\nControl surface mounting points",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Structural failure modes in wings",
+        "Maintenance inspection points for wings",
+        "Correlation between load and material choice",
+        "Impact of wing positioning on aircraft balance",
+        "Summary of wing structural elements"
+      ],
+      "content": "Structural failure modes in wings\nMaintenance inspection points for wings\nCorrelation between load and material choice\nImpact of wing positioning on aircraft balance\nSummary of wing structural elements",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how the wing spars resist bending moments.",
+    "Describe the relationship between wing loading and structural thickness.",
+    "Identify three key structural elements visible on the wing model."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note comparing the structural layout of the main wing to the empennage structure covered in LP 13, focusing on load distribution differences.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Empennage structure, configuration of longitudinal stabilizer and concord and fore plane, layout of configuration of lateral stabilizer and control",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 13"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Instructor, Senior Instructor, P No. 12345",
+  "approved_by": "Senior Instructor, Chief Instructor, P No. 67890",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

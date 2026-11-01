@@ -1,0 +1,146 @@
+{
+  "subject_name": "Gas Turbine Engine",
+  "subject_code": "16",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "07",
+  "total_lesson_plans": "8",
+  "time_allotted": "80 min",
+  "topic": "Ultra sonic inspection, basic principle waves propagation characteristics acoustic impedance basic inspection methods, ultrasonic equipment",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Ultra sonic inspection, basic principle waves propagation characteristics acoustic impedance basic inspection methods, ultrasonic equipment, data representation, transducer, various probe couplant",
+  "specific_objectives": "16.1.4.1 Trainee will be able to describe the method of ultra-sonic inspection.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of ultrasonic equipment setup, probe selection, couplant application, and data interpretation on test block; Safety: Wear PPE, handle probes gently; Supervision: Instructor monitors coupling and gain settings.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary frequency range used in ultrasonic inspection?",
+    "Define acoustic impedance in the context of wave propagation.",
+    "List two common couplants used in ultrasonic testing."
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Basic principle of ultrasonic inspection",
+        "Waves propagation characteristics",
+        "Acoustic impedance definition"
+      ],
+      "content": "Basic principle of ultrasonic inspection\nWaves propagation characteristics\nAcoustic impedance definition",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Basic inspection methods overview",
+        "Ultrasonic equipment components",
+        "Transducer types and functions"
+      ],
+      "content": "Basic inspection methods overview\nUltrasonic equipment components\nTransducer types and functions",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Data representation techniques",
+        "Various probe configurations",
+        "Couplant selection criteria"
+      ],
+      "content": "Data representation techniques\nVarious probe configurations\nCouplant selection criteria",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how acoustic impedance affects wave reflection at an interface.",
+    "Describe the role of the couplant in ultrasonic inspection.",
+    "Differentiate between pulse-echo and through-transmission methods."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief report on the limitations of optical holography compared to ultrasonic inspection for internal defect detection in engine components, referencing LP 08.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Optical holography basic principle, procedure for setting up construction and re-construction, laser, interferogram advantages disadvantages and application",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 08"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

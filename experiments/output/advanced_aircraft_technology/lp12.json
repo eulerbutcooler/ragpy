@@ -1,0 +1,152 @@
+{
+  "subject_name": "Advanced Aircraft Technology",
+  "subject_code": "20",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "12",
+  "total_lesson_plans": "20",
+  "time_allotted": "80 min",
+  "topic": "Aero engine classical control system",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Aero engine classical control system.",
+  "specific_objectives": "20.4.2.1 Trainee will be able to explain principles of Aero engine control systems.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of PPT diagrams; Instructor supervision required for diagram interpretation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of an aero engine control system?",
+    "Name two types of engine control systems used in aviation.",
+    "Why is the classical control system still relevant in modern training?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition of Classical Control System",
+        "Throttle Lever Operation Principles",
+        "Governor Mechanism Functionality",
+        "Fuel Flow Regulation Basics",
+        "Hydraulic Actuation Systems"
+      ],
+      "content": "Definition of Classical Control System\nThrottle Lever Operation Principles\nGovernor Mechanism Functionality\nFuel Flow Regulation Basics\nHydraulic Actuation Systems",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "RPM Control via Governor",
+        "Load Sensing and Response",
+        "Mechanical Linkage Geometry",
+        "Safety Valves and Limits",
+        "Idle and Takeoff Settings"
+      ],
+      "content": "RPM Control via Governor\nLoad Sensing and Response\nMechanical Linkage Geometry\nSafety Valves and Limits\nIdle and Takeoff Settings",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Comparison with Fly-by-Wire",
+        "Advantages of Mechanical Systems",
+        "Limitations of Classical Design",
+        "Maintenance Requirements",
+        "Transition to Electronic Control"
+      ],
+      "content": "Comparison with Fly-by-Wire\nAdvantages of Mechanical Systems\nLimitations of Classical Design\nMaintenance Requirements\nTransition to Electronic Control",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how the governor maintains constant RPM during load changes.",
+    "Describe the role of the mechanical linkage in throttle control.",
+    "List three advantages of classical control systems over fly-by-wire."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note comparing the mechanical feedback loop of the classical system with the electronic feedback loop of the Fly-by-Wire system to be discussed in LP 13.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Explanation of Fly by wire control systems using Fly by Wire demonstrator at Control Lab.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 13"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

@@ -4,6 +4,7 @@ Fetches all text nodes for a course from Qdrant, tokenises them,
 and scores against the query using BM25Okapi.
 """
 
+import heapq
 import logging
 import re
 from functools import lru_cache
@@ -18,6 +19,20 @@ from app.store.qdrant import get_sync_client
 logger = logging.getLogger(__name__)
 
 _SPLIT_RE = re.compile(r"\W+")
+
+# Keep the fields needed for BM25 text plus citation/attribution metadata.
+# Avoid with_payload=True, which transfers every stored payload field.
+_BM25_PAYLOAD_FIELDS = [
+    "text",
+    "_node_content",
+    "course_id",
+    "course_name",
+    "file_id",
+    "file_name",
+    "teacher_id",
+    "teacher_name",
+    "file_extension",
+]
 
 
 def _tokenize(text: str) -> list[str]:
@@ -42,10 +57,12 @@ def _fetch_course_nodes(course_ids: list[str]) -> list[TextNode]:
                         match=qmodels.MatchAny(any=course_ids),
                     )
                 ]
-            ) if course_ids else None,
+            )
+            if course_ids
+            else None,
             limit=256,
             offset=offset,
-            with_payload=True,
+            with_payload=_BM25_PAYLOAD_FIELDS,
             with_vectors=False,
         )
 
@@ -59,6 +76,7 @@ def _fetch_course_nodes(course_ids: list[str]) -> list[TextNode]:
             if text.startswith("{"):
                 try:
                     import json
+
                     text = json.loads(text).get("text", text)
                 except Exception:
                     pass
@@ -85,7 +103,9 @@ def _build_bm25_index(course_ids_key: frozenset[str]) -> tuple[BM25Okapi, list[T
     return BM25Okapi(corpus), nodes
 
 
-def bm25_retrieve(query: str, course_ids: list[str], top_k: int | None = None) -> list[NodeWithScore]:
+def bm25_retrieve(
+    query: str, course_ids: list[str], top_k: int | None = None
+) -> list[NodeWithScore]:
     """Return top_k nodes scored by BM25 for the given query and courses."""
     if top_k is None:
         top_k = settings.retrieval_top_k
@@ -97,14 +117,21 @@ def bm25_retrieve(query: str, course_ids: list[str], top_k: int | None = None) -
     tokenized_query = _tokenize(query)
     scores = bm25.get_scores(tokenized_query)
 
-    # Pair (score, node) and sort descending
-    scored = sorted(zip(scores, nodes), key=lambda x: x[0], reverse=True)
+    # O(n log k) instead of sorting the entire corpus. The index tie-breaker
+    # keeps the same deterministic order as a stable descending sort.
+    scored = heapq.nlargest(
+        top_k,
+        enumerate(zip(scores, nodes, strict=False)),
+        key=lambda item: (item[1][0], -item[0]),
+    )
 
     results: list[NodeWithScore] = []
-    for score, node in scored[:top_k]:
+    for _, (score, node) in scored:
         if score <= 0:
             break
         results.append(NodeWithScore(node=node, score=float(score)))
 
-    logger.debug("bm25_retrieve courses=%s query=%s results=%d", course_ids, query[:60], len(results))
+    logger.debug(
+        "bm25_retrieve courses=%s query=%s results=%d", course_ids, query[:60], len(results)
+    )
     return results

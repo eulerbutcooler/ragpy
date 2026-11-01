@@ -1,0 +1,152 @@
+{
+  "subject_name": "Avionics and Electronic Warfare",
+  "subject_code": "13",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "14",
+  "total_lesson_plans": "25",
+  "time_allotted": "80 min",
+  "topic": "Over voltage protection DC generating systems, over voltage protection AC generating systems, under voltage protection, under and over excitation protection, under and over frequency protection, differential current protection",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Over voltage protection DC generates systems, over voltage protection AC generating systems, under voltage protection, under and over excitation protection, under and over frequency protection, differential current protection.",
+  "specific_objectives": "13.1.3.1 Knowledge on circuit protection devices, generators, actuators & engine starting system.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Review of generator protection schematics; Safety: Do not touch live terminals; Instructor supervision: Monitor student diagram tracing.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of a generator protection system?",
+    "Name one device used for over-voltage protection in DC systems.",
+    "Why is under-excitation protection necessary for synchronous generators?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Over voltage protection DC generating systems",
+        "Over voltage protection AC generating systems",
+        "Under voltage protection mechanisms",
+        "Under and over excitation protection",
+        "Under and over frequency protection"
+      ],
+      "content": "Over voltage protection DC generating systems\nOver voltage protection AC generating systems\nUnder voltage protection mechanisms\nUnder and over excitation protection\nUnder and over frequency protection",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Differential current protection principles",
+        "Circuit protection device operation",
+        "Generator actuator protection systems",
+        "Engine starting system protection",
+        "Integration of protection relays"
+      ],
+      "content": "Differential current protection principles\nCircuit protection device operation\nGenerator actuator protection systems\nEngine starting system protection\nIntegration of protection relays",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Fault isolation procedures",
+        "Protection relay settings",
+        "System response to excitation faults",
+        "Frequency deviation handling",
+        "Review of protection hierarchy"
+      ],
+      "content": "Fault isolation procedures\nProtection relay settings\nSystem response to excitation faults\nFrequency deviation handling\nReview of protection hierarchy",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how differential current protection detects internal generator faults.",
+    "Describe the sequence of events during an over-voltage condition in an AC generator.",
+    "What are the consequences of ignoring under-excitation protection?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the specific protection requirements for the engine starting system as covered in the next lesson plan sequence.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Motor actuators: - Internal actuators, rotary actuators, actuator gearing, limit s/w, breaks, clutches.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 15"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

@@ -1,0 +1,153 @@
+{
+  "subject_name": "Basic Radio & Avionics",
+  "subject_code": "25",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "02",
+  "total_lesson_plans": "7",
+  "time_allotted": "80 min",
+  "topic": "Purpose and principle operation of aircraft pressure gauges, pilot static system, altimeter, ASI, and VSI.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Purpose and principle operation of aircraft pressure gauges, pilot static system, altimeter, ASI, and VSI. Practical on Pitot & Static instruments. Safety precautions while working on system",
+  "specific_objectives": "25.1.1.1 Trainee will be able to understand basic instrument gauges, instrument type auto pilot and maintenance.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Practical on Pitot & Static instruments; Safety precautions while working on system; Instructor supervision during handling",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of the static system?",
+    "Name three instruments powered by the static system.",
+    "Why is static pressure accuracy critical for flight safety?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Purpose of aircraft pressure gauges",
+        "Components of the pitot-static system",
+        "Principle of operation for Altimeter",
+        "Principle of operation for ASI",
+        "Principle of operation for VSI"
+      ],
+      "content": "Purpose of aircraft pressure gauges\nComponents of the pitot-static system\nPrinciple of operation for Altimeter\nPrinciple of operation for ASI\nPrinciple of operation for VSI",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Static source location and routing",
+        "Impact of blockage on instrument readings",
+        "Maintenance and inspection procedures",
+        "Troubleshooting common static system faults",
+        "Calibration and testing protocols"
+      ],
+      "content": "Static source location and routing\nImpact of blockage on instrument readings\nMaintenance and inspection procedures\nTroubleshooting common static system faults\nCalibration and testing protocols",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Safety precautions for static system work",
+        "Handling Pitot tubes and static ports",
+        "Use of protective equipment",
+        "Lockout/tagout procedures",
+        "Post-maintenance verification steps"
+      ],
+      "content": "Safety precautions for static system work\nHandling Pitot tubes and static ports\nUse of protective equipment\nLockout/tagout procedures\nPost-maintenance verification steps",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how a change in static pressure affects the altimeter reading.",
+    "Describe the safety steps required before inspecting a static port.",
+    "Differentiate between the function of the ASI and the Altimeter."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a brief note on the differences between the static systems used in LP 02 and the upcoming LP 03 instruments.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Capacitor type fuel quantity indicator, angle of attack indicator, gyroscopic instruments attitude indicator, turn and slip indicator, direction indicator. Practical on various instruments.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 03"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "The master syllabus says 'pilot static system'; confirm whether this is a typo for 'pitot-static system'.",
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}
