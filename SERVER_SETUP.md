@@ -43,8 +43,13 @@ It does **not** install:
 - the NVIDIA driver or CUDA
 - `llama-server` or the GGUF model
 - Go, Node.js, Python, `uv`, Docker, or tmux
-- Python, Go, or npm dependencies
-- the production frontend build
+
+Dependency behavior:
+
+- By default it only heals missing `frontend/node_modules` or `ragpy/.venv`.
+- With `INSTALL=1` (or `--install`) it runs `go mod download`, `uv sync`
+  (or `uv sync --group deploy` for Modal), `npm ci`, and `npm run build`.
+- It never installs system packages or the NVIDIA driver.
 
 Provision those once with the steps below.
 
@@ -233,6 +238,16 @@ Notes:
 
 ## 4. Install and build
 
+The one-command path installs all app dependencies, builds the frontend, and
+starts the stack:
+
+```bash
+cd ~/aeromentor
+INSTALL=1 ./ragpy/scripts/dev.sh
+```
+
+Or do it manually:
+
 ```bash
 # Backend
 cd ~/aeromentor/wingman-backend
@@ -257,6 +272,12 @@ npm run build
 ```bash
 cd ~/aeromentor
 ./ragpy/scripts/dev.sh
+```
+
+On the first run, or after dependencies changed, use:
+
+```bash
+INSTALL=1 ./ragpy/scripts/dev.sh
 ```
 
 The default is local llama.cpp. It starts:
@@ -358,13 +379,11 @@ repositories on branch `dev`:
 | `wingman-backend` | `https://github.com/eulerbutcooler/backend.git` |
 | `ragpy` | `https://github.com/eulerbutcooler/ragpy.git` |
 
-Then reinstall/build and restart:
+Then reinstall/build and restart in one command:
 
 ```bash
-cd ~/aeromentor/frontend && npm ci && npm run build
-cd ~/aeromentor/ragpy && uv sync
 cd ~/aeromentor
-./ragpy/scripts/dev.sh
+INSTALL=1 ./ragpy/scripts/dev.sh
 ```
 
 The runner kills the old `aeromentor` tmux session and starts everything

@@ -64,6 +64,4 @@ pull_repo "$ROOT/ragpy" \
 
 echo
 echo "Code updated. Complete the deployment with:"
-echo "  cd $ROOT/frontend && npm ci && npm run build"
-echo "  cd $ROOT/ragpy && uv sync"
-echo "  cd $ROOT && ./ragpy/scripts/dev.sh"
+echo "  cd $ROOT && INSTALL=1 ./ragpy/scripts/dev.sh"

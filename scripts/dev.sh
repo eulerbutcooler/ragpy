@@ -14,6 +14,7 @@
 #
 # Examples:
 #   ./ragpy/scripts/dev.sh
+#   INSTALL=1 ./ragpy/scripts/dev.sh   # install deps + build frontend first
 #   INFERENCE=none ./ragpy/scripts/dev.sh
 #   REPO=/path/to/aeromentor ./ragpy/scripts/dev.sh
 
@@ -25,8 +26,21 @@ RAGPY_DIR="$REPO/ragpy"
 FRONTEND_DIR="$REPO/frontend"
 SESSION="${SESSION:-aeromentor}"
 INFERENCE="${INFERENCE:-llama}"
+INSTALL="${INSTALL:-0}"
 LLAMA_SERVER="${LLAMA_SERVER:-llama-server}"
 export PATH="$HOME/.local/bin:$PATH"
+
+usage() {
+  sed -n '2,20p' "$0" | sed 's/^# \{0,1\}//'
+}
+
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    --install) INSTALL=1; shift ;;
+    -h|--help) usage; exit 0 ;;
+    *) echo "ERROR: unknown option: $1 (use --help)" >&2; exit 1 ;;
+  esac
+done
 
 if [[ -z "${GGUF_PATH:-}" ]]; then
   for candidate in \
@@ -121,6 +135,40 @@ done
 tmux kill-session -t "$SESSION" 2>/dev/null || true
 docker rm -f aeromentor-sglang 2>/dev/null || true
 sleep 1
+
+# Install/refresh application dependencies when requested, or heal missing
+# essentials on a fresh checkout.
+if [[ "$INSTALL" == "1" ]]; then
+  echo "Installing backend, RAGPy, and frontend dependencies..."
+  command -v go >/dev/null 2>&1 || {
+    echo "ERROR: Go is required for the backend." >&2
+    exit 1
+  }
+  command -v uv >/dev/null 2>&1 || {
+    echo "ERROR: uv is required for RAGPy." >&2
+    exit 1
+  }
+  command -v npm >/dev/null 2>&1 || {
+    echo "ERROR: npm is required for the frontend." >&2
+    exit 1
+  }
+  (cd "$BACKEND_DIR" && go mod download)
+  if [[ "$INFERENCE" == "modal" ]]; then
+    (cd "$RAGPY_DIR" && uv sync --group deploy)
+  else
+    (cd "$RAGPY_DIR" && uv sync)
+  fi
+  (cd "$FRONTEND_DIR" && npm ci && npm run build)
+else
+  if [[ ! -d "$FRONTEND_DIR/node_modules" ]]; then
+    echo "frontend/node_modules is missing; running npm ci..."
+    (cd "$FRONTEND_DIR" && npm ci)
+  fi
+  if [[ ! -d "$RAGPY_DIR/.venv" ]]; then
+    echo "ragpy/.venv is missing; running uv sync..."
+    (cd "$RAGPY_DIR" && uv sync)
+  fi
+fi
 
 # Infrastructure: Postgres, Redis, NATS, Qdrant, MinIO/SeaweedFS.
 (cd "$BACKEND_DIR" && docker compose up -d)
