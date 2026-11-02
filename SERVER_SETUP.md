@@ -24,10 +24,98 @@ The one-command runner is `~/aeromentor/ragpy/scripts/dev.sh`.
 - Node.js **20.9+**
 - Python **3.11+** (3.12 recommended) and [uv](https://docs.astral.sh/uv/)
 - `git`, `curl`, `tmux`
+- `build-essential`, `cmake` (for building llama.cpp)
 - `llama-server` built with CUDA, and the GGUF model:
-  `/models/Qwen3.5-9B-IQ4_XS.gguf`
+  `/models/Qwen3.5-9B-IQ4_XS.gguf` (~5.2 GB)
 
 For SGLang mode only: NVIDIA Container Toolkit and the `lmsysorg/sglang` image.
+
+### What the runner does and does not install
+
+`ragpy/scripts/dev.sh` is a **runner**, not an installer. On each start it:
+
+- runs `docker compose up -d` (this pulls missing container images)
+- runs `make inference-local` / `inference-sglang` / `inference-modal`
+- starts llama.cpp or SGLang, the backend, RAGPy, and the frontend
+
+It does **not** install:
+
+- the NVIDIA driver or CUDA
+- `llama-server` or the GGUF model
+- Go, Node.js, Python, `uv`, Docker, or tmux
+- Python, Go, or npm dependencies
+- the production frontend build
+
+Provision those once with the steps below.
+
+### One-command llama.cpp setup
+
+From `~/aeromentor`:
+
+```bash
+./ragpy/scripts/setup-llama.sh
+```
+
+This script:
+
+- installs missing build tools if needed (`--skip-apt` to disable)
+- clones/builds `llama.cpp` with `-DGGML_CUDA=ON`
+- installs `llama-server` into `~/.local/bin`
+- downloads `Qwen3.5-9B-IQ4_XS.gguf` (~5.2 GB) into `~/models`
+- starts `llama-server` on `:8081` in tmux session `llama`
+- waits until `/health` is ready
+
+Then run:
+
+```bash
+./ragpy/scripts/dev.sh
+```
+
+`dev.sh` detects the running server and reuses it instead of starting a
+second one.
+
+Useful options:
+
+```bash
+./ragpy/scripts/setup-llama.sh --no-start        # build/download only
+./ragpy/scripts/setup-llama.sh --stop            # stop tmux session "llama"
+./ragpy/scripts/setup-llama.sh --rebuild         # clean rebuild
+./ragpy/scripts/setup-llama.sh --force-download  # re-download the GGUF
+./ragpy/scripts/setup-llama.sh --model-dir /models
+```
+
+It requires the NVIDIA driver and CUDA toolkit (`nvidia-smi` and `nvcc`)
+to be installed already.
+
+### Manual alternative
+
+If you prefer to build it yourself:
+
+```bash
+# Check the GPU stack first.
+nvidia-smi
+nvcc --version
+
+# Build llama.cpp with CUDA.
+git clone https://github.com/ggml-org/llama.cpp ~/llama.cpp
+cmake -S ~/llama.cpp -B ~/llama.cpp/build \
+  -DGGML_CUDA=ON -DCMAKE_BUILD_TYPE=Release
+cmake --build ~/llama.cpp/build --config Release -j"$(nproc)"
+sudo install -m 0755 ~/llama.cpp/build/bin/llama-server /usr/local/bin/llama-server
+
+# Download the GGUF used by Modal and the local profile.
+mkdir -p /models
+uvx --from "huggingface_hub[cli]" huggingface-cli download \
+  unsloth/Qwen3.5-9B-GGUF Qwen3.5-9B-IQ4_XS.gguf \
+  --revision 3885219b6810b007914f3a7950a8d1b469d598a5 \
+  --local-dir /models
+```
+
+If `/models` is not writable, download to `~/models` and set
+`GGUF_PATH=~/models/Qwen3.5-9B-IQ4_XS.gguf` when running `dev.sh`.
+
+If `nvidia-smi` or `nvcc` is missing, install the NVIDIA driver and CUDA
+toolkit first. The runner cannot install those safely.
 
 ---
 

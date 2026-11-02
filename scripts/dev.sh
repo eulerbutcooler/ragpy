@@ -26,7 +26,21 @@ FRONTEND_DIR="$REPO/frontend"
 SESSION="${SESSION:-aeromentor}"
 INFERENCE="${INFERENCE:-llama}"
 LLAMA_SERVER="${LLAMA_SERVER:-llama-server}"
-GGUF_PATH="${GGUF_PATH:-/models/Qwen3.5-9B-IQ4_XS.gguf}"
+export PATH="$HOME/.local/bin:$PATH"
+
+if [[ -z "${GGUF_PATH:-}" ]]; then
+  for candidate in \
+    "/models/Qwen3.5-9B-IQ4_XS.gguf" \
+    "$HOME/models/Qwen3.5-9B-IQ4_XS.gguf" \
+    "$REPO/models/Qwen3.5-9B-IQ4_XS.gguf"; do
+    if [[ -f "$candidate" ]]; then
+      GGUF_PATH="$candidate"
+      break
+    fi
+  done
+  GGUF_PATH="${GGUF_PATH:-/models/Qwen3.5-9B-IQ4_XS.gguf}"
+fi
+
 LLAMA_PORT="${LLAMA_PORT:-8081}"
 SGLANG_IMAGE="${SGLANG_IMAGE:-lmsysorg/sglang:latest}"
 SGLANG_MODEL="${SGLANG_MODEL:-Qwen/Qwen2.5-7B-Instruct-AWQ}"
@@ -60,21 +74,23 @@ fi
 }
 
 # Fail before touching running services if the chosen inference cannot start.
+LLAMA_ALREADY_RUNNING=0
 case "$INFERENCE" in
   llama)
-    if ! command -v "$LLAMA_SERVER" >/dev/null 2>&1; then
-      echo "ERROR: llama-server is not on PATH."
-      echo "Build llama.cpp with CUDA on the GPU server, or set LLAMA_SERVER=/path/to/llama-server."
-      exit 1
-    fi
-    if [[ ! -f "$GGUF_PATH" ]]; then
-      echo "ERROR: GGUF not found at $GGUF_PATH."
-      echo "Download it on the GPU server:"
-      echo "  mkdir -p /models"
-      echo "  huggingface-cli download unsloth/Qwen3.5-9B-GGUF Qwen3.5-9B-IQ4_XS.gguf \\"
-      echo "    --revision 3885219b6810b007914f3a7950a8d1b469d598a5 --local-dir /models"
-      echo "Or set GGUF_PATH=/path/to/Qwen3.5-9B-IQ4_XS.gguf."
-      exit 1
+    if curl -sf "http://127.0.0.1:$LLAMA_PORT/health" >/dev/null 2>&1; then
+      LLAMA_ALREADY_RUNNING=1
+      echo "Using existing llama-server on :$LLAMA_PORT"
+    else
+      if ! command -v "$LLAMA_SERVER" >/dev/null 2>&1; then
+        echo "ERROR: llama-server is not on PATH."
+        echo "Run ./ragpy/scripts/setup-llama.sh to build it, or set LLAMA_SERVER=/path/to/llama-server."
+        exit 1
+      fi
+      if [[ ! -f "$GGUF_PATH" ]]; then
+        echo "ERROR: GGUF not found at $GGUF_PATH."
+        echo "Run ./ragpy/scripts/setup-llama.sh to download it, or set GGUF_PATH=/path/to/Qwen3.5-9B-IQ4_XS.gguf."
+        exit 1
+      fi
     fi
     ;;
   sglang)
@@ -128,25 +144,30 @@ esac
 # Pane 0: inference server (or a shell in modal/none mode).
 case "$INFERENCE" in
   llama)
-    llama_cmd=(
-      "$LLAMA_SERVER"
-      -m "$GGUF_PATH"
-      --host 127.0.0.1
-      --port "$LLAMA_PORT"
-      --ctx-size 98304
-      --parallel 3
-      --n-gpu-layers 99
-      --flash-attn on
-      --cache-type-k q8_0
-      --cache-type-v q8_0
-      --batch-size 1024
-      --ubatch-size 256
-      --jinja
-      --reasoning off
-      --alias Qwen3.5-9B-IQ4_XS.gguf
-    )
-    printf -v llama_cmd_str '%q ' "${llama_cmd[@]}"
-    tmux new-session -d -s "$SESSION" -c "$REPO" "$llama_cmd_str; exec bash"
+    if [[ "$LLAMA_ALREADY_RUNNING" == "1" ]]; then
+      tmux new-session -d -s "$SESSION" -c "$REPO" \
+        "echo 'Using existing llama-server on :$LLAMA_PORT'; exec bash"
+    else
+      llama_cmd=(
+        "$LLAMA_SERVER"
+        -m "$GGUF_PATH"
+        --host 127.0.0.1
+        --port "$LLAMA_PORT"
+        --ctx-size 98304
+        --parallel 3
+        --n-gpu-layers 99
+        --flash-attn on
+        --cache-type-k q8_0
+        --cache-type-v q8_0
+        --batch-size 1024
+        --ubatch-size 256
+        --jinja
+        --reasoning off
+        --alias Qwen3.5-9B-IQ4_XS.gguf
+      )
+      printf -v llama_cmd_str '%q ' "${llama_cmd[@]}"
+      tmux new-session -d -s "$SESSION" -c "$REPO" "$llama_cmd_str; exec bash"
+    fi
     ;;
   sglang)
     sglang_cmd="docker run --gpus all --rm --name aeromentor-sglang \
