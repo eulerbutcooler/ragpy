@@ -157,6 +157,7 @@ def extract_subject_rows(
     wanted_code = (subject_code or "").strip()
     wanted_name = (subject_name or "").strip().lower()
     candidates: list[tuple[list[SyllabusRow], str]] = []
+    all_candidates: list[tuple[list[SyllabusRow], str]] = []
 
     for table in doc.tables:
         mapping = _table_header_map(table)
@@ -169,6 +170,9 @@ def extract_subject_rows(
         row_codes = {
             match.group(1) for row in rows if (match := re.match(r"^(\d+)\.", row.objective))
         }
+        title = f"{subject_name or 'Subject'} ({wanted_code or next(iter(row_codes), '?')})"
+        all_candidates.append((rows, title))
+
         if wanted_code and wanted_code not in row_codes:
             continue
 
@@ -179,8 +183,13 @@ def extract_subject_rows(
             if wanted_name not in haystack:
                 continue
 
-        title = f"{subject_name or 'Subject'} ({wanted_code or next(iter(row_codes), '?')})"
         candidates.append((rows, title))
+
+    if not candidates and len(all_candidates) == 1:
+        # A single-subject syllabus often contains exactly one detailed table
+        # and does not repeat the subject name inside every row. In that case
+        # the only table is the right one even if the code/name lookup missed.
+        candidates = all_candidates
 
     if not candidates:
         raise ValueError(
