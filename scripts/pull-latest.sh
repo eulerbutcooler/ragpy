@@ -3,16 +3,17 @@
 #
 # Usage:
 #   ./ragpy/scripts/pull-latest.sh
+#   REMOTE=upstream ./ragpy/scripts/pull-latest.sh
 #   ROOT=/srv/aeromentor BRANCH=main ./ragpy/scripts/pull-latest.sh
 #
-# The upstream URLs are the canonical eulerbutcooler repositories. If the
-# client cloned those directly, origin already points there; pulling from
-# upstream is still safe.
+# Each repository's configured origin is used by default. Set REMOTE=upstream
+# if you maintain a fork and want to pull from the canonical repository.
 
 set -euo pipefail
 
 ROOT="${ROOT:-$HOME/aeromentor}"
 BRANCH="${BRANCH:-dev}"
+REMOTE="${REMOTE:-origin}"
 
 [[ -d "$ROOT" ]] || {
   echo "ERROR: $ROOT not found."
@@ -25,7 +26,7 @@ if [[ ! -d "$BACKEND_DIR" && -d "$ROOT/backend" ]]; then
 fi
 
 pull_repo() {
-  local dir="$1" url="$2" label="$3"
+  local dir="$1" label="$2"
 
   [[ -d "$dir/.git" ]] || {
     echo "ERROR: $dir is not a git repository."
@@ -36,31 +37,26 @@ pull_repo() {
   echo "== $label =="
   cd "$dir"
 
-  if git remote get-url upstream >/dev/null 2>&1; then
-    git remote set-url upstream "$url"
-  else
-    git remote add upstream "$url"
-  fi
+  git remote get-url "$REMOTE" >/dev/null 2>&1 || {
+    echo "ERROR: remote '$REMOTE' not found in $dir."
+    echo "Set REMOTE=origin or add the remote first."
+    exit 1
+  }
 
-  git fetch upstream "$BRANCH"
+  git fetch "$REMOTE"
 
   if git show-ref --verify --quiet "refs/heads/$BRANCH"; then
     git checkout "$BRANCH"
   else
-    git checkout -b "$BRANCH" --track "upstream/$BRANCH"
+    git checkout -b "$BRANCH" --track "$REMOTE/$BRANCH"
   fi
 
-  git pull --ff-only upstream "$BRANCH"
+  git pull --ff-only "$REMOTE" "$BRANCH"
 }
 
-pull_repo "$ROOT/frontend" \
-  "https://github.com/eulerbutcooler/frontend.git" "frontend"
-
-pull_repo "$BACKEND_DIR" \
-  "https://github.com/eulerbutcooler/backend.git" "backend"
-
-pull_repo "$ROOT/ragpy" \
-  "https://github.com/eulerbutcooler/ragpy.git" "ragpy"
+pull_repo "$ROOT/frontend" "frontend"
+pull_repo "$BACKEND_DIR" "backend"
+pull_repo "$ROOT/ragpy" "ragpy"
 
 echo
 echo "Code updated. Complete the deployment with:"

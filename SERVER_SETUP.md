@@ -64,6 +64,9 @@ From `~/aeromentor`:
 This script:
 
 - installs missing build tools if needed (`--skip-apt` to disable)
+- patches CUDA `crt/math_functions.h` for glibc compatibility when needed
+  (CUDA 12.x + glibc 2.41 causes `cospi`/`sinpi`/`rsqrt` errors); a
+  `math_functions.h.aeromentor.bak` backup is kept
 - clones/builds `llama.cpp` with `-DGGML_CUDA=ON`
 - installs `llama-server` into `~/.local/bin`
 - downloads `Qwen3.5-9B-IQ4_XS.gguf` (~5.2 GB) into `~/models`
@@ -87,7 +90,18 @@ Useful options:
 ./ragpy/scripts/setup-llama.sh --rebuild         # clean rebuild
 ./ragpy/scripts/setup-llama.sh --force-download  # re-download the GGUF
 ./ragpy/scripts/setup-llama.sh --model-dir /models
+./ragpy/scripts/setup-llama.sh --no-cuda-patch    # skip the header patch
 ```
+
+If the previous build failed with:
+
+```text
+exception specification is incompatible ... "cospi"/"sinpi"/"rsqrt"
+```
+
+rerun `setup-llama.sh` without `--no-cuda-patch`. It applies the fix
+recommended by llama.cpp’s build docs and removes the stale build directory.
+On a clean start this is automatic.
 
 It requires the NVIDIA driver and CUDA toolkit (`nvidia-smi` and `nvcc`)
 to be installed already.
@@ -130,7 +144,7 @@ toolkit first. The runner cannot install those safely.
 mkdir -p ~/aeromentor
 cd ~/aeromentor
 
-git clone https://github.com/eulerbutcooler/backend.git  wingman-backend
+git clone https://github.com/eulerbutcooler/wingman-backend.git  wingman-backend
 git clone https://github.com/eulerbutcooler/frontend.git frontend
 git clone https://github.com/eulerbutcooler/ragpy.git    ragpy
 ```
@@ -370,14 +384,15 @@ cd ~/aeromentor
 ./ragpy/scripts/pull-latest.sh
 ```
 
-The script updates all three repositories from the canonical `upstream`
-repositories on branch `dev`:
+The script updates all three repositories from their configured `origin`
+on branch `dev`:
 
-| Directory | Upstream |
-|---|---|
-| `frontend` | `https://github.com/eulerbutcooler/frontend.git` |
-| `wingman-backend` | `https://github.com/eulerbutcooler/backend.git` |
-| `ragpy` | `https://github.com/eulerbutcooler/ragpy.git` |
+```bash
+REMOTE=upstream ./ragpy/scripts/pull-latest.sh
+```
+
+Use the line above only if you maintain a fork and want to pull from the
+canonical upstream instead of your origin.
 
 Then reinstall/build and restart in one command:
 
@@ -397,25 +412,20 @@ Manual equivalent, per repository:
 
 ```bash
 cd ~/aeromentor/frontend
-git remote add upstream https://github.com/eulerbutcooler/frontend.git
-git fetch upstream
+git fetch origin
 git checkout dev
-git pull --ff-only upstream dev
+git pull --ff-only origin dev
 
 cd ~/aeromentor/wingman-backend
-git remote add upstream https://github.com/eulerbutcooler/backend.git
-git fetch upstream
+git fetch origin
 git checkout dev
-git pull --ff-only upstream dev
+git pull --ff-only origin dev
 
 cd ~/aeromentor/ragpy
-git remote add upstream https://github.com/eulerbutcooler/ragpy.git
-git fetch upstream
+git fetch origin
 git checkout dev
-git pull --ff-only upstream dev
+git pull --ff-only origin dev
 ```
-
-If `upstream` already exists, use `git remote set-url upstream <url>`.
 
 ---
 
@@ -456,5 +466,6 @@ Building/deploying from scratch is documented in `ragpy/MODAL_INFERENCE.md`.
 | Login redirects to localhost | Remove `AUTH_URL`; keep `AUTH_TRUST_HOST=true` |
 | Frontend env changes ignored | `NEXT_PUBLIC_*` is build-time; run `npm run build` |
 | Port already in use | `ss -ltnp \| grep -E '3000\|8000\|8080'`; the runner frees these ports |
+| `nvcc ... cospi/sinpi/rsqrt exception specification` | Rerun `setup-llama.sh` without `--no-cuda-patch`; it patches `crt/math_functions.h` and keeps a `.aeromentor.bak` backup |
 | Chat has no sources | Qdrant is empty; upload and ingest course files first |
 | PDF/file previews fail | Check the backend and SeaweedFS are healthy; all file URLs are proxied server-side |

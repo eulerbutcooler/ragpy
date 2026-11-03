@@ -13,6 +13,7 @@
 #   --rebuild         Delete the llama.cpp build directory and rebuild
 #   --force-download  Re-download the GGUF even if it exists
 #   --skip-apt        Do not install missing build tools with apt
+#   --no-cuda-patch   Do not patch CUDA headers for newer glibc
 #   --port PORT       llama-server port (default: 8081)
 #   --model-dir DIR   Directory for the GGUF (default: ~/models)
 #   --llama-dir DIR   llama.cpp checkout (default: ~/llama.cpp)
@@ -37,14 +38,99 @@ STOP=0
 REBUILD=0
 FORCE_DOWNLOAD=0
 INSTALL_DEPS=1
+PATCH_CUDA=1
+CUDA_HEADER_PATCHED=0
+SUDO=""
+[[ "$(id -u)" -ne 0 ]] && SUDO="sudo"
 
 usage() {
-  sed -n '2,26p' "$0" | sed 's/^# \{0,1\}//'
+  sed -n '2,27p' "$0" | sed 's/^# \{0,1\}//'
 }
 
 die() {
   echo "ERROR: $*" >&2
   exit 1
+}
+
+# CUDA 12.x headers conflict with glibc >= 2.38/2.41, which declares cospi,
+# sinpi and rsqrt with noexcept(true). This is the fix recommended by
+# llama.cpp's build docs. A backup of the header is kept.
+patch_cuda_math_header() {
+  [[ "$PATCH_CUDA" == "1" ]] || return 0
+
+  local nvcc_real cuda_home header tmp backup count candidate
+
+  nvcc_real="$(readlink -f "$(command -v nvcc)")"
+  cuda_home="$(cd "$(dirname "$nvcc_real")/.." && pwd)"
+
+  header=""
+  for candidate in \
+    "$cuda_home/targets/x86_64-linux/include/crt/math_functions.h" \
+    "$cuda_home/include/crt/math_functions.h" \
+    "/usr/local/cuda/targets/x86_64-linux/include/crt/math_functions.h" \
+    "/usr/local/cuda/include/crt/math_functions.h"; do
+    if [[ -f "$candidate" ]]; then
+      header="$candidate"
+      break
+    fi
+  done
+  [[ -n "$header" ]] || die "CUDA math_functions.h not found; cannot apply glibc compatibility patch."
+
+  tmp="$(mktemp)"
+  cp "$header" "$tmp"
+
+  count="$(python3 - "$tmp" <<'PY'
+import re
+import sys
+
+path = sys.argv[1]
+text = open(path).read()
+names = r"cospi|cospif|sinpi|sinpif|rsqrt|rsqrtf"
+
+def add_noexcept(pattern, text):
+    changed = 0
+    def repl(match):
+        nonlocal changed
+        decl = match.group(1)
+        if "noexcept" in decl or "__NV_IEC_60559_FUNCS_EXCEPTION_SPECIFIER" in decl:
+            return match.group(0)
+        changed += 1
+        return decl + " noexcept (true)" + match.group(2)
+    return pattern.sub(repl, text), changed
+
+first = re.compile(
+    r"(extern\s+__DEVICE_FUNCTIONS_DECL__\s+__device_builtin__\s+"
+    r"(?:double|float)\s+(?:" + names + r")\s*\([^;]*?\))(\s*;)"
+)
+text, count = add_noexcept(first, text)
+
+fallback = re.compile(
+    r"(extern\s+[^;\n]*?\b(?:" + names + r")\s*\([^;]*?\))(\s*;)"
+)
+text, more = add_noexcept(fallback, text)
+count += more
+
+open(path, "w").write(text)
+print(count)
+PY
+)" || die "failed to apply CUDA header compatibility patch."
+
+  if [[ "$count" == "0" ]]; then
+    echo "CUDA math header already compatible; no patch needed."
+    rm -f "$tmp"
+    return 0
+  fi
+
+  backup="${header}.aeromentor.bak"
+  if [[ ! -f "$backup" ]]; then
+    $SUDO cp -p "$header" "$backup" || die "could not back up $header"
+  fi
+  $SUDO install -m 0644 "$tmp" "$header" || die "could not write $header"
+  rm -f "$tmp"
+
+  CUDA_HEADER_PATCHED=1
+  echo "Patched $count CUDA math declaration(s) for glibc compatibility."
+  echo "Backup: $backup"
 }
 
 while [[ $# -gt 0 ]]; do
@@ -54,6 +140,7 @@ while [[ $# -gt 0 ]]; do
     --rebuild) REBUILD=1; shift ;;
     --force-download) FORCE_DOWNLOAD=1; shift ;;
     --skip-apt) INSTALL_DEPS=0; shift ;;
+    --no-cuda-patch) PATCH_CUDA=0; shift ;;
     --port) PORT="${2:?missing value}"; shift 2 ;;
     --model-dir) MODEL_DIR="${2:?missing value}"; shift 2 ;;
     --llama-dir) LLAMA_DIR="${2:?missing value}"; shift 2 ;;
@@ -86,7 +173,7 @@ nvcc --version >/dev/null 2>&1 || \
   die "nvcc failed. Fix the CUDA toolkit before continuing."
 
 missing=()
-for cmd in git cmake make g++ curl tmux; do
+for cmd in git cmake make g++ curl tmux python3; do
   command -v "$cmd" >/dev/null 2>&1 || missing+=("$cmd")
 done
 
@@ -96,12 +183,15 @@ if (( ${#missing[@]} > 0 )); then
   fi
   command -v apt-get >/dev/null 2>&1 || \
     die "missing build tools: ${missing[*]} (install them manually)"
-  SUDO=""
-  [[ "$(id -u)" -ne 0 ]] && SUDO="sudo"
   echo "Installing build tools: ${missing[*]}"
   $SUDO apt-get update
   $SUDO apt-get install -y \
-    build-essential cmake git curl libcurl4-openssl-dev pkg-config tmux
+    build-essential cmake git curl libcurl4-openssl-dev pkg-config tmux python3
+fi
+
+patch_cuda_math_header
+if [[ "$CUDA_HEADER_PATCHED" == "1" ]]; then
+  REBUILD=1
 fi
 
 if ! command -v uv >/dev/null 2>&1; then
