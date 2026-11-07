@@ -34,9 +34,11 @@ APP_NAME = "aeromentor-inference"
 MODEL_REPO = "unsloth/Qwen3.5-9B-GGUF"
 MODEL_REVISION = "3885219b6810b007914f3a7950a8d1b469d598a5"
 MODEL_FILE = "Qwen3.5-9B-IQ4_XS.gguf"
-EMBED_MODEL = "BAAI/bge-base-en-v1.5"
+EMBED_MODEL = "Alibaba-NLP/gte-base-en-v1.5"
 RERANKER_MODEL = "BAAI/bge-reranker-v2-m3"
-EMBED_QUERY_INSTRUCTION = "Represent this sentence for searching relevant passages: "
+EMBED_QUERY_INSTRUCTION = ""
+EMBED_MAX_LENGTH = "8192"
+RERANKER_MAX_LENGTH = "2048"
 
 # Modal's L4/A10G have 24 GiB. Temporary throughput test: 12 GiB total,
 # with a 10 GiB llama.cpp budget and ~2 GiB for BGE embeddings + reranker.
@@ -246,6 +248,8 @@ class InferenceServer:
                 "EMBED_MODEL": EMBED_MODEL,
                 "RERANKER_MODEL": RERANKER_MODEL,
                 "EMBED_QUERY_INSTRUCTION": EMBED_QUERY_INSTRUCTION,
+                "EMBED_MAX_LENGTH": EMBED_MAX_LENGTH,
+                "RERANKER_MAX_LENGTH": RERANKER_MAX_LENGTH,
                 "GPU_MEMORY_LIMIT_MIB": str(GPU_MEMORY_LIMIT_MIB),
                 "PYTHONUNBUFFERED": "1",
             }

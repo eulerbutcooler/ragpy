@@ -7,6 +7,7 @@ and scores against the query using BM25Okapi.
 import heapq
 import logging
 import re
+import threading
 from functools import lru_cache
 
 from llama_index.core.schema import NodeWithScore, TextNode
@@ -93,14 +94,22 @@ def _fetch_course_nodes(course_ids: list[str]) -> list[TextNode]:
 
 
 # Cache keyed on frozenset of course_ids — avoids re-fetching on every query.
-# For production, add a TTL or invalidation on ingest.
-@lru_cache(maxsize=32)
+# The cache is explicitly invalidated on ingest/delete; the small bound keeps
+# memory predictable for large courses.
+@lru_cache(maxsize=8)
 def _build_bm25_index(course_ids_key: frozenset[str]) -> tuple[BM25Okapi, list[TextNode]]:
     nodes = _fetch_course_nodes(list(course_ids_key))
     if not nodes:
         return BM25Okapi([["__empty__"]]), []
     corpus = [_tokenize(n.text) for n in nodes]
     return BM25Okapi(corpus), nodes
+
+
+_BM25_BUILD_LOCK = threading.Lock()
+
+
+def invalidate_bm25_cache() -> None:
+    _build_bm25_index.cache_clear()
 
 
 def bm25_retrieve(
@@ -110,7 +119,10 @@ def bm25_retrieve(
     if top_k is None:
         top_k = settings.retrieval_top_k
 
-    bm25, nodes = _build_bm25_index(frozenset(course_ids))
+    # lru_cache is thread-safe but not single-flight: concurrent cold queries
+    # can all rebuild the same large index. Serialize the build path.
+    with _BM25_BUILD_LOCK:
+        bm25, nodes = _build_bm25_index(frozenset(course_ids))
     if not nodes:
         return []
 

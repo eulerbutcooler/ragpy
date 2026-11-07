@@ -11,9 +11,13 @@ numbers.
 | GPU | NVIDIA A10G (L4 capacity unavailable; fallback active) |
 | LLM | `unsloth/Qwen3.5-9B-GGUF` → `Qwen3.5-9B-IQ4_XS.gguf` |
 | LLM runtime | llama.cpp, 32K context × 3 slots, `q8_0` KV, Flash Attention |
-| Embeddings | `BAAI/bge-base-en-v1.5` |
+| Embeddings | `BAAI/bge-base-en-v1.5` (baseline; current model is `Alibaba-NLP/gte-base-en-v1.5`) |
 | Reranker | `BAAI/bge-reranker-v2-m3`, one shared instance |
 | VRAM used | ~7.6 GiB / 10 GiB cap |
+
+The embedding benchmarks below were recorded with `bge-base-en-v1.5`. The
+current deployment uses `gte-base-en-v1.5` (768 dims, 8192-token context), so
+treat the embedding throughput as directional until re-run.
 
 ## Inference
 

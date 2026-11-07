@@ -30,6 +30,14 @@ async def lifespan(app: FastAPI) -> AsyncIterator[None]:
     logger = logging.getLogger(__name__)
     logger.info("startup begin")
 
+    if not settings.internal_token or settings.internal_token in {
+        "development_secret_token",
+        "changeme-internal-token",
+    }:
+        raise RuntimeError(
+            "INTERNAL_TOKEN must be set to a non-default secret before startup"
+        )
+
     # 2. Set LlamaIndex global LLM and embed model (once, before any request).
     LlamaIndexSettings.llm = get_llm()
     LlamaIndexSettings.embed_model = get_embed_model()
@@ -55,6 +63,10 @@ async def lifespan(app: FastAPI) -> AsyncIterator[None]:
 
     # Shutdown.
     worker_task.cancel()
+    try:
+        await worker_task
+    except asyncio.CancelledError:
+        pass
     await nats_disconnect()
     logger.info("shutdown complete")
 

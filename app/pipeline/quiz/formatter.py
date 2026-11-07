@@ -28,7 +28,7 @@ class QuizQuestion(BaseModel):
     type: Literal["mcq", "open_ended"] = "mcq"
     question: str
     choices: list[QuizChoice] | None = None
-    answer: str = "A"
+    answer: str = ""
     explanation: str | None = None
     difficulty: Literal["easy", "medium", "hard"] = "medium"
     topic_phrase: str | None = None
@@ -37,9 +37,10 @@ class QuizQuestion(BaseModel):
     @classmethod
     def normalize_question(cls, data: Any) -> Any:
         if isinstance(data, dict):
-            # Normalize question text
+            # Normalize question text. Do not invent a question when the model
+            # omitted it; the after-validator will reject the output.
             if not data.get("question"):
-                data["question"] = data.get("text") or data.get("prompt") or data.get("query") or "Aviation technical query"
+                data["question"] = data.get("text") or data.get("prompt") or data.get("query") or ""
 
             # Normalize choices / options
             raw_choices = data.get("choices") or data.get("options")
@@ -65,26 +66,48 @@ class QuizQuestion(BaseModel):
                                 label = chr(ord('A') + idx)
                         parsed_choices.append({"label": str(label).upper() or chr(ord('A') + idx), "text": str(text)})
                 data["choices"] = parsed_choices
-            elif not raw_choices and data.get("type", "mcq") == "mcq":
-                data["choices"] = [
-                    {"label": "A", "text": "True / Standard Operation"},
-                    {"label": "B", "text": "False / Abnormal Operation"},
-                ]
 
-            # Normalize answer
+            # Normalize answer. If the model gave the choice text instead of
+            # its label, map it back to the label; never invent an answer.
             raw_ans = data.get("answer") or data.get("correct_answer") or data.get("correctAnswer") or data.get("solution")
-            if not raw_ans:
-                data["answer"] = "A"
-            else:
-                ans = str(raw_ans).strip()
-                m = re.match(r"^([A-Da-d])\b", ans)
-                data["answer"] = m.group(1).upper() if m else ans
+            ans = str(raw_ans).strip() if raw_ans else ""
+            if ans and isinstance(data.get("choices"), list):
+                for choice in data["choices"]:
+                    if not isinstance(choice, dict):
+                        continue
+                    if ans.lower() == str(choice.get("text", "")).strip().lower():
+                        ans = str(choice.get("label", "")).upper()
+                        break
+            m = re.match(r"^(?:option\s*)?([A-Da-d])\b", ans, re.IGNORECASE)
+            data["answer"] = m.group(1).upper() if m else ans
 
             # Normalize explanation
             if not data.get("explanation"):
                 data["explanation"] = data.get("reasoning") or data.get("rationale") or data.get("justification") or ""
 
         return data
+
+    @model_validator(mode="after")
+    def validate_question(self):
+        if not self.question.strip():
+            raise ValueError("question text is required")
+
+        if self.type == "mcq":
+            if not self.choices or len(self.choices) != 4:
+                raise ValueError("MCQ must have exactly four choices")
+            labels = [c.label.strip().upper() for c in self.choices]
+            if sorted(labels) != ["A", "B", "C", "D"]:
+                raise ValueError("MCQ choices must be labeled A, B, C, D")
+            if any(not c.text.strip() for c in self.choices):
+                raise ValueError("MCQ choices must not be empty")
+            if self.answer.strip().upper() not in labels:
+                raise ValueError("MCQ answer must match one of the choice labels")
+            self.answer = self.answer.strip().upper()
+        else:
+            if not self.answer.strip():
+                raise ValueError("open-ended question requires a reference answer")
+
+        return self
 
 
 class TopicSlide(BaseModel):
@@ -152,6 +175,9 @@ class TopicSlide(BaseModel):
         return data
 
 
+QUESTIONS_PER_TOPIC = 6
+
+
 class TopicSynthesisOutput(BaseModel):
     """Combined output for a topic: flexible slides + question bank items."""
 
@@ -201,6 +227,16 @@ class TopicSynthesisOutput(BaseModel):
                 data["questions"] = raw_questions
 
         return data
+
+    @model_validator(mode="after")
+    def validate_topic_output(self):
+        if not self.slides:
+            raise ValueError("topic synthesis produced no slides")
+        if len(self.questions) != QUESTIONS_PER_TOPIC:
+            raise ValueError(
+                f"expected {QUESTIONS_PER_TOPIC} questions, got {len(self.questions)}"
+            )
+        return self
 
 
 class TopicSummary(BaseModel):
@@ -253,7 +289,9 @@ async def synthesize_topic(
         return result
     except Exception as e:
         logger.error("failed_to_synthesize_topic topic=%s err=%s", topic_phrase, e)
-        return TopicSynthesisOutput(slides=[], questions=[])
+        # A topic with no slides/questions must fail the job, not be published
+        # as a successful partial quiz.
+        raise
 
 
 

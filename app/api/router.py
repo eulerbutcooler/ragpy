@@ -3,7 +3,7 @@
 from fastapi import APIRouter, Depends
 
 from app.api.deps import verify_internal_token
-from app.api.v1 import audio, chat, course, health, ingest, lesson_plan, quiz, syllabus
+from app.api.v1 import audio, chat, course, file, health, ingest, lesson_plan, quiz, syllabus
 
 api_router = APIRouter(prefix="/api/v1")
 
@@ -20,4 +20,5 @@ api_router.include_router(
     lesson_plan.router, prefix="/lesson-plans", dependencies=internal_deps
 )
 api_router.include_router(course.router, prefix="/course", dependencies=internal_deps)
+api_router.include_router(file.router, prefix="/file", dependencies=internal_deps)
 api_router.include_router(audio.router, prefix="/audio", dependencies=internal_deps)

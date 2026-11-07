@@ -5,7 +5,7 @@ The RAG service now talks to one authenticated Modal endpoint that hosts:
 | Component | Model | Runtime |
 |---|---|---|
 | LLM | `unsloth/Qwen3.5-9B-GGUF` → `Qwen3.5-9B-IQ4_XS.gguf` | llama.cpp (`llama-server`) |
-| Embeddings | `BAAI/bge-base-en-v1.5` (768 dims) | sentence-transformers |
+| Embeddings | `Alibaba-NLP/gte-base-en-v1.5` (768 dims, 8192-token context) | sentence-transformers |
 | Reranker | `BAAI/bge-reranker-v2-m3` | sentence-transformers `CrossEncoder` |
 
 SGLang and OpenRouter are no longer used.
@@ -18,7 +18,7 @@ SGLang and OpenRouter are no longer used.
 - Total VRAM budget: **10 GiB**, enforced by sizing:
   - llama.cpp is given an **8 GiB** budget through `--fit-target`.
     Modal computes the free-VRAM target as `total - 8192 MiB`.
-  - The remaining ~2 GiB is reserved for `bge-base-en-v1.5` (fp32) and
+  - The remaining ~2 GiB is reserved for `gte-base-en-v1.5` (fp32) and
     `bge-reranker-v2-m3` (fp16), both loaded on the same GPU.
 - llama.cpp uses `--ctx-size 98304 --parallel 3` (32K per slot),
   `q8_0` KV cache, Flash Attention, and thinking disabled with
@@ -96,9 +96,9 @@ rerank request, and a non-streaming chat completion.
 
 ## 6. Reset Qdrant
 
-The old collection was built with `nomic-embed-text-v1.5`. Its vectors are
-not compatible with `bge-base-en-v1.5`, so the collection must be recreated
-before ingesting with the new model.
+The collection must be rebuilt whenever the embedding model changes. Vectors
+from `nomic-embed-text-v1.5`, `bge-base-en-v1.5`, and the current
+`gte-base-en-v1.5` are not interchangeable even when the dimension matches.
 
 ```bash
 cd ragpy
@@ -130,8 +130,9 @@ The model names stay the same. The local path uses
 - `--fit-target` is a **free-VRAM target**, so llama.cpp stays inside its
   8 GiB slice. If you see CPU offload warnings in the Modal logs, lower
   `LLM_CTX_PER_SLOT` or switch the KV cache to `q4_0`.
-- `bge-base-en-v1.5` receives the BGE query instruction only on queries,
-  never on document chunks. Ingest and query vectors therefore stay aligned.
+- `gte-base-en-v1.5` does not use the BGE query instruction. `EMBED_MAX_LENGTH`
+  is 8192, so 768-token chunks are embedded without truncation. Ingest and query
+  vectors therefore stay aligned.
 - The gateway exposes `/v1/chat/completions`, `/v1/completions`,
   `/v1/embeddings`, `/v1/rerank`, and `/health`.
 - The inference API key is checked with a constant-time comparison. The

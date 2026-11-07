@@ -1,11 +1,12 @@
 """Course level endpoints."""
 
+import asyncio
 import logging
-from fastapi import APIRouter
-from qdrant_client import models
 
-from app.store.qdrant import _get_aclient
-from app.config.settings import settings
+from fastapi import APIRouter
+
+from app.pipeline.query.sparse_retriever import invalidate_bm25_cache
+from app.store.qdrant import delete_course_vectors
 
 logger = logging.getLogger(__name__)
 
@@ -16,21 +17,10 @@ router = APIRouter(tags=["Course"])
 async def delete_course_data(course_id: str):
     """Delete all vector embeddings for a given course."""
     logger.info("Deleting qdrant data for course_id=%s", course_id)
-    
-    client = _get_aclient()
-    
+
     try:
-        await client.delete(
-            collection_name=settings.qdrant_collection_name,
-            points_selector=models.Filter(
-                must=[
-                    models.FieldCondition(
-                        key="course_id",
-                        match=models.MatchValue(value=course_id),
-                    )
-                ]
-            ),
-        )
+        await asyncio.to_thread(delete_course_vectors, course_id)
+        await asyncio.to_thread(invalidate_bm25_cache)
         logger.info("Successfully deleted qdrant data for course_id=%s", course_id)
         return {"status": "success", "course_id": course_id}
     except Exception as e:

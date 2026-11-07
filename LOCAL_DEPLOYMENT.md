@@ -9,7 +9,7 @@ Modal is only a test harness; this is the production shape.
 |---|---|
 | `Qwen3.5-9B-IQ4_XS.gguf` weights | ~5.2 GB |
 | llama.cpp KV cache + compute buffers | ~1.5–2.5 GB |
-| `bge-base-en-v1.5` embedding | ~0.5 GB |
+| `gte-base-en-v1.5` embedding | ~0.6 GB |
 | `bge-reranker-v2-m3` (one shared instance, fp16) | ~1.2 GB |
 | CUDA contexts / activations | ~1 GB |
 | **Total** | **~9.5–10.5 GB** |
@@ -44,7 +44,8 @@ LLM_API_KEY=local-dev-key
 
 EMBED_BACKEND=local
 EMBED_DEVICE=cuda
-EMBED_MODEL_NAME=BAAI/bge-base-en-v1.5
+EMBED_MODEL_NAME=Alibaba-NLP/gte-base-en-v1.5
+EMBED_MAX_LENGTH=8192
 EMBED_BATCH_SIZE=32
 
 RERANKER_BACKEND=local

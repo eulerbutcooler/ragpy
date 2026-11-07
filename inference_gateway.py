@@ -34,12 +34,11 @@ logging.basicConfig(
 )
 
 LLAMA_BASE_URL = os.getenv("LLAMA_BASE_URL", "http://127.0.0.1:8080")
-EMBED_MODEL = os.getenv("EMBED_MODEL", "BAAI/bge-base-en-v1.5")
+EMBED_MODEL = os.getenv("EMBED_MODEL", "Alibaba-NLP/gte-base-en-v1.5")
 RERANKER_MODEL = os.getenv("RERANKER_MODEL", "BAAI/bge-reranker-v2-m3")
-EMBED_QUERY_INSTRUCTION = os.getenv(
-    "EMBED_QUERY_INSTRUCTION",
-    "Represent this sentence for searching relevant passages: ",
-)
+EMBED_QUERY_INSTRUCTION = os.getenv("EMBED_QUERY_INSTRUCTION", "")
+EMBED_MAX_LENGTH = int(os.getenv("EMBED_MAX_LENGTH", "8192"))
+RERANKER_MAX_LENGTH = int(os.getenv("RERANKER_MAX_LENGTH", "2048"))
 EMBED_BATCH_SIZE = int(os.getenv("EMBED_BATCH_SIZE", "32"))
 RERANK_BATCH_SIZE = int(os.getenv("RERANK_BATCH_SIZE", "32"))
 GPU_MEMORY_LIMIT_MIB = int(os.getenv("GPU_MEMORY_LIMIT_MIB", str(10 * 1024)))
@@ -84,14 +83,18 @@ def _load_models() -> tuple[Any, Any]:
     dtype = torch.float16 if device == "cuda" else torch.float32
 
     logger.info("loading_embedding_model model=%s device=%s", EMBED_MODEL, device)
-    embedder = SentenceTransformer(EMBED_MODEL, device=device)
-    embedder.max_seq_length = 512
+    embedder = SentenceTransformer(
+        EMBED_MODEL,
+        device=device,
+        trust_remote_code=True,
+    )
+    embedder.max_seq_length = EMBED_MAX_LENGTH
 
     logger.info("loading_reranker_model model=%s device=%s dtype=%s", RERANKER_MODEL, device, dtype)
     reranker = CrossEncoder(
         RERANKER_MODEL,
         device=device,
-        max_length=512,
+        max_length=RERANKER_MAX_LENGTH,
         model_kwargs={"torch_dtype": dtype},
     )
 

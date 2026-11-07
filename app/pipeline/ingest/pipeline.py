@@ -10,7 +10,8 @@ from app.pipeline.ingest.embedder import embed_nodes
 from app.pipeline.ingest.loader import load_file
 from app.pipeline.ingest.metadata_enricher import enrich_metadata
 from app.pipeline.ingest.parser import parse_file
-from app.store.qdrant import get_vector_store
+from app.pipeline.query.sparse_retriever import invalidate_bm25_cache
+from app.store.qdrant import delete_file_vectors, get_vector_store
 
 logger = logging.getLogger(__name__)
 
@@ -42,6 +43,11 @@ async def run_ingest(
 
         nodes = await asyncio.to_thread(chunk_documents, docs)
         embedded_nodes = await embed_nodes(nodes)
+
+        # Re-ingestion replaces the file's previous chunk set. Without this,
+        # edited files leave stale chunks searchable forever.
+        await asyncio.to_thread(delete_file_vectors, file_id)
+        await asyncio.to_thread(invalidate_bm25_cache)
 
         vector_store = get_vector_store()
         index = VectorStoreIndex.from_vector_store(vector_store)

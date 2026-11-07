@@ -25,6 +25,36 @@ def _get_aclient() -> AsyncQdrantClient:
 PAYLOAD_INDEX_FIELDS = ("course_id", "file_id", "file_extension")
 
 
+def delete_course_vectors(course_id: str) -> None:
+    client = _get_client()
+    client.delete(
+        collection_name=settings.qdrant_collection_name,
+        points_selector=qdrant_models.Filter(
+            must=[
+                qdrant_models.FieldCondition(
+                    key="course_id",
+                    match=qdrant_models.MatchValue(value=course_id),
+                )
+            ]
+        ),
+    )
+
+
+def delete_file_vectors(file_id: str) -> None:
+    client = _get_client()
+    client.delete(
+        collection_name=settings.qdrant_collection_name,
+        points_selector=qdrant_models.Filter(
+            must=[
+                qdrant_models.FieldCondition(
+                    key="file_id",
+                    match=qdrant_models.MatchValue(value=file_id),
+                )
+            ]
+        ),
+    )
+
+
 async def ensure_collection() -> None:
     client = _get_client()
     collection_name = settings.qdrant_collection_name

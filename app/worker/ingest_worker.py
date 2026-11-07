@@ -49,9 +49,9 @@ async def process_ingest_message(msg: Msg) -> None:
             teacher_id=payload["teacher_id"],
             teacher_name=payload["teacher_name"],
         )
-        # Invalidate BM25 cache so new chunks are immediately searchable
-        from app.pipeline.query.sparse_retriever import _build_bm25_index
-        _build_bm25_index.cache_clear()
+        # Invalidate BM25 cache so new chunks are immediately searchable.
+        from app.pipeline.query.sparse_retriever import invalidate_bm25_cache
+        invalidate_bm25_cache()
         logger.info("bm25_cache_cleared after ingest file_id=%s", payload["file_id"])
 
         js = get_js()
@@ -64,7 +64,8 @@ async def process_ingest_message(msg: Msg) -> None:
             "status": "failed",
             "file_id": payload.get("file_id")
         }).encode())
-        await msg.ack()
+        # Let JetStream retry (max_deliver=5) instead of ACKing a failed job.
+        await msg.nak(delay=30)
 
 
 async def start_ingest_worker() -> None:

@@ -1,3 +1,4 @@
+import os
 import uuid
 
 import boto3
@@ -7,11 +8,12 @@ import streamlit as st
 # Configuration
 API_URL = "http://localhost:8000/api/v1"
 MINIO_ENDPOINT = "http://localhost:9000"
-MINIO_ACCESS = "minioadmin"
-MINIO_SECRET = "minioadmin"
+MINIO_ACCESS = os.getenv("MINIO_ACCESS_KEY_ID", "minioadmin")
+MINIO_SECRET = os.getenv("MINIO_SECRET_ACCESS_KEY", "minioadmin")
 BUCKET_NAME = "course-documents"
 COURSE_ID = "course_test_api"
-HEADERS = {"x-internal-token": "development_secret_token"}
+
+HEADERS = {"x-internal-token": os.getenv("INTERNAL_TOKEN", "")}
 
 st.set_page_config(page_title="RAG Chat & Quiz", page_icon="🤖", layout="wide")
 st.title("📚 RAG Chat & Quiz Interface")

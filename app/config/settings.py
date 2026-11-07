@@ -39,12 +39,12 @@ class Settings(BaseSettings):
     )
     embed_base_url: str | None = Field(default=None, validation_alias="EMBED_BASE_URL")
     embed_model_name: str = Field(
-        default="BAAI/bge-base-en-v1.5", validation_alias="EMBED_MODEL_NAME"
+        default="Alibaba-NLP/gte-base-en-v1.5", validation_alias="EMBED_MODEL_NAME"
     )
     embed_query_instruction: str = Field(
-        default="Represent this sentence for searching relevant passages: ",
-        validation_alias="EMBED_QUERY_INSTRUCTION",
+        default="", validation_alias="EMBED_QUERY_INSTRUCTION"
     )
+    embed_max_length: int = Field(default=8192, validation_alias="EMBED_MAX_LENGTH")
     embed_batch_size: int = Field(default=32, validation_alias="EMBED_BATCH_SIZE")
     embed_timeout: float = Field(default=120.0, validation_alias="EMBED_TIMEOUT")
     embed_device: str | None = Field(default=None, validation_alias="EMBED_DEVICE")
@@ -102,9 +102,7 @@ class Settings(BaseSettings):
     nats_user: str | None = Field(default=None, validation_alias="NATS_USER")
     nats_password: str | None = Field(default=None, validation_alias="NATS_PASSWORD")
 
-    internal_token: str = Field(
-        default="development_secret_token", validation_alias="INTERNAL_TOKEN"
-    )
+    internal_token: str = Field(default="", validation_alias="INTERNAL_TOKEN")
 
     @field_validator("cors_origins", mode="before")
     @classmethod

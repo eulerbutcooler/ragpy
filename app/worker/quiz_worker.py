@@ -3,6 +3,7 @@
 import asyncio
 import json
 import logging
+from collections import OrderedDict
 
 import nats.errors
 from nats.aio.msg import Msg
@@ -21,7 +22,16 @@ logger = logging.getLogger(__name__)
 
 
 _in_flight: set[str] = set()
-_completed: set[str] = set()
+# Bounded LRU so a long-running process does not grow without limit.
+_completed: OrderedDict[str, None] = OrderedDict()
+_COMPLETED_LIMIT = 2000
+
+
+def _remember_completed(key: str) -> None:
+    _completed[key] = None
+    _completed.move_to_end(key)
+    while len(_completed) > _COMPLETED_LIMIT:
+        _completed.popitem(last=False)
 
 
 def _get_task_key(course_id: str, lesson_id: str | None, difficulty: str) -> str:
@@ -124,7 +134,7 @@ async def process_quiz_message(msg: Msg, sem: asyncio.Semaphore) -> None:
                 "topics": dumped.get("topics", []),
             }
             await js.publish(RAG_QUIZ_DONE_SUBJECT, json.dumps(done_payload).encode())
-            _completed.add(task_key)
+            _remember_completed(task_key)
             logger.info(
                 "quiz_done type=%s course_id=%s difficulty=%s questions=%d topics=%d",
                 quiz_type,

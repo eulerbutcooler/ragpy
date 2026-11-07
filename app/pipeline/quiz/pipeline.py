@@ -165,6 +165,8 @@ async def _generate_from_syllabus_topics(
     normal finalize path back to grounded retrieval.
     """
     cleaned = _clean_topic_phrases(topics)
+    if not cleaned:
+        raise RuntimeError("no syllabus topics available for generation")
     logger.warning(
         "quiz_ungrounded_syllabus_only course_id=%s lesson_id=%s topics=%d",
         course_id,
@@ -187,7 +189,7 @@ async def _generate_from_syllabus_topics(
                 return await synthesize_topic([node], topic_phrase)
             except Exception as err:
                 logger.error("syllabus_topic_synthesis_failed topic=%s err=%s", topic_phrase, err)
-                return TopicSynthesisOutput(slides=[], questions=[])
+                raise
 
     results = await asyncio.gather(*[_one(topic) for topic in cleaned])
     questions: list[QuizQuestion] = []
@@ -230,8 +232,9 @@ async def generate_course_quiz(
         if keywords:
             result = await _generate_from_syllabus_topics(course_id, lesson_id, keywords)
             return result, keywords
-        logger.warning("no nodes found course_id=%s", course_id)
-        return QuizOutput(course_id=course_id, questions=[]), []
+        raise RuntimeError(
+            f"no indexed content or topics found for course {course_id}"
+        )
 
     extracted_topics: list[str] = []
 
@@ -265,6 +268,9 @@ async def generate_course_quiz(
                 seen.add(tc.lower())
                 cleaned_topics.append(tc)
         extracted_topics = cleaned_topics
+
+        if not extracted_topics:
+            raise RuntimeError(f"no topics found for lesson {lesson_id}")
 
         logger.info(
             "lesson_topics_ready count=%d topics=%s", len(extracted_topics), extracted_topics
@@ -332,7 +338,7 @@ async def generate_course_quiz(
                     return await synthesize_topic(top_chunks, topic_phrase)
                 except Exception as e:
                     logger.error("single_topic_processing_failed topic=%s err=%s", topic_phrase, e)
-                    return TopicSynthesisOutput(slides=[], questions=[])
+                    raise
 
         # Run topics concurrently with Semaphore(3)
         tasks = [_process_single_topic(t) for t in extracted_topics]

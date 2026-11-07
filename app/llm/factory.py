@@ -71,6 +71,8 @@ def get_embed_model() -> BaseEmbedding:
 
         _embed_model = HuggingFaceEmbedding(
             model_name=settings.embed_model_name,
+            trust_remote_code=True,
+            max_length=settings.embed_max_length,
             query_instruction=query_instruction,
             embed_batch_size=settings.embed_batch_size,
             device=settings.embed_device,
