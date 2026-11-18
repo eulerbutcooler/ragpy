@@ -57,7 +57,7 @@ async def chat(request: ChatRequest):
 
     # Non-streaming: call async asynthesize and return JSON.
     response = await engine.asynthesize(query_bundle=QueryBundle(query), nodes=nodes)
-    citations = format_citations(response)
+    citations = await format_citations(response)
     return ChatResponse(
         answer=str(response),
         citations=[CitationItem(**c) for c in citations],
@@ -110,7 +110,7 @@ async def _sse_generator(engine, query: str, nodes: list):
             return
 
         # Yield citations as a final structured frame.
-        citations = format_citations(streaming_response)
+        citations = await format_citations(streaming_response)
         yield f"data: {json.dumps({'citations': citations})}\n\n"
         yield "data: [DONE]\n\n"
 

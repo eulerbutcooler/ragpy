@@ -102,6 +102,7 @@ class Settings(BaseSettings):
     qdrant_vector_size: int = Field(default=768, validation_alias="QDRANT_VECTOR_SIZE")
 
     minio_endpoint: str = Field(default="http://localhost:9000", validation_alias="MINIO_ENDPOINT")
+    minio_bucket: str = Field(default="course-files", validation_alias="MINIO_BUCKET")
     minio_region: str = Field(default="us-east-1", validation_alias="MINIO_REGION")
     minio_access_key_id: str = Field(default="minioadmin", validation_alias="MINIO_ACCESS_KEY_ID")
     minio_secret_access_key: str = Field(

@@ -25,6 +25,10 @@ class CitationItem(BaseModel):
     file_name: str
     file_id: str
     score: float | None = None
+    kind: str = "file"
+    figure_id: str | None = None
+    caption: str | None = None
+    url: str | None = None
 
 
 class ChatResponse(BaseModel):
