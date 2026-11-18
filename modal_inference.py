@@ -40,17 +40,19 @@ EMBED_QUERY_INSTRUCTION = ""
 EMBED_MAX_LENGTH = "8192"
 RERANKER_MAX_LENGTH = "2048"
 
-# Modal's L4/A10G have 24 GiB. Temporary throughput test: 12 GiB total,
-# with a 10 GiB llama.cpp budget and ~2 GiB for BGE embeddings + reranker.
-# Modal tries these in order. L4 first; A10G only when L4 capacity is unavailable.
+# Modal's L4/A10G have 24 GiB. Use as much as is safe:
+#   - reserve 2 GiB for the OS / CUDA contexts
+#   - reserve 4 GiB of the remaining budget for GTE + reranker + activations
+#   - give the rest to llama.cpp
+# Both budgets can be overridden per deployment with env vars.
 GPU_TYPE = ["L4", "A10G"]
-GPU_MEMORY_LIMIT_MIB = 12 * 1024
-LLM_MEMORY_BUDGET_MIB = 10 * 1024
+GPU_RESERVE_MIB = int(os.getenv("MODAL_GPU_RESERVE_MIB", str(2 * 1024)))
+EMBED_RESERVE_MIB = int(os.getenv("MODAL_EMBED_RESERVE_MIB", str(4 * 1024)))
 
 LLAMA_PORT = 8080
 GATEWAY_PORT = 8000
-LLM_CTX_PER_SLOT = 32768
-LLM_PARALLEL = 4
+LLM_CTX_PER_SLOT = int(os.getenv("LLM_CTX_PER_SLOT", "32768"))
+LLM_PARALLEL = int(os.getenv("LLM_PARALLEL", "4"))
 LLM_TOTAL_CTX = LLM_CTX_PER_SLOT * LLM_PARALLEL
 
 CACHE_DIR = "/cache"
@@ -122,10 +124,28 @@ def _gpu_total_mib() -> int:
     return int(output.strip().splitlines()[0])
 
 
-def _fit_target_mib() -> int:
+def _memory_budget_mib() -> tuple[int, int]:
+    """Return (total GPU budget, llama.cpp budget) for the attached GPU.
+
+    On the current 23,028 MiB A10G this gives about 20.5 GiB total and
+    about 16.5 GiB for llama.cpp, leaving 6 GiB free for the OS, GTE,
+    reranker and CUDA contexts. Exact numbers vary with the reported
+    GPU total (L4 vs A10G).
+    """
+    total = _gpu_total_mib()
+    gpu_limit = int(os.getenv("GPU_MEMORY_LIMIT_MIB", "0")) or max(
+        12 * 1024, total - GPU_RESERVE_MIB
+    )
+    llm_budget = int(os.getenv("LLM_MEMORY_BUDGET_MIB", "0")) or max(
+        10 * 1024, gpu_limit - EMBED_RESERVE_MIB
+    )
+    return gpu_limit, llm_budget
+
+
+def _fit_target_mib(llm_budget_mib: int) -> int:
     """Leave enough free VRAM so llama.cpp stays within its budget."""
     total = _gpu_total_mib()
-    return max(1024, total - LLM_MEMORY_BUDGET_MIB)
+    return max(1024, total - llm_budget_mib)
 
 
 def _wait_for_llama(process: subprocess.Popen, timeout: int = 600) -> None:
@@ -161,8 +181,8 @@ def _llama_help() -> str:
     return f"{result.stdout}\n{result.stderr}"
 
 
-def _start_llama(model_path: str) -> subprocess.Popen:
-    fit_target = _fit_target_mib()
+def _start_llama(model_path: str, llm_budget_mib: int) -> subprocess.Popen:
+    fit_target = _fit_target_mib(llm_budget_mib)
     help_text = _llama_help()
     command = [
         "/app/llama-server",
@@ -237,7 +257,15 @@ class InferenceServer:
     @modal.enter()
     def start(self) -> None:
         model_path = _ensure_model()
-        self.llama_process = _start_llama(model_path)
+        gpu_limit_mib, llm_budget_mib = _memory_budget_mib()
+        logger.info(
+            "memory_budget gpu_limit_mib=%d llm_budget_mib=%d ctx_per_slot=%d parallel=%d",
+            gpu_limit_mib,
+            llm_budget_mib,
+            LLM_CTX_PER_SLOT,
+            LLM_PARALLEL,
+        )
+        self.llama_process = _start_llama(model_path, llm_budget_mib)
         _wait_for_llama(self.llama_process)
 
         env = os.environ.copy()
@@ -250,7 +278,7 @@ class InferenceServer:
                 "EMBED_QUERY_INSTRUCTION": EMBED_QUERY_INSTRUCTION,
                 "EMBED_MAX_LENGTH": EMBED_MAX_LENGTH,
                 "RERANKER_MAX_LENGTH": RERANKER_MAX_LENGTH,
-                "GPU_MEMORY_LIMIT_MIB": str(GPU_MEMORY_LIMIT_MIB),
+                "GPU_MEMORY_LIMIT_MIB": str(gpu_limit_mib),
                 "PYTHONUNBUFFERED": "1",
             }
         )

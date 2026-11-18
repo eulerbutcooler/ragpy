@@ -41,7 +41,7 @@ EMBED_MAX_LENGTH = int(os.getenv("EMBED_MAX_LENGTH", "8192"))
 RERANKER_MAX_LENGTH = int(os.getenv("RERANKER_MAX_LENGTH", "2048"))
 EMBED_BATCH_SIZE = int(os.getenv("EMBED_BATCH_SIZE", "32"))
 RERANK_BATCH_SIZE = int(os.getenv("RERANK_BATCH_SIZE", "32"))
-GPU_MEMORY_LIMIT_MIB = int(os.getenv("GPU_MEMORY_LIMIT_MIB", str(10 * 1024)))
+GPU_MEMORY_LIMIT_MIB = int(os.getenv("GPU_MEMORY_LIMIT_MIB", str(22 * 1024)))
 
 _embedder: Any = None
 _reranker: Any = None

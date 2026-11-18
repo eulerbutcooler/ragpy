@@ -10,7 +10,7 @@ numbers.
 |---|---|
 | GPU | NVIDIA A10G (L4 capacity unavailable; fallback active) |
 | LLM | `unsloth/Qwen3.5-9B-GGUF` → `Qwen3.5-9B-IQ4_XS.gguf` |
-| LLM runtime | llama.cpp, 32K context × 3 slots, `q8_0` KV, Flash Attention |
+| LLM runtime | llama.cpp, 32K context × 4 slots (current default), `q8_0` KV, Flash Attention |
 | Embeddings | `BAAI/bge-base-en-v1.5` (baseline; current model is `Alibaba-NLP/gte-base-en-v1.5`) |
 | Reranker | `BAAI/bge-reranker-v2-m3`, one shared instance |
 | VRAM used | ~7.6 GiB / 10 GiB cap |
@@ -40,6 +40,22 @@ uv run python scripts/benchmark_inference.py --runs 3 --max-tokens 256
 
 The first embedding call after idle is slower (model/network warm-up); later
 batches are fast.
+
+### VRAM budget experiment (2026-11-18)
+
+Raising the Modal budget from 12 GiB total / 10 GiB llama.cpp to roughly
+20.5 GiB / 16.5 GiB did **not** improve single-request generation:
+
+| Metric | Before | After |
+|---|---:|---:|
+| Stream decode | ~82.5 tok/s | ~81.9 tok/s |
+| TTFT | ~0.44 s | ~0.44 s |
+| Actual VRAM used | ~7.6 GiB | ~9.6 GiB |
+
+The model was already fully GPU-resident; the 10 GiB budget was not the
+bottleneck. Extra VRAM only helps if we increase `LLM_PARALLEL` and process
+more than one lesson at a time. Current quiz worker concurrency is 1 lesson
+at a time.
 
 ## Ingestion
 

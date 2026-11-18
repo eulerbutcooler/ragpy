@@ -15,17 +15,20 @@ SGLang and OpenRouter are no longer used.
 - GPU: **NVIDIA L4 first, A10G fallback** (`GPU_TYPE = ["L4", "A10G"]`).
   Modal tries L4 first and only uses A10G when L4 capacity is unavailable.
   There is no 10 GiB L4.
-- Total VRAM budget: **10 GiB**, enforced by sizing:
-  - llama.cpp is given an **8 GiB** budget through `--fit-target`.
-    Modal computes the free-VRAM target as `total - 8192 MiB`.
-  - The remaining ~2 GiB is reserved for `gte-base-en-v1.5` (fp32) and
-    `bge-reranker-v2-m3` (fp16), both loaded on the same GPU.
-- llama.cpp uses `--ctx-size 98304 --parallel 3` (32K per slot),
+- Total VRAM budget: **dynamic**, computed from the attached GPU:
+  - reserve 2 GiB for the OS/CUDA context;
+  - reserve 4 GiB of the remaining budget for `gte-base-en-v1.5` and
+    `bge-reranker-v2-m3`;
+  - give the rest to llama.cpp. On the current 23,028 MiB A10G this is about
+    **20.5 GiB total** and a **16.5 GiB llama.cpp budget**; exact values vary
+    with the reported L4/A10G total.
+  - Override with `GPU_MEMORY_LIMIT_MIB` / `LLM_MEMORY_BUDGET_MIB` if needed.
+- llama.cpp uses `--ctx-size 131072 --parallel 4` (32K per slot),
   `q8_0` KV cache, Flash Attention, and thinking disabled with
   `--reasoning off`.
 - The container is kept warm with `min_containers=1` and capped at
   **one** L4 with `max_containers=1`. This costs money while deployed.
-  Modal bills per L4-second; the 10 GiB cap is a VRAM safety/coexistence
+  Modal bills per L4-second; the VRAM budget is a safety/coexistence
   budget, not a billing discount.
 - No `compute_region` is pinned, so Modal can schedule the L4 in whichever
   region has capacity. This avoids the region-selection multiplier.
