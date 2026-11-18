@@ -49,6 +49,12 @@ for d in "$BACKEND_DIR" "$RAGPY_DIR" "$FRONTEND_DIR"; do
     exit 1
   }
 done
+for cmd in docker tmux curl uv npm; do
+  command -v "$cmd" >/dev/null 2>&1 || {
+    echo "ERROR: $cmd is required." >&2
+    exit 1
+  }
+done
 
 env_value() {
   local file="$1" key="$2"
@@ -62,7 +68,9 @@ stop_stack() {
   pkill -f 'go run ./cmd/server' 2>/dev/null || true
   pkill -f '/tmp/go-build.*/exe/server' 2>/dev/null || true
   pkill -f 'uvicorn app.main:app' 2>/dev/null || true
-  pkill -f 'next-server|next start|npm start' 2>/dev/null || true
+  pkill -f 'next-server' 2>/dev/null || true
+  pkill -f 'next start' 2>/dev/null || true
+  pkill -f 'npm start' 2>/dev/null || true
   echo "Stopped local application sessions."
 }
 

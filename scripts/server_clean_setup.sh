@@ -144,7 +144,9 @@ done
 pkill -f 'go run ./cmd/server' 2>/dev/null || true
 pkill -f '/tmp/go-build.*/exe/server' 2>/dev/null || true
 pkill -f 'uvicorn app.main:app' 2>/dev/null || true
-pkill -f 'next-server|next start|npm start' 2>/dev/null || true
+pkill -f 'next-server' 2>/dev/null || true
+pkill -f 'next start' 2>/dev/null || true
+pkill -f 'npm start' 2>/dev/null || true
 
 cp "$BACKEND_DIR/server.env.example" "$BACKEND_DIR/.env"
 cp "$RAGPY_DIR/server.env.example" "$RAGPY_DIR/.env"
