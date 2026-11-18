@@ -23,10 +23,10 @@ SGLang and OpenRouter are no longer used.
     **20.5 GiB total** and a **16.5 GiB llama.cpp budget**; exact values vary
     with the reported L4/A10G total.
   - Override with `GPU_MEMORY_LIMIT_MIB` / `LLM_MEMORY_BUDGET_MIB` if needed.
-- llama.cpp uses `--ctx-size 262144 --parallel 8` (32K per slot),
+- llama.cpp uses `--ctx-size 393216 --parallel 12` (32K per slot),
   `q8_0` KV cache, Flash Attention, and thinking disabled with
   `--reasoning off`.
-- The Modal RAG profile sets `QUIZ_CONCURRENCY=4`, so four lesson
+- The Modal RAG profile sets `QUIZ_CONCURRENCY=8`, so eight lesson
   generations can overlap with four lesson-plan jobs. The local profile
   keeps `QUIZ_CONCURRENCY=1` and three llama.cpp slots.
 - The container is kept warm with `min_containers=1` and capped at
