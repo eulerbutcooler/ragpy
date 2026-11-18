@@ -99,6 +99,7 @@ TOPIC_SYNTHESIS_PROMPT = PromptTemplate(
         "  - 'bullets': Detailed, instructive, and substantive points. Each point should thoroughly explain details.\n"
         "  - 'formula_or_rule': ONLY provide a formula if there is a real, governing mathematical equation or calculation rule directly relevant to this slide. Set to null if the slide is descriptive or non-mathematical. If provided, provide ONLY raw LaTeX without labels (no 'Equation:', no 'Formula:'), and without \\( \\) or \\[ \\] delimiters.\n"
         "  - 'diagram_mermaid': ONLY provide a Mermaid.js diagram ('graph TD' or 'graph LR') if there is a concrete, physical system schematic, mechanical workflow, or functional hierarchy to visualize. Set to null if the slide is purely narrative, historical, or conceptual. NEVER generate forced abstract word-chains. If no meaningful diagram exists, set strictly to null.\n"
+        "  - 'figure_id': set to one of the AVAILABLE FIGURE ids only when a real extracted figure genuinely illustrates this slide. Otherwise null. Never invent an id.\n"
         "CRITICAL: Output strictly valid JSON matching this structure with top-level 'questions', followed by 'slides':\n"
         "{\n"
         '  "questions": [\n'
@@ -113,7 +114,8 @@ TOPIC_SYNTHESIS_PROMPT = PromptTemplate(
         '      ],\n'
         '      "answer": "A",\n'
         '      "explanation": "Explanation citing the principles involved.",\n'
-        '      "difficulty": "easy"\n'
+        '      "difficulty": "easy",\n'
+        '      "figure_id": null\n'
         '    }\n'
         '  ],\n'
         '  "slides": [\n'
@@ -126,10 +128,16 @@ TOPIC_SYNTHESIS_PROMPT = PromptTemplate(
         '      ],\n'
         '      "formula_or_rule": null,\n'
         '      "diagram_mermaid": null,\n'
-        '      "warning": null\n'
+        '      "warning": null,\n'
+        '      "figure_id": null\n'
         '    }\n'
         '  ]\n'
         "}\n\n"
+        "FIGURE USE:\n"
+        "- At most one slide and one question may reference a figure.\n"
+        "- Only use ids from the AVAILABLE FIGURES list. If the list is empty, every figure_id must be null.\n"
+        "- When a question refers to a figure, phrase the stem so it makes sense with the image shown.\n\n"
+        "AVAILABLE FIGURES:\n{figure_catalog}\n\n"
         "Context Excerpts:\n"
         "{context_str}\n\n"
         "Output JSON:\n"

@@ -9,6 +9,7 @@ import nats.errors
 from nats.aio.msg import Msg
 from nats.js.api import ConsumerConfig
 
+from app.config.settings import settings
 from app.messaging.client import get_js
 from app.messaging.subjects import (
     DURABLE_INGEST_WORKER,
@@ -81,9 +82,9 @@ async def start_ingest_worker() -> None:
 
     while True:
         try:
-            msgs = await psub.fetch(batch=5, timeout=1.0)
-            for msg in msgs:
-                await process_ingest_message(msg)
+            msgs = await psub.fetch(batch=max(1, settings.ingest_concurrency), timeout=1.0)
+            if msgs:
+                await asyncio.gather(*(process_ingest_message(msg) for msg in msgs))
         except nats.errors.TimeoutError:
             continue
         except Exception as e:

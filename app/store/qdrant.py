@@ -22,7 +22,7 @@ def _get_aclient() -> AsyncQdrantClient:
     return AsyncQdrantClient(url=settings.qdrant_url, api_key=settings.qdrant_api_key)
 
 
-PAYLOAD_INDEX_FIELDS = ("course_id", "file_id", "file_extension")
+PAYLOAD_INDEX_FIELDS = ("course_id", "file_id", "file_extension", "content_type")
 
 
 def delete_course_vectors(course_id: str) -> None:

@@ -7,10 +7,13 @@ from llama_index.core import VectorStoreIndex
 
 from app.pipeline.ingest.chunker import chunk_documents
 from app.pipeline.ingest.embedder import embed_nodes
+from app.pipeline.ingest.figure_repo import upsert_figures
+from app.pipeline.ingest.figures import extract_figures, figure_object_key
 from app.pipeline.ingest.loader import load_file
 from app.pipeline.ingest.metadata_enricher import enrich_metadata
 from app.pipeline.ingest.parser import parse_file
 from app.pipeline.query.sparse_retriever import invalidate_bm25_cache
+from app.store.minio import upload_bytes
 from app.store.qdrant import delete_file_vectors, get_vector_store
 
 logger = logging.getLogger(__name__)
@@ -56,6 +59,33 @@ async def run_ingest(
             index.insert_nodes(list(embedded_nodes))
 
         await asyncio.to_thread(_insert)
+
+        # Figures are best-effort: a broken image stream must never fail the
+        # text ingest. They are captioned later by scripts/caption_figures.py
+        # when the vision model is running.
+        try:
+            figures = await asyncio.to_thread(extract_figures, file_path, file_name)
+            figure_rows = []
+            for figure in figures:
+                object_key = figure_object_key(course_id, file_id, figure)
+                await upload_bytes(bucket, object_key, figure.data, figure.content_type)
+                figure_rows.append(
+                    {
+                        "course_id": course_id,
+                        "file_id": file_id,
+                        "page_no": figure.page_no,
+                        "bbox": figure.bbox,
+                        "object_key": object_key,
+                        "sha256": figure.sha256,
+                        "width": figure.width,
+                        "height": figure.height,
+                    }
+                )
+            await upsert_figures(figure_rows)
+        except Exception:  # noqa: BLE001 - optional enrichment
+            logger.exception(
+                "figure_ingest_failed file_id=%s course_id=%s", file_id, course_id
+            )
 
         logger.info(
             "ingest_done file_id=%s course_id=%s nodes_indexed=%d",

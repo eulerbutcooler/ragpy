@@ -31,8 +31,16 @@ class Settings(BaseSettings):
     llm_condense_max_tokens: int = Field(default=128, validation_alias="LLM_CONDENSE_MAX_TOKENS")
     llm_condense_timeout: float = Field(default=30.0, validation_alias="LLM_CONDENSE_TIMEOUT")
     # Number of lesson-generation messages processed concurrently. Keep 1 for
-    # the local llama.cpp profile; set 4 for the Modal profile.
+    # the local llama.cpp profile; set 8+ for the Modal/vLLM profile.
     quiz_concurrency: int = Field(default=1, validation_alias="QUIZ_CONCURRENCY")
+    # Topics synthesized in parallel inside one lesson.
+    topic_concurrency: int = Field(default=3, validation_alias="TOPIC_CONCURRENCY")
+    # Files ingested in parallel by the NATS ingest worker.
+    ingest_concurrency: int = Field(default=5, validation_alias="INGEST_CONCURRENCY")
+    # Lesson-plan PDFs generated in parallel for one subject.
+    lesson_plan_concurrency: int = Field(
+        default=4, validation_alias="LESSON_PLAN_CONCURRENCY"
+    )
 
     # ------------------------------------------------------------------
     # Embeddings
@@ -106,6 +114,9 @@ class Settings(BaseSettings):
     nats_password: str | None = Field(default=None, validation_alias="NATS_PASSWORD")
 
     internal_token: str = Field(default="", validation_alias="INTERNAL_TOKEN")
+
+    # Direct Postgres connection used by offline helpers (figure indexing).
+    database_url: str = Field(default="", validation_alias="DATABASE_URL")
 
     @field_validator("cors_origins", mode="before")
     @classmethod

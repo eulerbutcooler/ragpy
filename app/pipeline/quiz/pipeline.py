@@ -16,6 +16,7 @@ from llama_index.core.schema import BaseNode, NodeWithScore, QueryBundle, TextNo
 from qdrant_client.http import models as qdrant_models
 
 from app.config.settings import settings
+from app.pipeline.query.figure_retriever import retrieve_figures
 from app.pipeline.query.full_retriever import HybridRetriever
 from app.pipeline.query.reranker import get_reranker, safe_postprocess_nodes
 from app.pipeline.quiz.extractor import extract_topics_from_nodes
@@ -173,7 +174,7 @@ async def _generate_from_syllabus_topics(
         lesson_id,
         len(cleaned),
     )
-    sem = asyncio.Semaphore(3)
+    sem = asyncio.Semaphore(max(1, settings.topic_concurrency))
 
     async def _one(topic_phrase: str) -> TopicSynthesisOutput:
         async with sem:
@@ -186,7 +187,8 @@ async def _generate_from_syllabus_topics(
                 },
             )
             try:
-                return await synthesize_topic([node], topic_phrase)
+                figures = await retrieve_figures(course_id, topic_phrase)
+                return await synthesize_topic([node], topic_phrase, figures)
             except Exception as err:
                 logger.error("syllabus_topic_synthesis_failed topic=%s err=%s", topic_phrase, err)
                 raise
@@ -277,7 +279,7 @@ async def generate_course_quiz(
         )
 
         # Semaphore for local concurrency (process 3 topics in parallel per lesson)
-        topic_sem = asyncio.Semaphore(3)
+        topic_sem = asyncio.Semaphore(max(1, settings.topic_concurrency))
         retriever = HybridRetriever(course_ids=[course_id], top_k=100)
         reranker = get_reranker(top_n=6)
 
@@ -335,7 +337,8 @@ async def generate_course_quiz(
                     )
 
                     # 4. Generate 4 Slides + 6 Questions
-                    return await synthesize_topic(top_chunks, topic_phrase)
+                    figures = await retrieve_figures(course_id, topic_phrase)
+                    return await synthesize_topic(top_chunks, topic_phrase, figures)
                 except Exception as e:
                     logger.error("single_topic_processing_failed topic=%s err=%s", topic_phrase, e)
                     raise

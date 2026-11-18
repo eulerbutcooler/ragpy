@@ -38,3 +38,15 @@ async def get_presigned_url(bucket: str, key: str, expires_in: int = 3600) -> st
 
     return await asyncio.to_thread(_presign)
 
+
+
+async def upload_bytes(bucket: str, key: str, data: bytes, content_type: str) -> None:
+    def _upload() -> None:
+        _get_s3_client().put_object(
+            Bucket=bucket,
+            Key=key,
+            Body=data,
+            ContentType=content_type,
+        )
+
+    await asyncio.to_thread(_upload)

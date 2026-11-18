@@ -32,6 +32,7 @@ class QuizQuestion(BaseModel):
     explanation: str | None = None
     difficulty: Literal["easy", "medium", "hard"] = "medium"
     topic_phrase: str | None = None
+    figure_id: str | None = None
 
     @model_validator(mode="before")
     @classmethod
@@ -120,6 +121,7 @@ class TopicSlide(BaseModel):
     formula_or_rule: str | None = None
     diagram_mermaid: str | None = None
     warning: str | None = None
+    figure_id: str | None = None
 
     @model_validator(mode="before")
     @classmethod
@@ -171,6 +173,12 @@ class TopicSlide(BaseModel):
             # Slide type (flexible string)
             st = str(data.get("slide_type") or data.get("type") or "concept").lower()
             data["slide_type"] = st
+
+            raw_figure = data.get("figure_id") or data.get("figure") or data.get("image_id")
+            if raw_figure and str(raw_figure).strip().lower() not in {"none", "null", "n/a", ""}:
+                data["figure_id"] = str(raw_figure).strip()
+            else:
+                data["figure_id"] = None
 
         return data
 
@@ -258,8 +266,10 @@ class QuizOutput(BaseModel):
 async def synthesize_topic(
     nodes: list[BaseNode],
     topic_phrase: str,
+    figures: list[dict] | None = None,
 ) -> TopicSynthesisOutput:
     """Generate 4 micro-learning slides + 6 questions for a specific topic."""
+    figures = figures or []
     context_parts: list[str] = []
     for node in nodes:
         text = node.text or ""
@@ -267,6 +277,14 @@ async def synthesize_topic(
             context_parts.append(text)
 
     context_str = "\n\n---\n\n".join(context_parts)
+
+    if figures:
+        catalog = "\n".join(
+            f'- id={figure["id"]} | page={figure.get("page_no") or "?"} | {figure["caption"]}'
+            for figure in figures
+        )
+    else:
+        catalog = "(none for this topic)"
 
     llm = get_llm()
     try:
@@ -276,15 +294,28 @@ async def synthesize_topic(
             TOPIC_SYNTHESIS_PROMPT,
             context_str=context_str,
             topic_phrase=topic_phrase,
+            figure_catalog=catalog,
         )
+
+        # Drop hallucinated or out-of-catalog figure ids.
+        valid_ids = {str(figure["id"]) for figure in figures}
+        for slide in result.slides:
+            if slide.figure_id and slide.figure_id not in valid_ids:
+                slide.figure_id = None
+        for question in result.questions:
+            if question.figure_id and question.figure_id not in valid_ids:
+                question.figure_id = None
+
         # Tag each question with its topic phrase
         for q in result.questions:
             q.topic_phrase = topic_phrase
         logger.info(
-            "topic_synthesized topic=%s slides=%d questions=%d",
+            "topic_synthesized topic=%s slides=%d questions=%d figures_used=%d",
             topic_phrase,
             len(result.slides),
             len(result.questions),
+            sum(1 for s in result.slides if s.figure_id)
+            + sum(1 for q in result.questions if q.figure_id),
         )
         return result
     except Exception as e:

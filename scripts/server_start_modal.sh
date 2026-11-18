@@ -108,10 +108,13 @@ cd "$BACKEND_DIR"
 docker compose up -d
 
 if [[ "$DEPLOY" == "1" ]]; then
-  echo "Deploying Modal inference..."
+  echo "Deploying Modal inference (vLLM B200 + embed T4)..."
   cd "$RAGPY_DIR"
   uv sync --group deploy
-  uv run modal deploy modal_inference.py
+  # Populate the model volume without paying for a B200.
+  uv run modal run modal_vllm.py::download_model
+  uv run modal deploy modal_vllm.py
+  uv run modal deploy modal_embed.py
   uv run modal app list | sed -n '1,20p'
 fi
 
