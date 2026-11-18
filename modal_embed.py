@@ -53,6 +53,9 @@ image = (
             "HF_XET_HIGH_PERFORMANCE": "1",
             "TOKENIZERS_PARALLELISM": "false",
             "PYTHONUNBUFFERED": "1",
+            "EMBED_CONCURRENCY": os.getenv("AEROMENTOR_EMBED_CONCURRENCY", "8"),
+            "RERANK_CONCURRENCY": os.getenv("AEROMENTOR_RERANK_CONCURRENCY", "4"),
+            "RERANK_BATCH_SIZE": os.getenv("AEROMENTOR_RERANK_BATCH_SIZE", "16"),
         }
     )
     .add_local_file("inference_gateway.py", "/app/inference_gateway.py")  # type: ignore[arg-type]

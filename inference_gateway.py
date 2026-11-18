@@ -40,7 +40,13 @@ EMBED_QUERY_INSTRUCTION = os.getenv("EMBED_QUERY_INSTRUCTION", "")
 EMBED_MAX_LENGTH = int(os.getenv("EMBED_MAX_LENGTH", "8192"))
 RERANKER_MAX_LENGTH = int(os.getenv("RERANKER_MAX_LENGTH", "2048"))
 EMBED_BATCH_SIZE = int(os.getenv("EMBED_BATCH_SIZE", "32"))
-RERANK_BATCH_SIZE = int(os.getenv("RERANK_BATCH_SIZE", "32"))
+RERANK_BATCH_SIZE = int(os.getenv("RERANK_BATCH_SIZE", "16"))
+# Concurrency guards. The models are shared across requests, so each call
+# takes a bounded slot instead of a global lock. Keep the reranker lower than
+# the embedder: 100 documents at 2K tokens each is far heavier than a batch of
+# short embedding inputs.
+EMBED_CONCURRENCY = max(1, int(os.getenv("EMBED_CONCURRENCY", "8")))
+RERANK_CONCURRENCY = max(1, int(os.getenv("RERANK_CONCURRENCY", "4")))
 GPU_MEMORY_LIMIT_MIB = int(os.getenv("GPU_MEMORY_LIMIT_MIB", str(22 * 1024)))
 
 _embedder: Any = None
@@ -48,8 +54,8 @@ _reranker: Any = None
 _llama_http: httpx.AsyncClient | None = None
 _ready = asyncio.Event()
 _startup_error: str | None = None
-_EMBED_LOCK = threading.Lock()
-_RERANK_LOCK = threading.Lock()
+_EMBED_SEM = threading.BoundedSemaphore(EMBED_CONCURRENCY)
+_RERANK_SEM = threading.BoundedSemaphore(RERANK_CONCURRENCY)
 
 
 def _vram_snapshot() -> dict[str, int | str]:
@@ -178,7 +184,7 @@ class RerankRequest(BaseModel):
 
 
 def _encode(texts: list[str]) -> list[list[float]]:
-    with _EMBED_LOCK:
+    with _EMBED_SEM:
         vectors = _embedder.encode(
             texts,
             batch_size=EMBED_BATCH_SIZE,
@@ -190,7 +196,7 @@ def _encode(texts: list[str]) -> list[list[float]]:
 
 
 def _rerank(query: str, documents: list[str]) -> list[float]:
-    with _RERANK_LOCK:
+    with _RERANK_SEM:
         scores = _reranker.predict(
             [(query, document) for document in documents],
             batch_size=RERANK_BATCH_SIZE,

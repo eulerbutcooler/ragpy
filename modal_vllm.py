@@ -41,7 +41,7 @@ GPU_TYPE = os.getenv("AEROMENTOR_VLLM_GPU", "B200")
 
 VLLM_PORT = 8000
 MAX_MODEL_LEN = int(os.getenv("AEROMENTOR_VLLM_MAX_LEN", "32768"))
-MAX_NUM_SEQS = int(os.getenv("AEROMENTOR_VLLM_MAX_SEQS", "48"))
+MAX_NUM_SEQS = int(os.getenv("AEROMENTOR_VLLM_MAX_SEQS", "64"))
 GPU_UTIL = float(os.getenv("AEROMENTOR_VLLM_GPU_UTIL", "0.90"))
 
 HF_HOME = "/root/.cache/huggingface"
@@ -144,8 +144,8 @@ def download_model() -> str:
     # expensive to leave idle. Set min_containers=1 only during a run.
     min_containers=int(os.getenv("AEROMENTOR_VLLM_MIN_CONTAINERS", "1")),
     max_containers=1,
-    target_concurrency=48,
-    max_concurrency=96,
+    target_concurrency=64,
+    max_concurrency=128,
     scaledown_window=30 * 60,
     unauthenticated=True,
 )
