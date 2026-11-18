@@ -52,7 +52,9 @@ EMBED_RESERVE_MIB = int(os.getenv("MODAL_EMBED_RESERVE_MIB", str(4 * 1024)))
 LLAMA_PORT = 8080
 GATEWAY_PORT = 8000
 LLM_CTX_PER_SLOT = int(os.getenv("LLM_CTX_PER_SLOT", "32768"))
-LLM_PARALLEL = int(os.getenv("LLM_PARALLEL", "4"))
+# Modal profile: 8 slots so 4 lesson plans + 4 lesson generations can overlap.
+# The local dev.sh profile keeps 3 slots.
+LLM_PARALLEL = int(os.getenv("LLM_PARALLEL", "8"))
 LLM_TOTAL_CTX = LLM_CTX_PER_SLOT * LLM_PARALLEL
 
 CACHE_DIR = "/cache"

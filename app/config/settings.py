@@ -30,6 +30,9 @@ class Settings(BaseSettings):
     llm_enable_thinking: bool = Field(default=False, validation_alias="LLM_ENABLE_THINKING")
     llm_condense_max_tokens: int = Field(default=128, validation_alias="LLM_CONDENSE_MAX_TOKENS")
     llm_condense_timeout: float = Field(default=30.0, validation_alias="LLM_CONDENSE_TIMEOUT")
+    # Number of lesson-generation messages processed concurrently. Keep 1 for
+    # the local llama.cpp profile; set 4 for the Modal profile.
+    quiz_concurrency: int = Field(default=1, validation_alias="QUIZ_CONCURRENCY")
 
     # ------------------------------------------------------------------
     # Embeddings

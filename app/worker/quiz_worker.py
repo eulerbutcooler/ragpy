@@ -16,6 +16,7 @@ from app.messaging.subjects import (
     RAG_QUIZ_PUBLISH_SUBJECT,
     RAG_QUIZ_STREAM,
 )
+from app.config.settings import settings
 from app.pipeline.quiz.pipeline import generate_course_quiz
 
 logger = logging.getLogger(__name__)
@@ -189,18 +190,22 @@ async def start_quiz_worker() -> None:
     )
     logger.info("quiz_worker pull_subscribe registered subject=%s", RAG_QUIZ_PUBLISH_SUBJECT)
 
-    # Process 1 lesson message at a time to avoid overloading the LLM endpoint
-    # on 40+ lesson courses.
-    sem = asyncio.Semaphore(1)
+    # Local profile: 1 lesson at a time. Modal profile: QUIZ_CONCURRENCY=4,
+    # matching the 8 llama.cpp slots (4 lesson plans + 4 lesson generations).
+    concurrency = max(1, settings.quiz_concurrency)
+    sem = asyncio.Semaphore(concurrency)
+    logger.info("quiz_worker lesson_concurrency=%d", concurrency)
 
     while True:
         try:
-            # Fetch and process one message at a time. Prefetching while the
-            # semaphore queues work leaves messages unacked past ack_wait, so
-            # JetStream redelivers them and the same quiz is generated again.
-            msgs = await psub.fetch(batch=1, timeout=1.0)
-            for msg in msgs:
-                await process_quiz_message(msg, sem)
+            # Fetch a bounded batch and let the semaphore control generation.
+            # Each task heartbeats its message while the LLM is working, so
+            # a 4-message batch does not exceed ack_wait.
+            msgs = await psub.fetch(batch=concurrency, timeout=1.0)
+            if msgs:
+                await asyncio.gather(
+                    *(process_quiz_message(msg, sem) for msg in msgs)
+                )
         except nats.errors.TimeoutError:
             continue
         except Exception as e:

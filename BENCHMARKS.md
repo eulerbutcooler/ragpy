@@ -10,7 +10,7 @@ numbers.
 |---|---|
 | GPU | NVIDIA A10G (L4 capacity unavailable; fallback active) |
 | LLM | `unsloth/Qwen3.5-9B-GGUF` → `Qwen3.5-9B-IQ4_XS.gguf` |
-| LLM runtime | llama.cpp, 32K context × 4 slots (current default), `q8_0` KV, Flash Attention |
+| LLM runtime | llama.cpp, 32K context × 8 slots (Modal default), `q8_0` KV, Flash Attention |
 | Embeddings | `BAAI/bge-base-en-v1.5` (baseline; current model is `Alibaba-NLP/gte-base-en-v1.5`) |
 | Reranker | `BAAI/bge-reranker-v2-m3`, one shared instance |
 | VRAM used | ~7.6 GiB / 10 GiB cap |
@@ -40,6 +40,21 @@ uv run python scripts/benchmark_inference.py --runs 3 --max-tokens 256
 
 The first embedding call after idle is slower (model/network warm-up); later
 batches are fast.
+
+### Concurrent generation (2026-11-18)
+
+Modal A10G, 8 llama.cpp slots, 256-token non-streaming requests:
+
+| Concurrent requests | Wall time | Aggregate throughput | Speedup |
+|---:|---:|---:|---:|
+| 1 | 4.05 s | 63.3 tok/s | 1.0x |
+| 4 | 5.55 s | 184.5 tok/s | 2.9x |
+| 8 | 8.19 s | 250.2 tok/s | 4.0x |
+
+This is raw decode throughput. Real lesson generation also includes retrieval,
+reranking, JSON validation, and lesson-plan work, so expect roughly **2–3x**
+batch speedup, not 4x per individual lesson. The Modal RAG profile uses
+`QUIZ_CONCURRENCY=4`; local inference stays at `QUIZ_CONCURRENCY=1`.
 
 ### VRAM budget experiment (2026-11-18)
 
