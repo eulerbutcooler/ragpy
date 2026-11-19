@@ -143,6 +143,190 @@ def _parse_table_rows(table, mapping: dict[str, int]) -> list[SyllabusRow]:
     return rows
 
 
+def _textbox_rows(doc) -> list[SyllabusRow]:
+    """Rebuild a syllabus table that Word stores as absolutely-positioned text boxes.
+
+    Some exported DOCX files (usually converted from a PDF) contain no real
+    ``w:tbl`` elements: every cell is a floating text box anchored at an X/Y
+    offset. This reconstructs rows from those positions.
+
+    Columns are identified by the X bands used by the Air Agniveer syllabus
+    tables, and rows are grouped from the syllabus lines between period rows.
+    """
+    from lxml import etree
+
+    ns = {
+        "w": "http://schemas.openxmlformats.org/wordprocessingml/2006/main",
+        "wp": "http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing",
+    }
+
+    def column(x: int) -> str:
+        if x < 1_500_000:
+            return "task"
+        if x < 3_300_000:
+            return "sub_task"
+        if x < 5_300_000:
+            return "objective"
+        if x < 8_800_000:
+            return "syllabus"
+        if x < 9_300_000:
+            return "t"
+        if x < 9_700_000:
+            return "p"
+        if x < 10_150_000:
+            return "f"
+        if x < 10_550_000:
+            return "total"
+        if x < 11_150_000:
+            return "sok"
+        return "remarks"
+
+    def merged_cells(items, low: int, high: int, pattern: str):
+        boxes = sorted(
+            [(y, x, text) for x, y, text in items if low <= x < high],
+            key=lambda box: (box[0], box[1]),
+        )
+        anchors: list[tuple[int, str]] = []
+        for y, _x, text in boxes:
+            if re.match(pattern, text) and (not anchors or y - anchors[-1][0] > 50_000):
+                anchors.append((y, text))
+
+        cells: list[tuple[int, str]] = []
+        for index, (y, _text) in enumerate(anchors):
+            end = anchors[index + 1][0] if index + 1 < len(anchors) else 10**12
+            cells.append((y, " ".join(text for yy, _xx, text in boxes if y <= yy < end)))
+        return cells
+
+    def pick(cells, y: int) -> str:
+        value = ""
+        for cell_y, text in cells:
+            if cell_y <= y + 50_000:
+                value = text
+            else:
+                break
+        return value
+
+    page_height = 10_058_400
+    try:
+        page_height = int(doc.sections[0].page_height)
+    except Exception:  # noqa: BLE001 - default to Letter height
+        pass
+    min_y = int(page_height * 0.21)
+    max_y = int(page_height * 0.95)
+
+    rows: list[SyllabusRow] = []
+    for paragraph in doc.element.body.findall("w:p", ns):
+        items: list[tuple[int, int, str]] = []
+        for anchor in paragraph.findall(".//wp:anchor", ns):
+            h = anchor.find(".//wp:positionH/wp:posOffset", ns)
+            v = anchor.find(".//wp:positionV/wp:posOffset", ns)
+            box = anchor.find(".//w:txbxContent", ns)
+            if h is None or v is None or box is None:
+                continue
+            # Read only w:t runs: python-docx mirrors text onto the paragraph
+            # and run elements, so itertext() would return each cell 3 times.
+            text = " ".join(
+                "".join((node.text or "") for node in box.findall(".//w:t", ns)).split()
+            ).strip()
+            if text:
+                items.append((int(h.text), int(v.text), text))
+
+        if not items:
+            continue
+
+        # Drop exact duplicates and anything outside the table body.
+        items = list(dict.fromkeys(items))
+        data = [
+            (x, y, text)
+            for x, y, text in items
+            if min_y <= y <= max_y
+            and text.lower() not in {"task list", "sub task list", "training objective", "syllabus", "no of periods", "sok", "remarks"}
+            and not text.lower().startswith(("air agniveer apprentice", "syllabus approved"))
+        ]
+
+        period_rows = sorted(
+            {
+                y
+                for x, y, text in data
+                if 8_800_000 <= x < 10_550_000 and re.fullmatch(r"\d+", text)
+            }
+        )
+        centers: list[int] = []
+        for y in period_rows:
+            if centers and y - centers[-1] <= 120_000:
+                continue
+            centers.append(y)
+        if not centers:
+            continue
+
+        tasks = merged_cells(data, 0, 1_500_000, r"^\d+\.\d+")
+        sub_tasks = merged_cells(data, 1_500_000, 3_300_000, r"^\d+\.\d+\.\d+")
+        objectives = merged_cells(data, 3_300_000, 5_300_000, r"^\d+\.\d+\.\d+\.\d+")
+
+        # Group syllabus lines into bullets. A gap larger than ~0.28 inch is a
+        # new bullet; multi-line bullets keep a ~0.22 inch line pitch.
+        lines = sorted(
+            [
+                (y, x, text)
+                for x, y, text in data
+                if 5_300_000 <= x < 8_800_000
+                and not text.strip().lower().startswith("total")
+            ],
+            key=lambda line: (line[0], line[1]),
+        )
+        groups: list[list[tuple[int, int, str]]] = []
+        for line in lines:
+            new_bullet = not groups or line[0] - groups[-1][-1][0] > 260_000
+            # Some rows embed an objective number inside the syllabus cell
+            # (e.g. "8.1.2.1 Various types of fuels..."). Treat that as a new
+            # bullet instead of merging it into the previous one.
+            if re.fullmatch(r"\d+\.\d+\.\d+\.\d+", line[2]):
+                new_bullet = True
+            if new_bullet:
+                groups.append([line])
+            else:
+                groups[-1].append(line)
+
+        last_remarks = ""
+        for group in groups:
+            syllabus = " ".join(text for _y, _x, text in group)
+            if not syllabus or syllabus.lower().startswith("total"):
+                continue
+
+            first_y = group[0][0]
+            last_y = group[-1][0]
+            center = min(centers, key=lambda c: abs(c - (first_y + last_y) / 2))
+
+            def cell(low: int, high: int) -> str:
+                values = [
+                    (y, x, text)
+                    for x, y, text in data
+                    if low <= x < high and abs(y - center) <= 200_000
+                ]
+                return " ".join(value[2] for value in sorted(values)).strip()
+
+            remarks = cell(11_150_000, 10**12)
+            if remarks:
+                last_remarks = remarks
+
+            rows.append(
+                SyllabusRow(
+                    task=pick(tasks, first_y),
+                    sub_task=pick(sub_tasks, first_y),
+                    objective=pick(objectives, first_y),
+                    syllabus=syllabus,
+                    periods_t=cell(8_800_000, 9_300_000),
+                    periods_p=cell(9_300_000, 9_700_000),
+                    periods_f=cell(9_700_000, 10_150_000),
+                    periods_total=cell(10_150_000, 10_550_000),
+                    sok=cell(10_550_000, 11_150_000),
+                    remarks=last_remarks,
+                )
+            )
+
+    return rows
+
+
 def extract_subject_rows(
     doc,
     subject_code: str | None = None,
@@ -192,6 +376,17 @@ def extract_subject_rows(
         candidates = all_candidates
 
     if not candidates:
+        textbox_rows = _textbox_rows(doc)
+        if textbox_rows:
+            title = f"{subject_name or 'Subject'} (text-box table)"
+            logger.warning(
+                "syllabus_textbox_fallback subject=%r code=%r rows=%d",
+                subject_name,
+                subject_code,
+                len(textbox_rows),
+            )
+            return textbox_rows, title
+
         raise ValueError(
             f"no detailed syllabus table found for subject_code={subject_code!r} "
             f"subject_name={subject_name!r}"
