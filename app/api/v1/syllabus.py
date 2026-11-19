@@ -69,6 +69,12 @@ async def extract_syllabus(request: SyllabusExtractRequest) -> SyllabusExtractRe
                 file_name=request.file_name,
             )
             rows = []
+    except ValueError as exc:
+        logger.warning("syllabus_extract_invalid key=%s detail=%s", request.key, exc)
+        raise HTTPException(
+            status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
+            detail=f"syllabus extraction failed: {exc}",
+        ) from exc
     except Exception as exc:
         logger.exception("syllabus_extract_failed key=%s", request.key)
         raise HTTPException(

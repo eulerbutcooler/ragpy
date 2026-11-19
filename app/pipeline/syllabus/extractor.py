@@ -143,6 +143,57 @@ def _parse_table_rows(table, mapping: dict[str, int]) -> list[SyllabusRow]:
     return rows
 
 
+def _heading_rows(doc) -> list[SyllabusRow]:
+    """Fallback for syllabi that are an outline rather than a detailed table.
+
+    Many imported subject documents list modules as headings (sometimes with a
+    period count in parentheses) and contain no Part-B table. Treat each unique
+    heading as one lesson so the course can still be built and generated.
+    """
+    rows: list[SyllabusRow] = []
+    seen: set[str] = set()
+
+    for paragraph in doc.paragraphs:
+        text = (paragraph.text or "").strip()
+        if not text:
+            continue
+        style = (paragraph.style.name if paragraph.style else "").lower()
+        is_heading = style.startswith("heading") or bool(
+            re.match(r"^(chapter|module|unit|part|section|lesson)\b", text, re.I)
+        )
+        if not is_heading:
+            continue
+
+        key = re.sub(r"\s+", " ", text.lower())
+        if key in seen:
+            continue
+        seen.add(key)
+
+        period_match = re.search(r"\((\d+)\)\s*$", text)
+        periods = period_match.group(1) if period_match else ""
+        title = re.sub(r"\s*\(\d+\)\s*$", "", text).strip()
+        if not title:
+            continue
+
+        index = len(rows) + 1
+        rows.append(
+            SyllabusRow(
+                task=title,
+                sub_task="",
+                objective=f"{index}.1",
+                syllabus=title,
+                periods_t=periods,
+                periods_p="",
+                periods_f="",
+                periods_total=periods,
+                sok="",
+                remarks="",
+            )
+        )
+
+    return rows
+
+
 def extract_subject_rows(
     doc,
     subject_code: str | None = None,
@@ -192,6 +243,16 @@ def extract_subject_rows(
         candidates = all_candidates
 
     if not candidates:
+        heading_rows = _heading_rows(doc)
+        if heading_rows:
+            title = f"{subject_name or 'Subject'} (heading outline)"
+            logger.warning(
+                "syllabus_heading_fallback subject=%r code=%r rows=%d",
+                subject_name,
+                subject_code,
+                len(heading_rows),
+            )
+            return heading_rows, title
         raise ValueError(
             f"no detailed syllabus table found for subject_code={subject_code!r} "
             f"subject_name={subject_name!r}"
