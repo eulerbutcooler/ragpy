@@ -88,6 +88,11 @@ fi
   exit 1
 }
 
+# Keep the Compose project name aligned with the backend directory. On the
+# older server layout this is "wingman-backend"; in this repo it is "backend".
+# The volume migration script uses the same convention.
+export COMPOSE_PROJECT_NAME="${COMPOSE_PROJECT_NAME:-$(basename "$BACKEND_DIR")}"
+
 # Fail before touching running services if the chosen inference cannot start.
 LLAMA_ALREADY_RUNNING=0
 case "$INFERENCE" in
@@ -201,12 +206,25 @@ wait_exec() {
   return 1
 }
 
+wait_tcp() {
+  local name="$1" host="$2" port="$3" attempts="${4:-60}"
+  for _ in $(seq 1 "$attempts"); do
+    if python3 -c "import socket; socket.create_connection(('$host', $port), 1).close()" >/dev/null 2>&1; then
+      echo "  $name ready"
+      return 0
+    fi
+    sleep 1
+  done
+  echo "ERROR: $name did not become ready at $host:$port" >&2
+  return 1
+}
+
 echo "Waiting for infrastructure..."
 wait_exec "postgres" 90 bash -c "cd '$BACKEND_DIR' && docker compose exec -T postgres pg_isready -U aeromentor -d aeromentor"
 wait_exec "redis" 60 bash -c "cd '$BACKEND_DIR' && docker compose exec -T redis redis-cli ping | grep -q PONG"
 wait_http "qdrant" "http://127.0.0.1:6333/" 90
 wait_http "seaweedfs" "http://127.0.0.1:9000/" 90
-wait_http "nats" "http://127.0.0.1:8222/" 60
+wait_tcp "nats" "127.0.0.1" 4222 60
 
 # Select the RAGPy inference profile before RAGPy starts.
 case "$INFERENCE" in
