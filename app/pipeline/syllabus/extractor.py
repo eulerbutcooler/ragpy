@@ -375,6 +375,29 @@ def extract_subject_rows(
         # the only table is the right one even if the code/name lookup missed.
         candidates = all_candidates
 
+    if not candidates and all_candidates:
+        # A subject's detailed syllabus is often split across several page
+        # tables and the subject name is only in the file name, not inside the
+        # rows. Merge the tables when they all belong to the same subject code.
+        prefixes = {
+            row.objective.split(".", 1)[0]
+            for rows, _title in all_candidates
+            for row in rows
+            if row.objective
+        }
+        merge_allowed = len(prefixes) <= 1 and (not wanted_code or wanted_code in prefixes)
+        if merge_allowed:
+            merged = [row for rows, _title in all_candidates for row in rows]
+            title = f"{subject_name or 'Subject'} (combined tables)"
+            logger.warning(
+                "syllabus_combined_tables subject=%r code=%r tables=%d rows=%d",
+                subject_name,
+                subject_code,
+                len(all_candidates),
+                len(merged),
+            )
+            return merged, title
+
     if not candidates:
         textbox_rows = _textbox_rows(doc)
         if textbox_rows:
