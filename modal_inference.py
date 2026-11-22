@@ -76,8 +76,8 @@ image = (
         "httpx>=0.27",
         "huggingface_hub>=0.34",
         "numpy>=2.0",
-        "sentence-transformers>=5.3.0,<6.0",
-        "transformers>=4.41,<4.45",
+        "sentence-transformers>=5.7.0,<6.0",
+        "transformers>=5.23.0,<6.0",
     )
     .env(
         {

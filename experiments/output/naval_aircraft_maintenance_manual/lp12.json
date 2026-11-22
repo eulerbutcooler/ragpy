@@ -1,0 +1,147 @@
+{
+  "subject_name": "Naval Aircraft Maintenance Manual",
+  "subject_code": "",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "12",
+  "total_lesson_plans": "19",
+  "time_allotted": "80 min",
+  "topic": "Methods of applying surface protection, preparation of paints, equipment used, common paint and troubles.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Methods of applying surface protection, preparation of paints, equipment used, common paint and troubles.",
+  "specific_objectives": "6.2.1.1 Trainee will be able to understand surface protection materials, paint identification, restoration of various paint and application, dope shop, dope articles and troubles.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Demonstration of paint mixing and spray gun handling. Safety precautions: Ventilation, PPE usage. Instructor supervision: Direct observation.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary purpose of aircraft surface protection?",
+    "Name two common types of corrosion affecting aircraft structures.",
+    "Why is proper surface preparation critical before painting?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Surface protection materials overview",
+        "Paint identification standards",
+        "Restoration of various paint types"
+      ],
+      "content": "Surface protection materials overview\nPaint identification standards\nRestoration of various paint types",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Preparation of paints and thinners",
+        "Equipment used in painting",
+        "Dope shop operations"
+      ],
+      "content": "Preparation of paints and thinners\nEquipment used in painting\nDope shop operations",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Common paint troubles and causes",
+        "Dope articles and usage",
+        "Troubleshooting paint defects"
+      ],
+      "content": "Common paint troubles and causes\nDope articles and usage\nTroubleshooting paint defects",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain the difference between primer and topcoat in surface protection.",
+    "Identify the cause of 'orange peel' defect in painted surfaces.",
+    "List the safety precautions required when using spray painting equipment."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare a list of color codes and marking standards for naval aircraft to be discussed in the next lesson.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Colors and marking on naval aircraft.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 13"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT.",
+    "Clarification needed on specific dope articles mentioned in current BR vs older manuals."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

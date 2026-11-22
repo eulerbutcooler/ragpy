@@ -1,0 +1,147 @@
+{
+  "subject_name": "Naval Aircraft Maintenance Manual",
+  "subject_code": "",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "16",
+  "total_lesson_plans": "19",
+  "time_allotted": "80 min",
+  "topic": "Introduction to lubricating oils and high-grade oils, nature of oils, oil contamination.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Introduction to lubricating oils and high-grade oils, nature of oils, oil contamination.",
+  "specific_objectives": "8.1.1.1 Trainee will be able to describe the Various nomenclatures.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Inspection of oil samples for contamination indicators; Safety: Use of nitrile gloves and eye protection; Instructor supervision: Direct observation of sampling technique.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "What is the primary function of lubrication in an aircraft engine?",
+    "Name two common types of fluids used in aircraft hydraulic systems.",
+    "Why is regular oil analysis critical for engine health?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Definition and purpose of lubricating oils",
+        "Classification of mineral and synthetic oils",
+        "Key properties: viscosity and flash point"
+      ],
+      "content": "Definition and purpose of lubricating oils\nClassification of mineral and synthetic oils\nKey properties: viscosity and flash point",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Understanding oil nomenclature codes",
+        "Interpreting viscosity grades (SAE)",
+        "Reading API service classification symbols"
+      ],
+      "content": "Understanding oil nomenclature codes\nInterpreting viscosity grades (SAE)\nReading API service classification symbols",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Sources of oil contamination",
+        "Effects of water and fuel dilution",
+        "Identification of particulate contamination"
+      ],
+      "content": "Sources of oil contamination\nEffects of water and fuel dilution\nIdentification of particulate contamination",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "How does viscosity affect oil performance at high temperatures?",
+    "Identify three visual signs of contaminated oil in a sample.",
+    "Why is it important to distinguish between mineral and synthetic oil nomenclature?"
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Research the specific grease types used in landing gear systems and prepare a comparison chart for the next lesson.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Type of grease and lubricants and their uses.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 17"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT.",
+    "Clarification on specific high-grade oil nomenclature standards used in current NIAT curriculum."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}
