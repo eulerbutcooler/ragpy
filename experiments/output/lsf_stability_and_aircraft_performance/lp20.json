@@ -1,0 +1,143 @@
+{
+  "subject_name": "LSF Stability and Aircraft Performance",
+  "subject_code": "",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "20",
+  "total_lesson_plans": "28",
+  "time_allotted": "80 min",
+  "topic": "Descend forces in a descend glide range.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Descend forces in a descend glide range.",
+  "specific_objectives": "6.1.3.1 Trainee will be able to describe flight performance of aircraft.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Activity: Diagrammatic representation of descent forces. Safety: None. Supervision: Instructor guided.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "Define lift and drag in level flight.",
+    "State the relationship between thrust and drag in steady flight.",
+    "What is the primary force opposing weight during descent?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Forces acting during a steady descent",
+        "Vector resolution of weight and lift"
+      ],
+      "content": "Forces acting during a steady descent\nVector resolution of weight and lift",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Glide angle determination factors",
+        "Effect of airspeed on glide path"
+      ],
+      "content": "Glide angle determination factors\nEffect of airspeed on glide path",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Maximum glide range conditions",
+        "Impact of engine failure on descent"
+      ],
+      "content": "Maximum glide range conditions\nImpact of engine failure on descent",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "How does increasing airspeed affect the glide angle in a power-off descent?",
+    "Explain why the best glide speed provides maximum distance coverage."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Prepare notes on the forces involved in a coordinated turn and the concept of rate of turn.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Turn forces in a turn, rate of turn steady level coordinated turn and control in a turn.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 21"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT.",
+    "Clarification needed on specific aircraft type for glide ratio examples if not generic."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

@@ -1,0 +1,146 @@
+{
+  "subject_name": "LSF Stability and Aircraft Performance",
+  "subject_code": "",
+  "class_name": "Air Agniveer Apprentice (Engineering)",
+  "lesson_plan_no": "08",
+  "total_lesson_plans": "28",
+  "time_allotted": "80 min",
+  "topic": "Bernoulli’s theorem for compressible and incompressible Flow.",
+  "total_sessions": "01 / 01",
+  "sequence": "01 / 01",
+  "syllabus_extract": "Bernoulli’s theorem for compressible and incompressible Flow. Equation of continuity, Lift generation on aerofoil. Reynolds number.",
+  "specific_objectives": "6.1.1.1 Trainee will be able to explain the properties of atmosphere, flow over bodies, boundary layer.",
+  "training_aids": [
+    {
+      "ser": "(a)",
+      "description": "BR/Text Book/Docket",
+      "remarks": "Refer to the master syllabus reference list"
+    },
+    {
+      "ser": "(b)",
+      "description": "Wall Charts",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(c)",
+      "description": "Films/Duration",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(d)",
+      "description": "PPT",
+      "remarks": "Objective: teach the syllabus extract for this lesson"
+    },
+    {
+      "ser": "(e)",
+      "description": "Models",
+      "remarks": "Nil"
+    },
+    {
+      "ser": "(f)",
+      "description": "CBT",
+      "remarks": "Nil"
+    }
+  ],
+  "practical": "Smoke tunnel demonstration of steady streamlined flow pattern over object. Safety: Ensure smoke generator is cool before handling. Instructor supervision: Direct observation of flow visualization.",
+  "existing_knowledge": "As per course prerequisites",
+  "intro_time": "10 min",
+  "intro_questions": [
+    "Define incompressible fluid flow.",
+    "State the principle of conservation of mass.",
+    "What is the primary source of lift on an aircraft?"
+  ],
+  "development": [
+    {
+      "sub": "(a)",
+      "topics": [
+        "Equation of continuity for steady flow",
+        "Bernoulli’s theorem for incompressible flow",
+        "Bernoulli’s theorem for compressible flow"
+      ],
+      "content": "Equation of continuity for steady flow\nBernoulli’s theorem for incompressible flow\nBernoulli’s theorem for compressible flow",
+      "method": "L & Ds",
+      "trg_aids": "PPT, IB",
+      "time": "15 min"
+    },
+    {
+      "sub": "(b)",
+      "topics": [
+        "Lift generation on aerofoil",
+        "Pressure distribution over aerofoil",
+        "Role of velocity and pressure"
+      ],
+      "content": "Lift generation on aerofoil\nPressure distribution over aerofoil\nRole of velocity and pressure",
+      "method": "L & Ds",
+      "trg_aids": "PPT, PDF",
+      "time": "20 min"
+    },
+    {
+      "sub": "(c)",
+      "topics": [
+        "Reynolds number definition",
+        "Significance of Reynolds number",
+        "Laminar vs turbulent flow regimes"
+      ],
+      "content": "Reynolds number definition\nSignificance of Reynolds number\nLaminar vs turbulent flow regimes",
+      "method": "Practical",
+      "trg_aids": "IB, PDF",
+      "time": "15 min"
+    }
+  ],
+  "summary_time": "15 min",
+  "summary_questions": [
+    "Explain how Bernoulli’s principle contributes to lift generation.",
+    "Calculate Reynolds number for given flow parameters."
+  ],
+  "home_assignment_time": "5 min",
+  "home_assignment_question": "Derive the continuity equation for steady incompressible flow and relate it to LP 02.",
+  "pft_rows": [
+    {
+      "ser": "1",
+      "syllabus": "Practical demonstration of steady streamlined flow pattern over object in a smoke tunnel.",
+      "references": "Refer to the master syllabus reference list",
+      "related_lps": "LP 09"
+    }
+  ],
+  "pe_rows": [
+    {
+      "item": "(a)",
+      "description": "Adequacy of time",
+      "remarks": ""
+    },
+    {
+      "item": "(b)",
+      "description": "Suitability of training material/aids and additional aids required",
+      "remarks": ""
+    },
+    {
+      "item": "(c)",
+      "description": "Doubts/intelligent questions raised by trainees",
+      "remarks": ""
+    },
+    {
+      "item": "(d)",
+      "description": "Difficulties faced by instructor",
+      "remarks": ""
+    },
+    {
+      "item": "(e)",
+      "description": "Other experience",
+      "remarks": ""
+    }
+  ],
+  "prepared_by": "Name, Rank, P No.",
+  "approved_by": "Name, Rank, P No.",
+  "prep_date": "Nov 26",
+  "approval_date": "Nov 26",
+  "queries": [
+    "Confirm the master syllabus reference book/BR for this subject.",
+    "Confirm the class existing knowledge and prerequisites.",
+    "Confirm the session duration and sequence; 80 min and 01/01 were assumed.",
+    "Prepared-by/approved-by names, ranks, P numbers and dates must be filled before approval.",
+    "Confirm any training aids available beyond L & Ds, IB, PDF and PPT.",
+    "Clarification needed on specific compressible flow equations for apprentice level."
+  ],
+  "timing_check": "Introduction 10 + Main 50 + Summary 15 + Home 5 = 80 min"
+}

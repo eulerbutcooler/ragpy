@@ -1,6 +1,7 @@
 """Pydantic output models and structured quiz formatting from node context."""
 
 
+import asyncio
 import logging
 import re
 from typing import Any, Literal
@@ -287,16 +288,35 @@ async def synthesize_topic(
         catalog = "(none for this topic)"
 
     llm = get_llm()
-    try:
-        result: TopicSynthesisOutput = await astructured_predict_json(
-            llm,
-            TopicSynthesisOutput,
-            TOPIC_SYNTHESIS_PROMPT,
-            context_str=context_str,
-            topic_phrase=topic_phrase,
-            figure_catalog=catalog,
-        )
+    result: TopicSynthesisOutput | None = None
+    last_error: Exception | None = None
+    for attempt in range(3):
+        try:
+            result = await astructured_predict_json(
+                llm,
+                TopicSynthesisOutput,
+                TOPIC_SYNTHESIS_PROMPT,
+                context_str=context_str,
+                topic_phrase=topic_phrase,
+                figure_catalog=catalog,
+            )
+            break
+        except Exception as exc:  # noqa: BLE001 - retry malformed MCQ output
+            last_error = exc
+            logger.warning(
+                "topic_synthesis_retry topic=%s attempt=%d err=%s",
+                topic_phrase,
+                attempt + 1,
+                exc,
+            )
+            await asyncio.sleep(1)
 
+    if result is None:
+        logger.error("failed_to_synthesize_topic topic=%s err=%s", topic_phrase, last_error)
+        assert last_error is not None
+        raise last_error
+
+    try:
         # Drop hallucinated or out-of-catalog figure ids.
         valid_ids = {str(figure["id"]) for figure in figures}
         for slide in result.slides:

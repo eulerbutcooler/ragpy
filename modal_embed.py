@@ -29,7 +29,7 @@ RERANKER_MODEL = "BAAI/bge-reranker-v2-m3"
 EMBED_QUERY_INSTRUCTION = ""
 EMBED_MAX_LENGTH = "8192"
 RERANKER_MAX_LENGTH = "2048"
-GPU_TYPE = os.getenv("AEROMENTOR_EMBED_GPU", "T4")
+GPU_TYPE = os.getenv("AEROMENTOR_EMBED_GPU", "A10G")
 PORT = 8000
 CACHE_DIR = "/cache"
 
@@ -55,7 +55,9 @@ image = (
             "PYTHONUNBUFFERED": "1",
             "EMBED_CONCURRENCY": os.getenv("AEROMENTOR_EMBED_CONCURRENCY", "8"),
             "RERANK_CONCURRENCY": os.getenv("AEROMENTOR_RERANK_CONCURRENCY", "4"),
+            "EMBED_BATCH_SIZE": os.getenv("AEROMENTOR_EMBED_BATCH_SIZE", "32"),
             "RERANK_BATCH_SIZE": os.getenv("AEROMENTOR_RERANK_BATCH_SIZE", "16"),
+            "PYTORCH_CUDA_ALLOC_CONF": "expandable_segments:True",
         }
     )
     .add_local_file("inference_gateway.py", "/app/inference_gateway.py")  # type: ignore[arg-type]
