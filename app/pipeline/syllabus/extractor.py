@@ -71,23 +71,41 @@ def _clean_cell(value: str) -> str:
     return " ".join((value or "").replace("\xa0", " ").split())
 
 
+_HEADER_ALIASES: dict[str, str] = {
+    "task": "task list",
+    "task list": "task list",
+    "tasks": "task list",
+    "sub task": "sub-task list",
+    "sub tasks": "sub-task list",
+    "sub task list": "sub-task list",
+    "sub tasks list": "sub-task list",
+    "training objective": "training objective",
+    "training objectives": "training objective",
+    "training objective list": "training objective",
+    "training objectives list": "training objective",
+    "syllabus": "syllabus",
+    "sok": "sok",
+    "remarks": "remarks",
+    "remark": "remarks",
+}
+
+
+def _canonical_header(value: str) -> str | None:
+    key = re.sub(r"[^a-z0-9]+", " ", _clean_cell(value).lower()).strip()
+    key = " ".join(key.split())
+    return _HEADER_ALIASES.get(key)
+
+
 def _table_header_map(table) -> dict[str, int]:
     rows = table.rows
     for row_index, row in enumerate(rows[:6]):
-        cells = [_clean_cell(cell.text).lower() for cell in row.cells]
+        cells = [_canonical_header(cell.text) for cell in row.cells]
         if "syllabus" not in cells or "training objective" not in cells:
             continue
 
         mapping: dict[str, int] = {}
         for index, name in enumerate(cells):
-            if name in {
-                "task list",
-                "sub-task list",
-                "training objective",
-                "syllabus",
-                "sok",
-                "remarks",
-            }:
+            if name:
                 mapping.setdefault(name, index)
 
         # The period columns are on the following T/P/F/T header row.
