@@ -12,6 +12,7 @@ import asyncio
 import logging
 import re
 import shutil
+from collections import Counter
 from pathlib import Path
 
 from docx import Document as DocxDocument
@@ -397,22 +398,53 @@ def extract_subject_rows(
         # A subject's detailed syllabus is often split across several page
         # tables and the subject name is only in the file name, not inside the
         # rows. Merge the tables when they all belong to the same subject code.
-        prefixes = {
-            row.objective.split(".", 1)[0]
-            for rows, _title in all_candidates
-            for row in rows
-            if row.objective
-        }
-        merge_allowed = len(prefixes) <= 1 and (not wanted_code or wanted_code in prefixes)
+        prefix_counts: Counter[str] = Counter()
+        for rows, _title in all_candidates:
+            for row in rows:
+                if row.objective:
+                    prefix_counts[row.objective.split(".", 1)[0]] += 1
+
+        dominant, dominant_count = (
+            prefix_counts.most_common(1)[0] if prefix_counts else ("", 0)
+        )
+        total = sum(prefix_counts.values())
+        outliers = total - dominant_count
+
+        def belongs_to_subject(row: SyllabusRow) -> bool:
+            if row.objective and row.objective.split(".", 1)[0] == dominant:
+                return True
+            # A mistyped objective number should not drop a row: the task or
+            # sub-task cell still carries the subject's code.
+            return any(
+                value.split(".", 1)[0] == dominant
+                for value in (row.task, row.sub_task)
+                if value
+            )
+
+        # Source syllabi occasionally contain a mistyped objective number
+        # (e.g. one 19.x row inside a run of 18.x page tables). Treat a small
+        # minority as noise, but still refuse to merge genuinely multi-subject
+        # documents.
+        merge_allowed = (
+            bool(dominant)
+            and (len(prefix_counts) == 1 or outliers <= max(1, total // 20))
+            and (not wanted_code or wanted_code == dominant)
+        )
         if merge_allowed:
-            merged = [row for rows, _title in all_candidates for row in rows]
+            merged = [
+                row
+                for rows, _title in all_candidates
+                for row in rows
+                if belongs_to_subject(row)
+            ]
             title = f"{subject_name or 'Subject'} (combined tables)"
             logger.warning(
-                "syllabus_combined_tables subject=%r code=%r tables=%d rows=%d",
+                "syllabus_combined_tables subject=%r code=%r tables=%d rows=%d dropped=%d",
                 subject_name,
                 subject_code,
                 len(all_candidates),
                 len(merged),
+                total - len(merged),
             )
             return merged, title
 
