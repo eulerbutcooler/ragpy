@@ -27,9 +27,9 @@ APP_NAME = "aeromentor-embed"
 EMBED_MODEL = "Alibaba-NLP/gte-base-en-v1.5"
 RERANKER_MODEL = "BAAI/bge-reranker-v2-m3"
 EMBED_QUERY_INSTRUCTION = ""
-EMBED_MAX_LENGTH = "8192"
-RERANKER_MAX_LENGTH = "2048"
-GPU_TYPE = os.getenv("AEROMENTOR_EMBED_GPU", "A10G")
+EMBED_MAX_LENGTH = "1024"
+RERANKER_MAX_LENGTH = "512"
+GPU_TYPE = os.getenv("AEROMENTOR_EMBED_GPU", "L4")
 PORT = 8000
 CACHE_DIR = "/cache"
 
@@ -53,10 +53,10 @@ image = (
             "HF_XET_HIGH_PERFORMANCE": "1",
             "TOKENIZERS_PARALLELISM": "false",
             "PYTHONUNBUFFERED": "1",
-            "EMBED_CONCURRENCY": os.getenv("AEROMENTOR_EMBED_CONCURRENCY", "8"),
-            "RERANK_CONCURRENCY": os.getenv("AEROMENTOR_RERANK_CONCURRENCY", "4"),
-            "EMBED_BATCH_SIZE": os.getenv("AEROMENTOR_EMBED_BATCH_SIZE", "32"),
-            "RERANK_BATCH_SIZE": os.getenv("AEROMENTOR_RERANK_BATCH_SIZE", "16"),
+            "EMBED_CONCURRENCY": os.getenv("AEROMENTOR_EMBED_CONCURRENCY", "2"),
+            "RERANK_CONCURRENCY": os.getenv("AEROMENTOR_RERANK_CONCURRENCY", "1"),
+            "EMBED_BATCH_SIZE": os.getenv("AEROMENTOR_EMBED_BATCH_SIZE", "8"),
+            "RERANK_BATCH_SIZE": os.getenv("AEROMENTOR_RERANK_BATCH_SIZE", "4"),
             "PYTORCH_CUDA_ALLOC_CONF": "expandable_segments:True",
         }
     )
