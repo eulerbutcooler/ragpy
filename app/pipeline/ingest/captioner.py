@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import asyncio
 import json
 import logging
 import re
@@ -87,12 +88,27 @@ async def caption_figure(
     }
     headers = {"Authorization": f"Bearer {settings.llm_api_key}"}
 
-    response = await client.post(
-        f"{settings.llm_base_url.rstrip('/')}/chat/completions",
-        json=payload,
-        headers=headers,
-        timeout=180.0,
-    )
+    attempts = 5
+    response = None
+    for attempt in range(attempts):
+        response = await client.post(
+            f"{settings.llm_base_url.rstrip('/')}/chat/completions",
+            json=payload,
+            headers=headers,
+            timeout=180.0,
+        )
+        if response.status_code in {429, 500, 502, 503, 504} and attempt < attempts - 1:
+            delay = min(30, 2**attempt)
+            logger.warning(
+                "caption_retry attempt=%d/%d status=%d delay=%ds",
+                attempt + 1,
+                attempts,
+                response.status_code,
+                delay,
+            )
+            await asyncio.sleep(delay)
+            continue
+        break
     response.raise_for_status()
     body = response.json()
     content = body["choices"][0]["message"].get("content") or ""

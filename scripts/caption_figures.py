@@ -30,6 +30,50 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name
 logger = logging.getLogger("caption_figures")
 
 
+def _root_health_url(base: str) -> str:
+    base = base.rstrip("/")
+    if base.endswith("/v1"):
+        base = base[:-3]
+    return base + "/health"
+
+
+def _embed_health_url() -> str:
+    base = (settings.embed_base_url or settings.llm_base_url).rstrip("/")
+    if base.endswith("/v1"):
+        return base + "/health"
+    return base + "/v1/health"
+
+
+async def _wait_for_inference(client: httpx.AsyncClient, timeout: int = 900) -> None:
+    """Wait for the vision model (and remote embeddings) to be healthy.
+
+    Modal returns 503 while a container is booting. Without this preflight a
+    caption run started during a cold start marks every figure as failed.
+    """
+    targets = [("llm", _root_health_url(settings.llm_base_url))]
+    if settings.embed_backend == "remote":
+        targets.append(("embeddings", _embed_health_url()))
+
+    loop = asyncio.get_event_loop()
+    deadline = loop.time() + timeout
+    pending = dict(targets)
+    while pending:
+        for name, url in list(pending.items()):
+            try:
+                response = await client.get(url, timeout=10)
+                if response.status_code == 200:
+                    logger.info("%s_ready url=%s", name, url)
+                    pending.pop(name)
+            except Exception:  # noqa: BLE001 - keep polling
+                pass
+        if not pending:
+            return
+        if loop.time() > deadline:
+            raise RuntimeError(f"inference not ready after {timeout}s: {pending}")
+        logger.info("waiting_for_inference %s", ",".join(sorted(pending)))
+        await asyncio.sleep(5)
+
+
 async def _run(args: argparse.Namespace) -> int:
     rows = await pending_figures(course_id=args.course_id, limit=args.limit)
     if not rows:
@@ -42,6 +86,8 @@ async def _run(args: argparse.Namespace) -> int:
     failed = 0
 
     async with httpx.AsyncClient() as client:
+        await _wait_for_inference(client)
+
         async def _one(row: dict) -> None:
             nonlocal done, failed
             async with sem:
