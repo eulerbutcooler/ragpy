@@ -20,8 +20,10 @@
 
 set -euo pipefail
 
-REPO="${REPO:-$HOME/aeromentor}"
-BACKEND_DIR="${BACKEND_DIR:-$REPO/wingman-backend}"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+DEFAULT_REPO="$(cd "$SCRIPT_DIR/../.." && pwd)"
+REPO="${REPO:-$DEFAULT_REPO}"
+BACKEND_DIR="${BACKEND_DIR:-$REPO/backend}"
 RAGPY_DIR="$REPO/ragpy"
 FRONTEND_DIR="$REPO/frontend"
 SESSION="${SESSION:-aeromentor}"
@@ -77,10 +79,9 @@ command -v tmux >/dev/null 2>&1 || {
   exit 1
 }
 
-# The original server uses wingman-backend. Fall back to backend/ for this
-# repo's local layout so the script is still testable off-server.
-if [[ ! -d "$BACKEND_DIR" && -d "$REPO/backend" ]]; then
-  BACKEND_DIR="$REPO/backend"
+# The original server used wingman-backend. Fall back to it for old layouts.
+if [[ ! -d "$BACKEND_DIR" && -d "$REPO/wingman-backend" ]]; then
+  BACKEND_DIR="$REPO/wingman-backend"
 fi
 [[ -d "$BACKEND_DIR" ]] || {
   echo "ERROR: backend directory not found at $BACKEND_DIR."
@@ -173,6 +174,40 @@ fi
 # Infrastructure: Postgres, Redis, NATS, Qdrant, MinIO/SeaweedFS.
 (cd "$BACKEND_DIR" && docker compose up -d)
 
+wait_http() {
+  local name="$1" url="$2" attempts="${3:-90}"
+  for _ in $(seq 1 "$attempts"); do
+    if curl -sf "$url" >/dev/null 2>&1; then
+      echo "  $name ready"
+      return 0
+    fi
+    sleep 1
+  done
+  echo "ERROR: $name did not become ready at $url" >&2
+  return 1
+}
+
+wait_exec() {
+  local name="$1" attempts="${2:-90}"
+  shift 2
+  for _ in $(seq 1 "$attempts"); do
+    if "$@" >/dev/null 2>&1; then
+      echo "  $name ready"
+      return 0
+    fi
+    sleep 1
+  done
+  echo "ERROR: $name did not become ready" >&2
+  return 1
+}
+
+echo "Waiting for infrastructure..."
+wait_exec "postgres" 90 bash -c "cd '$BACKEND_DIR' && docker compose exec -T postgres pg_isready -U aeromentor -d aeromentor"
+wait_exec "redis" 60 bash -c "cd '$BACKEND_DIR' && docker compose exec -T redis redis-cli ping | grep -q PONG"
+wait_http "qdrant" "http://127.0.0.1:6333/" 90
+wait_http "seaweedfs" "http://127.0.0.1:9000/" 90
+wait_http "nats" "http://127.0.0.1:8222/" 60
+
 # Select the RAGPy inference profile before RAGPy starts.
 case "$INFERENCE" in
   llama)
@@ -182,7 +217,7 @@ case "$INFERENCE" in
     (cd "$RAGPY_DIR" && make inference-sglang)
     ;;
   modal)
-    (cd "$RAGPY_DIR" && make inference-modal && uv run modal deploy modal_inference.py)
+    (cd "$RAGPY_DIR" && make inference-modal && uv run modal deploy modal_embed.py && uv run modal deploy modal_vllm.py)
     ;;
   none)
     echo "Inference disabled: chat and content generation will fail."
