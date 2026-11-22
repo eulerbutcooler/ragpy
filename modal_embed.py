@@ -27,9 +27,34 @@ APP_NAME = "aeromentor-embed"
 EMBED_MODEL = "Alibaba-NLP/gte-base-en-v1.5"
 RERANKER_MODEL = "BAAI/bge-reranker-v2-m3"
 EMBED_QUERY_INSTRUCTION = ""
-EMBED_MAX_LENGTH = "1024"
-RERANKER_MAX_LENGTH = "512"
-GPU_TYPE = os.getenv("AEROMENTOR_EMBED_GPU", "L4")
+
+# All deploy-time knobs are environment variables so they can be changed from
+# the terminal without editing this file:
+#
+#   AEROMENTOR_EMBED_GPU=L4
+#   AEROMENTOR_EMBED_CONCURRENCY=8
+#   AEROMENTOR_EMBED_BATCH_SIZE=32
+#   AEROMENTOR_EMBED_MAX_LENGTH=1024
+#   AEROMENTOR_RERANK_CONCURRENCY=1
+#   AEROMENTOR_RERANK_BATCH_SIZE=4
+#   AEROMENTOR_RERANK_MAX_LENGTH=768
+#   AEROMENTOR_EMBED_MIN_CONTAINERS=0
+#
+# Example (ingestion-heavy, reranker kept minimal):
+#   AEROMENTOR_EMBED_CONCURRENCY=8 AEROMENTOR_EMBED_BATCH_SIZE=32 \
+#     .venv/bin/modal deploy modal_embed.py
+#
+# Example (gentle mode):
+#   AEROMENTOR_EMBED_CONCURRENCY=2 AEROMENTOR_EMBED_BATCH_SIZE=8 \
+#     .venv/bin/modal deploy modal_embed.py
+EMBED_MAX_LENGTH = os.getenv("AEROMENTOR_EMBED_MAX_LENGTH", "1024")
+RERANKER_MAX_LENGTH = os.getenv("AEROMENTOR_RERANK_MAX_LENGTH", "768")
+GPU_TYPE = [part.strip() for part in os.getenv("AEROMENTOR_EMBED_GPU", "L4,A10G").split(",") if part.strip()]
+EMBED_CONCURRENCY = int(os.getenv("AEROMENTOR_EMBED_CONCURRENCY", "16"))
+EMBED_BATCH_SIZE = int(os.getenv("AEROMENTOR_EMBED_BATCH_SIZE", "32"))
+RERANK_CONCURRENCY = int(os.getenv("AEROMENTOR_RERANK_CONCURRENCY", "1"))
+RERANK_BATCH_SIZE = int(os.getenv("AEROMENTOR_RERANK_BATCH_SIZE", "4"))
+MIN_CONTAINERS = int(os.getenv("AEROMENTOR_EMBED_MIN_CONTAINERS", "0"))
 PORT = 8000
 CACHE_DIR = "/cache"
 
@@ -53,10 +78,10 @@ image = (
             "HF_XET_HIGH_PERFORMANCE": "1",
             "TOKENIZERS_PARALLELISM": "false",
             "PYTHONUNBUFFERED": "1",
-            "EMBED_CONCURRENCY": os.getenv("AEROMENTOR_EMBED_CONCURRENCY", "2"),
-            "RERANK_CONCURRENCY": os.getenv("AEROMENTOR_RERANK_CONCURRENCY", "1"),
-            "EMBED_BATCH_SIZE": os.getenv("AEROMENTOR_EMBED_BATCH_SIZE", "8"),
-            "RERANK_BATCH_SIZE": os.getenv("AEROMENTOR_RERANK_BATCH_SIZE", "4"),
+            "EMBED_CONCURRENCY": str(EMBED_CONCURRENCY),
+            "RERANK_CONCURRENCY": str(RERANK_CONCURRENCY),
+            "EMBED_BATCH_SIZE": str(EMBED_BATCH_SIZE),
+            "RERANK_BATCH_SIZE": str(RERANK_BATCH_SIZE),
             "PYTORCH_CUDA_ALLOC_CONF": "expandable_segments:True",
         }
     )
@@ -82,10 +107,10 @@ def _gpu_total_mib() -> int:
     secrets=[inference_secret],
     port=PORT,
     startup_timeout=30 * 60,
-    min_containers=int(os.getenv("AEROMENTOR_EMBED_MIN_CONTAINERS", "0")),
+    min_containers=MIN_CONTAINERS,
     max_containers=1,
-    target_concurrency=16,
-    max_concurrency=32,
+    target_concurrency=32,
+    max_concurrency=64,
     scaledown_window=30 * 60,
     unauthenticated=True,
 )
