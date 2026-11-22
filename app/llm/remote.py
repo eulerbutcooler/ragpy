@@ -6,7 +6,10 @@ llama.cpp LLM, so RAGPy no longer needs to load PyTorch models itself.
 
 from __future__ import annotations
 
+import asyncio
 import logging
+import random
+import time
 from typing import Any
 
 import httpx
@@ -36,9 +39,19 @@ class RemoteEmbedding(BaseEmbedding):
     api_key: str = ""
     query_instruction: str = ""
     timeout: float = 120.0
+    # Bounded in-flight requests. A 2,700-page PDF produces thousands of
+    # embedding batches; without this the endpoint returns 429.
+    request_concurrency: int = 8
+    max_retries: int = 5
 
     _sync_client: httpx.Client | None = PrivateAttr(default=None)
     _async_client: httpx.AsyncClient | None = PrivateAttr(default=None)
+    _semaphore: asyncio.Semaphore | None = PrivateAttr(default=None)
+
+    def _get_semaphore(self) -> asyncio.Semaphore:
+        if self._semaphore is None:
+            self._semaphore = asyncio.Semaphore(max(1, self.request_concurrency))
+        return self._semaphore
 
     def _get_sync_client(self) -> httpx.Client:
         if self._sync_client is None:
@@ -79,20 +92,70 @@ class RemoteEmbedding(BaseEmbedding):
     def _embed(self, texts: list[str], input_type: str) -> list[list[float]]:
         if not texts:
             return []
-        response = self._get_sync_client().post(
-            "/embeddings", json=self._payload(texts, input_type)
-        )
-        response.raise_for_status()
-        return self._parse_response(response.json(), len(texts))
+
+        attempts = max(1, self.max_retries)
+        last_error: Exception | None = None
+        for attempt in range(attempts):
+            try:
+                response = self._get_sync_client().post(
+                    "/embeddings", json=self._payload(texts, input_type)
+                )
+                response.raise_for_status()
+                return self._parse_response(response.json(), len(texts))
+            except httpx.HTTPStatusError as exc:
+                last_error = exc
+                if exc.response.status_code not in {429, 500, 502, 503, 504} or attempt == attempts - 1:
+                    raise
+            except httpx.RequestError as exc:
+                last_error = exc
+                if attempt == attempts - 1:
+                    raise
+
+            delay = min(30.0, 2.0**attempt) + random.uniform(0, 1)
+            logger.warning("embedding_retry_sync attempt=%d/%d delay=%.1fs error=%s", attempt + 1, attempts, delay, last_error)
+            time.sleep(delay)
+
+        assert last_error is not None
+        raise last_error
 
     async def _aembed(self, texts: list[str], input_type: str) -> list[list[float]]:
         if not texts:
             return []
-        response = await self._get_async_client().post(
-            "/embeddings", json=self._payload(texts, input_type)
-        )
-        response.raise_for_status()
-        return self._parse_response(response.json(), len(texts))
+
+        semaphore = self._get_semaphore()
+        last_error: Exception | None = None
+        attempts = max(1, self.max_retries)
+
+        for attempt in range(attempts):
+            try:
+                async with semaphore:
+                    response = await self._get_async_client().post(
+                        "/embeddings", json=self._payload(texts, input_type)
+                    )
+                    response.raise_for_status()
+                    return self._parse_response(response.json(), len(texts))
+            except httpx.HTTPStatusError as exc:
+                last_error = exc
+                status = exc.response.status_code
+                if status not in {429, 500, 502, 503, 504} or attempt == attempts - 1:
+                    raise
+            except httpx.RequestError as exc:
+                last_error = exc
+                if attempt == attempts - 1:
+                    raise
+
+            delay = min(30.0, 2.0**attempt) + random.uniform(0, 1)
+            logger.warning(
+                "embedding_retry attempt=%d/%d delay=%.1fs error=%s",
+                attempt + 1,
+                attempts,
+                delay,
+                last_error,
+            )
+            await asyncio.sleep(delay)
+
+        assert last_error is not None
+        raise last_error
 
     def _get_query_embedding(self, query: str) -> list[float]:
         return self._embed([query], "query")[0]

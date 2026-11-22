@@ -5,6 +5,7 @@ import shutil
 
 from llama_index.core import VectorStoreIndex
 
+from app.config.settings import settings
 from app.pipeline.ingest.chunker import chunk_documents
 from app.pipeline.ingest.embedder import embed_nodes
 from app.pipeline.ingest.figure_repo import upsert_figures
@@ -64,7 +65,9 @@ async def run_ingest(
         # text ingest. They are captioned later by scripts/caption_figures.py
         # when the vision model is running.
         try:
-            figures = await asyncio.to_thread(extract_figures, file_path, file_name)
+            figures = await asyncio.to_thread(
+                extract_figures, file_path, file_name, settings.max_figures_per_file
+            )
             figure_rows = []
             for figure in figures:
                 object_key = figure_object_key(course_id, file_id, figure)

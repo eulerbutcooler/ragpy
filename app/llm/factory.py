@@ -65,6 +65,8 @@ def get_embed_model() -> BaseEmbedding:
             query_instruction=query_instruction,
             embed_batch_size=settings.embed_batch_size,
             timeout=settings.embed_timeout,
+            request_concurrency=settings.embed_request_concurrency,
+            max_retries=settings.embed_max_retries,
         )
     else:
         from llama_index.embeddings.huggingface import HuggingFaceEmbedding

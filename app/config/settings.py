@@ -37,6 +37,9 @@ class Settings(BaseSettings):
     topic_concurrency: int = Field(default=3, validation_alias="TOPIC_CONCURRENCY")
     # Files ingested in parallel by the NATS ingest worker.
     ingest_concurrency: int = Field(default=5, validation_alias="INGEST_CONCURRENCY")
+    # Cap figure extraction for very large books. Each figure is an object
+    # upload plus a database row; a 2,700-page textbook can contain thousands.
+    max_figures_per_file: int = Field(default=400, validation_alias="MAX_FIGURES_PER_FILE")
     # Lesson-plan PDFs generated in parallel for one subject.
     lesson_plan_concurrency: int = Field(
         default=4, validation_alias="LESSON_PLAN_CONCURRENCY"
@@ -57,6 +60,8 @@ class Settings(BaseSettings):
     )
     embed_max_length: int = Field(default=8192, validation_alias="EMBED_MAX_LENGTH")
     embed_batch_size: int = Field(default=32, validation_alias="EMBED_BATCH_SIZE")
+    embed_request_concurrency: int = Field(default=8, validation_alias="EMBED_REQUEST_CONCURRENCY")
+    embed_max_retries: int = Field(default=5, validation_alias="EMBED_MAX_RETRIES")
     embed_timeout: float = Field(default=120.0, validation_alias="EMBED_TIMEOUT")
     embed_device: str | None = Field(default=None, validation_alias="EMBED_DEVICE")
 

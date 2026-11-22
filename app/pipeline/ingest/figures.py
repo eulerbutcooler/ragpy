@@ -51,7 +51,7 @@ def _keep(width: int, height: int, size: int) -> bool:
     return width >= MIN_WIDTH and height >= MIN_HEIGHT and size >= MIN_BYTES
 
 
-def _extract_pdf(path: Path) -> list[ExtractedFigure]:
+def _extract_pdf(path: Path, limit: int = 0) -> list[ExtractedFigure]:
     try:
         import pymupdf as fitz  # type: ignore
     except ImportError:  # pragma: no cover - older PyMuPDF
@@ -105,10 +105,12 @@ def _extract_pdf(path: Path) -> list[ExtractedFigure]:
                         bbox=bbox,
                     )
                 )
+                if limit and len(figures) >= limit:
+                    return figures
     return figures
 
 
-def _extract_pptx(path: Path) -> list[ExtractedFigure]:
+def _extract_pptx(path: Path, limit: int = 0) -> list[ExtractedFigure]:
     from pptx import Presentation
     from pptx.enum.shapes import MSO_SHAPE_TYPE
 
@@ -144,17 +146,19 @@ def _extract_pptx(path: Path) -> list[ExtractedFigure]:
                     bbox=None,
                 )
             )
+            if limit and len(figures) >= limit:
+                return figures
     return figures
 
 
-def extract_figures(path: Path, file_name: str) -> list[ExtractedFigure]:
+def extract_figures(path: Path, file_name: str, limit: int = 0) -> list[ExtractedFigure]:
     """Extract candidate figures, deduplicated within the file."""
     suffix = Path(file_name).suffix.lower()
     try:
         if suffix == ".pdf":
-            figures = _extract_pdf(path)
+            figures = _extract_pdf(path, limit)
         elif suffix in {".pptx", ".ppsx"}:
-            figures = _extract_pptx(path)
+            figures = _extract_pptx(path, limit)
         else:
             figures = []
     except Exception:  # noqa: BLE001 - figure extraction must never fail ingest
