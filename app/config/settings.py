@@ -78,6 +78,7 @@ class Settings(BaseSettings):
     reranker_timeout: float = Field(default=120.0, validation_alias="RERANKER_TIMEOUT")
     # One underlying model handles every top_n; callers slice the ranked list.
     reranker_max_top_n: int = Field(default=15, validation_alias="RERANKER_MAX_TOP_N")
+    reranker_max_length: int = Field(default=768, validation_alias="RERANKER_MAX_LENGTH")
 
     # ------------------------------------------------------------------
     # Master syllabus parsing

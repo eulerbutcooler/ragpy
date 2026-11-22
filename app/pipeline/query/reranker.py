@@ -11,11 +11,56 @@ from app.llm.factory import normalize_openai_base_url
 
 logger = logging.getLogger(__name__)
 
-# Serialize local GPU cross-encoder inference. FlagEmbedding mutates model
-# dtype state during calls, so concurrent topics can race on fp16.
+# Serialize local cross-encoder inference. The torch model is shared across
+# threads, so keep calls serialized.
 _RERANK_LOCK = threading.Lock()
 _BASE_RERANKER_LOCK = threading.Lock()
 _BASE_RERANKER: BaseNodePostprocessor | None = None
+
+
+class _CrossEncoderReranker(BaseNodePostprocessor):
+    """Local reranker backed by sentence-transformers' CrossEncoder.
+
+    This is used instead of FlagEmbedding because FlagEmbedding still imports
+    transformer internals that were removed in Transformers 5.x.
+    """
+
+    model_config = ConfigDict(arbitrary_types_allowed=True)
+
+    model: object
+    top_n: int
+
+    def __init__(self, model_name: str, top_n: int) -> None:
+        from sentence_transformers import CrossEncoder
+
+        model = CrossEncoder(
+            model_name,
+            max_length=settings.reranker_max_length,
+            device=settings.embed_device,
+        )
+        super().__init__(model=model, top_n=top_n)
+
+    def _postprocess_nodes(self, nodes, query_bundle=None):
+        if not nodes:
+            return []
+        from llama_index.core.schema import NodeWithScore
+
+        query = query_bundle.query_str if query_bundle else ""
+        pairs = [(query, node.node.get_content()) for node in nodes]
+        scores = self.model.predict(  # type: ignore[attr-defined]
+            pairs,
+            batch_size=16,
+            show_progress_bar=False,
+        )
+        ranked = sorted(
+            zip(nodes, scores, strict=False),
+            key=lambda item: float(item[1]),
+            reverse=True,
+        )
+        return [
+            NodeWithScore(node=node.node, score=float(score))
+            for node, score in ranked[: self.top_n]
+        ]
 
 
 def _build_base_reranker() -> BaseNodePostprocessor:
@@ -34,13 +79,9 @@ def _build_base_reranker() -> BaseNodePostprocessor:
             timeout=settings.reranker_timeout,
         )
 
-    import torch
-    from llama_index.postprocessor.flag_embedding_reranker import FlagEmbeddingReranker
-
-    return FlagEmbeddingReranker(
-        model=settings.reranker_model_name,
+    return _CrossEncoderReranker(
+        model_name=settings.reranker_model_name,
         top_n=max_top_n,
-        use_fp16=torch.cuda.is_available(),
     )
 
 
