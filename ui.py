@@ -93,25 +93,7 @@ with tabs[0]:
                         for cite in msg["citations"]:
                             st.write(f"- {cite['file_name']} (Score: {cite.get('score', 'N/A')})")
 
-        # Allow text OR audio input
-        final_prompt = None
-        
-        text_prompt = st.chat_input("Ask a question about the document...")
-        if text_prompt:
-            final_prompt = text_prompt
-            
-        audio_val = st.audio_input("Or speak your question")
-        if audio_val:
-            audio_hash = hash(audio_val.getvalue())
-            if st.session_state.get("last_audio_hash") != audio_hash:
-                with st.spinner("Transcribing..."):
-                    files = {"file": ("audio.wav", audio_val.getvalue(), "audio/wav")}
-                    res = requests.post(f"{API_URL}/audio/transcribe", headers=HEADERS, files=files)
-                    if res.ok:
-                        final_prompt = res.json().get("text", "")
-                        st.session_state["last_audio_hash"] = audio_hash
-                    else:
-                        st.error("Transcription Failed")
+        final_prompt = st.chat_input("Ask a question about the document...")
 
         if final_prompt:
             st.session_state.messages.append({"role": "user", "content": final_prompt})
