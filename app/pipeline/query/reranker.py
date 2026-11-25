@@ -33,10 +33,14 @@ class _CrossEncoderReranker(BaseNodePostprocessor):
     def __init__(self, model_name: str, top_n: int) -> None:
         from sentence_transformers import CrossEncoder
 
+        from app.llm.hf import resolve_local_hf_model
+
+        _, local_files_only = resolve_local_hf_model(model_name)
         model = CrossEncoder(
             model_name,
             max_length=settings.reranker_max_length,
             device=settings.embed_device,
+            local_files_only=local_files_only,
         )
         super().__init__(model=model, top_n=top_n)
 

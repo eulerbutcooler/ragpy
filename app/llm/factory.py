@@ -71,12 +71,20 @@ def get_embed_model() -> BaseEmbedding:
     else:
         from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 
+        from app.llm.hf import resolve_local_hf_model
+
+        cache_folder, local_files_only = resolve_local_hf_model(
+            settings.embed_model_name,
+            check_llama_index_cache=True,
+        )
         _embed_model = HuggingFaceEmbedding(
             model_name=settings.embed_model_name,
             trust_remote_code=True,
             max_length=settings.embed_max_length,
             query_instruction=query_instruction,
             embed_batch_size=settings.embed_batch_size,
+            cache_folder=cache_folder,
             device=settings.embed_device,
+            local_files_only=local_files_only,
         )
     return _embed_model

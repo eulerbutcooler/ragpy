@@ -15,6 +15,7 @@
 # Examples:
 #   ./ragpy/scripts/dev.sh
 #   INSTALL=1 ./ragpy/scripts/dev.sh   # install deps + build frontend first
+#   OFFLINE=1 ./ragpy/scripts/dev.sh   # force offline HuggingFace/Transformers mode
 #   INFERENCE=none ./ragpy/scripts/dev.sh
 #   REPO=/path/to/aeromentor ./ragpy/scripts/dev.sh
 
@@ -29,6 +30,7 @@ FRONTEND_DIR="$REPO/frontend"
 SESSION="${SESSION:-aeromentor}"
 INFERENCE="${INFERENCE:-llama}"
 INSTALL="${INSTALL:-0}"
+OFFLINE="${OFFLINE:-0}"
 LLAMA_SERVER="${LLAMA_SERVER:-llama-server}"
 export PATH="$HOME/.local/bin:$PATH"
 
@@ -300,10 +302,14 @@ case "$INFERENCE" in
   sglang) wait_url="http://127.0.0.1:1234/health" ;;
   *) wait_url="" ;;
 esac
+rag_env="UV_NO_SYNC=1"
+if [[ "$OFFLINE" == "1" || "${HF_HUB_OFFLINE:-0}" == "1" ]]; then
+  rag_env="$rag_env HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1"
+fi
 if [[ -n "$wait_url" ]]; then
-  rag_cmd="until curl -sf '$wait_url' >/dev/null; do sleep 1; done; UV_NO_SYNC=1 make dev; exec bash"
+  rag_cmd="until curl -sf '$wait_url' >/dev/null; do sleep 1; done; $rag_env make dev; exec bash"
 else
-  rag_cmd="UV_NO_SYNC=1 make dev; exec bash"
+  rag_cmd="$rag_env make dev; exec bash"
 fi
 tmux split-window -t "$SESSION" -c "$RAGPY_DIR" "$rag_cmd"
 
